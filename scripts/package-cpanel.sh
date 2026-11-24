@@ -1,5 +1,5 @@
 #!/bin/bash
-# BetterSolano — cPanel release packager
+# BetterConcepcion — cPanel release packager
 #
 # Packages dist/ into a single archive whose contents sit at the archive ROOT,
 # so extracting it inside public_html/ drops the site straight into place with
@@ -26,7 +26,7 @@ done
 
 echo ""
 echo "╔══════════════════════════════════════════╗"
-echo "║   BetterSolano — cPanel Release Package  ║"
+echo "║   BetterConcepcion — cPanel Release Package  ║"
 echo "╚══════════════════════════════════════════╝"
 
 if [ "$RUN_BUILD" = true ]; then

@@ -1,54 +1,17 @@
 {
-  "mayor": {
-    "name": "Hon. Philip A. Dacayo",
-    "title": "Municipal Mayor",
-    "image": "assets/images/officials/mayor.jpg"
-  },
-  "vice_mayor": {
-    "name": "Hon. Eduardo D. Tiongson",
-    "title": "Municipal Vice Mayor",
-    "image": "assets/images/officials/vice-mayor.jpg"
-  },
+  "_status": "unverified",
+  "_source": "Rappler partial, unofficial 2025 election count (15 May 2025). Names on the ballot; not yet confirmed against the Comelec proclamation or the LGU.",
+  "term": "2025-2028",
+  "mayor": { "name": "Nicon Fameronag", "title": "Municipal Mayor", "image": "" },
+  "vice_mayor": { "name": "Limuel Cipriano", "title": "Municipal Vice Mayor", "image": "" },
   "councilors": [
-    {
-      "name": "Hon. Councilor One",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb1.jpg"
-    },
-    {
-      "name": "Hon. Councilor Two",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb2.jpg"
-    },
-    {
-      "name": "Hon. Councilor Three",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb3.jpg"
-    },
-    {
-      "name": "Hon. Councilor Four",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb4.jpg"
-    },
-    {
-      "name": "Hon. Councilor Five",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb5.jpg"
-    },
-    {
-      "name": "Hon. Councilor Six",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb6.jpg"
-    },
-    {
-      "name": "Hon. Councilor Seven",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb7.jpg"
-    },
-    {
-      "name": "Hon. Councilor Eight",
-      "title": "SB Member",
-      "image": "assets/images/officials/sb8.jpg"
-    }
+    { "name": "Bob Fanoga", "title": "SB Member", "image": "" },
+    { "name": "Tirso Pastrana", "title": "SB Member", "image": "" },
+    { "name": "Letlet Fabellore", "title": "SB Member", "image": "" },
+    { "name": "Lenneth Fabroa", "title": "SB Member", "image": "" },
+    { "name": "Art Famarin", "title": "SB Member", "image": "" },
+    { "name": "Bhoks Mendoza", "title": "SB Member", "image": "" },
+    { "name": "Jun Fabella", "title": "SB Member", "image": "" },
+    { "name": "Joel Fortis", "title": "SB Member", "image": "" }
   ]
 }

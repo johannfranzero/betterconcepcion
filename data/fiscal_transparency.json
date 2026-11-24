@@ -1,9 +1,9 @@
 {
   "_schema_version": "1.0",
   "_status": "draft",
-  "_source": "Bureau of Local Government Finance (BLGF) / LGU Solano Budget Office",
-  "_note": "Awaiting official fiscal data",
-  "municipality": "Solano",
-  "province": "Nueva Vizcaya",
+  "_source": "Wikipedia infobox (2024), PhilAtlas (2016); to be replaced with BLGF / COA data",
+  "_note": "Awaiting official fiscal data from BLGF, COA annual audit reports, and the LGU Budget Office",
+  "municipality": "Concepcion",
+  "province": "Romblon",
   "fiscal_years": []
 }

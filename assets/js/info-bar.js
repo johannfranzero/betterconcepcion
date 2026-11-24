@@ -220,8 +220,8 @@ const CONFIG = {
   EXCHANGE_RATE_TTL: 30 * 60 * 1000, // 30 minutes
   WEATHER_TTL: 15 * 60 * 1000, // 15 minutes
   TIME_UPDATE_INTERVAL: 1000, // 1 second
-  SOLANO_LAT: 16.5167,
-  SOLANO_LON: 121.1833,
+  SOLANO_LAT: 12.9127,
+  SOLANO_LON: 121.7207,
   CURRENCIES: ['USD', 'GBP', 'SAR', 'AED', 'JPY', 'CAD', 'AUD'],
   CACHE_KEYS: {
     EXCHANGE_RATES: 'infobar_exchange_rates',
@@ -398,7 +398,7 @@ const WeatherService = {
           location: {
             lat: CONFIG.SOLANO_LAT,
             lon: CONFIG.SOLANO_LON,
-            name: 'Solano, Nueva Vizcaya',
+            name: 'Concepcion, Romblon',
           },
         };
       }
@@ -455,7 +455,7 @@ const WeatherService = {
       location: {
         lat: CONFIG.SOLANO_LAT,
         lon: CONFIG.SOLANO_LON,
-        name: 'Solano, Nueva Vizcaya',
+        name: 'Concepcion, Romblon',
       },
     };
   },

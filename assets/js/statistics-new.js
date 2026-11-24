@@ -1,6 +1,6 @@
 /**
  * Statistics Page - Enhanced Animations & Charts
- * Better Solano Portal - Minimal Professional Design
+ * Better Concepcion Portal - Minimal Professional Design
  */
 
 // Brand colors
@@ -13,36 +13,23 @@ const COLORS = {
   info: '#0077BE',
 };
 
-// Barangay data (2024 Census)
+// Barangay data (PSA 2020 Census of Population and Housing, via PhilAtlas)
 const barangayData = [
-  { name: 'Roxas', pop: 9088 },
-  { name: 'Quirino', pop: 6572 },
-  { name: 'Osmeña', pop: 6403 },
-  { name: 'Quezon', pop: 5758 },
-  { name: 'Curifang', pop: 4885 },
-  { name: 'Bagahabag', pop: 4731 },
-  { name: 'Uddiawan', pop: 4217 },
-  { name: 'Bascaran', pop: 3845 },
-  { name: 'Aggub', pop: 3101 },
-  { name: 'San Luis', pop: 2668 },
-  { name: 'Communal', pop: 2586 },
-  { name: 'Lactawan', pop: 2109 },
-  { name: 'San Juan', pop: 1965 },
-  { name: 'Concepcion', pop: 1954 },
-  { name: 'Dadap', pop: 1409 },
-  { name: 'Wacal', pop: 1398 },
-  { name: 'Bangaan', pop: 1284 },
-  { name: 'Tucal', pop: 1244 },
-  { name: 'Bangar', pop: 1146 },
-  { name: 'Pilar D. Galima', pop: 1146 },
-  { name: 'Poblacion North', pop: 970 },
-  { name: 'Poblacion South', pop: 817 },
+  { name: 'Poblacion', pop: 866 },
+  { name: 'Calabasahan', pop: 568 },
+  { name: 'San Pedro (Agbatang)', pop: 434 },
+  { name: 'Bachawan', pop: 358 },
+  { name: 'Sampong', pop: 333 },
+  { name: 'Dalajican', pop: 295 },
+  { name: 'Masudsud', pop: 268 },
+  { name: 'San Vicente', pop: 257 },
+  { name: 'Masadya', pop: 182 },
 ];
 
-// Historical data
+// Historical data (PSA census counts: 2010 & 2024 from PSA SR 2025-097; 2015 & 2020 via PhilAtlas)
 const historicalData = {
-  years: [1990, 1995, 2000, 2007, 2010, 2015, 2020, 2024],
-  populations: [38006, 42857, 47288, 53004, 56831, 62649, 65896, 69296],
+  years: [2010, 2015, 2020, 2024],
+  populations: [4445, 4037, 3561, 3427],
 };
 
 // Chart instances
