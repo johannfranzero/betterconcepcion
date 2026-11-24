@@ -64,16 +64,3 @@ numbers come from the Municipal Tourism Office's visitsibale.com.
 
 Built on the [BetterSolano](https://github.com/BetterSolano/bettersolano) template by Ramon Logan Jr.
 and contributors, used under the MIT License. Code: MIT. Content: CC BY 4.0. See [LICENSE](LICENSE).
-
-## Design
-
-The theme lives in `assets/css/theme-sibale.css`, loaded after the template's styles on every page.
-The home hero uses an illustration (`assets/images/hero/sibale-hero.svg`). To use a real photo, add it
-(for example `assets/images/hero/sibale.jpg`, about 1920×900) and set this in `theme-sibale.css`:
-
-```css
-.sib-hero { --sib-hero-image: url('../images/hero/sibale.jpg'); }
-```
-
-Only use photos you took yourself or have permission to use. The logo is our own emblem, not the
-municipal seal: an independent portal shouldn't carry the LGU's official seal.

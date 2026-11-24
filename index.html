@@ -87,10 +87,6 @@
     <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="dns-prefetch" href="https://unpkg.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
 
     <!-- Icons -->
     <link
@@ -125,8 +121,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/accessibility.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Kaushan+Script&family=Lora:ital,wght@1,400;1,700&display=swap" />
-    <link rel="stylesheet" href="assets/css/theme-sibale.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet" href="assets/css/theme-wayfinding.css?v=13" />
   </head>
 
   <body>
@@ -173,12 +169,8 @@
       <div class="container header-inner">
         <div class="logo-container">
           <a href="/" class="brand" aria-label="Better Concepcion home">
-            <img src="assets/images/logo/emblem.svg" alt="" class="brand-emblem" width="74" height="62" />
-            <span class="brand-text">
-              <span class="brand-name">Concepcion</span>
-              <span class="brand-prov">ROMBLON</span>
-              <span class="brand-tag">Independent civic portal</span>
-            </span>
+            <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 27V13h13" fill="none" stroke="#FFC917" stroke-width="4" stroke-linecap="square"/><path d="M18 6l8 7-8 7" fill="none" stroke="#FFC917" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/></svg></span>
+            <span class="brand-text"><span class="brand-name">Better Concepcion</span><span class="brand-tag">Sibale Island, Romblon</span></span>
           </a>
         </div>
 
@@ -271,6 +263,37 @@
       </div>
     </header>
 
+    <nav class="signband" aria-label="Where to go">
+      <div class="container signband-inner">
+        <a class="sign sign--emergency" href="contact/#local-hotlines">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-telephone-fill"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-emergency">Emergency</span><span class="sign-sub" data-i18n="sign-emergency-sub">MDRRMO 0926 390 6268</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="services/">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-file-earmark-text-fill"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-services">Services</span><span class="sign-sub" data-i18n="sign-services-sub">Documents, permits, cedula</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="budget/">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-journal-text"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-transparency">Budget &amp; laws</span><span class="sign-sub" data-i18n="sign-transparency-sub">Budget, ordinances, data</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="government/">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-people-fill"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-officials">Officials</span><span class="sign-sub" data-i18n="sign-officials-sub">Mayor, council, barangays</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="contact/#getting-there">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-water"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-boat">Boat to Sibale</span><span class="sign-sub" data-i18n="sign-boat-sub">Recodo Port, 10:00 AM</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+      </div>
+    </nav>
+
+
     <!-- Real-Time Info Bar -->
     <div class="info-bar" role="complementary" aria-label="Real-time information">
       <div class="container">
@@ -299,110 +322,56 @@
     </div>
 
     <main id="main-content">
-      <!-- Hero -->
-      <section class="sib-hero" aria-labelledby="hero-title">
-        <div class="container sib-hero-inner">
-          <div class="sib-hero-text">
-            <span class="sib-hero-welcome">Welcome to</span>
-            <h1 id="hero-title">BetterConcepcion.org</h1>
-            <p class="sib-hero-lead">
-              Access government services, information, and resources for the people of Concepcion,
-              Romblon.
+      <!-- First viewport -->
+      <section class="wf-hero" aria-labelledby="hero-title">
+        <div class="container wf-hero-inner">
+          <div class="wf-hero-text">
+            <h1 id="hero-title" data-i18n="wf-hero-title">Where do you need to go in Concepcion?</h1>
+            <p class="wf-hero-lead" data-i18n="wf-hero-lead">
+              Hotlines, municipal services, officials and public records for Sibale Island, Romblon.
+              Every fact shows where it came from.
             </p>
-            <div class="sib-hero-actions">
-              <a href="services/" class="sib-btn sib-btn--solid"
-                ><i class="bi bi-arrow-right" aria-hidden="true"></i> Browse services</a
-              >
-              <a href="contact/" class="sib-btn sib-btn--ghost"
-                ><i class="bi bi-people-fill" aria-hidden="true"></i> Contact us</a
-              >
-            </div>
-          </div>
-          <div class="sib-search home-search-box">
-            <h2><i class="bi bi-search" aria-hidden="true"></i> Find a service</h2>
-            <form class="search-form" role="search">
+            <form class="search-form wf-search" role="search">
+              <label class="sr-only" for="hero-search">Search services</label>
               <div class="search-input-wrapper">
                 <input
                   type="search"
                   id="hero-search"
                   class="service-search-input"
-                  placeholder="e.g., birth certificate, business permit"
-                  aria-label="Search services"
+                  placeholder="Birth certificate, cedula, barangay clearance"
                   autocomplete="off"
                 />
-                <button type="submit" class="search-submit-btn" aria-label="Search">
-                  <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                <button type="submit" class="search-submit-btn">
+                  <span data-i18n="wf-search-btn">Search</span> <i class="bi bi-arrow-right" aria-hidden="true"></i>
                 </button>
               </div>
             </form>
-            <div class="sib-search-tags home-search-tags">
-              <span>Popular:</span>
+            <p class="wf-popular">
+              <span data-i18n="wf-popular">Often needed:</span>
               <a href="service-details/birth-certificate">Birth certificate</a>
+              <a href="service-details/municipal-treasurer">Cedula</a>
               <a href="service-details/business-permits-licensing">Business permit</a>
-              <a href="service-details/municipal-treasurer">Real property tax</a>
+              <a href="legislative/ordinance-framework">Visitor fee ordinance</a>
+            </p>
+          </div>
+          <aside class="wf-boat" aria-labelledby="boat-title">
+            <div class="wf-boat-head">
+              <span class="sign-pic" aria-hidden="true"><i class="bi bi-water"></i></span>
+              <span id="boat-title" data-i18n="wf-boat-title">Boat to Sibale</span>
             </div>
-          </div>
-        </div>
-        <svg class="sib-hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
-          <path d="M0 70 C240 20 480 20 720 55 C960 90 1200 95 1440 40 L1440 120 L0 120 Z" fill="#0032a0" />
-          <path d="M0 88 C260 40 520 45 760 75 C1000 105 1220 100 1440 62 L1440 120 L0 120 Z" fill="#f2c91d" />
-          <path d="M0 100 C280 62 540 68 780 92 C1020 116 1240 110 1440 82 L1440 120 L0 120 Z" fill="#f5f8fd" />
-        </svg>
-      </section>
-
-      <!-- Quick actions -->
-      <div class="sib-strip-wrap">
-        <div class="container">
-          <nav class="sib-strip" aria-label="Quick actions">
-            <a href="services/certificates"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get a document</a>
-            <a href="services/tax-payments"><i class="bi bi-credit-card-2-front-fill" aria-hidden="true"></i> Pay taxes &amp; fees</a>
-            <a href="contact/#local-hotlines"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Hotlines</a>
-            <a href="tel:8888"><i class="bi bi-chat-square-text-fill" aria-hidden="true"></i> Complaints: 8888</a>
-            <a href="government/"><i class="bi bi-info-circle-fill" aria-hidden="true"></i> LGU information</a>
-            <a href="statistics/"><i class="bi bi-bar-chart-fill" aria-hidden="true"></i> Open data</a>
-          </nav>
-        </div>
-      </div>
-
-      <!-- Our Services -->
-      <section class="sib-services" aria-labelledby="services-title">
-        <img class="sib-services-flower" src="assets/images/hero/flowers.svg" alt="" />
-        <div class="container sib-services-grid">
-          <div class="sib-services-head">
-            <h2 id="services-title">Our services</h2>
-            <p>Fast. Easy. Convenient.</p>
-            <a href="services/" class="sib-outline-btn">View all services <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
-          </div>
-          <div class="sib-cards">
-            <a href="services/certificates" class="sib-card">
-              <div class="sib-card-art sib-card-art--docs"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></div>
-              <div class="sib-card-body">
-                <h3>Certificates</h3>
-                <p>Birth, marriage and death records from the civil registrar.</p>
-              </div>
-            </a>
-            <a href="services/business" class="sib-card">
-              <div class="sib-card-art sib-card-art--biz"><i class="bi bi-shop" aria-hidden="true"></i></div>
-              <div class="sib-card-body">
-                <h3>Business &amp; permits</h3>
-                <p>Mayor's permits, renewals and cedula.</p>
-              </div>
-            </a>
-            <a href="services/social-services" class="sib-card">
-              <div class="sib-card-art sib-card-art--care"><i class="bi bi-people" aria-hidden="true"></i></div>
-              <div class="sib-card-body">
-                <h3>Social services</h3>
-                <p>Senior citizen, PWD and solo parent support from the MSWDO.</p>
-              </div>
-            </a>
-            <a href="services/agriculture" class="sib-card">
-              <div class="sib-card-art sib-card-art--farm"><i class="bi bi-flower1" aria-hidden="true"></i></div>
-              <div class="sib-card-body">
-                <h3>Farming &amp; fisheries</h3>
-                <p>Help for farmers and fisherfolk across the island.</p>
-              </div>
-            </a>
-          </div>
+            <div class="wf-boat-time">10:00</div>
+            <div class="wf-boat-route">Recodo Port, Pinamalayan &rarr; Sibale</div>
+            <dl>
+              <dt data-i18n="wf-boat-trip">Trip</dt><dd>2.5&ndash;3 hours</dd>
+              <dt data-i18n="wf-boat-fare">Fare</dt><dd>&#8369;390</dd>
+              <dt data-i18n="wf-boat-boats">Boats</dt><dd>Falcon Dos, Arcem Liner (alternate days)</dd>
+            </dl>
+            <p class="wf-boat-warn">
+              <i class="bi bi-exclamation-triangle-fill" aria-hidden="true"></i>
+              <span data-i18n="wf-boat-warn">Cancelled in bad weather. Confirm with the Tourism Office before you travel.</span>
+              <a href="contact/#getting-there" data-i18n="wf-boat-more">Full route from Manila</a>
+            </p>
+          </aside>
         </div>
       </section>
 
@@ -561,7 +530,7 @@
               <div class="history-card">
                 <div class="history-card-icon"><i class="bi bi-water"></i></div>
                 <div class="history-card-content">
-                  <h4>An Island Town</h4>
+                  <h3>An Island Town</h3>
                   <p>
                     Concepcion covers all of Maestro de Campo Island, which residents call
                     <strong>Sibale</strong>. It lies about 17 km from Pinamalayan, Oriental Mindoro, and is
@@ -572,7 +541,7 @@
               <div class="history-card">
                 <div class="history-card-icon"><i class="bi bi-chat-quote-fill"></i></div>
                 <div class="history-card-content">
-                  <h4>Language</h4>
+                  <h3>Language</h3>
                   <p>
                     Most residents speak <strong>Asi (Bantoanon)</strong>, also spoken on Banton and
                     Simara. Tagalog and English are understood. The town fiesta is on
@@ -985,7 +954,7 @@
             </div>
           </div>
           <div class="footer-column">
-            <h4>Quick Links</h4>
+            <h3>Quick Links</h3>
             <ul class="footer-links-new">
               <li><a href="sitemap/">Sitemap</a></li>
               <li><a href="terms/">Terms of Use</a></li>
@@ -995,7 +964,7 @@
             </ul>
           </div>
           <div class="footer-column">
-            <h4>Resources</h4>
+            <h3>Resources</h3>
             <ul class="footer-links-new">
               <li><a href="https://data.gov.ph" target="_blank" rel="noopener noreferrer">Open Data Philippines</a></li>
               <li><a href="https://www.foi.gov.ph/" target="_blank" rel="noopener noreferrer">Freedom of Information</a></li>
@@ -1042,72 +1011,13 @@
       </div>
     </footer>
 
-    <!-- Volunteer Recruitment Popup -->
-    <div
-      id="vol-popup-overlay"
-      class="vol-popup-overlay"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="vol-popup-title"
-      aria-hidden="true"
-    >
-      <div class="vol-popup">
-        <button class="vol-popup-close" type="button" aria-label="Close volunteer popup">
-          <i class="bi bi-x-lg" aria-hidden="true"></i>
-        </button>
-        <div class="vol-popup-header">
-          <div class="vol-popup-header-bg" aria-hidden="true"></div>
-          <img
-            src="assets/images/logo/better-concepcion-logo-white.svg"
-            alt="BetterConcepcion.org"
-            class="vol-popup-logo"
-            width="210"
-            height="76"
-            loading="eager"
-            draggable="false"
-          />
-          <h2 id="vol-popup-title" class="vol-popup-title">Be Part of Something Greater</h2>
-          <p class="vol-popup-header-sub">Help build an independent, accurate civic portal for Concepcion, Romblon.</p>
-        </div>
-        <div class="vol-popup-body">
-          <p class="vol-popup-lead">We are looking for residents and friends of <strong>Sibale</strong> who want to serve the community through their craft, including people who can help verify public information.</p>
-          <div class="vol-popup-roles" role="list">
-            <div class="vol-popup-role" role="listitem">
-              <i class="bi bi-code-slash" aria-hidden="true"></i>
-              <span>Software Dev</span>
-            </div>
-            <div class="vol-popup-role" role="listitem">
-              <i class="bi bi-layers" aria-hidden="true"></i>
-              <span>UI/UX Design</span>
-            </div>
-            <div class="vol-popup-role" role="listitem">
-              <i class="bi bi-palette" aria-hidden="true"></i>
-              <span>Graphic Design</span>
-            </div>
-            <div class="vol-popup-role" role="listitem">
-              <i class="bi bi-pencil-square" aria-hidden="true"></i>
-              <span>Content Creation</span>
-            </div>
-            <div class="vol-popup-role" role="listitem">
-              <i class="bi bi-megaphone" aria-hidden="true"></i>
-              <span>Digital Marketing</span>
-            </div>
-          </div>
-          <div class="vol-popup-actions">
-            <a href="https://github.com/johannfranzero/betterconcepcion" class="vol-popup-cta" target="_blank" rel="noopener noreferrer">Contribute on GitHub</a>
-            <button class="vol-popup-skip" type="button">Maybe Later</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script defer src="assets/js/translations.js"></script>
+<script defer src="assets/js/translations.js?v=3"></script>
     <script defer src="assets/js/info-bar.js"></script>
     <script defer src="assets/js/main.js"></script>
     <script defer src="assets/js/version.js"></script>
     <script defer src="assets/js/search.js"></script>
     <script defer src="assets/js/news.js"></script>
     <script defer src="assets/js/fb-feed.js?v=1.2.0"></script>
-    <script defer src="assets/js/volunteer-popup.js?v=1.2.2"></script>
     <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script defer src="assets/js/weather-map.js?v=1.6.4"></script>
 

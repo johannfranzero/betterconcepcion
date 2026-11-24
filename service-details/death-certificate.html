@@ -35,10 +35,6 @@
     <link rel="preconnect" href="https://unpkg.com" />
     <link rel="dns-prefetch" href="https://unpkg.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
@@ -375,8 +371,8 @@
         }
       }
     </style>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Kaushan+Script&family=Lora:ital,wght@1,400;1,700&display=swap" />
-    <link rel="stylesheet" href="../assets/css/theme-sibale.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet" href="../assets/css/theme-wayfinding.css?v=13" />
   </head>
   <body>
     <a href="#main-content" class="skip-link" data-i18n="dc-skip-to-main-content"
@@ -419,12 +415,8 @@
       <div class="container header-inner">
         <div class="logo-container">
           <a href="../" class="brand" aria-label="Better Concepcion home">
-            <img src="../assets/images/logo/emblem.svg" alt="" class="brand-emblem" width="74" height="62" />
-            <span class="brand-text">
-              <span class="brand-name">Concepcion</span>
-              <span class="brand-prov">ROMBLON</span>
-              <span class="brand-tag">Independent civic portal</span>
-            </span>
+            <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 27V13h13" fill="none" stroke="#FFC917" stroke-width="4" stroke-linecap="square"/><path d="M18 6l8 7-8 7" fill="none" stroke="#FFC917" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/></svg></span>
+            <span class="brand-text"><span class="brand-name">Better Concepcion</span><span class="brand-tag">Sibale Island, Romblon</span></span>
           </a>
         </div>
         <nav class="main-nav" aria-label="Main Navigation">
@@ -496,6 +488,37 @@
         </div>
       </div>
     </header>
+
+    <nav class="signband" aria-label="Where to go">
+      <div class="container signband-inner">
+        <a class="sign sign--emergency" href="../contact/#local-hotlines">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-telephone-fill"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-emergency">Emergency</span><span class="sign-sub" data-i18n="sign-emergency-sub">MDRRMO 0926 390 6268</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign is-here" href="../services/" aria-current="page">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-file-earmark-text-fill"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-services">Services</span><span class="sign-sub" data-i18n="sign-here">You are here</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="../budget/">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-journal-text"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-transparency">Budget &amp; laws</span><span class="sign-sub" data-i18n="sign-transparency-sub">Budget, ordinances, data</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="../government/">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-people-fill"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-officials">Officials</span><span class="sign-sub" data-i18n="sign-officials-sub">Mayor, council, barangays</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+        <a class="sign" href="../contact/#getting-there">
+          <span class="sign-pic" aria-hidden="true"><i class="bi bi-water"></i></span>
+          <span class="sign-text"><span class="sign-title" data-i18n="sign-boat">Boat to Sibale</span><span class="sign-sub" data-i18n="sign-boat-sub">Recodo Port, 10:00 AM</span></span>
+          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
+        </a>
+      </div>
+    </nav>
+
     <div class="info-bar" role="complementary">
       <div class="container">
         <div class="info-bar-inner">
@@ -1233,7 +1256,7 @@
             </div>
           </div>
           <div class="footer-column">
-            <h4>Quick Links</h4>
+            <h3>Quick Links</h3>
             <ul class="footer-links-new">
               <li><a href="../sitemap/">Sitemap</a></li>
               <li><a href="../terms/">Terms of Use</a></li>
@@ -1243,7 +1266,7 @@
             </ul>
           </div>
           <div class="footer-column">
-            <h4>Resources</h4>
+            <h3>Resources</h3>
             <ul class="footer-links-new">
               <li><a href="https://data.gov.ph" target="_blank" rel="noopener noreferrer">Open Data Philippines</a></li>
               <li><a href="https://www.foi.gov.ph/" target="_blank" rel="noopener noreferrer">Freedom of Information</a></li>
@@ -1289,7 +1312,7 @@
         </div>
       </div>
     </footer>
-    <script defer src="../assets/js/translations.js"></script>
+    <script defer src="../assets/js/translations.js?v=3"></script>
     <script defer src="../assets/js/info-bar.js"></script>
     <script defer src="../assets/js/main.js"></script>
     <script defer src="../assets/js/version.js"></script>

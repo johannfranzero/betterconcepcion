@@ -97,7 +97,7 @@
 
 .leg-category-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 48px rgba(0, 50, 160, 0.15);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.15);
   text-decoration: none;
   border-color: transparent;
 }
@@ -179,7 +179,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(0, 50, 160, 0.08);
+  background: rgba(0, 0, 0, 0.08);
   color: var(--color-primary);
   padding: 5px 12px;
   border-radius: 50px;
@@ -219,7 +219,7 @@
 
 .leg-info-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 2px 12px rgba(0, 50, 160, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .leg-info-card-icon {
@@ -499,7 +499,7 @@
 
 .leg-flow-card:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 2px 12px rgba(0, 50, 160, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
 }
 
 .leg-flow-number {
