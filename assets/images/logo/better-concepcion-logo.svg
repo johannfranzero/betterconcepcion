@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 152" role="img" aria-label="Better Concepcion">
+  <title>Better Concepcion</title>
+  <g transform="translate(6 6)">
+    <circle cx="70" cy="70" r="70" fill="#0032a0"/>
+    <g fill="#f2c91d">
+      <circle cx="70" cy="66" r="20"/>
+      <g stroke="#f2c91d" stroke-width="5" stroke-linecap="round">
+        <line x1="70" y1="22" x2="70" y2="34"/><line x1="39" y1="35" x2="47" y2="43"/>
+        <line x1="101" y1="35" x2="93" y2="43"/><line x1="26" y1="66" x2="38" y2="66"/>
+        <line x1="102" y1="66" x2="114" y2="66"/>
+      </g>
+    </g>
+    <path d="M22 92 C40 74 56 70 70 78 C84 70 100 74 118 92 Z" fill="#2e8b57"/>
+    <path d="M14 98 q14 -9 28 0 t28 0 t28 0 t28 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M24 114 q12 -8 23 0 t23 0 t23 0 t23 0" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  </g>
+  <text x="168" y="66" font-family="'Segoe UI', Inter, Roboto, Arial, sans-serif" font-size="50" font-weight="700" fill="#0032a0">Better</text>
+  <text x="166" y="122" font-family="'Segoe UI', Inter, Roboto, Arial, sans-serif" font-size="50" font-weight="700" fill="#f2c91d">Concepcion</text>
+</svg>
