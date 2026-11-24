@@ -16,9 +16,10 @@ Version 0.1.0, work in progress. Registered in the
 | --- | --- |
 | Population, barangays, land area | ✅ Sourced (PSA 2024 POPCEN, PSA 2020 via PhilAtlas) |
 | Elected officials 2025–2028 | ⚠️ From an unofficial count; needs the Comelec proclamation or LGU confirmation |
-| Local hotlines and Municipal Hall contacts | ❌ Not yet verified. The site shows only national numbers (911, 143, 8888) |
+| Emergency hotlines and office emails | ✅ From the LGU's Municipal Tourism Office ([visitsibale.com](https://www.visitsibale.com/contact)) |
+| Travel info, visitor fee, Ordinance 2024-12 | ✅ From visitsibale.com |
 | Service fees, processing times, office locations | ❌ Not yet verified. Every service page carries a notice |
-| Budget, COA audit reports, ordinances, resolutions | ❌ Not yet compiled |
+| Budget, COA audit reports, other ordinances, resolutions | ❌ Not yet compiled |
 
 The research notes, with a source URL for every fact, are in
 [`research/concepcion-romblon-facts.md`](research/concepcion-romblon-facts.md).
@@ -56,7 +57,8 @@ Corrections are the most useful contribution. Open an issue with:
 2. the correct information
 3. **a source**: an LGU post, an official document, PSA, Comelec, COA or similar.
 
-Emergency numbers are only published once they can be traced to the LGU or the agency itself.
+Emergency numbers are only published once they can be traced to the LGU or the agency itself. The current
+numbers come from the Municipal Tourism Office's visitsibale.com.
 
 ## Credits and license
 

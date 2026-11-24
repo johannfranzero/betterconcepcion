@@ -1,7 +1,7 @@
 {
   "_schema_version": "1.0",
   "_status": "draft",
-  "_source": "Philippine Statistics Authority (PSA) via PhilAtlas; see research/concepcion-romblon-facts.md",
+  "_source": "PSA (2020 CPH via PhilAtlas; 2024 POPCEN); Concepcion LGU Profile via visitsibale.com",
   "_note": "2020 barangay figures from PSA 2020 CPH (via PhilAtlas). 2024 total from PSA 2024 POPCEN. Verify against psa.gov.ph.",
   "municipality": "Concepcion",
   "province": "Romblon",
@@ -13,19 +13,50 @@
     "source": "PSA 2024 Census of Population (POPCEN)"
   },
   "population_2020": 3561,
-  "land_area_km2": 19.82,
+  "land_area_km2": 20.07,
   "barangay_count": 9,
-  "income_class": "5th (unverified; some sources say 6th)",
+  "income_class": "5th",
   "zip_code": "5516",
   "barangays": [
-    { "name": "Bachawan", "population_2020": 358 },
-    { "name": "Calabasahan", "population_2020": 568 },
-    { "name": "Dalajican", "population_2020": 295 },
-    { "name": "Masadya", "population_2020": 182 },
-    { "name": "Masudsud", "population_2020": 268 },
-    { "name": "Poblacion", "population_2020": 866 },
-    { "name": "Sampong", "population_2020": 333 },
-    { "name": "San Pedro (Agbatang)", "population_2020": 434 },
-    { "name": "San Vicente", "population_2020": 257 }
-  ]
+    {
+      "name": "Bachawan",
+      "population_2020": 358
+    },
+    {
+      "name": "Calabasahan",
+      "population_2020": 568
+    },
+    {
+      "name": "Dalajican",
+      "population_2020": 295
+    },
+    {
+      "name": "Masadya",
+      "population_2020": 182
+    },
+    {
+      "name": "Masudsud",
+      "population_2020": 268
+    },
+    {
+      "name": "Poblacion",
+      "population_2020": 866
+    },
+    {
+      "name": "Sampong",
+      "population_2020": 333
+    },
+    {
+      "name": "San Pedro (Agbatang)",
+      "population_2020": 434
+    },
+    {
+      "name": "San Vicente",
+      "population_2020": 257
+    }
+  ],
+  "land_area_note": "2,007 ha per the Concepcion LGU Profile (via visitsibale.com); PhilAtlas gives 19.82 km²",
+  "municipal_waters_ha": 73727,
+  "households_2020": 1064,
+  "literacy_rate_pct": 98.1
 }

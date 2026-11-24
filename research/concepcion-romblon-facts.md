@@ -168,3 +168,30 @@ None were found publicly listed online. There is no LGU website, and no Sangguni
 11. Any ordinance or resolution list.
 12. Town fiesta date, and the current ferry/RoRo schedule.
 13. The Wikipedia history and tourism claims need a primary source (for example the LGU's CLUP or the provincial tourism office).
+
+---
+
+## Update, 25 Nov 2026: LGU tourism sources
+
+New primary-ish sources, provided by the maintainer and checked directly:
+
+- **visitsibale.com.** Footer reads "© 2026 Municipality of Concepcion, Romblon · Sibale Tourism"; the site
+  shows the municipal seal and says messages go to the Municipal Tourism Office. It cites the
+  "Concepcion LGU Profile; Municipal Tourism Office".
+- **Sibale Tourism Facebook page** (https://www.facebook.com/SibaleTravel). Listed as a "Government organization":
+  "Municipal Tourism Office (Concepcion Convention and Visitors' Office)", sibale.ccvo@gmail.com, links to visitsibale.com.
+
+Facts taken from them (each was read on the page):
+
+| Fact | Source |
+|---|---|
+| Hotlines: MDRRMO 0926 390 6268; PCG Concepcion Sub-Station 0945 624 8514; PNP 0998 598 5884; RHU 0956 793 0262; BFP 0999 652 2287; LGU PIO 0964 977 8164 | https://www.visitsibale.com/contact |
+| Office emails: MDRRMO, MHO, PNP, BFP, PCG (see the contact page) | https://www.visitsibale.com/contact |
+| "Office of the Municipal Mayor: Anthea S. Fetesio" is listed as the office's **contact person**. The page does not say she is the mayor | https://www.visitsibale.com/contact |
+| Municipal Ordinance No. 2024-12, Carbon Footprint Mitigation Fee, passed 19 Nov 2024; ₱100 foreign / ₱50 local / ₱40 student, PWD, senior / under 14 free | https://www.visitsibale.com/carbon-footprint-fee |
+| 5th-class municipality; land 2,007 ha; municipal waters 73,727 ha; 1,064 households (2020); literacy 98.1%; fiesta 8 December | https://www.visitsibale.com/discover |
+| History: 1570 Goiti and Salcedo land ("Maestre de Campo"); 1622 named Concepcion, under Banton; 1907 municipality (of Mindoro); 1917 back to Romblon; 1940 reverts to barrio; 1946 regains municipal status | https://www.visitsibale.com/discover |
+| Route and fares from Manila via Batangas, Calapan, Pinamalayan and Recodo Port; boats Falcon Dos and Arcem Liner on alternate days | https://www.visitsibale.com/travel-guide |
+
+Resolved gaps: hotlines, income class (5th), fiesta date, the official tourism FB page, one ordinance.
+Still open: mayor and SB confirmation (Comelec), the Municipal Hall's own phone and email, budget and COA reports.
