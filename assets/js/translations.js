@@ -6,6 +6,18 @@
 
 const translations = {
   en: {
+    'civic-hero-lead': 'Independent civic portal for Concepcion, Romblon on Sibale Island: public services, hotlines, officials, budgets, ordinances and sourced local data.',
+    'civic-fact-residents': '3,427 residents',
+    'civic-fact-barangays': '9 barangays',
+    'civic-fact-est': 'Municipality since 1907',
+    'civic-btn-services': 'Browse services',
+    'civic-btn-transparency': 'Explore transparency',
+    'civic-services-title': 'Popular services',
+    'civic-services-sub': 'Quick access to the most requested municipal services in Concepcion',
+    'civic-all-services': 'All services',
+    'civic-boat-title': 'Boat to Sibale from Recodo Port, Pinamalayan',
+    'civic-boat-sub': '2.5–3 hours · ₱390 · Falcon Dos and Arcem Liner on alternate days · cancelled in bad weather',
+    'civic-boat-more': 'Full route from Manila',
     'sign-here': 'You are here',
     'sign-emergency': 'Emergency',
     'sign-emergency-sub': 'MDRRMO 0926 390 6268',
@@ -6496,6 +6508,18 @@ const translations = {
   },
 
   fil: {
+    'civic-hero-lead': 'Malayang civic portal para sa Concepcion, Romblon sa isla ng Sibale: mga serbisyo, hotline, opisyal, budget, ordinansa at datos na may pinagmulan.',
+    'civic-fact-residents': '3,427 residente',
+    'civic-fact-barangays': '9 barangay',
+    'civic-fact-est': 'Munisipyo mula 1907',
+    'civic-btn-services': 'Tingnan ang mga serbisyo',
+    'civic-btn-transparency': 'Transparency',
+    'civic-services-title': 'Mga madalas na serbisyo',
+    'civic-services-sub': 'Mabilis na access sa mga pinakahinihinging serbisyo ng munisipyo',
+    'civic-all-services': 'Lahat ng serbisyo',
+    'civic-boat-title': 'Bangka papuntang Sibale mula Recodo Port, Pinamalayan',
+    'civic-boat-sub': '2.5–3 oras · ₱390 · Falcon Dos at Arcem Liner, salitan araw-araw · kanselado kapag masama ang panahon',
+    'civic-boat-more': 'Buong ruta mula Maynila',
     'sign-here': 'Nandito ka',
     'sign-emergency': 'Emerhensiya',
     'sign-emergency-sub': 'MDRRMO 0926 390 6268',

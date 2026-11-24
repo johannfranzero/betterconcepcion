@@ -1,326 +1,316 @@
 ---
 name: Better Concepcion
-description: Independent civic portal for Concepcion (Sibale Island), Romblon, built as wayfinding signage.
+description: Independent civic portal for Concepcion (Sibale Island), Romblon, in the BetterLGU navy-and-flag-gold civic look.
 colors:
-  sign-yellow: "#ffc917"
-  sign-yellow-deep: "#f2b600"
-  sign-yellow-soft: "#fff4c7"
-  ink: "#000000"
-  ink-2: "#2e2e2b"
-  ink-3: "#55554f"
-  paper: "#ffffff"
-  concrete: "#ededea"
-  concrete-2: "#dcdcd7"
-  on-ink-muted: "#d8d8d2"
-  on-ink-label: "#b8b8b0"
-  go-green: "#0a7d3b"
-  stop-red: "#c4161c"
+  navy: "#00226e"
+  navy-2: "#0b3a9e"
+  navy-deep: "#001a55"
+  navy-ink: "#0f2342"
+  gold: "#fcd116"
+  gold-hover: "#ffdc3d"
+  gold-deep: "#e6b800"
+  flag-red: "#ce1126"
+  card-blue: "#2b4fb5"
+  card-green: "#277a43"
+  card-red: "#c13d23"
+  card-teal: "#1a6fa0"
+  card-navy: "#13294b"
+  card-ink: "#0d1d3a"
+  paper: "#faf7f2"
+  sand: "#f4efe6"
+  sand-line: "#e7dfd0"
+  white: "#ffffff"
+  line: "#d1d8e6"
+  muted: "#4b5875"
+  placeholder: "#66708a"
+  icon-tint-blue: "#e8eefc"
+  icon-tint-green: "#e4f4ea"
+  icon-tint-teal: "#e3f1fa"
+  icon-tint-red: "#fdebe6"
 typography:
-  monumental:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "clamp(4.5rem, 9vw, 7.5rem)"
-    fontWeight: 800
-    lineHeight: 0.95
-    letterSpacing: "-0.04em"
-    fontFeature: "tnum"
   display:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "clamp(2.5rem, 5.2vw, 4.5rem)"
+    fontFamily: "Inter Tight, Archivo, system-ui, sans-serif"
+    fontSize: "clamp(2.5rem, 6.2vw, 4.75rem)"
     fontWeight: 800
-    lineHeight: 1
-    letterSpacing: "-0.03em"
+    lineHeight: 0.98
+    letterSpacing: "-0.035em"
   headline:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "clamp(2.25rem, 4.6vw, 3.75rem)"
+    fontFamily: "Inter Tight, Archivo, system-ui, sans-serif"
+    fontSize: "clamp(2rem, 4vw, 3rem)"
     fontWeight: 800
-    lineHeight: 1.02
     letterSpacing: "-0.025em"
   title:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "clamp(1.75rem, 3vw, 2.5rem)"
+    fontFamily: "Inter Tight, Archivo, system-ui, sans-serif"
+    fontSize: "clamp(1.75rem, 3vw, 2.25rem)"
     fontWeight: 800
-    lineHeight: 1.1
-    letterSpacing: "-0.01em"
-  number:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "clamp(1.6rem, 2.6vw, 2.25rem)"
-    fontWeight: 800
-    lineHeight: 1.05
     letterSpacing: "-0.02em"
-    fontFeature: "tnum"
-  sign-title:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
+  card-title:
+    fontFamily: "Inter Tight, Archivo, system-ui, sans-serif"
     fontSize: "1.1875rem"
     fontWeight: 800
-    lineHeight: 1.1
-  body:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "1.0625rem"
+    letterSpacing: "-0.01em"
+  wordmark:
+    fontFamily: "Inter Tight, Archivo, system-ui, sans-serif"
+    fontSize: "1.3125rem"
+    fontWeight: 800
+    lineHeight: 1.05
+    letterSpacing: "-0.03em"
+  lead:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "1.125rem"
     fontWeight: 400
-    lineHeight: 1.5
-    fontFeature: "tnum"
-  label:
-    fontFamily: "Atkinson Hyperlegible Next, Atkinson Hyperlegible, system-ui, sans-serif"
-    fontSize: "0.875rem"
+    lineHeight: 1.55
+  body:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "1rem"
+    fontWeight: 400
+  small:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "0.9375rem"
     fontWeight: 600
-    lineHeight: 1.3
+  label:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "0.8125rem"
+    fontWeight: 600
+  figure-hero:
+    fontFamily: "IBM Plex Mono, ui-monospace, monospace"
+    fontSize: "2.75rem"
+    fontWeight: 600
+    lineHeight: 1
+  figure:
+    fontFamily: "IBM Plex Mono, ui-monospace, monospace"
+    fontSize: "1.375rem"
+    fontWeight: 600
+    letterSpacing: "-0.02em"
+  tag:
+    fontFamily: "IBM Plex Mono, ui-monospace, monospace"
+    fontSize: "0.75rem"
+    fontWeight: 600
 rounded:
-  none: "0px"
-  sign: "2px"
+  button: "4px"
+  control: "6px"
+  tile: "10px"
+  card: "12px"
+  pill: "999px"
 spacing:
-  rule-thin: "2px"
-  rule-sign-gap: "3px"
-  rule: "4px"
-  rule-footer: "8px"
-  row: "18px"
-  hero-gap: "48px"
-  container: "1240px"
+  xs: "8px"
+  sm: "12px"
+  md: "16px"
+  lg: "24px"
+  xl: "56px"
+  grid: "44px"
 components:
-  sign:
-    backgroundColor: "{colors.sign-yellow}"
-    textColor: "{colors.ink}"
-    typography: "{typography.sign-title}"
-    rounded: "{rounded.none}"
-    padding: "16px 14px"
-    height: "88px"
-  sign-hover:
-    backgroundColor: "{colors.sign-yellow-deep}"
-    textColor: "{colors.ink}"
-  sign-is-here:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.sign-yellow}"
-  sign-pic:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
-    rounded: "{rounded.none}"
-    size: "46px"
+  button-gold:
+    backgroundColor: "{colors.gold}"
+    textColor: "{colors.navy-ink}"
+    rounded: "{rounded.button}"
+    padding: "12px 24px"
+  button-gold-hover:
+    backgroundColor: "{colors.gold-hover}"
+    textColor: "{colors.navy-ink}"
+  button-ghost-on-navy:
+    backgroundColor: "rgba(255,255,255,0.06)"
+    textColor: "{colors.white}"
+    rounded: "{rounded.button}"
+    padding: "12px 24px"
   button-primary:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.sign-yellow}"
-    rounded: "{rounded.sign}"
+    backgroundColor: "{colors.navy}"
+    textColor: "{colors.white}"
+    rounded: "{rounded.control}"
   button-primary-hover:
-    backgroundColor: "{colors.ink-2}"
-    textColor: "{colors.sign-yellow}"
+    backgroundColor: "{colors.navy-2}"
   button-outline:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.sign}"
-  button-outline-hover:
-    backgroundColor: "{colors.sign-yellow}"
-    textColor: "{colors.ink}"
-  search-field:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.none}"
-    padding: "18px"
-  page-header:
-    backgroundColor: "{colors.sign-yellow}"
-    textColor: "{colors.ink}"
-    typography: "{typography.headline}"
-    padding: "40px 0 44px"
-  boat-panel:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
-    typography: "{typography.monumental}"
-    rounded: "{rounded.none}"
-    padding: "26px 28px"
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.navy}"
+    rounded: "{rounded.control}"
+  hotline-pill:
+    backgroundColor: "rgba(255,255,255,0.08)"
+    textColor: "{colors.white}"
+    rounded: "{rounded.pill}"
+    padding: "3px 12px"
+  lang-pill:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.navy}"
+    rounded: "{rounded.pill}"
+  lang-pill-active:
+    backgroundColor: "{colors.navy}"
+    textColor: "{colors.white}"
+  search-bar:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.navy-ink}"
+    rounded: "{rounded.card}"
+    padding: "8px 8px 8px 16px"
+  service-card:
+    backgroundColor: "{colors.card-blue}"
+    textColor: "{colors.white}"
+    rounded: "{rounded.card}"
+    padding: "20px"
+  white-card:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.navy-ink}"
+    rounded: "{rounded.card}"
+  boat-card:
+    backgroundColor: "{colors.sand}"
+    textColor: "{colors.navy-ink}"
+    rounded: "{rounded.card}"
+    padding: "22px 26px"
   hotline-card:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.sign}"
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.navy-ink}"
+    rounded: "{rounded.card}"
     padding: "16px 18px"
-  hotline-card-911:
-    backgroundColor: "{colors.stop-red}"
-    textColor: "{colors.paper}"
-  card-hover:
-    backgroundColor: "{colors.sign-yellow-soft}"
-  hotline-strip:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
-    padding: "7px 0"
+  hotline-card-emergency:
+    backgroundColor: "{colors.flag-red}"
+    textColor: "{colors.white}"
   footer:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.on-ink-muted}"
+    backgroundColor: "{colors.navy}"
+    textColor: "{colors.white}"
 ---
 
 # Design System: Better Concepcion
 
+> This system replaces the earlier "Wayfinding Bands" airport-signage world (and the island theme before it), both rejected by the maintainer. The source of truth is `assets/css/theme-civic.css`, loaded last over the BetterSolano template on every page. The maintainer pinned the look: "I want design like Alcala" (BetterAlcala / BetterLGU family). BetterAlcala's code and assets are unlicensed and were not copied; everything here is recreated in this project's own CSS and SVG.
+
 ## Overview
 
-**Creative North Star: "Wayfinding Bands"**
+**Creative North Star: "The Navy Front Door"**
 
-Every page is a junction on Sibale. The site reads like terminal signage at a ferry port: a black hotline strip, a white header ruled off in black, then a full-width yellow band of decision signs that re-signs itself on each page and marks the current section by inverting to black ("You are here"). Below the band, content is set on white and concrete grey as ruled rows, not floating cards. Numbers that people act on (phone numbers, the next boat time, population, area) are set at monumental tabular scale, as a sign would set them.
+A confident, official-feeling but independent civic portal. Every page opens on a deep navy field lit by a soft blue glow from above, ruled by a faint 44px grid, with a gold Philippine-style sun rising from the lower right. Flag gold is the single action colour. Below the hero, the page turns to warm paper and sand, with white bordered cards for information and saturated colour cards for the services people come for.
 
-The system is flat, square and high contrast, built for older residents reading on a phone over a weak signal. One typeface, Atkinson Hyperlegible Next, carries everything in sentence case. Colour is committed rather than accented: yellow appears as whole fields (the sign band, page headers, the footer's top rule), black as whole panels (the boat panel, the executive cards, the footer). It replaces both the BetterSolano template look (navy hero, centred welcome, wall of coloured cards) and an earlier illustrated island theme (script welcome, illustrated hero, red hotline bar), which the maintainer rejected.
-
-The theme lives in one stylesheet, loaded last over the template on every page; it re-tokens the template's variables and owns the chrome.
+Density is moderate and scannable: a resident on a phone should see the hotline bar, the welcome, search and the first service card without effort. Colour carries category (blue, red, green, teal, navy) rather than decoration, and figures (phone numbers, times, statistics) are set in IBM Plex Mono so they read as data, not prose.
 
 **Key Characteristics:**
-- A yellow sign band of five square signs under the header on every page, with an inverted "is-here" sign for the current section.
-- Yellow page-header fields with left-aligned 800-weight headlines; no eyebrow labels.
-- Black panels with white pictograms in square insets.
-- Phone numbers and times at monumental, tabular scale.
-- 4px black rules separate regions; 2px black rules separate rows.
-- Square corners (2px at most), no ambient shadows, no gradients.
+- Navy hero field with radial blue glow, 44px grid and a 22%-opacity gold sunburst, shared by the home hero and every inner page header.
+- Flag gold (#fcd116) as the primary action and the accent on navy; never as a page ground.
+- Flag-coloured tile band (blue, green, red, teal, 40px squares) under the home hero, topped by a 3px gold rule.
+- Saturated service cards with diagonal line texture, a tinted icon square and a mono tag.
+- Warm paper ground with alternating sand sections; white cards on a 1px cool-grey border at 12px radius.
+- Inter Tight 800 display, Archivo body, IBM Plex Mono figures and tags.
 
 ## Colors
 
-Signage colours used as fields: sign yellow and ink black carry the identity; white and concrete grey are the ground; green and red are reserved signals.
+Navy and flag gold carry the identity; four flag-derived category hues colour the service layer; warm paper and sand keep the long pages calm.
 
 ### Primary
-- **Sign Yellow** (#ffc917): Whole fields only. The sign band, page headers (`page-header`, statistics and transparency heroes), the footer's 8px top rule, timeline year plates, text selection, the focus halo, and the text colour of primary buttons on black.
-- **Sign Yellow Deep** (#f2b600): Hover state of a sign in the band.
-- **Sign Yellow Soft** (#fff4c7): Hover wash on cards and sign rows. Never a resting fill.
+- **Civic Navy** (navy): hero fields, inner page headers, hotline bar, footer, primary buttons, active language pill, search submit. Hover deepens toward **Bright Navy** (navy-2), which is also the link colour.
+- **Flag Gold** (gold): the primary action button, the `.org` in the wordmark headline, hero place line, focus ring, selection, footer headings, badges on leadership cards, the sunburst and the 3px/4px gold rules above the tile band and footer. **Gold Deep** (gold-deep) is the darker gold used on white: the "Concepcion" half of the wordmark, search glass, info-bar icons.
 
-### Secondary
-- **Ink** (#000000): Text, all rules and borders, pictogram insets, the boat panel, the "is-here" sign, the hotline strip, primary buttons, the footer.
-- **Ink 2** (#2e2e2b): Lead paragraphs and primary-button hover.
-
-### Tertiary
-- **Stop Red** (#c4161c): Reserved for emergency and advisories. In the build it fills only the national 911 hotline card.
-- **Go Green** (#0a7d3b): Reserved for verified or open. Defined and mapped to the template's success token; no theme surface uses it yet.
+### Secondary (category hues)
+- **Service Blue** (card-blue), **Field Green** (card-green), **Ember Red** (card-red), **Harbour Teal** (card-teal), **Deep Navy Card** (card-navy) and **Night Ink Card** (card-ink): service-card grounds and the tile band. Blue, green, teal and red also tint the stat-card icons (on their pale **icon tints**) and colour the matching mono stat values.
+- **Emergency Red** (flag-red): hotline-card icons and the full-red 911 card. Reserved for emergency.
 
 ### Neutral
-- **Paper** (#ffffff): Default page ground, header, cards, search field.
-- **Concrete** (#ededea): Alternate section ground (`bg-alt`, history, office hours), the info bar, scrollbar track.
-- **Concrete 2** (#dcdcd7): Hairline dividers (info bar, source lines, office-hours rows).
-- **Ink 3** (#55554f): Secondary text: brand tag, source lines, "often needed" lead-in, roles under names, the dashed "unverified" chip.
-- **On-Ink Muted** (#d8d8d2): Body text on black (footer paragraphs, links lists' context).
-- **On-Ink Label** (#b8b8b0): Definition-list terms inside the boat panel.
+- **Warm Paper** (paper): body ground.
+- **Sand** (sand): alternating sections (stats, history, leadership, office hours), the boat card, dropdown hover. **Sand Line** (sand-line) borders the boat card.
+- **White** (white): header (96% with blur), cards, services section ground, search bar.
+- **Cool Line** (line): 1px card, header and dropdown borders.
+- **Navy Ink** (navy-ink): body text and headings on light grounds. **Muted Slate** (muted): secondary text, source lines, brand tagline. **Placeholder** (placeholder): input placeholder.
 
 ### Named Rules
-**The Whole Field Rule.** Yellow is applied as a field or a rule, never as a small accent chip or a gradient. If it appears, it fills a band, a header, a plate, or a full button face.
+**The One Gold Rule.** Gold is the action and the accent on navy. On any light section, gold appears only as gold-deep detail or a hover underline, never as a button ground next to a navy button.
 
-**The Reserved Signal Rule.** Red means emergency or cancellation; green means verified or open. Neither is decoration, and neither is used for categories.
+**The Colour Means Category Rule.** Saturated hues are for service categories and their stat counterparts. Don't use card-red, card-green or card-teal as decoration; flag-red is reserved for emergency.
 
 ## Typography
 
-**Display Font:** Atkinson Hyperlegible Next (with Atkinson Hyperlegible, system-ui, sans-serif)
-**Body Font:** Atkinson Hyperlegible Next
-**Label/Mono Font:** none; the same family with tabular numerals on `body`
+**Display Font:** Inter Tight (with Archivo, system-ui fallback), weights 700 and 800
+**Body Font:** Archivo (with system-ui), weights 400–700
+**Label/Mono Font:** IBM Plex Mono (with ui-monospace), weights 500 and 600
 
-**Character:** One legibility-first face, chosen for older residents and for signage clarity. Hierarchy comes from weight (800 against 400 and 600) and size, never from a second family, uppercase, or tracking.
-
-Loaded from Google Fonts at weights 400, 600, 700, 800.
+**Character:** A tight, heavy civic grotesque for headlines over a sturdy, open workhorse for reading; mono marks anything you might dial, compare or cite.
 
 ### Hierarchy
-- **Monumental** (800, clamp(4.5rem, 9vw, 7.5rem), 0.95): The next boat time in the boat panel. Tabular figures.
-- **Display** (800, clamp(2.5rem, 5.2vw, 4.5rem), 1, max 13ch): The home question, "Where do you need to go in Concepcion?".
-- **Headline** (800, clamp(2.25rem, 4.6vw, 3.75rem), 1.02): Page-header titles on yellow fields.
-- **Title** (800, clamp(1.75rem, 3vw, 2.5rem)): Section heads, each sitting under a 4px black rule.
-- **Number** (800, clamp(1.6rem, 2.6vw, 2.25rem), 1.05): Phone numbers in contact rows; stat values run clamp(2rem, 3.4vw, 3rem); hotline card numbers 1.75rem.
-- **Sign title** (800, 1.1875rem, 1.1): Sign names in the band and card headings.
-- **Body** (400, 1.0625rem): Running text; page-header descriptions at 1.1875rem capped at 62ch; hero lead at 1.25rem/1.45 capped at 52ch.
-- **Label** (600, 0.875rem–0.9375rem): Sign subtitles, hotline names, breadcrumbs. The info bar drops to 0.8125rem.
+- **Display** (800, clamp(2.5rem, 6.2vw, 4.75rem), 0.98, -0.035em): the home hero welcome only. On phones it drops to clamp(1.75rem, 8.4vw, 2.5rem).
+- **Headline** (800, clamp(2rem, 4vw, 3rem), -0.025em): inner page header h1 on navy.
+- **Title** (800, clamp(1.75rem, 3vw, 2.25rem)): section heads ("Popular services", "Concepcion at a Glance").
+- **Card title** (800, 1.1875rem, -0.01em): service, boat and info card headings. Never uppercase.
+- **Lead** (400, 1.125rem, 1.55, max 600px): hero lead; inner headers use 1.0625rem at 85% white.
+- **Body** (400, 1rem): running text. Small (600, 0.9375rem) for card descriptions, hotline names, nav (0.9375rem, 600).
+- **Label** (600–700, 0.8125rem): hotline bar, info bar, source lines.
+- **Figures** (Plex Mono 600): boat time 2.75rem, hotline numbers 1.375rem, stat values with -0.02em; card tags 0.75rem.
 
 ### Named Rules
-**The Sentence Case Rule.** All text is set in sentence case with no letter-spacing added. The theme strips `text-transform` and tracking from card headings, badges and footer headings.
+**The Figures Are Mono Rule.** Phone numbers, departure times, statistics, years and card tags are IBM Plex Mono 600. Prose never is.
 
-**The Monumental Number Rule.** A number someone will dial or act on is the largest thing in its container, at 800 weight with tabular figures (`font-variant-numeric: tabular-nums` is set on `body`).
+**The No Shouting Rule.** Headings and card titles are sentence case with negative tracking. The template's uppercase section tags and badges are suppressed site-wide; don't reintroduce them.
 
 ## Layout
 
-Container max width 1240px; the sign band runs to 1440px. Regions stack vertically and are separated by full-width 4px black rules: hotline strip, header (4px bottom rule), sign band (4px bottom rule), info bar, then content.
+Centred container at 1200px max. The home hero is centred text in an 860px column with the search bar capped at 680px; inner page headers are left-aligned on the same navy field with 46px/50px padding. Section rhythm is about 56–60px vertical; cards sit in 16px gaps; buttons and pills in 8–12px gaps.
 
-- **Sign band:** a five-column grid (first column 1.3fr, the rest 1fr) with 3px black gutters, so the black ground shows between signs. Below 1100px it becomes a horizontal scroll-snap strip of 220px-minimum signs; below 640px each sign takes 78% of the width, so the next sign peeks in.
-- **Home first viewport:** a two-column grid (1.35fr / 1fr, 48px gap). Left: the question, lead and search. Right: the black boat panel, stretched to the same height. Stacks to one column below 860px.
-- **Destination lists:** home services and contacts are two-column sign rows (40px column gap, 18px row padding, 2px black rule under each row); one column below 860px.
-- **Glance strip:** four figures separated by 2px vertical rules, closed by a 2px bottom rule; two by two below 860px.
-- **Section heads:** a 4px black top rule with 18px padding above the title, the "view all" link aligned on the baseline.
-- Page headers are left aligned, text capped at 820px.
+Service cards run three columns, two below 900px, one below 640px (min-height 168px, 140px on phones). The boat card is a three-part row (mono time, text, link) that stacks below 640px. On phones the header keeps a single row (emblem 38px, wordmark 1.125rem, tagline hidden, language pills before the menu toggle), the sunburst shrinks to 360px, and the hotline bar scrolls horizontally without a visible scrollbar. The page never scrolls sideways (`overflow-x: clip`).
 
 ## Elevation & Depth
 
-Flat. Depth comes from field colour (yellow, black, white, concrete) and black rules, not shadows. The template's `--shadow-sm` is set to none and every card, button and panel has `box-shadow: none`; hover never lifts (`transform: none`).
+Mostly flat with a quiet two-step lift. Rest state is a hairline shadow; hover raises cards 2–3px and deepens to a soft navy-tinted drop. The hero carries depth through the radial glow and grid, not shadows; the search bar alone floats on a strong dark shadow so it reads as the primary action.
 
 ### Shadow Vocabulary
-- **Overlay** (`box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12)`): Only on the navigation dropdown menu, which floats over content. Nothing at rest carries it.
+- **Rest** (`0 1px 2px rgba(15,35,66,0.06), 0 1px 1px rgba(15,35,66,0.04)`): every card at rest.
+- **Lift** (`0 10px 24px -8px rgba(15,35,66,0.22)`): card hover, dropdown menus.
+- **Search float** (`0 18px 40px -14px rgba(0,0,0,0.45)`): the hero search bar only.
 
 ### Named Rules
-**The Flat Sign Rule.** Surfaces never lift. Hover changes fill (yellow deep, yellow soft) or nudges an arrow; it never adds a shadow or translates the box.
+**The Lift On Intent Rule.** Shadows deepen only on hover of a link card. Static information never sits higher than the rest shadow.
 
 ## Shapes
 
-Square sign geometry. Corners are 0 on signs, pictogram insets, search, dropdowns, language buttons, badges and timeline markers, and 2px at most on buttons and cards. Borders are solid black: 4px for regional rules and the home search field, 3px for buttons and the skip link, 2px for cards, rows and dropdowns. Pictograms sit in square black insets (46–48px; 40px on mobile and in the boat panel head) and never stretch into full-height strips. The logo is a black square holding a yellow right-turn arrow drawn with square line caps.
-
-**The Locked Arrow Rule.** Arrows sit at the trailing edge of the element they point past (`margin-left: auto`) and move only along their own axis (4px to the right on hover).
+Soft, consistent corners. Cards, the boat card and the search bar use 12px; icon squares, dropdowns and the search submit 10px; standard buttons, timeline years, tags and the unverified note 6px; the hero buttons are crisper at 4px. Pills (hotline bar, popular searches, language toggle, leadership badges) are fully round. Diagonal 135deg line texture (2px every 14px at 6% white) is the service card's one surface pattern. Category icons sit in 40–44px rounded squares.
 
 ## Components
 
-### Sign band (signature)
-Terminal signage under the header on every page.
-- **Shape:** square signs (min height 88px; 72px under 640px), 16px 14px padding, 3px black gutters.
-- **Content:** a 46px black pictogram inset with a white icon, an 800-weight title, a smaller subtitle, and an arrow locked to the trailing edge. Five signs: Emergency (with the MDRRMO number), Services, Budget and laws, Officials, Boat to Sibale.
-- **Hover:** fill deepens to Sign Yellow Deep over 180ms; the arrow moves 4px right over 220ms (`cubic-bezier(0.16, 1, 0.3, 1)`). Both are removed under reduced motion.
-- **Is-here:** the current section's sign inverts to black with a yellow title, a yellow inset with a black icon, and white subtitle, and carries `aria-current="page"`.
+### Buttons
+- **Shape:** crisp 4px on the hero, 6px elsewhere.
+- **Gold primary:** flag gold, navy-ink text, 700 weight, 12px 24px, optional trailing arrow. Hover brightens to gold-hover and lifts 1px (160ms).
+- **Ghost on navy:** 1.5px 55%-white border on 6% white; hover to 14% white.
+- **Navy primary / outline (inner pages):** navy fill with white text, hover to navy-2; outline is white with a 1.5px navy border.
+- **Focus:** 3px gold outline, 2px offset, everywhere.
 
-### Hotline strip
-A thin black bar (7px vertical padding) of phone numbers with yellow icons; hover turns the text yellow. It scrolls horizontally without a scrollbar instead of wrapping.
+### Hotline bar and pills
+Navy strip, 0.8125rem, every hotline a translucent white pill with a gold phone icon; static (no marquee), horizontally scrollable on phones.
 
 ### Header and navigation
-- White, 10px padding, 4px black bottom rule. Brand lockup: 48px black square mark (yellow turn arrow), 800-weight name, Ink 3 tag (hidden under 640px).
-- Nav links are 600 weight in black; hover and active add a 3px yellow underline.
-- Dropdowns: 2px black border, square, yellow row on hover, the one overlay shadow.
-- Language switch: square 2px-bordered buttons; active is black with yellow text.
+96% white with backdrop blur and a 1px line border. Sun emblem (gold rays and disc over a navy wave) plus a two-line wordmark: "Better" in navy, "Concepcion" in gold-deep, small muted tagline. Nav links navy-ink 600; hover and active get a 3px gold underline (inset shadow). EN/FIL are round pills with a 1.5px navy border, filled navy when active. Dropdowns: 10px radius, line border, lift shadow, sand hover.
 
-### Page header
-A yellow field (40px top, 44px bottom) with a 4px black bottom rule, a left-aligned headline and a description in black at 1.1875rem. Decorative pseudo-elements and eyebrow badges are removed.
+### Navy hero field (signature)
+Navy ground, radial blue glow from the top centre, 44px white grid at 4.5%, gold sunburst at 22% opacity bleeding off the lower right. Home: gold place line, display welcome with gold `.org`, lead, three fact items marked with gold, green and blue dots, gold and ghost buttons, white search bar with a navy square submit, then popular-search pills. Inner pages reuse the field at smaller scale with a left-aligned headline.
 
-### Buttons
-- **Shape:** gently squared (2px radius), 700 weight, 3px solid border.
-- **Primary:** black face, yellow text. Hover: Ink 2 face.
-- **Outline / Secondary:** white face, black text and border. Hover: yellow face.
-- **Focus (all interactive):** 3px black outline at 2px offset plus a 6px yellow halo.
+### Tile band (signature)
+A 40px-tall row of 40px icon squares cycling blue, green, red, teal under a 3px gold top rule. Decorative (`aria-hidden`), home only.
 
-### Inputs / Fields
-- **Home search:** a 4px black frame holding a borderless white input (18px padding, 1.1875rem) and a square black submit with yellow 800-weight text and an arrow. Under 640px the label hides and only the arrow remains.
-- Placeholder text is #6b6b65 at full opacity; caret is black.
+### Service cards (signature)
+Saturated colour card (blue, red, navy, green, teal, ink), 12px radius, 20px padding, diagonal line texture. Top-left 40px tinted icon square (16% white), top-right mono tag on 22% black, title and description at the bottom in white. Hover lifts 3px with the lift shadow (180ms); reduced motion disables the transform.
 
-### Cards / Containers
-- **Corner Style:** 2px.
-- **Background:** white; concrete on alternate sections.
-- **Shadow Strategy:** none (see Elevation & Depth).
-- **Border:** 2px solid black.
-- **Hover:** Sign Yellow Soft wash, no movement.
-- **Black variant:** executive cards and the "all services" entry are solid black with white or yellow text.
+### White cards / containers
+White, 1px line border, 12px radius, rest shadow, any template background image removed. Icons in 44px squares on icon-tint-blue (stat cards cycle green, teal, red). Link cards lift 2px on hover.
 
-### Sign rows
-Lists of destinations (home services, home contacts) drop the card box: each row is a black pictogram inset, text, and a trailing arrow, separated by a 2px black rule, with a yellow-soft hover wash. The last "all services" row is black with yellow text.
+### Boat card
+Sand panel with sand-line border: navy mono departure time, card-title route, muted detail line, bold link.
 
 ### Hotline cards
-White, 2px black border, 16px 18px padding, a black icon, the name at 600 weight 0.9375rem, and the number below at 1.75rem 800. The national 911 card is the only red surface: Stop Red fill, white text and icon.
+White card with an emergency-red icon, name (600, 0.9375rem) over a mono number (1.375rem). The 911 card is solid flag red with white text. Unverified items carry a dashed-border muted note.
 
-### Boat panel
-The home page's right column: a black panel (26px 28px) headed by a 40px yellow pictogram inset and a yellow label, the next departure time at monumental size in white, the route at 700 weight, a definition list (trip, fare, boats) with On-Ink Label terms, and a weather warning pinned to the bottom with a yellow icon and yellow link.
-
-### Status chip: unverified
-A dashed 2px Ink 3 border around 700-weight 0.8125rem Ink 3 text, used to label unverified facts such as the unofficial officials count.
-
-### Source line
-Ink 3 text over a 1px Concrete 2 top rule with 10px padding, placed under figures to show where they came from; links in it are black.
+### Inputs / Fields
+Search: white, 12px radius, gold-deep glass icon, borderless input, 44px navy submit. Inner-page inputs 10px radius. Placeholder #66708a.
 
 ### Footer
-Black with an 8px yellow top rule; headings yellow in sentence case at 1.0625rem; body text On-Ink Muted; links white, turning yellow on hover; the contribute button is square with a 2px white border.
+Navy with a 4px gold top rule; gold headings (1rem, sentence case), 82% white body, white links that turn gold on hover.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** apply Sign Yellow (#ffc917) as whole fields: the sign band, page headers, plates and the footer rule.
-- **Do** keep the sign band on every page and set `is-here` plus `aria-current="page"` on the current section's sign.
-- **Do** put pictograms in square black insets (46–48px) with white icons.
-- **Do** set phone numbers and times at monumental tabular scale, 800 weight, larger than their label.
-- **Do** separate regions with 4px black rules and rows with 2px black rules.
-- **Do** keep corners square (2px maximum) and surfaces flat.
-- **Do** write in sentence case with no added tracking, and keep Filipino labels at the same scale as English.
-- **Do** put a source line under every figure and label unverified items with the dashed chip.
-- **Do** lock arrows to the trailing edge they point past.
+- **Do** open every page on the navy hero field (glow, 44px grid, gold sunburst) so the site reads as one front door.
+- **Do** make gold (#fcd116) the one primary action per hero, with a white or ghost secondary.
+- **Do** give every service category its fixed hue (blue certificates, red business, navy treasury, green social welfare, teal health) and keep it consistent between cards, tiles and stat icons.
+- **Do** set phone numbers, times and statistics in IBM Plex Mono 600 and show their source in a muted line beneath.
+- **Do** keep cards white on a 1px #d1d8e6 border at 12px radius with the rest shadow; lift only on hover.
+- **Do** label unverified data with the dashed unverified note rather than hiding or guessing it.
+- **Do** honour reduced motion and the 3px gold focus ring.
 
 ### Don't:
-- **Don't** use a navy hero with a centred welcome or a wall of coloured cards (the BetterLGU template default).
-- **Don't** use illustrated heroes, script welcomes or a red hotline bar (the rejected island theme).
-- **Don't** put eyebrow labels, kickers or pill badges above headings; roles follow names.
-- **Don't** use uppercase or letter-spaced labels.
-- **Don't** use red or green for anything other than emergency/cancellation and verified/open.
-- **Don't** add ambient shadows, gradients, or hover lifts; the only shadow is the dropdown overlay.
-- **Don't** stretch pictogram insets into full-height coloured strips.
-- **Don't** use the official municipal seal or anything that implies this is the LGU's own site.
+- **Don't** copy BetterAlcala's code, illustrations, logo or any other asset; the look is recreated in this project's own CSS and SVG.
+- **Don't** use the official municipal seal or anything that implies this is the LGU's website.
+- **Don't** reintroduce the rejected Wayfinding Bands signage (yellow sign bands, black ground, Atkinson type) or the island theme (illustrated hero, script welcome, red hotline bar).
+- **Don't** use flag red outside emergency contexts, or gold as a light-section button ground.
+- **Don't** uppercase card titles or bring back the template's eyebrow badges and section tags.
+- **Don't** add a marquee or auto-scroll to the hotline bar.
+- **Don't** hotlink or copy visitsibale.com imagery.

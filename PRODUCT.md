@@ -54,8 +54,12 @@ unverified items are labeled, never guessed.
   it is the LGU's website.
 - The logo may be redesigned (maintainer approved).
 - Filipino first: Filipino (and where possible Asi) should feel as native as English, not an afterthought.
-- An earlier "island theme" (illustrated hero, script welcome, red hotline bar) was rejected by the maintainer.
-- Reference the maintainer likes: betteralcala.org (another BetterLGU portal).
+- An earlier "island theme" (illustrated hero, script welcome, red hotline bar) and a "Wayfinding Bands" airport-signage
+  theme were both rejected by the maintainer.
+- Binding look (maintainer, 25 Nov 2026): "I want design like Alcala" — match the BetterAlcala (betteralcala.org) visual
+  style: navy hero with flag-gold accents and sunburst, colourful service cards, warm paper ground. The BetterAlcala
+  repository has no license, so its code, illustrations and logo are not reused; the look is recreated in this
+  project's own CSS.
 
 ## Evidence on Hand
 

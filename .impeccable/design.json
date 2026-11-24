@@ -1,170 +1,186 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-24T18:24:15Z",
+  "generatedAt": "2026-11-25T00:00:00Z",
   "title": "Design System: Better Concepcion",
   "extensions": {
+    "replaces": "Wayfinding Bands (removed assets/css/theme-wayfinding.css); source of truth is now assets/css/theme-civic.css",
     "colorMeta": {
-      "sign-yellow": { "role": "primary", "displayName": "Sign Yellow", "canonical": "#ffc917", "tonalRamp": ["#3d2e00", "#6b5000", "#9c7600", "#cc9b00", "#f2b600", "#ffc917", "#ffe07a", "#fff4c7"] },
-      "sign-yellow-deep": { "role": "primary", "displayName": "Sign Yellow Deep", "canonical": "#f2b600", "tonalRamp": ["#382a00", "#634a00", "#8f6b00", "#bd8d00", "#f2b600", "#ffcb3d", "#ffe08a", "#fff3cf"] },
-      "sign-yellow-soft": { "role": "primary", "displayName": "Sign Yellow Soft", "canonical": "#fff4c7", "tonalRamp": ["#3b3418", "#665b2c", "#948542", "#c2b05e", "#e6d488", "#f7e7a6", "#fff4c7", "#fffbea"] },
-      "ink": { "role": "secondary", "displayName": "Ink", "canonical": "#000000", "tonalRamp": ["#000000", "#141413", "#2e2e2b", "#55554f", "#7d7d76", "#a6a69f", "#d0d0ca", "#f2f2ef"] },
-      "ink-2": { "role": "secondary", "displayName": "Ink 2", "canonical": "#2e2e2b", "tonalRamp": ["#141413", "#2e2e2b", "#434340", "#5a5a56", "#7a7a75", "#9d9d98", "#c4c4bf", "#ebebe8"] },
-      "ink-3": { "role": "neutral", "displayName": "Ink 3", "canonical": "#55554f", "tonalRamp": ["#1a1a18", "#2e2e2b", "#43433e", "#55554f", "#6b6b65", "#8f8f88", "#b8b8b0", "#e2e2dc"] },
-      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#ffffff", "tonalRamp": ["#262626", "#4d4d4d", "#737373", "#999999", "#bfbfbf", "#e0e0e0", "#f5f5f5", "#ffffff"] },
-      "concrete": { "role": "neutral", "displayName": "Concrete", "canonical": "#ededea", "tonalRamp": ["#262624", "#4a4a47", "#70706c", "#979792", "#bdbdb8", "#dcdcd7", "#ededea", "#f8f8f6"] },
-      "concrete-2": { "role": "neutral", "displayName": "Concrete 2", "canonical": "#dcdcd7", "tonalRamp": ["#242422", "#474744", "#6c6c68", "#92928d", "#b8b8b2", "#dcdcd7", "#ececea", "#f7f7f5"] },
-      "on-ink-muted": { "role": "neutral", "displayName": "On-Ink Muted", "canonical": "#d8d8d2", "tonalRamp": ["#242422", "#474744", "#6c6c67", "#92928c", "#b8b8b0", "#d8d8d2", "#e9e9e5", "#f6f6f4"] },
-      "on-ink-label": { "role": "neutral", "displayName": "On-Ink Label", "canonical": "#b8b8b0", "tonalRamp": ["#20201e", "#40403c", "#61615b", "#85857d", "#a3a39b", "#b8b8b0", "#d6d6d0", "#f0f0ec"] },
-      "go-green": { "role": "tertiary", "displayName": "Go Green", "canonical": "#0a7d3b", "tonalRamp": ["#022611", "#04451f", "#06632f", "#0a7d3b", "#2f9e5c", "#6cc08c", "#acdfbe", "#e3f5ea"] },
-      "stop-red": { "role": "tertiary", "displayName": "Stop Red", "canonical": "#c4161c", "tonalRamp": ["#3a0507", "#650a0d", "#931015", "#c4161c", "#df4a4f", "#ec8a8d", "#f6c3c4", "#fdeced"] }
+      "navy": { "role": "primary", "displayName": "Civic Navy", "canonical": "#00226e", "tonalRamp": ["#000f33", "#001a55", "#00226e", "#0b3a9e", "#2f5cc4", "#6a8ad8", "#b3c4ec", "#e8eefc"] },
+      "navy-2": { "role": "primary", "displayName": "Bright Navy", "canonical": "#0b3a9e" },
+      "navy-deep": { "role": "primary", "displayName": "Pressed Navy", "canonical": "#001a55" },
+      "navy-ink": { "role": "neutral", "displayName": "Navy Ink", "canonical": "#0f2342" },
+      "gold": { "role": "primary", "displayName": "Flag Gold", "canonical": "#fcd116", "tonalRamp": ["#4d3f00", "#806800", "#b39100", "#e6b800", "#fcd116", "#ffdc3d", "#ffe98a", "#fff7d1"] },
+      "gold-hover": { "role": "primary", "displayName": "Bright Gold", "canonical": "#ffdc3d" },
+      "gold-deep": { "role": "primary", "displayName": "Gold Deep", "canonical": "#e6b800" },
+      "flag-red": { "role": "tertiary", "displayName": "Emergency Red", "canonical": "#ce1126", "tonalRamp": ["#3d050b", "#6b0914", "#9a0d1d", "#ce1126", "#e44a5a", "#ee8892", "#f6c2c7", "#fdebed"] },
+      "card-blue": { "role": "secondary", "displayName": "Service Blue", "canonical": "#2b4fb5", "tonalRamp": ["#0e1a3d", "#182d69", "#213e8f", "#2b4fb5", "#5674cc", "#8ca1de", "#c3cfef", "#e8eefc"] },
+      "card-green": { "role": "secondary", "displayName": "Field Green", "canonical": "#277a43", "tonalRamp": ["#0d2a17", "#16472a", "#22693b", "#277a43", "#55a872", "#8cc6a0", "#c3e3ce", "#e4f4ea"] },
+      "card-red": { "role": "secondary", "displayName": "Ember Red", "canonical": "#c13d23", "tonalRamp": ["#40150d", "#6b2316", "#9e3421", "#c13d23", "#df6f59", "#ea9e8f", "#f5cec6", "#fdebe6"] },
+      "card-teal": { "role": "secondary", "displayName": "Harbour Teal", "canonical": "#1a6fa0", "tonalRamp": ["#0a2637", "#11405e", "#185f88", "#1a6fa0", "#4c9ccb", "#86bddd", "#c0deee", "#e3f1fa"] },
+      "card-navy": { "role": "secondary", "displayName": "Deep Navy Card", "canonical": "#13294b" },
+      "card-ink": { "role": "secondary", "displayName": "Night Ink Card", "canonical": "#0d1d3a" },
+      "paper": { "role": "neutral", "displayName": "Warm Paper", "canonical": "#faf7f2" },
+      "sand": { "role": "neutral", "displayName": "Sand", "canonical": "#f4efe6", "tonalRamp": ["#3a3326", "#655a46", "#94866c", "#c2b499", "#e7dfd0", "#f4efe6", "#faf7f2", "#ffffff"] },
+      "sand-line": { "role": "neutral", "displayName": "Sand Line", "canonical": "#e7dfd0" },
+      "white": { "role": "neutral", "displayName": "White", "canonical": "#ffffff" },
+      "line": { "role": "neutral", "displayName": "Cool Line", "canonical": "#d1d8e6" },
+      "muted": { "role": "neutral", "displayName": "Muted Slate", "canonical": "#4b5875" },
+      "placeholder": { "role": "neutral", "displayName": "Placeholder", "canonical": "#66708a" },
+      "icon-tint-blue": { "role": "neutral", "displayName": "Blue Icon Tint", "canonical": "#e8eefc" },
+      "icon-tint-green": { "role": "neutral", "displayName": "Green Icon Tint", "canonical": "#e4f4ea" },
+      "icon-tint-teal": { "role": "neutral", "displayName": "Teal Icon Tint", "canonical": "#e3f1fa" },
+      "icon-tint-red": { "role": "neutral", "displayName": "Red Icon Tint", "canonical": "#fdebe6" }
     },
     "typographyMeta": {
-      "monumental": { "displayName": "Monumental", "purpose": "The next boat time in the black boat panel; numbers people act on at sign scale." },
-      "display": { "displayName": "Display", "purpose": "The home question in the first viewport, max 13ch." },
-      "headline": { "displayName": "Headline", "purpose": "Page-header titles on yellow fields." },
-      "title": { "displayName": "Title", "purpose": "Section heads under a 4px black rule." },
-      "number": { "displayName": "Number", "purpose": "Phone numbers in contact rows and stat values." },
-      "sign-title": { "displayName": "Sign title", "purpose": "Sign names in the band and card headings." },
-      "body": { "displayName": "Body", "purpose": "Running text, tabular numerals on." },
-      "label": { "displayName": "Label", "purpose": "Sign subtitles, hotline names, breadcrumbs." }
+      "display": { "displayName": "Display", "purpose": "Home hero welcome only; clamp(1.75rem, 8.4vw, 2.5rem) on phones." },
+      "headline": { "displayName": "Headline", "purpose": "Inner page header h1 on the navy field." },
+      "title": { "displayName": "Title", "purpose": "Section heads." },
+      "card-title": { "displayName": "Card title", "purpose": "Service, boat and info card headings; sentence case." },
+      "wordmark": { "displayName": "Wordmark", "purpose": "Better (navy) / Concepcion (gold-deep) in the header; 1.125rem on phones." },
+      "lead": { "displayName": "Lead", "purpose": "Hero lead paragraph, max 600px." },
+      "body": { "displayName": "Body", "purpose": "Running text in Archivo." },
+      "small": { "displayName": "Small", "purpose": "Card descriptions, nav links, hotline names." },
+      "label": { "displayName": "Label", "purpose": "Hotline bar, info bar, source lines." },
+      "figure-hero": { "displayName": "Hero figure", "purpose": "Boat departure time." },
+      "figure": { "displayName": "Figure", "purpose": "Hotline numbers and stat values." },
+      "tag": { "displayName": "Tag", "purpose": "Mono office tag on service cards." }
     },
     "shadows": [
-      { "name": "overlay", "value": "0 6px 18px rgba(0, 0, 0, 0.12)", "purpose": "Navigation dropdown only; nothing at rest carries a shadow." }
+      { "name": "rest", "value": "0 1px 2px rgba(15,35,66,0.06), 0 1px 1px rgba(15,35,66,0.04)", "purpose": "Every card at rest." },
+      { "name": "lift", "value": "0 10px 24px -8px rgba(15,35,66,0.22)", "purpose": "Card hover and dropdown menus." },
+      { "name": "search-float", "value": "0 18px 40px -14px rgba(0,0,0,0.45)", "purpose": "Hero search bar only." }
     ],
     "motion": [
-      { "name": "ease-sign", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Sign hover fill (180ms) and arrow nudge (220ms, 4px right). Removed under prefers-reduced-motion." }
+      { "name": "button-lift", "value": "transform 160ms ease, background-color 160ms ease; translateY(-1px)", "purpose": "Hero button hover." },
+      { "name": "card-lift", "value": "transform 180ms ease, box-shadow 180ms ease; translateY(-3px)", "purpose": "Service card hover; white link cards lift 2px. Disabled under prefers-reduced-motion." }
     ],
     "breakpoints": [
-      { "name": "sign-scroll", "value": "1100px" },
-      { "name": "stack", "value": "860px" },
+      { "name": "tablet", "value": "900px" },
       { "name": "phone", "value": "640px" }
     ],
-    "focus": {
-      "value": "outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917",
-      "purpose": "Every focusable element: black outline with a yellow halo."
+    "heroField": {
+      "background": "#00226e with radial-gradient(80% 60% at 50% 0, rgba(11,79,209,0.45), transparent 70%) and a 44px grid of 1px rgba(255,255,255,0.045) lines",
+      "sunburst": "Inline SVG, 16 gold rays and disc, opacity 0.22, 560px at right -120px bottom -160px on home; 380px on inner headers; 360px on phones",
+      "focusRing": "3px solid #fcd116, offset 2px"
     }
   },
   "components": [
     {
-      "name": "Sign",
-      "kind": "nav",
-      "refersTo": "sign",
-      "description": "One decision sign in the yellow band: square pictogram inset, title, subtitle, arrow locked to the trailing edge.",
-      "html": "<a class=\"ds-sign\" href=\"#\"><span class=\"ds-sign-pic\" aria-hidden=\"true\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M6 2h9l5 5v15H6z\"/></svg></span><span class=\"ds-sign-text\"><span class=\"ds-sign-title\">Services</span><span class=\"ds-sign-sub\">Documents, permits, cedula</span></span><span class=\"ds-sign-arrow\" aria-hidden=\"true\">&rarr;</span></a>",
-      "css": ".ds-sign { display: flex; align-items: center; gap: 12px; padding: 16px 14px; min-height: 88px; width: 300px; background: #ffc917; color: #000; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; border: 3px solid #000; transition: background-color 180ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-sign:hover { background: #f2b600; } .ds-sign:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; } .ds-sign-pic { width: 46px; height: 46px; background: #000; color: #fff; display: grid; place-items: center; flex: none; } .ds-sign-text { display: flex; flex-direction: column; min-width: 0; } .ds-sign-title { font-weight: 800; font-size: 1.1875rem; line-height: 1.1; } .ds-sign-sub { font-size: 0.875rem; line-height: 1.3; margin-top: 3px; } .ds-sign-arrow { margin-left: auto; font-size: 1.6rem; font-weight: 800; transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-sign:hover .ds-sign-arrow { transform: translateX(4px); }"
+      "name": "Gold Button",
+      "kind": "button",
+      "refersTo": "button-gold",
+      "description": "The one primary action on the navy hero.",
+      "html": "<div class=\"ds-navy-bg\"><a class=\"ds-btn-gold\" href=\"#\">Browse services <span aria-hidden=\"true\">&rarr;</span></a></div>",
+      "css": ".ds-navy-bg { background: #00226e; padding: 24px; } .ds-btn-gold { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 4px; background: #fcd116; color: #0f2342; font: 700 1rem Archivo, system-ui, sans-serif; text-decoration: none; transition: transform 160ms ease, background-color 160ms ease; } .ds-btn-gold:hover { background: #ffdc3d; transform: translateY(-1px); } .ds-btn-gold:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; }"
     },
     {
-      "name": "Sign (you are here)",
-      "kind": "nav",
-      "refersTo": "sign-is-here",
-      "description": "The current section's sign, inverted to black with aria-current=page.",
-      "html": "<a class=\"ds-sign-here\" href=\"#\" aria-current=\"page\"><span class=\"ds-sign-here-pic\" aria-hidden=\"true\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z\"/></svg></span><span class=\"ds-sign-here-text\"><span class=\"ds-sign-here-title\">Emergency</span><span class=\"ds-sign-here-sub\">MDRRMO 0926 390 6268</span></span><span class=\"ds-sign-here-arrow\" aria-hidden=\"true\">&darr;</span></a>",
-      "css": ".ds-sign-here { display: flex; align-items: center; gap: 12px; padding: 16px 14px; min-height: 88px; width: 300px; background: #000; color: #ffc917; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; border: 3px solid #000; } .ds-sign-here:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; } .ds-sign-here-pic { width: 46px; height: 46px; background: #ffc917; color: #000; display: grid; place-items: center; flex: none; } .ds-sign-here-text { display: flex; flex-direction: column; } .ds-sign-here-title { font-weight: 800; font-size: 1.1875rem; line-height: 1.1; } .ds-sign-here-sub { font-size: 0.875rem; font-weight: 700; color: #fff; margin-top: 3px; white-space: nowrap; } .ds-sign-here-arrow { margin-left: auto; font-size: 1.6rem; font-weight: 800; }"
+      "name": "Ghost Button on Navy",
+      "kind": "button",
+      "refersTo": "button-ghost-on-navy",
+      "description": "Secondary hero action beside the gold button.",
+      "html": "<div class=\"ds-navy-bg2\"><a class=\"ds-btn-ghost\" href=\"#\">Explore transparency</a></div>",
+      "css": ".ds-navy-bg2 { background: #00226e; padding: 24px; } .ds-btn-ghost { display: inline-flex; padding: 12px 24px; border-radius: 4px; border: 1.5px solid rgba(255,255,255,0.55); background: rgba(255,255,255,0.06); color: #fff; font: 700 1rem Archivo, system-ui, sans-serif; text-decoration: none; transition: transform 160ms ease, background-color 160ms ease; } .ds-btn-ghost:hover { background: rgba(255,255,255,0.14); transform: translateY(-1px); } .ds-btn-ghost:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; }"
     },
     {
-      "name": "Primary Button",
+      "name": "Navy Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Black face, yellow text, 3px border, 2px radius.",
-      "html": "<button class=\"ds-btn-primary\">Read the requirements</button>",
-      "css": ".ds-btn-primary { background: #000; color: #ffc917; border: 3px solid #000; border-radius: 2px; padding: 12px 22px; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; font-size: 1.0625rem; font-weight: 700; cursor: pointer; } .ds-btn-primary:hover { background: #2e2e2b; } .ds-btn-primary:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; }"
+      "description": "Primary button on light inner-page sections.",
+      "html": "<button class=\"ds-btn-navy\">Submit request</button>",
+      "css": ".ds-btn-navy { background: #00226e; color: #fff; border: 0; border-radius: 6px; padding: 10px 20px; font: 700 1rem Archivo, system-ui, sans-serif; cursor: pointer; } .ds-btn-navy:hover { background: #0b3a9e; } .ds-btn-navy:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; }"
     },
     {
-      "name": "Outline Button",
-      "kind": "button",
-      "refersTo": "button-outline",
-      "description": "White face, black border; fills yellow on hover.",
-      "html": "<button class=\"ds-btn-outline\">View all offices</button>",
-      "css": ".ds-btn-outline { background: #fff; color: #000; border: 3px solid #000; border-radius: 2px; padding: 12px 22px; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; font-size: 1.0625rem; font-weight: 700; cursor: pointer; } .ds-btn-outline:hover { background: #ffc917; } .ds-btn-outline:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; }"
-    },
-    {
-      "name": "Search Field",
+      "name": "Hero Search",
       "kind": "input",
-      "refersTo": "search-field",
-      "description": "Home search: 4px black frame, borderless input, square black submit with yellow text.",
-      "html": "<form class=\"ds-search\" role=\"search\"><input class=\"ds-search-input\" type=\"search\" placeholder=\"Birth certificate, cedula, barangay clearance\" aria-label=\"Search services\"><button class=\"ds-search-btn\" type=\"submit\">Search &rarr;</button></form>",
-      "css": ".ds-search { display: flex; border: 4px solid #000; background: #fff; max-width: 520px; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; } .ds-search-input { flex: 1; min-width: 0; border: 0; padding: 18px; font: inherit; font-size: 1.1875rem; background: #fff; color: #000; caret-color: #000; } .ds-search-input::placeholder { color: #6b6b65; opacity: 1; } .ds-search-input:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; } .ds-search-btn { border: 0; border-radius: 0; background: #000; color: #ffc917; padding: 0 26px; font: inherit; font-size: 1.125rem; font-weight: 800; cursor: pointer; } .ds-search-btn:hover { background: #2e2e2b; } .ds-search-btn:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; }"
+      "refersTo": "search-bar",
+      "description": "White floating search bar, the primary action of the home hero.",
+      "html": "<div class=\"ds-navy-bg3\"><form class=\"ds-search\" role=\"search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 16 16\" fill=\"#e6b800\" aria-hidden=\"true\"><path d=\"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.868-3.834zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z\"/></svg><input placeholder=\"Looking for something? Birth certificate, cedula, permits\" aria-label=\"Search\"><button type=\"submit\" aria-label=\"Search\">&rarr;</button></form></div>",
+      "css": ".ds-navy-bg3 { background: #00226e; padding: 24px; } .ds-search { display: flex; align-items: center; gap: 10px; background: #fff; border-radius: 12px; padding: 8px 8px 8px 16px; box-shadow: 0 18px 40px -14px rgba(0,0,0,0.45); max-width: 680px; } .ds-search input { flex: 1; min-width: 0; border: 0; background: transparent; font: 1rem Archivo, system-ui, sans-serif; padding: 10px 4px; color: #0f2342; } .ds-search input::placeholder { color: #66708a; } .ds-search input:focus-visible { outline: none; } .ds-search:focus-within { outline: 3px solid #fcd116; outline-offset: 2px; } .ds-search button { width: 44px; height: 44px; border: 0; border-radius: 10px; background: #00226e; color: #fff; font-size: 1.125rem; cursor: pointer; } .ds-search button:hover { background: #0b3a9e; }"
     },
     {
-      "name": "Boat Panel",
+      "name": "Hotline Pill Bar",
+      "kind": "nav",
+      "refersTo": "hotline-pill",
+      "description": "Navy strip of static, scrollable hotline pills above the header on every page.",
+      "html": "<div class=\"ds-hotbar\"><a href=\"tel:911\">Emergency: <b>911</b></a><a href=\"tel:09263906268\">MDRRMO: <b>0926 390 6268</b></a><a href=\"tel:09985985884\">PNP: <b>0998 598 5884</b></a></div>",
+      "css": ".ds-hotbar { display: flex; gap: 8px; overflow-x: auto; background: #00226e; padding: 7px 12px; scrollbar-width: none; } .ds-hotbar a { flex: none; white-space: nowrap; color: #fff; text-decoration: none; font: 600 0.8125rem Archivo, system-ui, sans-serif; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.14); border-radius: 999px; padding: 3px 12px; } .ds-hotbar a::before { content: '\\260E'; color: #fcd116; margin-right: 6px; } .ds-hotbar a:hover { background: rgba(255,255,255,0.16); } .ds-hotbar a:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "lang-pill",
+      "description": "White header: sun emblem, Better/Concepcion wordmark, nav with gold underline, EN/FIL pills.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-brand\" href=\"#\"><svg width=\"40\" height=\"40\" viewBox=\"0 0 44 44\" aria-hidden=\"true\"><g fill=\"#FCD116\"><path d=\"M20.2 11.2L22 3l1.8 8.2Z\"/><path d=\"M30.8 18.2L39 20l-8.2 1.8Z\"/><path d=\"M13.2 21.8L5 20l8.2-1.8Z\"/><path d=\"M27 12.5L34 8l-4.5 7Z\"/><path d=\"M14.5 15L10 8l7 4.5Z\"/><circle cx=\"22\" cy=\"20\" r=\"7.5\"/></g><path d=\"M3 31c4-3 7-3 10 0s7 3 10 0 7-3 10 0 6 3 8 1v9H3z\" fill=\"#00226E\"/></svg><span class=\"ds-word\">Better<b>Concepcion</b></span></a><nav><a class=\"is-active\" href=\"#\">Home</a><a href=\"#\">Services</a><a href=\"#\">Government</a></nav><span class=\"ds-lang\"><button aria-pressed=\"true\">EN</button><button aria-pressed=\"false\">FIL</button></span></header>",
+      "css": ".ds-header { display: flex; align-items: center; gap: 20px; background: rgba(255,255,255,0.96); border-bottom: 1px solid #d1d8e6; padding: 10px 16px; font-family: Archivo, system-ui, sans-serif; } .ds-brand { display: flex; align-items: center; gap: 10px; text-decoration: none; } .ds-word { font: 800 1.3125rem/1.05 'Inter Tight', Archivo, sans-serif; letter-spacing: -0.03em; color: #00226e; } .ds-word b { color: #e6b800; } .ds-header nav { display: flex; gap: 18px; margin: 0 auto; } .ds-header nav a { color: #0f2342; font-weight: 600; font-size: 0.9375rem; text-decoration: none; padding: 6px 0; } .ds-header nav a:hover, .ds-header nav a.is-active { color: #00226e; box-shadow: inset 0 -3px 0 #fcd116; } .ds-header a:focus-visible, .ds-lang button:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; } .ds-lang { display: flex; gap: 6px; } .ds-lang button { min-width: 40px; border: 1.5px solid #00226e; border-radius: 999px; background: #fff; color: #00226e; font-weight: 700; padding: 4px 8px; cursor: pointer; } .ds-lang button[aria-pressed='true'] { background: #00226e; color: #fff; }"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "service-card",
+      "description": "Saturated category card with line texture, icon square and mono tag; colour = category.",
+      "html": "<div class=\"ds-cards\"><a class=\"ds-svc\" style=\"--card:#2b4fb5\" href=\"#\"><span class=\"ds-svc-icon\" aria-hidden=\"true\">&#9638;</span><span class=\"ds-svc-tag\">Civil registry</span><h3>Certificates &amp; civil registry</h3><p>Birth, marriage and death certificates</p></a><a class=\"ds-svc\" style=\"--card:#277a43\" href=\"#\"><span class=\"ds-svc-icon\" aria-hidden=\"true\">&#9679;</span><span class=\"ds-svc-tag\">MSWDO</span><h3>Social welfare &amp; protection</h3><p>Senior citizen, PWD and solo parent support</p></a></div>",
+      "css": ".ds-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; } .ds-svc { position: relative; display: flex; flex-direction: column; justify-content: flex-end; min-height: 168px; padding: 20px; border-radius: 12px; color: #fff; text-decoration: none; overflow: hidden; background-color: var(--card, #2b4fb5); background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.06) 0 2px, transparent 2px 14px); box-shadow: 0 1px 2px rgba(15,35,66,0.06), 0 1px 1px rgba(15,35,66,0.04); transition: transform 180ms ease, box-shadow 180ms ease; font-family: Archivo, system-ui, sans-serif; } .ds-svc:hover { transform: translateY(-3px); box-shadow: 0 10px 24px -8px rgba(15,35,66,0.22); } .ds-svc:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; } .ds-svc-icon { position: absolute; top: 18px; left: 20px; width: 40px; height: 40px; border-radius: 10px; background: rgba(255,255,255,0.16); display: grid; place-items: center; } .ds-svc-tag { position: absolute; top: 20px; right: 18px; font: 600 0.75rem 'IBM Plex Mono', ui-monospace, monospace; padding: 3px 9px; border-radius: 6px; background: rgba(0,0,0,0.22); } .ds-svc h3 { margin: 0; font: 800 1.1875rem 'Inter Tight', Archivo, sans-serif; letter-spacing: -0.01em; color: #fff; } .ds-svc p { margin: 4px 0 0; font-size: 0.9375rem; color: rgba(255,255,255,0.88); } @media (prefers-reduced-motion: reduce) { .ds-svc { transition: none; } .ds-svc:hover { transform: none; } }"
+    },
+    {
+      "name": "Boat Card",
       "kind": "custom",
-      "refersTo": "boat-panel",
-      "description": "Black panel with the next departure at monumental tabular scale, route, and trip facts.",
-      "html": "<aside class=\"ds-boat\"><div class=\"ds-boat-head\"><span class=\"ds-boat-pic\" aria-hidden=\"true\">&#8776;</span>Boat to Sibale</div><div class=\"ds-boat-time\">10:00</div><div class=\"ds-boat-route\">Recodo Port, Pinamalayan &rarr; Sibale</div><dl class=\"ds-boat-dl\"><dt>Trip</dt><dd>2.5&ndash;3 hours</dd><dt>Fare</dt><dd>&#8369;390</dd></dl></aside>",
-      "css": ".ds-boat { background: #000; color: #fff; padding: 26px 28px; max-width: 420px; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-boat-head { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 1.125rem; color: #ffc917; } .ds-boat-pic { width: 40px; height: 40px; background: #ffc917; color: #000; display: grid; place-items: center; font-weight: 800; } .ds-boat-time { font-size: clamp(4.5rem, 9vw, 7.5rem); font-weight: 800; line-height: 0.95; letter-spacing: -0.04em; margin: 14px 0 6px; } .ds-boat-route { font-size: 1.1875rem; font-weight: 700; } .ds-boat-dl { display: grid; grid-template-columns: auto 1fr; gap: 6px 18px; margin: 18px 0 0; font-size: 1rem; } .ds-boat-dl dt { color: #b8b8b0; } .ds-boat-dl dd { margin: 0; }"
+      "refersTo": "boat-card",
+      "description": "Sand panel with a mono departure time; stacks on phones.",
+      "html": "<div class=\"ds-boat\"><div class=\"ds-boat-time\">10:00</div><div><h3>Boat to Sibale from Recodo Port, Pinamalayan</h3><p>2.5–3 hours · ₱390 · cancelled in bad weather</p></div><a href=\"#\">Full route from Manila</a></div>",
+      "css": ".ds-boat { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 24px; padding: 22px 26px; border-radius: 12px; background: #f4efe6; border: 1px solid #e7dfd0; font-family: Archivo, system-ui, sans-serif; color: #0f2342; } .ds-boat-time { font: 600 2.75rem/1 'IBM Plex Mono', ui-monospace, monospace; color: #00226e; } .ds-boat h3 { margin: 0; font: 800 1.1875rem 'Inter Tight', Archivo, sans-serif; letter-spacing: -0.01em; } .ds-boat p { margin: 4px 0 0; color: #4b5875; } .ds-boat a { color: #0b3a9e; font-weight: 700; } .ds-boat a:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; } @media (max-width: 640px) { .ds-boat { grid-template-columns: 1fr; gap: 8px; } }"
     },
     {
       "name": "Hotline Card",
       "kind": "card",
       "refersTo": "hotline-card",
-      "description": "Name above a monumental number; yellow-soft hover wash, no lift.",
-      "html": "<a class=\"ds-hotline\" href=\"tel:09263906268\"><span class=\"ds-hotline-name\">MDRRMO Concepcion</span><b class=\"ds-hotline-num\">0926 390 6268</b></a>",
-      "css": ".ds-hotline { display: flex; flex-direction: column; padding: 16px 18px; max-width: 320px; background: #fff; color: #000; border: 2px solid #000; border-radius: 2px; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; font-variant-numeric: tabular-nums; } .ds-hotline:hover { background: #fff4c7; } .ds-hotline:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; } .ds-hotline-name { font-weight: 600; font-size: 0.9375rem; } .ds-hotline-num { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-top: 2px; }"
+      "description": "White tap-to-call card with mono number; 911 is solid flag red.",
+      "html": "<div class=\"ds-hl-grid\"><a class=\"ds-hl ds-hl--911\" href=\"tel:911\"><span aria-hidden=\"true\">&#9742;</span><span class=\"ds-hl-text\"><span class=\"ds-hl-name\">National emergency</span><span class=\"ds-hl-num\">911</span></span></a><a class=\"ds-hl\" href=\"tel:09263906268\"><span aria-hidden=\"true\">&#9742;</span><span class=\"ds-hl-text\"><span class=\"ds-hl-name\">MDRRMO</span><span class=\"ds-hl-num\">0926 390 6268</span></span></a></div>",
+      "css": ".ds-hl-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; } .ds-hl { display: flex; align-items: flex-start; gap: 12px; padding: 16px 18px; background: #fff; border: 1px solid #d1d8e6; border-radius: 12px; box-shadow: 0 1px 2px rgba(15,35,66,0.06), 0 1px 1px rgba(15,35,66,0.04); color: #0f2342; text-decoration: none; font-family: Archivo, system-ui, sans-serif; } .ds-hl > span:first-child { color: #ce1126; } .ds-hl:hover { box-shadow: 0 10px 24px -8px rgba(15,35,66,0.22); } .ds-hl:focus-visible { outline: 3px solid #fcd116; outline-offset: 2px; } .ds-hl-text { display: flex; flex-direction: column; } .ds-hl-name { font-weight: 600; font-size: 0.9375rem; } .ds-hl-num { font: 600 1.375rem 'IBM Plex Mono', ui-monospace, monospace; margin-top: 2px; } .ds-hl--911 { background: #ce1126; border-color: #ce1126; color: #fff; } .ds-hl--911 > span:first-child { color: #fff; }"
     },
     {
-      "name": "Emergency Hotline Card",
+      "name": "Stat Card",
       "kind": "card",
-      "refersTo": "hotline-card-911",
-      "description": "The only red surface: the national 911 card.",
-      "html": "<a class=\"ds-hotline-911\" href=\"tel:911\"><span class=\"ds-hotline-911-name\">Emergency (national)</span><b class=\"ds-hotline-911-num\">911</b></a>",
-      "css": ".ds-hotline-911 { display: flex; flex-direction: column; padding: 16px 18px; max-width: 320px; background: #c4161c; color: #fff; border: 2px solid #c4161c; border-radius: 2px; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; } .ds-hotline-911:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; } .ds-hotline-911-name { font-weight: 600; font-size: 0.9375rem; } .ds-hotline-911-num { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; margin-top: 2px; }"
-    },
-    {
-      "name": "Sign Row",
-      "kind": "custom",
-      "refersTo": "card-hover",
-      "description": "A destination list row: square black inset, text, trailing arrow, 2px rule beneath.",
-      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-row-pic\" aria-hidden=\"true\">&#9650;</span><span class=\"ds-row-text\"><b>Bagulayag Cliff</b><span>A sheer 59-metre rock wall</span></span><span class=\"ds-row-arrow\" aria-hidden=\"true\">&rarr;</span></a>",
-      "css": ".ds-row { display: flex; align-items: center; gap: 16px; padding: 18px 4px; max-width: 480px; border-bottom: 2px solid #000; color: #000; text-decoration: none; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; } .ds-row:hover { background: #fff4c7; } .ds-row:focus-visible { outline: 3px solid #000; outline-offset: 2px; box-shadow: 0 0 0 6px #ffc917; } .ds-row-pic { width: 48px; height: 48px; background: #000; color: #fff; display: grid; place-items: center; flex: none; } .ds-row-text { display: flex; flex-direction: column; } .ds-row-text b { font-weight: 800; font-size: 1.1875rem; } .ds-row-text span { color: #55554f; font-size: 0.9375rem; } .ds-row-arrow { margin-left: auto; font-size: 1.5rem; }"
-    },
-    {
-      "name": "Unverified Chip",
-      "kind": "chip",
-      "refersTo": "",
-      "description": "Dashed label for facts that are not yet verified.",
-      "html": "<span class=\"ds-unverified\">Unofficial count; to be verified</span>",
-      "css": ".ds-unverified { display: inline-block; border: 2px dashed #55554f; padding: 1px 8px; font-family: 'Atkinson Hyperlegible Next', system-ui, sans-serif; font-size: 0.8125rem; font-weight: 700; color: #55554f; }"
+      "refersTo": "white-card",
+      "description": "White bordered card with tinted icon square, mono value and source line.",
+      "html": "<div class=\"ds-stat\"><span class=\"ds-stat-icon\" aria-hidden=\"true\">&#9679;</span><div><div class=\"ds-stat-val\">3,427</div><div class=\"ds-stat-label\">Population</div><div class=\"ds-stat-src\">PSA 2024 POPCEN</div></div></div>",
+      "css": ".ds-stat { display: flex; gap: 14px; align-items: flex-start; padding: 18px; background: #fff; border: 1px solid #d1d8e6; border-radius: 12px; box-shadow: 0 1px 2px rgba(15,35,66,0.06), 0 1px 1px rgba(15,35,66,0.04); font-family: Archivo, system-ui, sans-serif; max-width: 280px; } .ds-stat-icon { width: 44px; height: 44px; flex: none; display: grid; place-items: center; border-radius: 10px; background: #e8eefc; color: #2b4fb5; } .ds-stat-val { font: 600 1.375rem 'IBM Plex Mono', ui-monospace, monospace; letter-spacing: -0.02em; color: #2b4fb5; } .ds-stat-label { font-weight: 700; color: #0f2342; } .ds-stat-src { font-size: 0.8125rem; color: #4b5875; }"
     }
   ],
   "narrative": {
-    "northStar": "Wayfinding Bands",
-    "overview": "Every page is a junction on Sibale. The site reads like terminal signage at a ferry port: a black hotline strip, a white header ruled off in black, then a full-width yellow band of decision signs that re-signs itself on each page and marks the current section by inverting to black (\"You are here\"). Below the band, content is set on white and concrete grey as ruled rows, not floating cards. Numbers that people act on (phone numbers, the next boat time, population, area) are set at monumental tabular scale, as a sign would set them.\n\nThe system is flat, square and high contrast, built for older residents reading on a phone over a weak signal. One typeface, Atkinson Hyperlegible Next, carries everything in sentence case. Colour is committed rather than accented: yellow appears as whole fields (the sign band, page headers, the footer's top rule), black as whole panels (the boat panel, the executive cards, the footer). It replaces both the BetterSolano template look (navy hero, centred welcome, wall of coloured cards) and an earlier illustrated island theme (script welcome, illustrated hero, red hotline bar), which the maintainer rejected.\n\nThe theme lives in one stylesheet, loaded last over the template on every page; it re-tokens the template's variables and owns the chrome.",
+    "northStar": "The Navy Front Door",
+    "overview": "A confident, official-feeling but independent civic portal. Every page opens on a deep navy field lit by a soft blue glow from above, ruled by a faint 44px grid, with a gold Philippine-style sun rising from the lower right. Flag gold is the single action colour. Below the hero, the page turns to warm paper and sand, with white bordered cards for information and saturated colour cards for the services people come for.\n\nDensity is moderate and scannable: a resident on a phone should see the hotline bar, the welcome, search and the first service card without effort. Colour carries category (blue, red, green, teal, navy) rather than decoration, and figures (phone numbers, times, statistics) are set in IBM Plex Mono so they read as data, not prose.",
     "keyCharacteristics": [
-      "A yellow sign band of five square signs under the header on every page, with an inverted \"is-here\" sign for the current section.",
-      "Yellow page-header fields with left-aligned 800-weight headlines; no eyebrow labels.",
-      "Black panels with white pictograms in square insets.",
-      "Phone numbers and times at monumental, tabular scale.",
-      "4px black rules separate regions; 2px black rules separate rows.",
-      "Square corners (2px at most), no ambient shadows, no gradients."
+      "Navy hero field with radial blue glow, 44px grid and a 22%-opacity gold sunburst, shared by the home hero and every inner page header.",
+      "Flag gold (#fcd116) as the primary action and the accent on navy; never as a page ground.",
+      "Flag-coloured tile band (blue, green, red, teal, 40px squares) under the home hero, topped by a 3px gold rule.",
+      "Saturated service cards with diagonal line texture, a tinted icon square and a mono tag.",
+      "Warm paper ground with alternating sand sections; white cards on a 1px cool-grey border at 12px radius.",
+      "Inter Tight 800 display, Archivo body, IBM Plex Mono figures and tags."
     ],
     "rules": [
-      { "name": "The Whole Field Rule", "body": "Yellow is applied as a field or a rule, never as a small accent chip or a gradient. If it appears, it fills a band, a header, a plate, or a full button face.", "section": "colors" },
-      { "name": "The Reserved Signal Rule", "body": "Red means emergency or cancellation; green means verified or open. Neither is decoration, and neither is used for categories.", "section": "colors" },
-      { "name": "The Sentence Case Rule", "body": "All text is set in sentence case with no letter-spacing added. The theme strips text-transform and tracking from card headings, badges and footer headings.", "section": "typography" },
-      { "name": "The Monumental Number Rule", "body": "A number someone will dial or act on is the largest thing in its container, at 800 weight with tabular figures (font-variant-numeric: tabular-nums is set on body).", "section": "typography" },
-      { "name": "The Flat Sign Rule", "body": "Surfaces never lift. Hover changes fill (yellow deep, yellow soft) or nudges an arrow; it never adds a shadow or translates the box.", "section": "elevation" },
-      { "name": "The Locked Arrow Rule", "body": "Arrows sit at the trailing edge of the element they point past (margin-left: auto) and move only along their own axis (4px to the right on hover).", "section": "shapes" }
+      { "name": "The One Gold Rule", "body": "Gold is the action and the accent on navy. On any light section, gold appears only as gold-deep detail or a hover underline, never as a button ground next to a navy button.", "section": "colors" },
+      { "name": "The Colour Means Category Rule", "body": "Saturated hues are for service categories and their stat counterparts. Don't use card-red, card-green or card-teal as decoration; flag-red is reserved for emergency.", "section": "colors" },
+      { "name": "The Figures Are Mono Rule", "body": "Phone numbers, departure times, statistics, years and card tags are IBM Plex Mono 600. Prose never is.", "section": "typography" },
+      { "name": "The No Shouting Rule", "body": "Headings and card titles are sentence case with negative tracking. The template's uppercase section tags and badges are suppressed site-wide; don't reintroduce them.", "section": "typography" },
+      { "name": "The Lift On Intent Rule", "body": "Shadows deepen only on hover of a link card. Static information never sits higher than the rest shadow.", "section": "elevation" }
     ],
     "dos": [
-      "Do apply Sign Yellow (#ffc917) as whole fields: the sign band, page headers, plates and the footer rule.",
-      "Do keep the sign band on every page and set is-here plus aria-current=\"page\" on the current section's sign.",
-      "Do put pictograms in square black insets (46–48px) with white icons.",
-      "Do set phone numbers and times at monumental tabular scale, 800 weight, larger than their label.",
-      "Do separate regions with 4px black rules and rows with 2px black rules.",
-      "Do keep corners square (2px maximum) and surfaces flat.",
-      "Do write in sentence case with no added tracking, and keep Filipino labels at the same scale as English.",
-      "Do put a source line under every figure and label unverified items with the dashed chip.",
-      "Do lock arrows to the trailing edge they point past."
+      "**Do** open every page on the navy hero field (glow, 44px grid, gold sunburst) so the site reads as one front door.",
+      "**Do** make gold (#fcd116) the one primary action per hero, with a white or ghost secondary.",
+      "**Do** give every service category its fixed hue (blue certificates, red business, navy treasury, green social welfare, teal health) and keep it consistent between cards, tiles and stat icons.",
+      "**Do** set phone numbers, times and statistics in IBM Plex Mono 600 and show their source in a muted line beneath.",
+      "**Do** keep cards white on a 1px #d1d8e6 border at 12px radius with the rest shadow; lift only on hover.",
+      "**Do** label unverified data with the dashed unverified note rather than hiding or guessing it.",
+      "**Do** honour reduced motion and the 3px gold focus ring."
     ],
     "donts": [
-      "Don't use a navy hero with a centred welcome or a wall of coloured cards (the BetterLGU template default).",
-      "Don't use illustrated heroes, script welcomes or a red hotline bar (the rejected island theme).",
-      "Don't put eyebrow labels, kickers or pill badges above headings; roles follow names.",
-      "Don't use uppercase or letter-spaced labels.",
-      "Don't use red or green for anything other than emergency/cancellation and verified/open.",
-      "Don't add ambient shadows, gradients, or hover lifts; the only shadow is the dropdown overlay.",
-      "Don't stretch pictogram insets into full-height coloured strips.",
-      "Don't use the official municipal seal or anything that implies this is the LGU's own site."
+      "**Don't** copy BetterAlcala's code, illustrations, logo or any other asset; the look is recreated in this project's own CSS and SVG.",
+      "**Don't** use the official municipal seal or anything that implies this is the LGU's website.",
+      "**Don't** reintroduce the rejected Wayfinding Bands signage (yellow sign bands, black ground, Atkinson type) or the island theme (illustrated hero, script welcome, red hotline bar).",
+      "**Don't** use flag red outside emergency contexts, or gold as a light-section button ground.",
+      "**Don't** uppercase card titles or bring back the template's eyebrow badges and section tags.",
+      "**Don't** add a marquee or auto-scroll to the hotline bar.",
+      "**Don't** hotlink or copy visitsibale.com imagery."
     ]
   }
 }

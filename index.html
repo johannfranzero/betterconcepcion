@@ -121,8 +121,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/accessibility.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700;800&display=swap" />
-    <link rel="stylesheet" href="assets/css/theme-wayfinding.css?v=13" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Inter+Tight:wght@700;800&display=swap" />
+    <link rel="stylesheet" href="assets/css/theme-civic.css?v=5" />
   </head>
 
   <body>
@@ -169,8 +169,8 @@
       <div class="container header-inner">
         <div class="logo-container">
           <a href="/" class="brand" aria-label="Better Concepcion home">
-            <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M9 27V13h13" fill="none" stroke="#FFC917" stroke-width="4" stroke-linecap="square"/><path d="M18 6l8 7-8 7" fill="none" stroke="#FFC917" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/></svg></span>
-            <span class="brand-text"><span class="brand-name">Better Concepcion</span><span class="brand-tag">Sibale Island, Romblon</span></span>
+            <span class="brand-mark"><svg viewBox="0 0 44 44" aria-hidden="true"><g fill="#FCD116"><path d="M20.2 11.2L22.0 3.0L23.8 11.2Z"/><path d="M27.0 12.5L34.0 8.0L29.5 15.0Z"/><path d="M30.8 18.2L39.0 20.0L30.8 21.8Z"/><path d="M29.5 25.0L34.0 32.0L27.0 27.5Z"/><path d="M23.8 28.8L22.0 37.0L20.2 28.8Z"/><path d="M17.0 27.5L10.0 32.0L14.5 25.0Z"/><path d="M13.2 21.8L5.0 20.0L13.2 18.2Z"/><path d="M14.5 15.0L10.0 8.0L17.0 12.5Z"/><circle cx="22" cy="20" r="7.5"/></g><path d="M3 31c4-3 7-3 10 0s7 3 10 0 7-3 10 0 6 3 8 1v9H3z" fill="#00226E"/><path d="M3 37c4-3 7-3 10 0s7 3 10 0 7-3 10 0 6 3 8 1" fill="none" stroke="#5AA7FF" stroke-width="1.6"/></svg></span>
+            <span class="brand-text"><span class="brand-name">Better<b>Concepcion</b></span><span class="brand-tag">CONCEPCION, ROMBLON</span></span>
           </a>
         </div>
 
@@ -263,36 +263,6 @@
       </div>
     </header>
 
-    <nav class="signband" aria-label="Where to go">
-      <div class="container signband-inner">
-        <a class="sign sign--emergency" href="contact/#local-hotlines">
-          <span class="sign-pic" aria-hidden="true"><i class="bi bi-telephone-fill"></i></span>
-          <span class="sign-text"><span class="sign-title" data-i18n="sign-emergency">Emergency</span><span class="sign-sub" data-i18n="sign-emergency-sub">MDRRMO 0926 390 6268</span></span>
-          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
-        </a>
-        <a class="sign" href="services/">
-          <span class="sign-pic" aria-hidden="true"><i class="bi bi-file-earmark-text-fill"></i></span>
-          <span class="sign-text"><span class="sign-title" data-i18n="sign-services">Services</span><span class="sign-sub" data-i18n="sign-services-sub">Documents, permits, cedula</span></span>
-          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
-        </a>
-        <a class="sign" href="budget/">
-          <span class="sign-pic" aria-hidden="true"><i class="bi bi-journal-text"></i></span>
-          <span class="sign-text"><span class="sign-title" data-i18n="sign-transparency">Budget &amp; laws</span><span class="sign-sub" data-i18n="sign-transparency-sub">Budget, ordinances, data</span></span>
-          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
-        </a>
-        <a class="sign" href="government/">
-          <span class="sign-pic" aria-hidden="true"><i class="bi bi-people-fill"></i></span>
-          <span class="sign-text"><span class="sign-title" data-i18n="sign-officials">Officials</span><span class="sign-sub" data-i18n="sign-officials-sub">Mayor, council, barangays</span></span>
-          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
-        </a>
-        <a class="sign" href="contact/#getting-there">
-          <span class="sign-pic" aria-hidden="true"><i class="bi bi-water"></i></span>
-          <span class="sign-text"><span class="sign-title" data-i18n="sign-boat">Boat to Sibale</span><span class="sign-sub" data-i18n="sign-boat-sub">Recodo Port, 10:00 AM</span></span>
-          <i class="bi bi-arrow-right sign-arrow" aria-hidden="true"></i>
-        </a>
-      </div>
-    </nav>
-
 
     <!-- Real-Time Info Bar -->
     <div class="info-bar" role="complementary" aria-label="Real-time information">
@@ -322,56 +292,106 @@
     </div>
 
     <main id="main-content">
-      <!-- First viewport -->
-      <section class="wf-hero" aria-labelledby="hero-title">
-        <div class="container wf-hero-inner">
-          <div class="wf-hero-text">
-            <h1 id="hero-title" data-i18n="wf-hero-title">Where do you need to go in Concepcion?</h1>
-            <p class="wf-hero-lead" data-i18n="wf-hero-lead">
-              Hotlines, municipal services, officials and public records for Sibale Island, Romblon.
-              Every fact shows where it came from.
-            </p>
-            <form class="search-form wf-search" role="search">
-              <label class="sr-only" for="hero-search">Search services</label>
-              <div class="search-input-wrapper">
-                <input
-                  type="search"
-                  id="hero-search"
-                  class="service-search-input"
-                  placeholder="Birth certificate, cedula, barangay clearance"
-                  autocomplete="off"
-                />
-                <button type="submit" class="search-submit-btn">
-                  <span data-i18n="wf-search-btn">Search</span> <i class="bi bi-arrow-right" aria-hidden="true"></i>
-                </button>
-              </div>
-            </form>
-            <p class="wf-popular">
-              <span data-i18n="wf-popular">Often needed:</span>
-              <a href="service-details/birth-certificate">Birth certificate</a>
-              <a href="service-details/municipal-treasurer">Cedula</a>
-              <a href="service-details/business-permits-licensing">Business permit</a>
-              <a href="legislative/ordinance-framework">Visitor fee ordinance</a>
-            </p>
+      <!-- Hero -->
+      <section class="civic-hero" aria-labelledby="hero-title">
+        <svg class="civic-sun" viewBox="0 0 400 400" aria-hidden="true"><g fill="#FCD116"><path d="M195.1 130.2L200.0 0.0L204.9 130.2Z"/><path d="M222.2 133.6L276.5 15.2L231.2 137.4Z"/><path d="M245.9 147.2L341.4 58.6L252.8 154.1Z"/><path d="M262.6 168.8L384.8 123.5L266.4 177.8Z"/><path d="M269.8 195.1L400.0 200.0L269.8 204.9Z"/><path d="M266.4 222.2L384.8 276.5L262.6 231.2Z"/><path d="M252.8 245.9L341.4 341.4L245.9 252.8Z"/><path d="M231.2 262.6L276.5 384.8L222.2 266.4Z"/><path d="M204.9 269.8L200.0 400.0L195.1 269.8Z"/><path d="M177.8 266.4L123.5 384.8L168.8 262.6Z"/><path d="M154.1 252.8L58.6 341.4L147.2 245.9Z"/><path d="M137.4 231.2L15.2 276.5L133.6 222.2Z"/><path d="M130.2 204.9L0.0 200.0L130.2 195.1Z"/><path d="M133.6 177.8L15.2 123.5L137.4 168.8Z"/><path d="M147.2 154.1L58.6 58.6L154.1 147.2Z"/><path d="M168.8 137.4L123.5 15.2L177.8 133.6Z"/><circle cx="200" cy="200" r="58"/></g></svg>
+        <div class="container civic-hero-inner">
+          <h1 id="hero-title">Welcome to<br />BetterConcepcion<span class="dot-org">.org</span></h1>
+          <p class="civic-hero-lead" data-i18n="civic-hero-lead">
+            Independent civic portal for Concepcion, Romblon on Sibale Island: public services,
+            hotlines, officials, budgets, ordinances and sourced local data.
+          </p>
+          <ul class="civic-hero-facts">
+            <li><span data-i18n="civic-fact-residents">3,427 residents</span></li>
+            <li><span data-i18n="civic-fact-barangays">9 barangays</span></li>
+            <li><span data-i18n="civic-fact-est">Municipality since 1907</span></li>
+          </ul>
+          <div class="civic-hero-actions">
+            <a href="services/" class="civic-btn civic-btn--gold"><span data-i18n="civic-btn-services">Browse services</span> <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            <a href="budget/" class="civic-btn civic-btn--ghost"><i class="bi bi-shield-check" aria-hidden="true"></i> <span data-i18n="civic-btn-transparency">Explore transparency</span></a>
           </div>
-          <aside class="wf-boat" aria-labelledby="boat-title">
-            <div class="wf-boat-head">
-              <span class="sign-pic" aria-hidden="true"><i class="bi bi-water"></i></span>
-              <span id="boat-title" data-i18n="wf-boat-title">Boat to Sibale</span>
+          <form class="search-form civic-search" role="search">
+            <label class="sr-only" for="hero-search">Search services</label>
+            <div class="search-input-wrapper">
+              <i class="bi bi-search" aria-hidden="true"></i>
+              <input
+                type="search"
+                id="hero-search"
+                class="service-search-input"
+                placeholder="Looking for something? Birth certificate, cedula, permits"
+                autocomplete="off"
+              />
+              <button type="submit" class="search-submit-btn" aria-label="Search">
+                <i class="bi bi-arrow-right" aria-hidden="true"></i>
+              </button>
             </div>
-            <div class="wf-boat-time">10:00</div>
-            <div class="wf-boat-route">Recodo Port, Pinamalayan &rarr; Sibale</div>
-            <dl>
-              <dt data-i18n="wf-boat-trip">Trip</dt><dd>2.5&ndash;3 hours</dd>
-              <dt data-i18n="wf-boat-fare">Fare</dt><dd>&#8369;390</dd>
-              <dt data-i18n="wf-boat-boats">Boats</dt><dd>Falcon Dos, Arcem Liner (alternate days)</dd>
-            </dl>
-            <p class="wf-boat-warn">
-              <i class="bi bi-exclamation-triangle-fill" aria-hidden="true"></i>
-              <span data-i18n="wf-boat-warn">Cancelled in bad weather. Confirm with the Tourism Office before you travel.</span>
-              <a href="contact/#getting-there" data-i18n="wf-boat-more">Full route from Manila</a>
-            </p>
-          </aside>
+          </form>
+          <p class="civic-popular">
+            <a href="service-details/birth-certificate">Birth certificate</a>
+            <a href="service-details/municipal-treasurer">Cedula</a>
+            <a href="service-details/business-permits-licensing">Business permit</a>
+            <a href="contact/#local-hotlines">Hotlines</a>
+          </p>
+        </div>
+      </section>
+      <div class="civic-tiles" aria-hidden="true"><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span><span><i class="bi bi-bank2"></i></span><span><i class="bi bi-people-fill"></i></span><span><i class="bi bi-shield-check"></i></span><span><i class="bi bi-file-earmark-text"></i></span><span><i class="bi bi-water"></i></span><span><i class="bi bi-heart-pulse-fill"></i></span></div>
+
+      <!-- Popular services -->
+      <section class="civic-services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="civic-section-head">
+            <div>
+              <h2 id="services-title" data-i18n="civic-services-title">Popular services</h2>
+              <p data-i18n="civic-services-sub">Quick access to the most requested municipal services in Concepcion</p>
+            </div>
+            <a href="services/" class="home-section-link"><i class="bi bi-arrow-right" aria-hidden="true"></i> <span data-i18n="civic-all-services">All services</span></a>
+          </div>
+          <div class="civic-cards">
+            <a href="services/certificates" class="civic-card civic-card--blue">
+              <span class="civic-card-icon"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i></span>
+              <span class="civic-card-tag">Civil registry</span>
+              <h3>Certificates &amp; civil registry</h3>
+              <p>Birth, marriage and death certificates</p>
+            </a>
+            <a href="services/business" class="civic-card civic-card--red">
+              <span class="civic-card-icon"><i class="bi bi-shop" aria-hidden="true"></i></span>
+              <span class="civic-card-tag">BPLO</span>
+              <h3>Business permits &amp; licensing</h3>
+              <p>New permits and renewals</p>
+            </a>
+            <a href="services/tax-payments" class="civic-card civic-card--navy">
+              <span class="civic-card-icon"><i class="bi bi-cash-coin" aria-hidden="true"></i></span>
+              <span class="civic-card-tag">Treasury</span>
+              <h3>Municipal treasury &amp; taxes</h3>
+              <p>Real property tax, cedula and local fees</p>
+            </a>
+            <a href="services/social-services" class="civic-card civic-card--green">
+              <span class="civic-card-icon"><i class="bi bi-people-fill" aria-hidden="true"></i></span>
+              <span class="civic-card-tag">MSWDO</span>
+              <h3>Social welfare &amp; protection</h3>
+              <p>Senior citizen, PWD and solo parent support</p>
+            </a>
+            <a href="services/health" class="civic-card civic-card--teal">
+              <span class="civic-card-icon"><i class="bi bi-heart-pulse-fill" aria-hidden="true"></i></span>
+              <span class="civic-card-tag">RHU</span>
+              <h3>Health services</h3>
+              <p>Rural Health Unit: 0956 793 0262</p>
+            </a>
+            <a href="services/" class="civic-card civic-card--ink">
+              <span class="civic-card-icon"><i class="bi bi-grid-fill" aria-hidden="true"></i></span>
+              <span class="civic-card-tag">All categories</span>
+              <h3>View all services</h3>
+              <p>Browse the complete directory</p>
+            </a>
+          </div>
+          <div class="civic-boat">
+            <div class="civic-boat-time">10:00</div>
+            <div>
+              <h3 data-i18n="civic-boat-title">Boat to Sibale from Recodo Port, Pinamalayan</h3>
+              <p data-i18n="civic-boat-sub">2.5–3 hours · ₱390 · Falcon Dos and Arcem Liner on alternate days · cancelled in bad weather</p>
+            </div>
+            <a href="contact/#getting-there" data-i18n="civic-boat-more">Full route from Manila</a>
+          </div>
         </div>
       </section>
 
@@ -1011,7 +1031,7 @@
       </div>
     </footer>
 
-<script defer src="assets/js/translations.js?v=3"></script>
+<script defer src="assets/js/translations.js?v=4"></script>
     <script defer src="assets/js/info-bar.js"></script>
     <script defer src="assets/js/main.js"></script>
     <script defer src="assets/js/version.js"></script>

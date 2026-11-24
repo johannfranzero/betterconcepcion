@@ -7,21 +7,18 @@ related_targets: []
 
 Scope: whole site (home first, then every page through shared chrome). Visitor mode: operate.
 Audience and job: residents of Sibale and Sibalenhons off-island; call a hotline, find a service, check transparency, plan the boat trip.
-Constraints: static HTML on the BetterSolano template; EN + FIL; weak mobile signal; never imply LGU ownership.
+Constraints: static HTML on the BetterSolano template; EN + FIL; weak mobile signal; never imply LGU ownership; BetterAlcala code and assets are unlicensed and must not be copied.
 
 ## Direction contract
 
-THESIS: Every page is a junction on Sibale. A yellow sign band shows only the next decisions and re-signs itself on each page. It refuses the BetterLGU default of a navy hero with a centred welcome and a wall of coloured cards.
+THESIS: Concepcion's portal speaks the BetterLGU family language the maintainer chose, the BetterAlcala look. It is a confident navy-and-gold civic front door with colourful, scannable service cards, replacing the rejected wayfinding and island themes.
 
-OWN-WORLD: Committed sign yellow #FFC917 as whole fields (the band, page headers), black #000 panels holding white pictograms in square insets, white and concrete grey #EDEDEA ground. Green #0A7D3B means verified or open; red #C4161C is reserved for advisories and cancellations. Atkinson Hyperlegible Next in sentence case only. Arrows are locked to the edge they point past. Phone numbers and times are set at monumental tabular scale. Square sign corners (2px radius at most), 4px black rules.
+OWN-WORLD: A navy #00226E hero field with a soft blue glow, a faint 44px grid and a gold Philippine-sun sunburst at the lower right. Flag gold #FCD116 is the primary action. A row of flag-coloured service tiles (blue #2B4FB5, green #277a43, red #c13d23, teal #1a6fa0) sits under the hero. Saturated service cards carry diagonal line texture, a mono tag and a tinted icon square. The ground is warm paper #FAF7F2 and sand #F4EFE6, with white cards on a 1px #D1D8E6 border and a 12px radius. Type is Inter Tight 800 for display, Archivo for body and IBM Plex Mono for figures.
 
-STORY: The visitor sees the emergency numbers before anything else, then picks a direction: documents, budget, boat or officials. Every figure carries its source line, so they trust it and act: they call, read requirements or plan the trip.
+STORY: Residents and the diaspora see an official-feeling but independent portal. They search or tap a service card, check emergency numbers in the navy hotline bar, and trust figures that carry their sources.
 
-FIRST VIEWPORT: A thin black hotline strip; a white header with the logo, standard top navigation and the FIL/EN switch; a full-width yellow band of four decision signs (Emergency with the MDRRMO number and a down arrow, Documents, Budget, Boat). Below, on the left, "Where do you need to go in Concepcion?" with the search field as the primary action; on the right, a black panel with the next boat time "10:00" at monumental size and its route and fare.
+FIRST VIEWPORT: A navy hotline pill bar, a white header (sun emblem, Better/Concepcion wordmark, centred nav, EN/FIL pills) and a centred navy hero: the place line in gold, "Welcome to BetterConcepcion.org" with .org in gold, the lead, three coloured fact dots, a gold "Browse services" and a ghost "Explore transparency" button, and a white search bar as the primary action. The tile band sits below.
 
-FORM: Challenger wayfinding-cartography-signage-terminal-yellow-wayfinding, chosen by the user over the assigned Fiesta Banderitas (fifth on the grounded list). seed:859ce6084fde4c6d
+FORM: seed: none (pinned) — maintainer: "I want design like Alcala https://www.betteralcala.org/"
 
 FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
-
-Memorable moment: the sign band re-signing itself per page, with the current section shown as "You are here".
-Unresolved: no photography yet; pictograms are drawn as inline SVG or Bootstrap Icons.
