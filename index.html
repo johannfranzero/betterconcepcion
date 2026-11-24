@@ -125,6 +125,8 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/accessibility.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Kaushan+Script&family=Lora:ital,wght@1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="assets/css/theme-sibale.css" />
   </head>
 
   <body>
@@ -170,12 +172,13 @@
     <header class="site-header">
       <div class="container header-inner">
         <div class="logo-container">
-          <a href="/">
-            <img
-              src="assets/images/logo/better-concepcion-logo.svg"
-              alt="Better Concepcion Logo"
-              class="logo-img"
-            />
+          <a href="/" class="brand" aria-label="Better Concepcion home">
+            <img src="assets/images/logo/emblem.svg" alt="" class="brand-emblem" width="74" height="62" />
+            <span class="brand-text">
+              <span class="brand-name">Concepcion</span>
+              <span class="brand-prov">ROMBLON</span>
+              <span class="brand-tag">Independent civic portal</span>
+            </span>
           </a>
         </div>
 
@@ -296,124 +299,108 @@
     </div>
 
     <main id="main-content">
-      <!-- Hero Section -->
-      <section class="home-hero-v2">
-        <div class="container">
-          <div class="home-hero-v2-inner">
-            <div class="home-hero-v2-text">
-              <h1 data-i18n="hero-welcome">Welcome to BetterConcepcion.org</h1>
-              <p data-i18n="hero-subtitle">
-                Access government services, information, and resources for the people of Concepcion,
-                Romblon.
-              </p>
-              <div class="home-hero-v2-actions">
-                <a href="services/" class="btn btn-primary"
-                  ><i class="bi bi-arrow-right"></i>
-                  <span data-i18n="home-browse-services">Browse Services</span></a
-                >
-                <a href="contact/" class="btn btn-outline" data-i18n="home-contact-us"
-                  >Contact Us</a
-                >
-              </div>
+      <!-- Hero -->
+      <section class="sib-hero" aria-labelledby="hero-title">
+        <div class="container sib-hero-inner">
+          <div class="sib-hero-text">
+            <span class="sib-hero-welcome">Welcome to</span>
+            <h1 id="hero-title">BetterConcepcion.org</h1>
+            <p class="sib-hero-lead">
+              Access government services, information, and resources for the people of Concepcion,
+              Romblon.
+            </p>
+            <div class="sib-hero-actions">
+              <a href="services/" class="sib-btn sib-btn--solid"
+                ><i class="bi bi-arrow-right" aria-hidden="true"></i> Browse services</a
+              >
+              <a href="contact/" class="sib-btn sib-btn--ghost"
+                ><i class="bi bi-people-fill" aria-hidden="true"></i> Contact us</a
+              >
             </div>
-            <div class="home-hero-v2-search">
-              <div class="home-search-box">
-                <h2>
-                  <i class="bi bi-search"></i>
-                  <span data-i18n="home-find-a-service">Find a Service</span>
-                </h2>
-                <form class="search-form" role="search">
-                  <div class="search-input-wrapper">
-                    <input
-                      type="search"
-                      id="hero-search"
-                      class="service-search-input"
-                      placeholder="e.g., birth certificate, business permit"
-                      aria-label="Search services"
-                      autocomplete="off"
-                    />
-                    <button type="submit" class="search-submit-btn" aria-label="Search">
-                      <i class="bi bi-arrow-right"></i>
-                    </button>
-                  </div>
-                </form>
-                <div class="home-search-tags">
-                  <span data-i18n="home-popular">Popular:</span>
-                  <a href="service-details/birth-certificate" data-i18n="home-birth-certificate"
-                    >Birth Certificate</a
-                  >
-                  <a
-                    href="service-details/business-permits-licensing"
-                    data-i18n="home-business-permit"
-                    >Business Permit</a
-                  >
-                  <a href="service-details/municipal-treasurer" data-i18n="home-real-property-tax"
-                    >Real Property Tax</a
-                  >
-                </div>
+          </div>
+          <div class="sib-search home-search-box">
+            <h2><i class="bi bi-search" aria-hidden="true"></i> Find a service</h2>
+            <form class="search-form" role="search">
+              <div class="search-input-wrapper">
+                <input
+                  type="search"
+                  id="hero-search"
+                  class="service-search-input"
+                  placeholder="e.g., birth certificate, business permit"
+                  aria-label="Search services"
+                  autocomplete="off"
+                />
+                <button type="submit" class="search-submit-btn" aria-label="Search">
+                  <i class="bi bi-arrow-right" aria-hidden="true"></i>
+                </button>
               </div>
+            </form>
+            <div class="sib-search-tags home-search-tags">
+              <span>Popular:</span>
+              <a href="service-details/birth-certificate">Birth certificate</a>
+              <a href="service-details/business-permits-licensing">Business permit</a>
+              <a href="service-details/municipal-treasurer">Real property tax</a>
             </div>
           </div>
         </div>
+        <svg class="sib-hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 70 C240 20 480 20 720 55 C960 90 1200 95 1440 40 L1440 120 L0 120 Z" fill="#0032a0" />
+          <path d="M0 88 C260 40 520 45 760 75 C1000 105 1220 100 1440 62 L1440 120 L0 120 Z" fill="#f2c91d" />
+          <path d="M0 100 C280 62 540 68 780 92 C1020 116 1240 110 1440 82 L1440 120 L0 120 Z" fill="#f5f8fd" />
+        </svg>
       </section>
 
-      <!-- Quick Access Services -->
-      <section class="section">
+      <!-- Quick actions -->
+      <div class="sib-strip-wrap">
         <div class="container">
-          <div class="home-section-header">
-            <h2 data-i18n="section-popular">Popular Services</h2>
-            <p data-i18n="home-quick-access-to-frequently-requested-municipal">
-              Quick access to frequently requested municipal services
-            </p>
+          <nav class="sib-strip" aria-label="Quick actions">
+            <a href="services/certificates"><i class="bi bi-file-earmark-text-fill" aria-hidden="true"></i> Get a document</a>
+            <a href="services/tax-payments"><i class="bi bi-credit-card-2-front-fill" aria-hidden="true"></i> Pay taxes &amp; fees</a>
+            <a href="contact/#local-hotlines"><i class="bi bi-telephone-fill" aria-hidden="true"></i> Hotlines</a>
+            <a href="tel:8888"><i class="bi bi-chat-square-text-fill" aria-hidden="true"></i> Complaints: 8888</a>
+            <a href="government/"><i class="bi bi-info-circle-fill" aria-hidden="true"></i> LGU information</a>
+            <a href="statistics/"><i class="bi bi-bar-chart-fill" aria-hidden="true"></i> Open data</a>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Our Services -->
+      <section class="sib-services" aria-labelledby="services-title">
+        <img class="sib-services-flower" src="assets/images/hero/flowers.svg" alt="" />
+        <div class="container sib-services-grid">
+          <div class="sib-services-head">
+            <h2 id="services-title">Our services</h2>
+            <p>Fast. Easy. Convenient.</p>
+            <a href="services/" class="sib-outline-btn">View all services <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
           </div>
-          <div class="home-services-grid">
-            <a href="services/certificates" class="home-service-card">
-              <div class="home-service-icon"><i class="bi bi-file-earmark-text-fill"></i></div>
-              <div class="home-service-content">
-                <h3 data-i18n="service-certificates">Certificates</h3>
-                <p data-i18n="service-certificates-desc">Birth, marriage, death certificates</p>
+          <div class="sib-cards">
+            <a href="services/certificates" class="sib-card">
+              <div class="sib-card-art sib-card-art--docs"><i class="bi bi-file-earmark-text" aria-hidden="true"></i></div>
+              <div class="sib-card-body">
+                <h3>Certificates</h3>
+                <p>Birth, marriage and death records from the civil registrar.</p>
               </div>
-              <i class="bi bi-arrow-right home-service-arrow"></i>
             </a>
-            <a href="services/business" class="home-service-card">
-              <div class="home-service-icon"><i class="bi bi-shop"></i></div>
-              <div class="home-service-content">
-                <h3 data-i18n="service-business">Business Permits</h3>
-                <p data-i18n="service-business-desc">New permits and renewals</p>
+            <a href="services/business" class="sib-card">
+              <div class="sib-card-art sib-card-art--biz"><i class="bi bi-shop" aria-hidden="true"></i></div>
+              <div class="sib-card-body">
+                <h3>Business &amp; permits</h3>
+                <p>Mayor's permits, renewals and cedula.</p>
               </div>
-              <i class="bi bi-arrow-right home-service-arrow"></i>
             </a>
-            <a href="services/tax-payments" class="home-service-card">
-              <div class="home-service-icon"><i class="bi bi-cash-coin"></i></div>
-              <div class="home-service-content">
-                <h3 data-i18n="service-tax">Tax Payments</h3>
-                <p data-i18n="service-tax-desc">Property and business taxes</p>
+            <a href="services/social-services" class="sib-card">
+              <div class="sib-card-art sib-card-art--care"><i class="bi bi-people" aria-hidden="true"></i></div>
+              <div class="sib-card-body">
+                <h3>Social services</h3>
+                <p>Senior citizen, PWD and solo parent support from the MSWDO.</p>
               </div>
-              <i class="bi bi-arrow-right home-service-arrow"></i>
             </a>
-            <a href="services/social-services" class="home-service-card">
-              <div class="home-service-icon"><i class="bi bi-people-fill"></i></div>
-              <div class="home-service-content">
-                <h3 data-i18n="service-social">Social Services</h3>
-                <p data-i18n="service-social-desc">Senior citizen & PWD services</p>
+            <a href="services/agriculture" class="sib-card">
+              <div class="sib-card-art sib-card-art--farm"><i class="bi bi-flower1" aria-hidden="true"></i></div>
+              <div class="sib-card-body">
+                <h3>Farming &amp; fisheries</h3>
+                <p>Help for farmers and fisherfolk across the island.</p>
               </div>
-              <i class="bi bi-arrow-right home-service-arrow"></i>
-            </a>
-            <a href="services/health" class="home-service-card">
-              <div class="home-service-icon"><i class="bi bi-heart-pulse-fill"></i></div>
-              <div class="home-service-content">
-                <h3 data-i18n="service-health">Health Services</h3>
-                <p data-i18n="service-health-desc">Medical assistance & programs</p>
-              </div>
-              <i class="bi bi-arrow-right home-service-arrow"></i>
-            </a>
-            <a href="services/" class="home-service-card home-service-card--all">
-              <div class="home-service-icon"><i class="bi bi-grid-fill"></i></div>
-              <div class="home-service-content">
-                <h3 data-i18n="btn-view-all-services">View All Services</h3>
-                <p data-i18n="home-browse-complete-directory">Browse complete directory</p>
-              </div>
-              <i class="bi bi-arrow-right home-service-arrow"></i>
             </a>
           </div>
         </div>
