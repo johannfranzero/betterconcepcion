@@ -1158,3 +1158,67 @@ body {
 .civic-sun g {
   fill-opacity: 0.6;
 }
+
+/* ---------- Budget by barangay ---------- */
+.brgy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin-top: 8px;
+}
+.brgy-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--navy);
+  border-radius: 14px;
+  padding: 18px 20px 16px;
+}
+.brgy-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.1875rem;
+  color: var(--navy);
+  margin: 0 0 2px;
+}
+.brgy-pop {
+  font-weight: 700;
+  color: var(--navy-ink);
+  margin: 0 0 12px;
+}
+.brgy-pop span {
+  font-weight: 500;
+  color: var(--muted);
+}
+.brgy-card dl {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+.brgy-card dl div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px dashed var(--line);
+  padding-top: 8px;
+}
+.brgy-card dt {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.brgy-card dd {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--navy-ink);
+  text-align: right;
+}
+.brgy-card dd.brgy-pending {
+  color: #9a5b00;
+}
+.brgy-notes {
+  margin-top: 22px;
+  max-width: 72ch;
+  color: var(--navy-ink);
+}
+.brgy-notes p {
+  margin: 0 0 10px;
+}
