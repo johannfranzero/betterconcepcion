@@ -195,3 +195,20 @@ Facts taken from them (each was read on the page):
 
 Resolved gaps: hotlines, income class (5th), fiesta date, the official tourism FB page, one ordinance.
 Still open: mayor and SB confirmation (Comelec), the Municipal Hall's own phone and email, budget and COA reports.
+
+---
+
+## Concepcion Public Information Office (Facebook), read 25 Nov 2026
+
+Source: https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/ (official LGU PIO page). Facebook hides per-post links, so the items below are dated by the event or post date.
+
+- Contact: LGU mobile 0960 691 5726 (also called "LGU Mobile" in a PNP advisory); email sibaleconcepcion@gmail.com; ZIP 5516.
+- Slogan of the administration (Asi): "Serbisyong hungor, imaw pa't nahator."
+- Mayor Nicon F. Fameronag is named as the mayor in many 2026 posts (confirms the 2025 count).
+- Municipal Accountant: Julie Dannerl S. Ferrancullo (oath, Nov 2026). Municipal Engineer: Ronald Famarin. Chief of Police: PLT Reynaldo L. Ebora Jr.
+- Pista sa Sibale 2026: Nov 21 tournaments; Dec 2 Magnatis Night; Dec 3 Pamunit sa Kapistahan and SK Night; Dec 4 Bangkarera and Mutya ng Sibale; Dec 5 SAIC 62nd anniversary; Dec 6 CNHS 45th anniversary; Dec 7 Biniray; Dec 8 Rungawan Festival, Kami Ray Barangay Festival, coronation night.
+- SOMA 2026: Nov 26, 4:00 PM, Municipal Public Plaza.
+- Projects: ₱25M circumferential road San Pedro–Calabasahan (FY 2026 LGSF-GEF, ~900 m, 1.5 m shoulders, 331 households / 1,125 residents); Gaylang SWIP dam and water filtration facility (Calabasahan); Masursor Arch Bridge, Sapangpalay, Masudsud (da Vinci self-supporting arch, no public funds, reused ROMELCO poles); covered courts in Masadya, Dalajican, San Pedro, Calabasahan (inspected 4 Aug 2026); Pabahay housing (3 families, 9 Nov 2026); proposed steel-hulled RoPax ferry (meeting 22 Oct 2026).
+- Recognition: PDEA "Balangay Seal of Excellence" for clearing all 9 barangays of illegal drugs (mid-2026). RHU passed PhilHealth YAKAP inspection with no findings (30 Jul 2026).
+- Programs: Sibale Food Security Program (corn and cassava training with DA); DSWD Sustainable Livelihood Program livestock training (24 Aug 2026); real property tax early payment discount of 20% (date not captured).
+- Not added to the site: names of housing beneficiaries and missing-person details (private).

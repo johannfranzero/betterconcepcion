@@ -1,1 +1,84 @@
-{ "news": [] }
+{
+  "news": [
+    {
+      "id": "soma-2026",
+      "title": "Mayor's State of the Municipality Address on November 26",
+      "date": "2026-11-25",
+      "category": "Event",
+      "badge": "info",
+      "summary": "Mayor Nicon F. Fameronag delivers SOMA 2026 on Thursday, November 26, at the Municipal Public Plaza. The program starts at 3:00 PM and the address at 4:00 PM, followed by the Christmas lighting, fireworks and a concert at the plaza.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "pista-sa-sibale-2026",
+      "title": "Pista sa Sibale 2026 runs from November 21 to December 8",
+      "date": "2026-11-21",
+      "category": "Fiesta",
+      "badge": "success",
+      "summary": "The town fiesta opens with volleyball and basketball tournaments on November 21 and ends on December 8, the feast of the Immaculate Conception, with the Rungawan Festival, the Kami Ray Barangay Festival and the coronation night. The Bangkarera boat race and Mutya ng Sibale are on December 4.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "free-tooth-extraction-2026-11",
+      "title": "Free tooth extraction at the Rural Health Unit, November 16–20",
+      "date": "2026-11-16",
+      "category": "Health",
+      "badge": "info",
+      "summary": "A provincial government dental mission offered free tooth extraction at the Concepcion Rural Health Unit in Poblacion from November 16 to 20. Patients registered at the RHU.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "pabahay-turnover-2026",
+      "title": "Three families relocated from high-risk areas receive new homes",
+      "date": "2026-11-09",
+      "category": "Housing",
+      "badge": "success",
+      "summary": "Under the municipality's Pabahay Project, three families from coastal and watershed areas at high risk of disasters received certificates of award for new disaster-resilient housing units, from Calabasahan, San Pedro and Poblacion.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "ropax-ferry-proposal",
+      "title": "Steel-hulled RoPax ferry for Sibale proposed",
+      "date": "2026-10-22",
+      "category": "Transport",
+      "badge": "info",
+      "summary": "The mayor met ferry operators' and investment groups (PACIWF, ACLUNAGA, the Board of Investments and PTIC Madrid) about a proposed modern steel-hulled roll-on/roll-off passenger ferry serving Concepcion. It is a proposal; no service date has been announced.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "national-id-registration-2026",
+      "title": "National ID registration held in every barangay",
+      "date": "2026-08-17",
+      "category": "Services",
+      "badge": "info",
+      "summary": "PSA registration and paper National ID issuance moved barangay by barangay from August 17 (Poblacion) into September, including children from age 0. Ask your barangay hall about any catch-up schedule.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "philhealth-yakap-rhu",
+      "title": "Rural Health Unit passes PhilHealth YAKAP inspection with no findings",
+      "date": "2026-07-30",
+      "category": "Health",
+      "badge": "success",
+      "summary": "PhilHealth YAKAP inspectors reported that the Concepcion Rural Health Unit passed its inspection without any findings.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    },
+    {
+      "id": "arbor-day-gaylang",
+      "title": "Tree planting at the Gaylang watershed for Arbor Day",
+      "date": "2026-07-17",
+      "category": "Environment",
+      "badge": "info",
+      "summary": "Municipal employees, government agencies and Calabasahan barangay officials planted trees at Gaylang, Barangay Calabasahan, where the Small Water Impounding Project (SWIP) supplies the new water system.",
+      "url": "https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/",
+      "source": "Concepcion PIO on Facebook"
+    }
+  ]
+}
