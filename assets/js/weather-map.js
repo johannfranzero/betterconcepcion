@@ -519,7 +519,7 @@
     }
 
     // MAP: Initialize
-    if (mapContainer) {
+    if (mapContainer && !mapContainer.hasAttribute('data-map3d')) {
       try {
         MapComponent.init('map-container');
       } catch (error) {
