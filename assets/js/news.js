@@ -33,6 +33,19 @@
       .replace(/'/g, '&#39;');
   }
 
+  // Filipino fields (title_fil, summary_fil, category_fil) when the visitor picked FIL.
+  function isFil() {
+    try {
+      return (window.TranslationEngine && window.TranslationEngine.currentLang === 'fil') ||
+        localStorage.getItem('selectedLang') === 'fil';
+    } catch (e) {
+      return false;
+    }
+  }
+  function loc(a, field) {
+    return (isFil() && a[field + '_fil']) || a[field];
+  }
+
   function formatDate(dateStr) {
     var d = new Date(dateStr + 'T00:00:00');
     if (isNaN(d.getTime())) return esc(dateStr);
@@ -97,7 +110,7 @@
         '<span class="home-news-badge home-news-badge--' +
         badge +
         '">' +
-        esc(a.category) +
+        esc(loc(a, 'category')) +
         '</span>';
       html += '<span class="home-news-date">' + formatDate(a.date) + '</span>';
       html += '</div>';
@@ -107,9 +120,9 @@
         '"' +
         (external ? ' target="_blank" rel="noopener noreferrer"' : '') +
         '>' +
-        esc(a.title) +
+        esc(loc(a, 'title')) +
         '</a></h3>';
-      html += '<p>' + esc(a.summary) + '</p>';
+      html += '<p>' + esc(loc(a, 'summary')) + '</p>';
       html += '</article>';
     }
     grid.innerHTML = html;
@@ -134,10 +147,10 @@
       var a = items[i];
       var badge = safeBadge(a.badge);
       var url = safeUrl(a.url);
-      var title = esc(a.title);
+      var title = esc(loc(a, 'title'));
       html += '<article class="news-card" aria-label="' + title + '">';
       html += '<div class="news-card-header">';
-      html += '<span class="badge badge-' + badge + '">' + esc(a.category) + '</span>';
+      html += '<span class="badge badge-' + badge + '">' + esc(loc(a, 'category')) + '</span>';
       html += '<span class="news-card-date">' + formatDate(a.date) + '</span>';
       html += '</div>';
       html += '<div class="news-card-body">';
@@ -146,7 +159,7 @@
         ? '<a href="' + url + '" target="_blank" rel="noopener noreferrer">' + title + '</a>'
         : title;
       html += '</h3>';
-      html += '<p class="news-card-desc">' + esc(a.summary) + '</p>';
+      html += '<p class="news-card-desc">' + esc(loc(a, 'summary')) + '</p>';
       html += '</div>';
       if (url) {
         var label = esc(a.source) || 'Read more';
@@ -183,6 +196,9 @@
     };
     xhr.send();
   }
+
+  // Re-render in the new language when the visitor switches EN/FIL.
+  document.addEventListener('languageChanged', loadNews);
 
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', loadNews);

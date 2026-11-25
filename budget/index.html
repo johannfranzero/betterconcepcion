@@ -60,13 +60,13 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css?v=2" />
     <link rel="stylesheet" href="../assets/css/accessibility.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="../assets/css/transparency-v2.css" />
     <link rel="stylesheet" href="../assets/css/statistics.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Inter+Tight:wght@700;800&display=swap" />
-    <link rel="stylesheet" href="../assets/css/theme-civic.css?v=10" />
+    <link rel="stylesheet" href="../assets/css/theme-civic.css?v=13" />
   </head>
   <body>
     <a href="#main-content" class="skip-link" data-i18n="budget-skip-to-main-content"
@@ -155,7 +155,13 @@
                 </li>
               </ul>
             </li>
-            <li><a href="../government/" data-i18n="budget-government">Government</a></li>
+            <li class="has-dropdown">
+              <a href="../government/" data-i18n="budget-government" aria-haspopup="true" aria-expanded="false">Government</a>
+              <ul class="dropdown-menu">
+                <li><a href="../government/officials" data-i18n="nav-officials">Officials and offices</a></li>
+                <li><a href="../barangays/" data-i18n="nav-barangays">Barangays</a></li>
+              </ul>
+            </li>
             <li><a href="../statistics/" data-i18n="budget-statistics">Statistics</a></li>
             <li class="has-dropdown">
               <a href="../legislative/" data-i18n="budget-legislative" aria-haspopup="true" aria-expanded="false">Legislative</a>
@@ -177,6 +183,7 @@
               </ul>
             </li>
             <li><a href="./" class="active" data-i18n="budget-transparency">Transparency</a></li>
+            <li><a href="../visit/" data-i18n="nav-visit">Visit Sibale</a></li>
             <li><a href="../contact/" data-i18n="budget-contact">Contact</a></li>
           </ul>
         </nav>
@@ -320,93 +327,89 @@
         <div class="container">
           <div class="section-header-minimal">
             <span class="section-tag"><i class="bi bi-geo-alt-fill"></i> <span>Barangays</span></span>
-            <h2>Budget by Barangay</h2>
-            <p>
-              Each of Concepcion's 9 barangays has its own annual budget and a share of the National Tax
-              Allotment. These peso figures have not been published online yet. We add each one with its
-              source as soon as it is found.
-            </p>
+            <h2 data-i18n="bb-h2">Budget by Barangay</h2>
+            <p data-i18n="bb-p">Each of Concepcion's 9 barangays has its own annual budget and a share of the National Tax Allotment. These peso figures have not been published online yet. We add each one with its source as soon as it is found.</p>
           </div>
           <div class="brgy-grid">
             <article class="brgy-card">
               <h3>Bachawan</h3>
               <p class="brgy-pop">358 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>None reported yet</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd data-i18n="bb-nr">None reported yet</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>Calabasahan</h3>
               <p class="brgy-pop">568 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>₱25M road upgrade (with San Pedro); Gaylang water system; covered court</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd>₱25M road upgrade (with San Pedro); Gaylang water system; covered court</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>Dalajican</h3>
               <p class="brgy-pop">295 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>Covered court</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd>Covered court</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>Masadya</h3>
               <p class="brgy-pop">182 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>Covered court</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd>Covered court</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>Masudsud</h3>
               <p class="brgy-pop">268 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>Masursor Arch Bridge (no public funds)</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd>Masursor Arch Bridge (no public funds)</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>Poblacion</h3>
               <p class="brgy-pop">866 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>None reported yet</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd data-i18n="bb-nr">None reported yet</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>Sampong</h3>
               <p class="brgy-pop">333 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>None reported yet</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd data-i18n="bb-nr">None reported yet</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>San Pedro (Agbatang)</h3>
               <p class="brgy-pop">434 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>₱25M road upgrade (with Calabasahan); covered court</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd>₱25M road upgrade (with Calabasahan); covered court</dd></div>
               </dl>
             </article>
             <article class="brgy-card">
               <h3>San Vicente</h3>
               <p class="brgy-pop">257 residents <span>(2020 census)</span></p>
               <dl>
-                <div><dt>Annual barangay budget</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>National Tax Allotment share</dt><dd class="brgy-pending">Not yet published</dd></div>
-                <div><dt>Projects reported</dt><dd>None reported yet</dd></div>
+                <div><dt data-i18n="bb-l1">Annual barangay budget</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l2">National Tax Allotment share</dt><dd class="brgy-pending" data-i18n="bb-np">Not yet published</dd></div>
+                <div><dt data-i18n="bb-l3">Projects reported</dt><dd data-i18n="bb-nr">None reported yet</dd></div>
               </dl>
             </article>
           </div>
@@ -435,45 +438,45 @@
         <div class="container">
           <div class="section-header-minimal">
             <span class="section-tag"><i class="bi bi-cone-striped"></i> <span>Infrastructure</span></span>
-            <h2>Projects in Concepcion</h2>
-            <p>Projects and their status as reported by the municipality's Public Information Office. Amounts are shown only where the LGU published them.</p>
+            <h2 data-i18n="pj-h2">Projects in Concepcion</h2>
+            <p data-i18n="pj-p">Projects and their status as reported by the municipality's Public Information Office. Amounts are shown only where the LGU published them.</p>
           </div>
           <div class="proj-grid">
             <article class="proj-card">
               <div class="proj-head"><i class="bi bi-signpost-split" aria-hidden="true"></i><h3>Circumferential road, San Pedro to Calabasahan</h3></div>
               <p class="proj-amount">₱25,000,000</p>
-              <p>Widening and upgrading of about 900 metres of road with 1.5-metre shoulders, serving 331 households (1,125 residents). Funded by the FY 2026 Local Government Support Fund – Growth Equity Fund (LGSF-GEF).</p>
-              <p class="proj-status">Under construction (site inspection, August 2026)</p>
+              <p data-i18n="pj-d1">Widening and upgrading of about 900 metres of road with 1.5-metre shoulders, serving 331 households (1,125 residents). Funded by the FY 2026 Local Government Support Fund – Growth Equity Fund (LGSF-GEF).</p>
+              <p class="proj-status" data-i18n="pj-s1">Under construction (site inspection, August 2026)</p>
             </article>
             <article class="proj-card">
               <div class="proj-head"><i class="bi bi-droplet-half" aria-hidden="true"></i><h3>Gaylang water system, Calabasahan</h3></div>
-              <p class="proj-amount proj-amount--none">Amount not published</p>
-              <p>A Small Water Impounding Project (SWIP) dam at Gaylang feeds a new water filtration facility that pipes treated water to homes. Water quality was tested at the facility before a full system test.</p>
-              <p class="proj-status">Testing (July 2026)</p>
+              <p class="proj-amount proj-amount--none" data-i18n="pj-np">Amount not published</p>
+              <p data-i18n="pj-d2">A Small Water Impounding Project (SWIP) dam at Gaylang feeds a new water filtration facility that pipes treated water to homes. Water quality was tested at the facility before a full system test.</p>
+              <p class="proj-status" data-i18n="pj-s2">Testing (July 2026)</p>
             </article>
             <article class="proj-card">
               <div class="proj-head"><i class="bi bi-bricks" aria-hidden="true"></i><h3>Masursor Arch Bridge, Sapangpalay, Masudsud</h3></div>
-              <p class="proj-amount proj-amount--none">No public funds</p>
-              <p>A self-supporting timber arch based on a Leonardo da Vinci design, built without nails or permanent fasteners. Most of the timber is donated or reused ROMELCO power poles.</p>
-              <p class="proj-status">Opened (August 2026)</p>
+              <p class="proj-amount proj-amount--none" data-i18n="pj-nf">No public funds</p>
+              <p data-i18n="pj-d3">A self-supporting timber arch based on a Leonardo da Vinci design, built without nails or permanent fasteners. Most of the timber is donated or reused ROMELCO power poles.</p>
+              <p class="proj-status" data-i18n="pj-s3">Opened (August 2026)</p>
             </article>
             <article class="proj-card">
               <div class="proj-head"><i class="bi bi-building" aria-hidden="true"></i><h3>Covered courts in Masadya, Dalajican, San Pedro and Calabasahan</h3></div>
-              <p class="proj-amount proj-amount--none">Amount not published</p>
-              <p>Inspected by Representative Eleandro Jesus Madrona and Mayor Fameronag together with barangay officials.</p>
-              <p class="proj-status">Inspected (August 4, 2026)</p>
+              <p class="proj-amount proj-amount--none" data-i18n="pj-np">Amount not published</p>
+              <p data-i18n="pj-d4">Inspected by Representative Eleandro Jesus Madrona and Mayor Fameronag together with barangay officials.</p>
+              <p class="proj-status" data-i18n="pj-s4">Inspected (August 4, 2026)</p>
             </article>
             <article class="proj-card">
               <div class="proj-head"><i class="bi bi-house-heart" aria-hidden="true"></i><h3>Pabahay housing project</h3></div>
-              <p class="proj-amount proj-amount--none">Amount not published</p>
-              <p>Disaster-resilient homes for families relocated from high-risk coastal and watershed areas. The first three families received certificates of award.</p>
-              <p class="proj-status">First units turned over (November 9, 2026)</p>
+              <p class="proj-amount proj-amount--none" data-i18n="pj-np">Amount not published</p>
+              <p data-i18n="pj-d5">Disaster-resilient homes for families relocated from high-risk coastal and watershed areas. The first three families received certificates of award.</p>
+              <p class="proj-status" data-i18n="pj-s5">First units turned over (November 9, 2026)</p>
             </article>
             <article class="proj-card">
               <div class="proj-head"><i class="bi bi-tsunami" aria-hidden="true"></i><h3>Proposed RoPax ferry</h3></div>
-              <p class="proj-amount proj-amount--none">Not yet funded</p>
-              <p>A modern steel-hulled roll-on/roll-off passenger ferry for Concepcion, discussed with ferry operators and investment groups.</p>
-              <p class="proj-status">Proposal (October 22, 2026)</p>
+              <p class="proj-amount proj-amount--none" data-i18n="pj-nyf">Not yet funded</p>
+              <p data-i18n="pj-d6">A modern steel-hulled roll-on/roll-off passenger ferry for Concepcion, discussed with ferry operators and investment groups.</p>
+              <p class="proj-status" data-i18n="pj-s6">Proposal (October 22, 2026)</p>
             </article>
           </div>
           <p class="data-source">
@@ -566,9 +569,9 @@
       </div>
     </footer>
     <script defer src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-    <script defer src="../assets/js/translations.js?v=4"></script>
+    <script defer src="../assets/js/translations.js?v=5"></script>
     <script defer src="../assets/js/info-bar.js"></script>
-    <script defer src="../assets/js/main.js?v=2"></script>
+    <script defer src="../assets/js/main.js?v=3"></script>
     <script defer src="../assets/js/version.js"></script>
   </body>
 </html>

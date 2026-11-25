@@ -1037,7 +1037,7 @@ a {
     column-gap: 10px;
     row-gap: 0;
   }
-  .header-inner > .brand {
+  .header-inner > .logo-container {
     flex: 1 1 0;
     min-width: 0;
   }
@@ -1292,3 +1292,52 @@ body {
 .fiesta-list li:last-child { background: var(--navy); border-color: var(--navy); color: #fff; }
 .fiesta-list span { line-height: 1.4; }
 .proj-amount--none { font-family: inherit; font-size: 0.875rem; font-weight: 700; color: #9a5b00 !important; }
+
+/* ---------- Barangays page ---------- */
+.brgy-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 20px; }
+.brgy-jump a {
+  padding: 6px 14px; border-radius: 999px; border: 1.5px solid var(--navy);
+  color: var(--navy); font-weight: 700; font-size: 0.875rem; text-decoration: none; background: #fff;
+}
+.brgy-jump a:hover, .brgy-jump a:focus-visible { background: var(--navy); color: #fff; }
+.brgy-grid--full { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.brgy-card--full { scroll-margin-top: 110px; }
+.brgy-alt { font-family: var(--font-body, inherit); font-weight: 500; font-size: 0.875rem; color: var(--muted); }
+.brgy-card h4 { margin: 14px 0 4px; font-size: 0.8125rem; color: var(--muted); font-weight: 700; }
+.brgy-card ul { margin: 0; padding-left: 18px; color: var(--navy-ink); font-size: 0.9375rem; }
+.brgy-card li { margin: 2px 0; }
+.brgy-date { color: var(--muted); font-size: 0.8125rem; white-space: nowrap; }
+
+/* ---------- Visit page ---------- */
+.advisory-box {
+  display: flex; gap: 14px; align-items: flex-start;
+  background: #fff8db; border: 1px solid #f0d35a; border-left: 5px solid var(--gold);
+  border-radius: 12px; padding: 16px 18px; margin-bottom: 36px; color: #3d3000;
+}
+.advisory-box > i { font-size: 1.5rem; color: #9a7400; }
+.advisory-box p { margin: 4px 0 0; }
+.advisory-links a { font-weight: 700; }
+.dest-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; }
+.dest-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+.dest-card h3 { font-size: 1.0625rem; color: var(--navy); margin: 0 0 4px; }
+.dest-card p { margin: 6px 0 0; color: var(--navy-ink); font-size: 0.9375rem; }
+.dest-loc {
+  display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--c-teal);
+  background: #e6f2f9; border-radius: 6px; padding: 2px 8px;
+}
+.table-wrap { overflow-x: auto; margin: 6px 0 16px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.civic-table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; }
+.civic-table th { background: var(--navy); color: #fff; text-align: left; padding: 10px 14px; font-weight: 700; }
+.civic-table td { padding: 10px 14px; border-top: 1px solid var(--line); color: var(--navy-ink); vertical-align: top; }
+.civic-table tr:nth-child(even) td { background: var(--paper); }
+.tips-list { padding-left: 20px; color: var(--navy-ink); }
+.tips-list li { margin: 6px 0; }
+.stay-list { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 6px 0 14px; }
+.stay-list li { background: #fff; border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; font-weight: 600; color: var(--navy); }
+.stay-contact { font-weight: 600; color: var(--navy-ink); }
+
+/* Collapsed menu runs up to 1279px: keep the logo left and the menu button right */
+@media (max-width: 1279px) {
+  .header-inner > .logo-container { flex: 1 1 0; min-width: 0; }
+  .main-nav { flex: 0 0 100%; }
+}

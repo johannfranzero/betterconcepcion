@@ -212,3 +212,16 @@ Source: https://www.facebook.com/people/Concepcion-Public-Information-Office/100
 - Recognition: PDEA "Balangay Seal of Excellence" for clearing all 9 barangays of illegal drugs (mid-2026). RHU passed PhilHealth YAKAP inspection with no findings (30 Jul 2026).
 - Programs: Sibale Food Security Program (corn and cassava training with DA); DSWD Sustainable Livelihood Program livestock training (24 Aug 2026); real property tax early payment discount of 20% (date not captured).
 - Not added to the site: names of housing beneficiaries and missing-person details (private).
+
+### More from the PIO page (Feb–Nov 2026 posts) and visitsibale.com (read 25 Nov 2026)
+
+- LGU office hours: four-day compressed workweek since 11 Mar 2026: Monday–Thursday, 7:00 AM–12:00 NN and 1:00–6:00 PM; essential services on call on Fridays (PIO post, Mar 2026).
+- Municipal Treasurer's Office: monthly collection schedule from 16 Apr 2026; ask your barangay for the schedule (PIO post).
+- RHU Concepcion is PhilHealth-accredited as a Primary Care Facility (Konsulta). Bring a phone with the eGov app, PhilHealth ID and one valid ID (PIO post, early 2026).
+- Barangay feasts and homecomings (April 2026 guide): San Vicente — Feast of St. Vincent Ferrer (Apr 5–6); Poblacion — Feast of St. Mark the Evangelist (Apr 24–25); Balik Dalajican (Apr 4–5); Balik Sampong (Apr 23–28); CNHS and Masudsud ES alumni homecomings.
+- Proposed Pili Port (Pinamalayan) revival by PACIWFI joint venture; still under study (PIO post, early 2026).
+- Other venues named: Sibale Public Market (2nd floor used for LTO driving course); NCDC Bldg., Sitio Punta, Poblacion (SSS on Wheels); Municipal Covered Court, Poblacion; RHU Conference Hall.
+- Acting Municipal Fire Marshal: SFO1 Frederick John F. Faminial (BFP). Municipal Health Officer: Dr. Remgia Lequin (visitsibale.com/contact). MDRRMO: Diana Rose P. Andres. Coast Guard: PO2 Samuel B. Panoy. Municipal Tourism Officer: Ralf John F. Fedelin (0964 977 8164, also listed there as the PIO number).
+- visitsibale.com: 12 destinations (Bagulayag Cliff, Tonggo Beach turtle sanctuary, Guiwanon Beach, Mount Batariya, Gran Tsina Ridge, Mactan Shipwreck dive site off Masudsud, Coral Cathedral dive site, Tinigban Trail in Poblacion, Quebrada Beach, Guiob Beach, Maisuting Baybay Beach fish sanctuary, Cambilog Beach); 15 dive sites; Carbon Footprint Mitigation Fee (Ord. 2024-12): ₱100 foreign, ₱50 local non-resident, ₱40 student/PWD/senior, free under 14; fine ₱300 for not paying. Landing points Poblacion or Sampong. No bank or ATM on the island. Accommodation: La Franciscos Homestay, Perlie's Homestay, White House Homestay, Manny's Place, Pahuway Camp Site (book through the Tourism Office). Land area 2,007 ha; municipal waters 73,727 ha.
+- Schools (Wikipedia, Education section): Agbatang PS, Bakhawan ES, Calabasahan ES, Concepcion Central ES, Dalajican ES, Masadya PS, Masudsud ES, Sampong ES, San Vicente ES; Concepcion National High School (Poblacion) and its Annex (Bachawan); Sibale Academy of the Immaculate Conception. Electricity: ROMELCO. Water: Sibale Water Distribution and Sanitation Services (SWDSS, named in a PIO post).
+- Not reachable: COA (bot check), BLGF and PSA (403), DILG FDP (DNS). Barangay captains and Sangguniang Bayan members were not found in PIO posts.

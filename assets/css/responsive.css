@@ -35,7 +35,8 @@
 }
 
 /* Tablet */
-@media (max-width: 1024px) {
+/* Header and menu: use the collapsed (hamburger) menu up to 1279px so eight menu items never overflow */
+@media (max-width: 1279px) {
   :root {
     --header-height: 56px;
   }
@@ -199,6 +200,10 @@
     background-color: var(--color-bg-alt);
   }
 
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
   .hero-section {
     padding: 64px 0;
   }
@@ -581,7 +586,7 @@
   border-radius: 4px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .mobile-menu-toggle {
     display: flex;
     align-items: center;

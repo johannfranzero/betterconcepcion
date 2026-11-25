@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Utility: detect mobile breakpoint
   var isMobileNav = function () {
-    return window.matchMedia('(max-width: 1024px)').matches;
+    return window.matchMedia('(max-width: 1279px)').matches;
   };
 
   // Hotline Marquee (tablet + mobile)

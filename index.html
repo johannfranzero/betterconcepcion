@@ -118,11 +118,11 @@
         }
       }
     </script>
-    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css?v=2" />
     <link rel="stylesheet" href="assets/css/accessibility.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Inter+Tight:wght@700;800&display=swap" />
-    <link rel="stylesheet" href="assets/css/theme-civic.css?v=10" />
+    <link rel="stylesheet" href="assets/css/theme-civic.css?v=13" />
   </head>
 
   <body>
@@ -212,7 +212,13 @@
                 <li><a href="services/environment" data-i18n="home-environment">Environment</a></li>
               </ul>
             </li>
-            <li><a href="government/" data-i18n="nav-government">Government</a></li>
+            <li class="has-dropdown">
+              <a href="government/" data-i18n="nav-government" aria-haspopup="true" aria-expanded="false">Government</a>
+              <ul class="dropdown-menu">
+                <li><a href="government/officials" data-i18n="nav-officials">Officials and offices</a></li>
+                <li><a href="barangays/" data-i18n="nav-barangays">Barangays</a></li>
+              </ul>
+            </li>
             <li><a href="statistics/" data-i18n="nav-statistics">Statistics</a></li>
             <li class="has-dropdown">
               <a
@@ -236,6 +242,7 @@
               </ul>
             </li>
             <li><a href="budget/" data-i18n="nav-transparency">Transparency</a></li>
+            <li><a href="visit/" data-i18n="nav-visit">Visit Sibale</a></li>
             <li><a href="contact/" data-i18n="nav-contact">Contact</a></li>
           </ul>
         </nav>
@@ -788,19 +795,19 @@
         <div class="container">
           <div class="civic-section-head">
             <div>
-              <h2 id="fiesta-title">Pista sa Sibale 2026</h2>
-              <p>The town fiesta honours the Immaculate Conception, Concepcion's patron, and ends on her feast day, December 8.</p>
+              <h2 id="fiesta-title" data-i18n="fz-h2">Pista sa Sibale 2026</h2>
+              <p data-i18n="fz-p">The town fiesta honours the Immaculate Conception, Concepcion's patron, and ends on her feast day, December 8.</p>
             </div>
           </div>
           <ol class="fiesta-list">
-              <li><time>Nov 21</time><span>Opening of the volleyball and basketball tournaments</span></li>
+              <li><time>Nov 21</time><span data-i18n="fz-1">Opening of the volleyball and basketball tournaments</span></li>
               <li><time>Dec 2</time><span>Magnatis Night</span></li>
-              <li><time>Dec 3</time><span>Pamunit sa Kapistahan and SK Night</span></li>
-              <li><time>Dec 4</time><span>Bangkarera boat race and Mutya ng Sibale 2026</span></li>
-              <li><time>Dec 5</time><span>Sibale Academy of the Immaculate Conception, 62nd founding anniversary</span></li>
-              <li><time>Dec 6</time><span>Concepcion National High School, 45th founding anniversary</span></li>
-              <li><time>Dec 7</time><span>Biniray and prayer meeting</span></li>
-              <li><time>Dec 8</time><span>Feast day: DepEd field demonstration, Rungawan Festival, Kami Ray Barangay Festival and coronation night</span></li>
+              <li><time>Dec 3</time><span data-i18n="fz-3">Pamunit sa Kapistahan and SK Night</span></li>
+              <li><time>Dec 4</time><span data-i18n="fz-4">Bangkarera boat race and Mutya ng Sibale 2026</span></li>
+              <li><time>Dec 5</time><span data-i18n="fz-5">Sibale Academy of the Immaculate Conception, 62nd founding anniversary</span></li>
+              <li><time>Dec 6</time><span data-i18n="fz-6">Concepcion National High School, 45th founding anniversary</span></li>
+              <li><time>Dec 7</time><span data-i18n="fz-7">Biniray and prayer meeting</span></li>
+              <li><time>Dec 8</time><span data-i18n="fz-8">Feast day: DepEd field demonstration, Rungawan Festival, Kami Ray Barangay Festival and coronation night</span></li>
           </ol>
           <p class="data-source"><i class="bi bi-info-circle"></i> Schedule from the
             <a href="https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/" target="_blank" rel="noopener noreferrer">Concepcion Public Information Office</a> (November 2026). Times are announced there.</p>
@@ -811,11 +818,19 @@
       <section class="section">
         <div class="container">
           <div class="home-section-header">
-            <h2>Latest Updates</h2>
-            <a href="news/" class="home-section-link"><i class="bi bi-arrow-right"></i> <span>All updates</span></a>
+            <h2 data-i18n="home-latest">Latest Updates</h2>
+            <a href="news/" class="home-section-link"><i class="bi bi-arrow-right"></i> <span data-i18n="home-all-updates">All updates</span></a>
           </div>
           <div class="home-news-grid" id="home-news-grid"></div>
           <div class="home-contact-v2-grid" style="margin-top: var(--spacing-lg)">
+            <a href="https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/" class="home-contact-v2-card" target="_blank" rel="noopener noreferrer">
+              <div class="home-contact-v2-icon"><i class="bi bi-megaphone-fill"></i></div>
+              <div class="home-contact-v2-content">
+                <h3>Concepcion Public Information Office</h3>
+                <p class="home-contact-v2-value" data-i18n="home-pio-v">Class and work suspensions, weather and boat advisories</p>
+                <span class="home-contact-v2-note">0960 691 5726 · sibaleconcepcion@gmail.com</span>
+              </div>
+            </a>
             <a href="https://www.facebook.com/SibaleTravel" class="home-contact-v2-card" target="_blank" rel="noopener noreferrer">
               <div class="home-contact-v2-icon"><i class="bi bi-facebook"></i></div>
               <div class="home-contact-v2-content">
@@ -1057,12 +1072,12 @@
       </div>
     </footer>
 
-<script defer src="assets/js/translations.js?v=4"></script>
+<script defer src="assets/js/translations.js?v=5"></script>
     <script defer src="assets/js/info-bar.js"></script>
-    <script defer src="assets/js/main.js?v=2"></script>
+    <script defer src="assets/js/main.js?v=3"></script>
     <script defer src="assets/js/version.js"></script>
     <script defer src="assets/js/search.js"></script>
-    <script defer src="assets/js/news.js"></script>
+    <script defer src="assets/js/news.js?v=2"></script>
     <script defer src="assets/js/fb-feed.js?v=1.2.0"></script>
     <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script defer src="assets/js/weather-map.js?v=1.6.4"></script>

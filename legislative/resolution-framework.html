@@ -70,11 +70,11 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="../assets/css/style.css" />
-    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css?v=2" />
     <link rel="stylesheet" href="../assets/css/accessibility.css" />
     <link rel="stylesheet" href="../assets/css/footer.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&family=Inter+Tight:wght@700;800&display=swap" />
-    <link rel="stylesheet" href="../assets/css/theme-civic.css?v=10" />
+    <link rel="stylesheet" href="../assets/css/theme-civic.css?v=13" />
   </head>
 
   <body>
@@ -164,7 +164,13 @@
                 </li>
               </ul>
             </li>
-            <li><a href="../government/" data-i18n="nav-government">Government</a></li>
+            <li class="has-dropdown">
+              <a href="../government/" data-i18n="nav-government" aria-haspopup="true" aria-expanded="false">Government</a>
+              <ul class="dropdown-menu">
+                <li><a href="../government/officials" data-i18n="nav-officials">Officials and offices</a></li>
+                <li><a href="../barangays/" data-i18n="nav-barangays">Barangays</a></li>
+              </ul>
+            </li>
             <li><a href="../statistics/" data-i18n="nav-statistics">Statistics</a></li>
             <li class="has-dropdown">
               <a href="./" class="active" data-i18n="nav-legislative" aria-haspopup="true" aria-expanded="false">Legislative</a>
@@ -185,6 +191,7 @@
               </ul>
             </li>
             <li><a href="../budget/" data-i18n="nav-transparency">Transparency</a></li>
+            <li><a href="../visit/" data-i18n="nav-visit">Visit Sibale</a></li>
             <li><a href="../contact/" data-i18n="nav-contact">Contact</a></li>
           </ul>
         </nav>
@@ -496,9 +503,9 @@
       </div>
     </footer>
 
-    <script defer src="../assets/js/translations.js?v=4"></script>
+    <script defer src="../assets/js/translations.js?v=5"></script>
     <script defer src="../assets/js/info-bar.js"></script>
-    <script defer src="../assets/js/main.js?v=2"></script>
+    <script defer src="../assets/js/main.js?v=3"></script>
     <script defer src="../assets/js/version.js"></script>
     <script defer src="../assets/js/resolutions.js"></script>
   </body>
