@@ -325,3 +325,11 @@ The maintainer asked for the site to stop looking copied from a template and to 
 - **Details:** a small wave mark under section headings; white service cards with a wave edge in their colour; pill buttons and search; the boat card styled as a ferry ticket; a strip of the 9 barangays under the hero instead of decorative tiles.
 - **Map:** 3D terrain of the island (MapLibre, OpenFreeMap, AWS terrain tiles) with barangay pins; loads only when scrolled into view.
 - **Motion:** sun rotation, drifting sea, one slow turn of the map. All stop with prefers-reduced-motion.
+
+### Refined sunrise (25 Nov 2026)
+
+Same composition as "Sunrise over Sibale", rendered with more care: the sun has a soft outer glow, a graded
+disc (white-hot centre to golden edge) and 24 tapered, blurred rays of alternating length that fade outward;
+the island is three ridge layers (hazy far, mid, dark near) with a warm rim light where the sun sits behind it;
+the sky is a smoother navy-to-blue gradient with warm haze at the horizon; the sea bands are graded with soft
+light crests and a golden reflection under the sun.
