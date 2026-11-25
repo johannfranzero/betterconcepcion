@@ -1841,3 +1841,23 @@ body {
 @media (max-width: 760px) {
   .civic-hero h1 { font-size: clamp(1.45rem, 8.4vw, 3.6rem) !important; }
 }
+
+/* Hero sunburst, refined: 24 alternating long and short rays that fade outward,
+   a soft glow, a thin ring and a graded disc. The rays turn slowly; the disc stays. */
+.hero-burst { color: inherit; overflow: visible; }
+.hero-burst-rays {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+  animation: hero-burst-spin 120s linear infinite;
+}
+@keyframes hero-burst-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-burst-rays { animation: none; }
+}
+@media (max-width: 760px) {
+  .hero-burst { width: 520px; height: 520px; left: calc(88% - 260px); top: 74%; }
+}
+@media (max-width: 760px) {
+  .civic-hero { padding-bottom: 150px !important; }
+  .hero-burst { width: 540px; height: 540px; left: calc(78% - 270px); top: calc(100% - 46px); }
+}
