@@ -1863,3 +1863,8 @@ body {
 }
 /* Spin the rays around the sun's own centre (user-space 0,0), not the corner of the drawing */
 .hero-burst-rays { transform-box: view-box; transform-origin: 0 0; }
+/* Phones: less empty space under the search, sun sits higher behind the shortcuts */
+@media (max-width: 760px) {
+  .civic-hero { padding-bottom: 64px !important; }
+  .hero-burst { width: 480px; height: 480px; left: calc(80% - 240px); top: calc(100% - 110px); }
+}
