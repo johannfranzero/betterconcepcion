@@ -1959,3 +1959,10 @@ body {
 @media (max-width: 760px) {
   .hero-pennant { padding-left: 2px; padding-right: 2px; font-size: min(0.62rem, 2.3vw); letter-spacing: 0; }
 }
+
+/* Hero: Sibale Island's real outline (OpenStreetMap coastline) in place of the sun,
+   same faint gold, turning slowly around its own centre. */
+.hero-island { width: 860px; height: 860px; left: calc(50% - 60px); }
+@media (max-width: 760px) {
+  .hero-island { width: 440px; height: 440px; left: calc(65% - 220px); }
+}

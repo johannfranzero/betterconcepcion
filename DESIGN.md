@@ -358,3 +358,10 @@ faint gold sunburst (16 slim rays around a disc, 18% opacity) on the right, Inte
 lead/facts, 250x48 square-cornered buttons (gold, and translucent with a white border), a 604px search with our
 emblem and a blue 42px button, and the coloured icon tile band underneath. Inner page headers keep the layered
 range and sun.
+
+### Island outline in the hero (25 Nov 2026)
+
+The rotating sun in the home hero is replaced by the real outline of Sibale (Maestro de Campo Island), from the
+OpenStreetMap coastline (way natural=coastline, 1,307 points, simplified to 421; © OpenStreetMap contributors,
+ODbL, credited with the map further down the page). Same faint gold as the sun (rgba(252, 209, 22, 0.18)),
+turning once every two minutes around its own centre; still with reduced motion.
