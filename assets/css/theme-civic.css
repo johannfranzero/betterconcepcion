@@ -1731,3 +1731,33 @@ body {
   .page-header .page-header-desc, .page-header p { max-width: 440px; margin-left: auto; margin-right: auto; }
 }
 .page-header h1, .page-header p, .page-header-desc { text-shadow: 0 1px 12px rgba(0, 21, 72, 0.55); }
+
+/* ==========================================================================
+   BetterAlcala reference (Nov 2026)
+   1) Hotline numbers run edge to edge instead of inside the centred container.
+   2) Hero laid out like BetterAlcala's: centred headline, lead, facts, buttons
+      and search. Our sun and mountain illustration stays.
+   ========================================================================== */
+.hotline-bar > .container { max-width: none !important; width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
+.hotline-inner, .hotline-items { max-width: none !important; width: 100% !important; margin: 0 !important; }
+
+.civic-hero { text-align: center; }
+.civic-hero-inner { max-width: 960px; margin-left: auto; margin-right: auto; padding-top: 56px; }
+.civic-hero h1 {
+  font-size: clamp(2.75rem, 7vw, 6rem);
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+}
+.civic-hero h1,
+.civic-hero-lead,
+.civic-hero-facts,
+.civic-hero-actions,
+.civic-search,
+.civic-popular { margin-left: auto !important; margin-right: auto !important; justify-content: center !important; }
+.civic-hero-lead { max-width: 620px; font-size: 1.1875rem; }
+.civic-hero-actions .civic-btn { border-radius: 6px; padding: 13px 28px; }
+.civic-search { max-width: 720px; margin-top: 48px !important; }
+.civic-search .search-input-wrapper { border-radius: 10px !important; }
+.civic-search .search-submit-btn { border-radius: 8px !important; }
+.civic-hero h1 { max-width: none !important; font-size: clamp(2.5rem, 6.4vw, 5.5rem); }
+.civic-hero-facts, .civic-hero-actions, .civic-popular { max-width: none !important; }

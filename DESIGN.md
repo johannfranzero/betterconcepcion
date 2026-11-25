@@ -342,3 +342,10 @@ deepest navy in front, with mist pooled in the valleys, a warm rim light on the 
 soft fade into the sky on the left. The sun sits low between the peaks with a large golden bloom, a glowing core
 and 17 soft light shafts of varied length, width and brightness instead of a spiky starburst. Same position, size
 and palette as before; nothing else on the page changed.
+
+### BetterAlcala hero reference (25 Nov 2026)
+
+At the maintainer's request the hero follows BetterAlcala's layout again: centred headline (up to 88px), centred
+lead, facts, side-by-side buttons with small radii, and a centred search further down. The layered range and sun
+illustration stays. The hotline numbers bar now runs edge to edge like BetterAlcala's (it used to sit inside the
+centred container, leaving empty bands on both sides).
