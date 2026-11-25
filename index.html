@@ -120,7 +120,7 @@
     <link rel="stylesheet" href="assets/css/accessibility.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Outfit:wght@600;700;800&display=swap" />
-    <link rel="stylesheet" href="assets/css/theme-civic.css?v=21" />
+    <link rel="stylesheet" href="assets/css/theme-civic.css?v=25" />
   </head>
 
   <body>
@@ -298,7 +298,17 @@
     <main id="main-content">
       <!-- Hero -->
       <section class="civic-hero" aria-labelledby="hero-title">
-        <p class="hero-credit">The real island of Sibale: <a href="https://s2maps.eu" target="_blank" rel="noopener noreferrer">Sentinel-2 cloudless 2016 by EOX</a> (Copernicus data, CC BY 4.0) on <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank" rel="noopener noreferrer">AWS terrain</a></p>
+        <div class="hero-photo" aria-hidden="true">
+          <div class="hero-photo-img"></div>
+          <div class="hero-clouds"><span></span><span></span><span></span></div>
+          <div class="hero-glint"></div>
+        </div>
+        <aside class="hero-float" aria-label="Sibale at a glance">
+          <div class="hero-float-card"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i><div><strong data-i18n="hf-island">Sibale Island</strong><span data-i18n="hf-island-sub">Maestro de Campo · 20 km² · 9 barangays</span></div></div>
+          <div class="hero-float-card"><i class="bi bi-water" aria-hidden="true"></i><div><strong data-i18n="hf-boat">Boat at 10:00 daily</strong><span data-i18n="hf-boat-sub">Recodo Port, Pinamalayan · 2.5–3 hrs</span></div></div>
+          <div class="hero-float-card"><i class="bi bi-telephone-fill" aria-hidden="true"></i><div><strong data-i18n="hf-call">Emergency: 911</strong><span data-i18n="hf-call-sub">MDRRMO 0926 390 6268</span></div></div>
+        </aside>
+        <p class="hero-credit" data-i18n="hf-credit">Aerial view of Sibale</p>
         <div class="container civic-hero-inner">
           <h1 id="hero-title">Welcome to<br />BetterConcepcion<span class="dot-org">.org</span></h1>
           <p class="civic-hero-lead" data-i18n="civic-hero-lead">
@@ -1072,7 +1082,7 @@
       </div>
     </footer>
 
-<script defer src="assets/js/translations.js?v=7"></script>
+<script defer src="assets/js/translations.js?v=8"></script>
     <script defer src="assets/js/info-bar.js"></script>
     <script defer src="assets/js/main.js?v=3"></script>
     <script defer src="assets/js/version.js"></script>

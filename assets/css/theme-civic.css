@@ -1685,3 +1685,128 @@ body {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 .hero-credit a { color: #fff; text-decoration: underline; }
+
+/* ==========================================================================
+   Aerial photo hero (maintainer's drone photo of Sibale, Nov 2026)
+   The photo drifts like a drone slowly orbiting the island; clouds pass
+   over it and a sun glint moves across the sea. All still with reduced motion.
+   ========================================================================== */
+.civic-hero { background: #0a2350 !important; isolation: isolate; }
+.hero-photo { position: absolute; inset: 0; overflow: hidden; z-index: -1; }
+.hero-photo-img {
+  position: absolute;
+  inset: -8%;
+  background: url('../images/banners/sibale-aerial-1280.webp') center 62% / cover no-repeat;
+  transform-origin: 38% 62%;
+  animation: drone-orbit 48s ease-in-out infinite alternate;
+  will-change: transform;
+}
+@media (min-width: 1400px) {
+  .hero-photo-img { background-image: url('../images/banners/sibale-aerial-2000.webp'); }
+}
+@keyframes drone-orbit {
+  0%   { transform: perspective(1600px) rotateX(3deg) rotateZ(-2.2deg) scale(1.06) translate3d(-1.5%, 0.8%, 0); }
+  50%  { transform: perspective(1600px) rotateX(5deg) rotateZ(0deg)    scale(1.12) translate3d(0, -0.6%, 0); }
+  100% { transform: perspective(1600px) rotateX(3deg) rotateZ(2.2deg)  scale(1.08) translate3d(1.5%, 0.4%, 0); }
+}
+/* readable text on the left, photo open on the right */
+.hero-photo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(0, 22, 66, 0.9) 0%, rgba(0, 22, 66, 0.7) 36%, rgba(0, 22, 66, 0.15) 70%, rgba(0, 22, 66, 0.05) 100%),
+    linear-gradient(0deg, rgba(0, 22, 66, 0.55) 0%, rgba(0, 22, 66, 0) 30%);
+}
+/* drifting clouds: soft blurred puffs crossing the frame */
+.hero-clouds span {
+  position: absolute;
+  top: var(--t, 10%);
+  left: -40%;
+  width: var(--w, 46%);
+  height: var(--h, 26%);
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));
+  filter: blur(18px);
+  animation: cloud-drift var(--d, 70s) linear infinite;
+  animation-delay: var(--delay, 0s);
+}
+.hero-clouds span:nth-child(1) { --t: 8%;  --w: 52%; --h: 24%; --d: 80s; --delay: -10s; }
+.hero-clouds span:nth-child(2) { --t: 38%; --w: 36%; --h: 18%; --d: 95s; --delay: -50s; opacity: 0.7; }
+.hero-clouds span:nth-child(3) { --t: 62%; --w: 44%; --h: 22%; --d: 110s; --delay: -80s; opacity: 0.5; }
+@keyframes cloud-drift { to { transform: translateX(330%); } }
+/* a sun glint sliding slowly across the sea */
+.hero-glint {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(420px 220px at var(--gx, 60%) 34%, rgba(255, 226, 150, 0.28), rgba(255, 226, 150, 0) 70%);
+  mix-blend-mode: screen;
+  animation: glint 26s ease-in-out infinite alternate;
+}
+@property --gx { syntax: '<percentage>'; inherits: false; initial-value: 60%; }
+@keyframes glint { from { --gx: 52%; } to { --gx: 86%; } }
+
+/* floating info cards on wide screens */
+.hero-float {
+  position: absolute;
+  right: max(24px, calc((100vw - 1200px) / 2));
+  bottom: 140px;
+  z-index: 1;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  width: 290px;
+}
+@media (min-width: 1100px) { .hero-float { display: flex; } }
+.hero-float-card {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 14px;
+  color: #fff;
+  background: rgba(8, 28, 72, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(10px) saturate(1.3);
+  -webkit-backdrop-filter: blur(10px) saturate(1.3);
+  box-shadow: 0 12px 30px -12px rgba(0, 0, 0, 0.5);
+  animation: float-bob 7s ease-in-out infinite;
+}
+.hero-float-card:nth-child(2) { animation-delay: -2.3s; margin-left: 28px; }
+.hero-float-card:nth-child(3) { animation-delay: -4.6s; }
+.hero-float-card i {
+  flex: none; width: 36px; height: 36px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--sun); color: var(--navy);
+}
+.hero-float-card strong { display: block; font-family: var(--font-display); font-size: 1rem; }
+.hero-float-card span { display: block; font-size: 0.8125rem; color: rgba(255, 255, 255, 0.82); }
+@keyframes float-bob { 50% { transform: translateY(-6px); } }
+
+.hero-credit {
+  position: absolute; right: 14px; bottom: 10px; z-index: 1; margin: 0;
+  font-size: 0.6875rem; color: rgba(255, 255, 255, 0.75); text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* phones: tall crop around the bay and the town */
+@media (max-width: 760px) {
+  .hero-photo-img { background-image: url('../images/banners/sibale-aerial-tall.webp?v=2'); background-position: center bottom; }
+  .hero-photo::after {
+    background: linear-gradient(180deg, rgba(0, 22, 66, 0.88) 0%, rgba(0, 22, 66, 0.7) 50%, rgba(0, 22, 66, 0.1) 82%);
+  }
+  .civic-hero { padding-bottom: 200px; }
+}
+
+/* inner page headers: the same photo, still and darker */
+.page-header,
+.stats-hero,
+.trans-hero-v2 {
+  background-image:
+    linear-gradient(180deg, rgba(0, 22, 66, 0.74) 0%, rgba(0, 22, 66, 0.56) 100%),
+    url('../images/banners/sibale-aerial-1280.webp') !important;
+  background-position: center 58% !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-photo-img, .hero-clouds span, .hero-glint, .hero-float-card { animation: none !important; }
+  .hero-clouds { display: none; }
+}

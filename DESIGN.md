@@ -332,3 +332,11 @@ The maintainer called the drawn sun and mountains "AI slop". Heroes and page hea
 Sibale's real terrain and Sentinel-2 satellite imagery at dawn (`assets/images/banners/sibale-hero-*.webp`,
 11-20 KB each), darkened on the text side. Credit is shown in the home hero. No AI-generated imagery of real
 places. See tools/README.md to re-render; swap for licensed photographs when available.
+
+### Aerial photo hero (25 Nov 2026, replaces the terrain render on the home page)
+
+The maintainer supplied a drone photo of Sibale (`assets/images/banners/sibale-aerial-*.webp`). The home hero shows it
+moving like a slow drone orbit (48 s tilt, turn and drift loop), with blurred clouds drifting across, a moving sun glint
+on the sea, and three floating glass cards on wide screens (island facts, the 10:00 boat, emergency numbers). Phones use a
+tall crop with the bay and town below the text. Inner page headers use the same photo, still and darker. All motion stops
+with prefers-reduced-motion. Photographer credit still to be added.

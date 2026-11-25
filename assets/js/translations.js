@@ -6,6 +6,13 @@
 
 const translations = {
   en: {
+    "hf-island": "Sibale Island",
+    "hf-island-sub": "Maestro de Campo · 20 km² · 9 barangays",
+    "hf-boat": "Boat at 10:00 daily",
+    "hf-boat-sub": "Recodo Port, Pinamalayan · 2.5–3 hrs",
+    "hf-call": "Emergency: 911",
+    "hf-call-sub": "MDRRMO 0926 390 6268",
+    "hf-credit": "Aerial view of Sibale",
     "ribbon-title": "9 barangays around Sibale",
     "map3d-hint": "Drag to turn the island. Tap a pin for the barangay.",
     "brgy-l-pop": "Population (2020 census)",
@@ -6632,6 +6639,13 @@ const translations = {
   },
 
   fil: {
+    "hf-island": "Isla ng Sibale",
+    "hf-island-sub": "Maestro de Campo · 20 km² · 9 barangay",
+    "hf-boat": "Bangka tuwing 10:00 araw-araw",
+    "hf-boat-sub": "Recodo Port, Pinamalayan · 2.5–3 oras",
+    "hf-call": "Emergency: 911",
+    "hf-call-sub": "MDRRMO 0926 390 6268",
+    "hf-credit": "Tanawin ng Sibale mula sa itaas",
     "ribbon-title": "9 barangay sa paligid ng Sibale",
     "map3d-hint": "I-drag para paikutin ang isla. I-tap ang pin para sa barangay.",
     "brgy-l-pop": "Populasyon (senso 2020)",
