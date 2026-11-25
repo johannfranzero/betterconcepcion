@@ -349,3 +349,12 @@ At the maintainer's request the hero follows BetterAlcala's layout again: centre
 lead, facts, side-by-side buttons with small radii, and a centred search further down. The layered range and sun
 illustration stays. The hotline numbers bar now runs edge to edge like BetterAlcala's (it used to sit inside the
 centred container, leaving empty bands on both sides).
+
+### Home hero matched to BetterAlcala (25 Nov 2026)
+
+At the maintainer's request the home hero now matches betteralcala.org's hero, rebuilt in our own code (their
+repository has no license, so nothing was copied): navy field with a top glow and a faint 44px grid, a large
+faint gold sunburst (16 slim rays around a disc, 18% opacity) on the right, Inter Tight 96px headline, centred
+lead/facts, 250x48 square-cornered buttons (gold, and translucent with a white border), a 604px search with our
+emblem and a blue 42px button, and the coloured icon tile band underneath. Inner page headers keep the layered
+range and sun.
