@@ -340,12 +340,3 @@ moving like a slow drone orbit (48 s tilt, turn and drift loop), with blurred cl
 on the sea, and three floating glass cards on wide screens (island facts, the 10:00 boat, emergency numbers). Phones use a
 tall crop with the bay and town below the text. Inner page headers use the same photo, still and darker. All motion stops
 with prefers-reduced-motion. Photographer credit still to be added.
-
-### Late afternoon (25 Nov 2026)
-
-The maintainer's aerial photo of Poblacion bay is graded to golden hour (warmer white balance, lower exposure,
-warm haze toward the horizon, longer shadows on the left) in `assets/images/banners/sibale-photo-*.webp`. A
-realistic sun (hot blurred core, soft bloom, warm haze, no drawn rays) sinks slowly toward the horizon on the
-right over 45 s and back, with its glitter path on the sea following it (`--sx`/`--sy` custom properties).
-On phones the photo is fitted to the width and pinned to the bottom so the bay and town show below the search.
-Still with reduced motion. The photographer's credit is still needed.
