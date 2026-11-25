@@ -1966,3 +1966,6 @@ body {
 @media (max-width: 760px) {
   .hero-island { width: 440px; height: 440px; left: calc(65% - 220px); }
 }
+/* Island outline: stronger gold so it reads, with a brighter coastline edge */
+.hero-island { color: rgba(252, 209, 22, 0.34); }
+.hero-island path { stroke: rgba(255, 224, 102, 0.7); stroke-width: 6; stroke-linejoin: round; }
