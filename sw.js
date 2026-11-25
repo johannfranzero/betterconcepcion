@@ -3,7 +3,7 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v32';
+var CACHE_VERSION = 'v33';
 var STATIC_CACHE = 'betterconcepcion-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'betterconcepcion-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -19,7 +19,6 @@ var PRECACHE_URLS = [
   '/assets/css/theme-civic.css',
   '/assets/js/main.js',
   '/assets/js/translations.js',
-  '/assets/js/info-bar.js',
   '/assets/images/logo/better-concepcion-logo-header.webp',
   '/assets/images/logo/icon-192.png',
   '/manifest.webmanifest',
