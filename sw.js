@@ -3,7 +3,7 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v29';
+var CACHE_VERSION = 'v30';
 var STATIC_CACHE = 'betterconcepcion-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'betterconcepcion-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -129,7 +129,8 @@ self.addEventListener('fetch', function (event) {
   // ── Navigation requests: Network-first with offline fallback ──
   if (event.request.mode === 'navigate') {
     event.respondWith(
-      fetch(event.request)
+      // Always revalidate pages with the server so design fixes show on the next load
+      fetch(event.request, { cache: 'no-cache' })
         .then(function (response) {
           // Cache successful navigation responses
           if (response.ok) {

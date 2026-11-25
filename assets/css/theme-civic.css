@@ -1839,5 +1839,5 @@ body {
   .civic-hero-actions .civic-btn { min-width: 0; width: 100%; max-width: 320px; }
 }
 @media (max-width: 760px) {
-  .civic-hero h1 { font-size: clamp(1.9rem, 8.4vw, 3.6rem) !important; }
+  .civic-hero h1 { font-size: clamp(1.45rem, 8.4vw, 3.6rem) !important; }
 }
