@@ -1708,3 +1708,26 @@ body {
   -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
   mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
 }
+
+/* Show the whole sun disc just above the ridges (was partly hidden behind them) */
+.civic-hero .civic-sun { bottom: 66px; }
+.page-header .civic-sun,
+.stats-hero .civic-sun,
+.trans-hero-v2 .civic-sun { bottom: 36px; }
+@media (max-width: 900px) {
+  .civic-hero .civic-sun { bottom: 54px; }
+}
+@media (max-width: 640px) {
+  .page-header .civic-sun, .stats-hero .civic-sun, .trans-hero-v2 .civic-sun { bottom: 56px; }
+}
+@media (max-width: 640px) {
+  .page-header, .stats-hero, .trans-hero-v2 { padding-bottom: 136px !important; }
+}
+@media (max-width: 640px) {
+  .page-header .civic-sun, .stats-hero .civic-sun, .trans-hero-v2 .civic-sun { width: 124px; height: 124px; bottom: 58px; right: 4%; }
+  .page-header .civic-glint, .stats-hero .civic-glint, .trans-hero-v2 .civic-glint { right: calc(4% + 36px); width: 52px; }
+}
+@media (min-width: 641px) and (max-width: 1100px) {
+  .page-header .page-header-desc, .page-header p { max-width: 440px; margin-left: auto; margin-right: auto; }
+}
+.page-header h1, .page-header p, .page-header-desc { text-shadow: 0 1px 12px rgba(0, 21, 72, 0.55); }
