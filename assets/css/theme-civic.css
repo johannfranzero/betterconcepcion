@@ -1341,3 +1341,26 @@ body {
   .header-inner > .logo-container { flex: 1 1 0; min-width: 0; }
   .main-nav { flex: 0 0 100%; }
 }
+
+/* ---------- Logo (Nov 2026 lockup) ---------- */
+.brand-logo {
+  display: block;
+  height: 52px;
+  width: auto;
+  max-width: 100%;
+}
+@media (max-width: 640px) {
+  .brand-logo { height: 38px; }
+}
+@media (max-width: 380px) {
+  .brand-logo { height: 32px; }
+}
+.footer-logo {
+  height: auto !important;
+  width: 100% !important;
+  max-width: 280px !important;
+  background: #fff;
+  border-radius: 12px;
+  padding: 10px 14px;
+  filter: none !important;
+}

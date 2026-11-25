@@ -3,7 +3,7 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v15';
+var CACHE_VERSION = 'v16';
 var STATIC_CACHE = 'betterconcepcion-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'betterconcepcion-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -20,9 +20,8 @@ var PRECACHE_URLS = [
   '/assets/js/main.js',
   '/assets/js/translations.js',
   '/assets/js/info-bar.js',
-  '/assets/images/logo/better-concepcion-logo.svg',
-  '/assets/images/logo/better-concepcion-logo-white.svg',
-  '/assets/images/logo/favicon.svg',
+  '/assets/images/logo/better-concepcion-logo-header.webp',
+  '/assets/images/logo/icon-192.png',
   '/manifest.webmanifest',
 ];
 
@@ -238,8 +237,8 @@ self.addEventListener('push', function (event) {
   event.waitUntil(
     self.registration.showNotification(data.title || 'BetterConcepcion', {
       body: data.body || '',
-      icon: '/assets/images/logo/favicon.svg',
-      badge: '/assets/images/logo/favicon.svg',
+      icon: '/assets/images/logo/icon-192.png',
+      badge: '/assets/images/logo/icon-192.png',
       tag: data.tag || 'bettersolano-notification',
       data: { url: data.url || '/' },
     })

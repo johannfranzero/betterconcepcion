@@ -52,7 +52,7 @@ unverified items are labeled, never guessed.
 
 - Name: Better Concepcion / BetterConcepcion.org. Independent; never use the official municipal seal or imply
   it is the LGU's website.
-- The logo may be redesigned (maintainer approved).
+- Logo: the maintainer supplied the official lockup on 25 Nov 2026 (sun, palm, church and waves emblem with "BetterConcepcion" and "CONCEPCION, ROMBLON"). Source file: assets/images/logo/better-concepcion-logo.png; the emblem alone is used for icons.
 - Filipino first: Filipino (and where possible Asi) should feel as native as English, not an afterthought.
 - An earlier "island theme" (illustrated hero, script welcome, red hotline bar) and a "Wayfinding Bands" airport-signage
   theme were both rejected by the maintainer.
