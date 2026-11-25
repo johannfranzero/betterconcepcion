@@ -1810,3 +1810,90 @@ body {
   .hero-photo-img, .hero-clouds span, .hero-glint, .hero-float-card { animation: none !important; }
   .hero-clouds { display: none; }
 }
+
+/* ==========================================================================
+   Late afternoon (Nov 2026): the photo is graded to golden hour and a real-
+   looking sun sinks slowly toward the horizon on the right, with its glitter
+   path on the sea following it. No drawn rays: a hot core, a soft bloom and
+   warm haze, blended with screen so it lights the photo instead of sitting on it.
+   ========================================================================== */
+@property --sx { syntax: '<percentage>'; inherits: true; initial-value: 74%; }
+@property --sy { syntax: '<percentage>'; inherits: true; initial-value: 6%; }
+.hero-photo { animation: sun-path 45s ease-in-out infinite alternate; }
+@keyframes sun-path {
+  from { --sx: 76%; --sy: 3%; }
+  to   { --sx: 69%; --sy: 15%; }
+}
+.hero-photo-img { background-image: url('../images/banners/sibale-photo-1280.webp'); }
+@media (min-width: 1400px) {
+  .hero-photo-img { background-image: url('../images/banners/sibale-photo-1920.webp'); }
+}
+@media (max-width: 760px) {
+  .hero-photo-img {
+    inset: 0;
+    background-image: url('../images/banners/sibale-photo-tall.webp');
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-color: #0a2350;
+    animation-name: drone-orbit-phone;
+  }
+  @keyframes drone-orbit-phone { from { transform: scale(1.02); } to { transform: scale(1.07) translateY(-1%); } }
+}
+/* warm late-day light over the whole frame, strongest near the sun */
+.hero-sunset {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(60% 55% at var(--sx) var(--sy), rgba(255, 170, 80, 0.45), rgba(255, 140, 60, 0.12) 55%, rgba(255, 120, 50, 0) 80%),
+    linear-gradient(180deg, rgba(255, 150, 70, 0.18) 0%, rgba(255, 150, 70, 0) 45%);
+  mix-blend-mode: soft-light;
+}
+.hero-sun {
+  position: absolute;
+  left: var(--sx);
+  top: var(--sy);
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+.hero-sun span { position: absolute; border-radius: 50%; transform: translate(-50%, -50%); }
+.hero-sun-bloom {
+  width: 520px;
+  height: 520px;
+  background: radial-gradient(closest-side, rgba(255, 214, 150, 0.75), rgba(255, 170, 90, 0.35) 35%, rgba(255, 140, 70, 0.12) 60%, rgba(255, 120, 60, 0) 100%);
+  filter: blur(6px);
+}
+.hero-sun-core {
+  width: 62px;
+  height: 62px;
+  background: radial-gradient(closest-side, #ffffff 0%, #fffbe9 38%, rgba(255, 232, 175, 0.9) 58%, rgba(255, 205, 130, 0.45) 78%, rgba(255, 190, 110, 0) 100%);
+  filter: blur(3px);
+  box-shadow: 0 0 70px 30px rgba(255, 236, 190, 0.45);
+}
+/* glitter path: the sun's reflection on the sea under it */
+.hero-glint {
+  animation: none !important;
+  background:
+    radial-gradient(9% 34% at var(--sx) calc(var(--sy) + 30%), rgba(255, 232, 170, 0.55), rgba(255, 210, 140, 0.18) 55%, rgba(255, 200, 130, 0) 100%),
+    radial-gradient(22% 10% at var(--sx) calc(var(--sy) + 20%), rgba(255, 225, 160, 0.3), rgba(255, 225, 160, 0) 100%) !important;
+  mix-blend-mode: screen;
+}
+.hero-clouds span { background: radial-gradient(closest-side, rgba(255, 228, 200, 0.5), rgba(255, 220, 190, 0)); }
+@media (max-width: 760px) {
+  @keyframes sun-path { from { --sx: 70%; --sy: 4%; } to { --sx: 62%; --sy: 13%; } }
+  .hero-sun-bloom { width: 300px; height: 300px; }
+  .hero-sun-core { width: 40px; height: 40px; }
+}
+/* inner page headers: the golden-hour photo, still */
+.page-header,
+.stats-hero,
+.trans-hero-v2 {
+  background-image:
+    linear-gradient(180deg, rgba(0, 22, 66, 0.72) 0%, rgba(0, 22, 66, 0.55) 100%),
+    url('../images/banners/sibale-photo-1280.webp') !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-photo { animation: none !important; }
+}
