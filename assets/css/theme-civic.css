@@ -2063,3 +2063,15 @@ body {
   .page-island { width: 300px; height: 300px; right: -90px; }
 }
 @media (prefers-reduced-motion: reduce) { .page-island { animation: none; } }
+
+
+/* Live PIO Facebook timeline (fb-feed.js live-only mode) */
+.fb-live { margin-top: var(--spacing-xl, 2.5rem); max-width: 560px; }
+.fb-live h3 { margin: 0 0 .35rem; font-size: 1.15rem; }
+.fb-live-note { margin: 0 0 1rem; color: var(--text-secondary, #4a5568); font-size: .92rem; }
+.fb-live-feed { position: relative; min-height: 64px; }
+.fb-live-feed .fb-live-frame { display: block; width: 100%; max-width: 500px; border: 0; }
+.fb-live-fallback { display: flex; align-items: center; gap: .75rem; padding: 1rem 1.1rem; border: 1px solid rgba(15,39,96,.16); background: #fff; color: #0f2760; font-weight: 600; text-decoration: none; }
+.fb-live-fallback:hover, .fb-live-fallback:focus-visible { border-color: #0f2760; }
+.fb-live-fallback .bi-facebook { font-size: 1.4rem; color: #1877f2; }
+.fb-live-fallback .bi-box-arrow-up-right { margin-left: auto; opacity: .6; }

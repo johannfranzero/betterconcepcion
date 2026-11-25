@@ -3,7 +3,7 @@
  * Enterprise-grade PWA with versioned caching, runtime strategies, and offline resilience.
  */
 
-var CACHE_VERSION = 'v42';
+var CACHE_VERSION = 'v43';
 var STATIC_CACHE = 'betterconcepcion-static-' + CACHE_VERSION;
 var RUNTIME_CACHE = 'betterconcepcion-runtime-' + CACHE_VERSION;
 var OFFLINE_URL = '/offline.html';
@@ -239,7 +239,7 @@ self.addEventListener('push', function (event) {
       body: data.body || '',
       icon: '/assets/images/logo/icon-192.png',
       badge: '/assets/images/logo/icon-192.png',
-      tag: data.tag || 'bettersolano-notification',
+      tag: data.tag || 'betterconcepcion-notification',
       data: { url: data.url || '/' },
     })
   );

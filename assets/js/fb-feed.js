@@ -283,10 +283,28 @@
 
   // --- bootstrap -------------------------------------------------------------
 
+  // live-only mode: the page already lists data/news.json elsewhere, so the base
+  // layer is a link card to the Facebook page instead of a second copy of the list.
+  function renderLinkCard(container, pageUrl) {
+    var safePage = safeUrl(pageUrl) || 'https://www.facebook.com';
+    var label = container.getAttribute('data-fb-label') || 'See the latest posts on Facebook';
+    container.innerHTML =
+      '<div class="fb-feed-local" data-fb-local>' +
+      '<a class="fb-live-fallback" href="' + safePage + '" target="_blank" rel="noopener noreferrer">' +
+      '<i class="bi bi-facebook" aria-hidden="true"></i><span>' + esc(label) + '</span>' +
+      '<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div>';
+  }
+
   function init() {
     var container = document.getElementById('fb-feed');
     if (!container) return;
     var pageUrl = container.getAttribute('data-fb-page') || 'https://www.facebook.com';
+
+    if (container.getAttribute('data-fb-mode') === 'live-only') {
+      renderLinkCard(container, pageUrl);
+      scheduleProbe(container, pageUrl);
+      return;
+    }
 
     var xhr = new XMLHttpRequest();
     xhr.open('GET', NEWS_DATA_URL, true);

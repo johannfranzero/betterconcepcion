@@ -6,6 +6,15 @@
 
 const translations = {
   en: {
+    "fb-live-title": "Live from the Public Information Office",
+    "fb-live-note": "New posts from the PIO Facebook page show here as soon as they are posted. If your browser blocks Facebook, open the page directly.",
+    "staff-not-listed": "The staff of this office in Concepcion are not yet listed.",
+    "staff-see-offices": "See offices and who heads them",
+    "agri-fishr": "Fisherfolk Registration (FishR)",
+    "agri-fishr-desc": "National registry of municipal fisherfolk (BFAR), done through the Municipal Agriculture Office. Needed for most fisheries assistance.",
+    "agri-boatr": "Fishing Boat Registration (BoatR)",
+    "agri-boatr-desc": "Registration of municipal fishing boats of 3 gross tons or less, as required by the Fisheries Code. Ask the Municipal Agriculture Office.",
+    "ask-the-office": "Ask the office",
     "hp-gov": "Government",
     "hp-brgy": "Barangays",
     "hp-trans": "Transparency",
@@ -265,7 +274,7 @@ const translations = {
     'contact-email': 'Email',
     'contact-address': 'Address',
     'contact-visit': 'Visit Us',
-    'contact-hours': 'Mon-Fri: 8:00 AM - 5:00 PM',
+    'contact-hours': 'Mon–Thu: 7:00 AM – 12:00 NN, 1:00 – 6:00 PM',
     'contact-response': "We'll respond within 24 hours",
     'contact-municipal-hall': 'Municipal Hall',
     'contact-location': 'Location',
@@ -1294,7 +1303,7 @@ const translations = {
     'bc-freedom-of-information': 'Freedom of Information',
     'bc-frequently-asked-questions': 'Frequently Asked Questions',
     'bc-go-to-the-local-civil-registrar-office-at-2nd':
-      'Go to the Local Civil Registrar Office at 2nd Floor, Municipal Hall. Office hours: Mon-Fri, 8AM-5PM.',
+      'Go to the Local Civil Registrar’s Office at the Municipal Hall in Poblacion. Office hours: Monday to Thursday, 7:00 AM – 12:00 NN and 1:00 – 6:00 PM.',
     'bc-government': 'Government',
     'bc-health': 'Health',
     'bc-home': 'Home',
@@ -1327,8 +1336,7 @@ const translations = {
     'bc-requirements': 'Requirements',
     'bc-resolution-framework': 'Resolution Framework',
     'bc-resources': 'Resources',
-    'bc-return-to-civil-registrar-with-official-receipt':
-      'Return to Civil Registrar with official receipt. Certificate released within 15-30 minutes if record is available.',
+    'bc-return-to-civil-registrar-with-official-receipt': "Return to the Civil Registrar with your official receipt. The certificate is released if the record is available; ask the office how long it takes.",
     'bc-sangguniang-bayan': 'Sangguniang Bayan',
     'bc-services': 'Services',
     'bc-sitemap': 'Sitemap',
@@ -1780,8 +1788,8 @@ const translations = {
     'contact-open': 'Open',
     'contact-open-data-philippines': 'Open Data Philippines',
     'contact-ordinance-framework': 'Ordinance Framework',
-    'contact-pdrrmo-n-vizcaya': 'PDRRMO N. Vizcaya',
-    'contact-pdrrmo-n-vizcaya-number not yet verified': 'PDRRMO N. Vizcaya number not yet verified',
+    'contact-pdrrmo-n-vizcaya': 'Romblon PDRRMO',
+    'contact-pdrrmo-n-vizcaya-number not yet verified': 'Romblon PDRRMO number not yet verified',
     'contact-plt-hospital': 'PLT Hospital',
     'contact-plt-hospital-number not yet verified': 'PLT Hospital number not yet verified',
     'contact-pnp-solano': 'PNP Concepcion',
@@ -5600,8 +5608,8 @@ const translations = {
     'safety-official-lgu-solano-portal': 'Official LGU Concepcion Portal',
     'safety-open-data-philippines': 'Open Data Philippines',
     'safety-ordinance-framework': 'Ordinance Framework',
-    'safety-pdrrmo-n-vizcaya': 'PDRRMO N. Vizcaya',
-    'safety-pdrrmo-n-vizcaya-number not yet verified': 'PDRRMO N. Vizcaya number not yet verified',
+    'safety-pdrrmo-n-vizcaya': 'Romblon PDRRMO',
+    'safety-pdrrmo-n-vizcaya-number not yet verified': 'Romblon PDRRMO number not yet verified',
     'safety-plt-hospital': 'PLT Hospital',
     'safety-plt-hospital-number not yet verified': 'PLT Hospital number not yet verified',
     'safety-pnp-solano': 'PNP Concepcion',
@@ -6637,6 +6645,15 @@ const translations = {
   },
 
   fil: {
+    "fb-live-title": "Live mula sa Public Information Office",
+    "fb-live-note": "Lumalabas dito ang mga bagong post ng PIO sa Facebook sa sandaling mailathala. Kung naka-block ang Facebook sa iyong browser, buksan nang direkta ang pahina.",
+    "staff-not-listed": "Wala pa sa listahan ang mga kawani ng tanggapang ito sa Concepcion.",
+    "staff-see-offices": "Tingnan ang mga tanggapan at ang mga namumuno",
+    "agri-fishr": "Rehistro ng Mangingisda (FishR)",
+    "agri-fishr-desc": "Pambansang talaan ng mga mangingisda (BFAR), sa pamamagitan ng Municipal Agriculture Office. Kailangan ito sa karamihan ng tulong para sa pangisdaan.",
+    "agri-boatr": "Rehistro ng Bangkang Pangisda (BoatR)",
+    "agri-boatr-desc": "Pagpaparehistro ng mga bangkang pangisda na 3 gross tons pababa, ayon sa Fisheries Code. Magtanong sa Municipal Agriculture Office.",
+    "ask-the-office": "Itanong sa opisina",
     "hp-gov": "Pamahalaan",
     "hp-brgy": "Mga Barangay",
     "hp-trans": "Transparency",
@@ -6880,7 +6897,7 @@ const translations = {
     'contact-email': 'Email',
     'contact-address': 'Adres',
     'contact-visit': 'Bisitahin Kami',
-    'contact-hours': 'Lunes-Biyernes: 8:00 AM - 5:00 PM',
+    'contact-hours': 'Lunes–Huwebes: 7:00 AM – 12:00 NN, 1:00 – 6:00 PM',
     'contact-response': 'Sasagutin namin sa loob ng 24 na oras',
     'contact-municipal-hall': 'Munisipyo',
     'contact-location': 'Lokasyon',
@@ -7469,7 +7486,7 @@ const translations = {
       'All disbursements kailangan kumpleto supporting mga dokumento',
     'acct-all-supporting-documents-per-coa-requirements':
       'All supporting mga dokumento bawat COA mga kinakailangan',
-    'acct-approved-dv-with-complete-documents': 'Naaprubahan DV with kumpleto mga dokumento',
+    'acct-approved-dv-with-complete-documents': "Aprubadong DV na may kumpletong dokumento",
     'acct-approximately-25-minutes-per-check': 'Approximately 25 minutes bawat suriin',
     'acct-approximately-3853-minutes-for-complete-processing':
       'Humigit-kumulang 38-53 minuto para sa kumpletong pagproseso',
@@ -7509,9 +7526,8 @@ const translations = {
     'acct-financial-reports-are-submitted-monthly-to-coa':
       'Ang mga ulat pinansyal ay isinusumite buwan-buwan sa COA',
     'acct-financial-statements': 'Mga Pahayag Pinansyal',
-    'acct-forward-to-municipal-mayor-for-approval': 'Forward to Punong Bayan for pag-apruba',
-    'acct-forward-to-municipal-treasurer-for-signature-and':
-      'Forward to Ingat-Yaman ng Munisipyo for lagda and ilabas',
+    'acct-forward-to-municipal-mayor-for-approval': "Ipasa sa Punong Bayan para sa pag-apruba",
+    'acct-forward-to-municipal-treasurer-for-signature-and': "Ipasa sa Municipal Treasurer para sa pirma at paglabas",
     'acct-freedom-of-information': 'Kalayaan sa Impormasyon',
     'acct-gather-and-consolidate-financial-data-from-all':
       'Tipunin at pagsama-samahin ang datos pinansyal mula sa lahat ng pondo',
@@ -7564,16 +7580,15 @@ const translations = {
       'Paghahanda at pagsusumite ng buwanang mga ulat pinansyal sa mga ahensyang nangangasiwa',
     'acct-preparation-of-jev-and-financial-statements':
       'Paghahanda ng JEV at mga Pahayag Pinansyal',
-    'acct-preparation-of-monthly-reports': 'Preparation of Buwanang Mga ulat',
+    'acct-preparation-of-monthly-reports': "Paghahanda ng Buwanang Ulat",
     'acct-preparation-of-payroll': 'Paghahanda ng Payroll',
-    'acct-prepare-check-based-on-approved-dv': 'Ihanda suriin based on naaprubahan DV',
+    'acct-prepare-check-based-on-approved-dv': "Ihanda ang tseke batay sa aprubadong DV",
     'acct-prepare-financial-statements-statement-of':
       'Ihanda ang mga Pahayag Pinansyal (Pahayag ng Kalagayang Pinansyal, Pahayag ng Pagganap Pinansyal)',
     'acct-prepare-journal-entry-vouchers-jev': 'Ihanda ang mga Journal Entry Voucher (JEV)',
     'acct-prepare-monthly-trial-balance-and-financial':
       'Prepare buwanang trial balance sa mga pahayag pinansyal',
-    'acct-prepare-payroll-register-and-individual-pay-slips':
-      'Ihanda payroll magparehistro and individual magbayad slips',
+    'acct-prepare-payroll-register-and-individual-pay-slips': "Ihanda ang payroll register at ang pay slip ng bawat empleyado",
     'acct-prepare-trial-balance': 'Ihanda Trial Balanse',
     'acct-privacy-policy': 'Patakaran sa Pagkapribado',
     'acct-processing-of-checks-for-approved-disbursements':
@@ -7587,26 +7602,23 @@ const translations = {
     'acct-quarterlyannual': 'Quarterly/Taunang',
     'acct-quick-links': 'Mga Mabilisang Link',
     'acct-receive-and-log-disbursement-voucher': 'Tanggapin at itala ang disbursement voucher',
-    'acct-receive-approved-disbursement-voucher-from-mayors':
-      'Tanggapin naaprubahan Disbursement Voucher from Opisina ng Punong Bayan',
-    'acct-receive-daily-time-records-dtr-and-other-payroll':
-      'Tanggapin Araw-araw Time Mga rekord (DTR) and iba pang payroll mga dokumento from HRMO',
+    'acct-receive-approved-disbursement-voucher-from-mayors': "Tanggapin ang aprubadong Disbursement Voucher mula sa Tanggapan ng Alkalde",
+    'acct-receive-daily-time-records-dtr-and-other-payroll': "Tanggapin ang Daily Time Records (DTR) at iba pang dokumento ng payroll mula sa HRMO",
     'acct-recording-of-financial-transactions-and':
       'Pagtatala ng mga transaksyong pinansyal at paghahanda ng komprehensibong mga pahayag pinansyal',
     'acct-resolution-framework': 'Balangkas ng Resolusyon',
     'acct-resources': 'Mga Mapagkukunan',
-    'acct-review-and-certify-payroll': 'Suriin and sertipikahan payroll',
-    'acct-review-and-certify-reports': 'Suriin and sertipikahan mga ulat',
+    'acct-review-and-certify-payroll': "Suriin at patunayan ang payroll",
+    'acct-review-and-certify-reports': "Suriin at patunayan ang mga ulat",
     'acct-review-and-verify-completeness-of-supporting':
       'Suriin sa verify completeness ng mga suportang dokumento',
-    'acct-review-check-details-and-countersign': 'Suriin suriin details and countersign',
-    'acct-reviewed-check': 'Reviewed suriin',
+    'acct-review-check-details-and-countersign': "Suriin ang detalye ng tseke at pumirma bilang kasamang lagda",
+    'acct-reviewed-check': "Nasuring tseke",
     'acct-rosalinda-m-fernandez': 'Rosalinda M. Fernandez',
     'acct-sangguniang-bayan': 'Sangguniang Bayan',
-    'acct-select-a-service-to-view-the-detailed-process':
-      'Select a serbisyo to tingnan the detailed iproseso',
+    'acct-select-a-service-to-view-the-detailed-process': "Pumili ng serbisyo para makita ang detalyadong proseso",
     'acct-services': 'Mga Serbisyo',
-    'acct-signed-check': 'Signed suriin',
+    'acct-signed-check': "Napirmahang tseke",
     'acct-sitemap': 'Mapa ng Site',
     'acct-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'acct-social-services': 'Serbisyong Panlipunan',
@@ -7673,8 +7685,7 @@ const translations = {
     'assessor-agriculture': 'Agrikultura',
     'assessor-annotation': 'Anotasyon',
     'assessor-annotation-services': 'Mga Serbisyo ng Anotasyon',
-    'assessor-annotations-are-official-notations-recorded-on':
-      'Annotations are opisyal notations recorded on buwis declarations to reflect encumbrances, liens, or iba pang legal matters affecting the ari-arian.',
+    'assessor-annotations-are-official-notations-recorded-on': "Ang annotation ay opisyal na tala sa tax declaration na nagpapakita ng sagutin, lien, o iba pang legal na usaping may kinalaman sa ari-arian.",
     'assessor-appointment': 'Appointment',
     'assessor-appraisal-and-valuation-of-real-properties-for':
       'Pagtatasa at pagpapahalaga ng mga tunay na ari-arian para sa layunin ng pagbubuwis',
@@ -7687,19 +7698,16 @@ const translations = {
     'assessor-business': 'Negosyo',
     'assessor-business-permits': 'Mga Permiso sa Negosyo',
     'assessor-cancellation-of-mortgage': 'Pagkansela ng Mortgage',
-    'assessor-certificate-of-land-area': 'Sertipiko of Lupa Lugar',
+    'assessor-certificate-of-land-area': "Sertipiko ng Sukat ng Lupa",
     'assessor-certificate-of-no-property': 'Sertipiko ng Walang Ari-arian',
-    'assessor-certificate-of-property-holdings': 'Sertipiko of Ari-arian Holdings',
+    'assessor-certificate-of-property-holdings': "Sertipiko ng mga Ari-ariang Hawak",
     'assessor-certificates': 'Mga Sertipiko',
-    'assessor-certification-of-the-total-land-area-based-on-tax':
-      'Certification of the kabuuang lupa lugar based on buwis mga rekord.',
+    'assessor-certification-of-the-total-land-area-based-on-tax': "Sertipikasyon ng kabuuang sukat ng lupa batay sa rekord ng buwis.",
     'assessor-certification-that-a-person-has-no-declared':
       'Sertipikasyon na ang isang tao ay walang idineklaang ari-arian sa Concepcion.',
     'assessor-certifications': 'Mga Sertipikasyon',
-    'assessor-certified-true-copy-of-tax-declaration':
-      'Sertipikadong Tunay na Kopya of Deklarasyon ng Buwis',
-    'assessor-change-of-land-classification-for-assessment':
-      'Baguhin of lupa classification for pagtatasa purposes',
+    'assessor-certified-true-copy-of-tax-declaration': "Certified True Copy ng Tax Declaration",
+    'assessor-change-of-land-classification-for-assessment': "Pagpapalit ng klasipikasyon ng lupa para sa pagtatasa",
     'assessor-citizens-charter': "Citizen's Charter",
     'assessor-claim-new-tax-declaration': 'Kunin Bago Deklarasyon ng Buwis',
     'assessor-cmci-dti-portal': 'CMCI DTI Portal',
@@ -7716,8 +7724,7 @@ const translations = {
     'assessor-fees': 'Mga Bayad',
     'assessor-file-application-at-the-assessors-office-with':
       'Ihain ang aplikasyon sa Opisina ng Tagapagtasa na may mga kinakailangang dokumento kabilang ang patunay ng pagmamay-ari.',
-    'assessor-file-application-with-complete-documents-at-the':
-      "Ihain aplikasyon with kumpleto mga dokumento at the Assessor's Opisina.",
+    'assessor-file-application-with-complete-documents-at-the': "Isumite ang aplikasyon na may kumpletong dokumento sa Tanggapan ng Assessor.",
     'assessor-for-changes-in-property-details-corrections-or':
       'Para sa mga pagbabago sa detalye ng ari-arian, mga pagwawasto, o mga update sa pangkalahatang rebisyon.',
     'assessor-for-newly-constructed-buildings-improvements-or':
@@ -7731,7 +7738,7 @@ const translations = {
     'assessor-infrastructure': 'Imprastraktura',
     'assessor-issuance-and-management-of-real-property-tax':
       'Pagbibigay at pamamahala ng mga deklarasyon ng buwis sa tunay na ari-arian',
-    'assessor-issuance-of-tax-declaration': 'Issuance of Deklarasyon ng Buwis',
+    'assessor-issuance-of-tax-declaration': "Pag-iisyu ng Tax Declaration",
     'assessor-land-classification-categories': 'Lupa Classification Categories',
     'assessor-land-reclassification': 'Reklasipikasyon ng Lupa',
     'assessor-land-reclassification-changes-the-category-of':
@@ -7751,8 +7758,7 @@ const translations = {
       'Ang bagong Tax Declaration ay ibinibigay na nagpapakita ng tinasang halaga ng ari-arian.',
     'assessor-new-tax-declaration-under-the-new-owners-name':
       'Ang bagong Tax Declaration sa pangalan ng bagong may-ari ay ibibigay.',
-    'assessor-obtain-tax-clearance-from-treasurers-office':
-      'Makuha buwis clearance from Opisina ng Ingat-Yaman showing no unpaid real ari-arian mga buwis.',
+    'assessor-obtain-tax-clearance-from-treasurers-office': "Kumuha ng tax clearance sa Tanggapan ng Ingat-Yaman na nagpapakitang walang hindi nabayarang buwis sa ari-arian.",
     'assessor-office-hours': 'Oras ng Opisina',
     'assessor-official-copy-of-tax-declaration-for-legal-and':
       'Opisyal na kopya ng tax declaration para sa legal at layuning pangbangko.',
@@ -7767,8 +7773,7 @@ const translations = {
     'assessor-pay-transfer-tax': 'Magbayad Ilipat Buwis',
     'assessor-phone': 'Telepono',
     'assessor-privacy-policy': 'Patakaran sa Pagkapribado',
-    'assessor-processing-of-property-ownership-transfers-in-tax':
-      'Processing of ari-arian ownership transfers in buwis mga rekord',
+    'assessor-processing-of-property-ownership-transfers-in-tax': "Pagproseso ng paglipat ng pagmamay-ari ng ari-arian sa rekord ng buwis",
     'assessor-processing-time': 'Oras ng Pagproseso',
     'assessor-property-assessment': 'Pagtatasa ng Ari-arian',
     'assessor-property-assessment-determines-the-fair-market':
@@ -7780,8 +7785,7 @@ const translations = {
     'assessor-property-owner': 'May-ari ng Ari-arian',
     'assessor-public-safety': 'Kaligtasang Pampubliko',
     'assessor-quick-links': 'Mga Mabilisang Link',
-    'assessor-real-property-assessment-tax-declarations-and':
-      'Real ari-arian pagtatasa, buwis declarations, and lupa mga rekord management',
+    'assessor-real-property-assessment-tax-declarations-and': "Pagtatasa ng ari-arian, tax declaration, at pamamahala ng rekord ng lupa",
     'assessor-real-property-tax-payment': 'Pagbabayad ng Buwis sa Ari-arian',
     'assessor-reclassification': 'Reklasipikasyon',
     'assessor-recording-of-encumbrances-and-other-notations-on':
@@ -7804,28 +7808,26 @@ const translations = {
     'assessor-submit-application': 'Isumite ang Aplikasyon',
     'assessor-submit-documents': 'Isumite ang mga Dokumento',
     'assessor-tax-declaration': 'Deklarasyon ng Buwis',
-    'assessor-tax-declaration-is-an-official-document-showing':
-      'Deklarasyon ng Buwis is an opisyal dokumento showing the assessed value of a ari-arian. It is used as basis for computing real ari-arian mga buwis and serves as proof of ari-arian ownership for buwis purposes.',
+    'assessor-tax-declaration-is-an-official-document-showing': "Ang Tax Declaration ay opisyal na dokumentong nagpapakita ng tinasang halaga ng ari-arian. Ito ang batayan sa pagkuwenta ng buwis sa ari-arian at patunay ng pagmamay-ari para sa layunin ng buwis.",
     'assessor-tax-declaration-services': 'Deklarasyon ng Buwis Mga serbisyo',
     'assessor-tax-payments': 'Pagbabayad ng Buwis',
     'assessor-tax-payments-2': 'Buwis at Pagbabayad',
     'assessor-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'assessor-time': 'Oras:',
     'assessor-transfer-of-ownership': 'Paglipat ng Pagmamay-ari',
-    'assessor-transfer-of-property-ownership': 'Ilipat of Ari-arian Ownership',
+    'assessor-transfer-of-property-ownership': "Paglipat ng Pagmamay-ari ng Ari-arian",
     'assessor-treasurers-office': 'Opisina ng Ingat-yaman',
     'assessor-types-of-annotations': 'Mga Uri ng Anotasyon',
     'assessor-update-records-when-property-changes':
       'Update mga rekord kapag ari-arian mga pagbabago',
     'assessor-valuation-assessment': 'Valuation & Pagtatasa',
     'assessor-varies': 'Nag-iiba',
-    'assessor-varies-by-service': 'Varies by Serbisyo',
+    'assessor-varies-by-service': "Depende sa serbisyo",
     'assessor-various-certifications-related-to-real-property':
       "Iba't ibang sertipikasyon na may kaugnayan sa mga rekord ng tunay na ari-arian",
     'assessor-volunteer-with-us': 'Mag-volunteer sa amin',
     'assessor-walkin': 'Walk-in',
-    'assessor-when-property-changes-ownership-through-sale':
-      "When ari-arian changes ownership through sale, donation, inheritance, or iba pang means, the buwis declaration must be transferred to the bago owner's name.",
+    'assessor-when-property-changes-ownership-through-sale': "Kapag nagbago ang may-ari ng ari-arian dahil sa bentahan, donasyon, mana, o iba pang paraan, kailangang ilipat ang tax declaration sa pangalan ng bagong may-ari.",
     'assessor-who-can-apply': 'Sino ang Maaaring Mag-apply',
     'bc-1530-minutes': '15-30 Minuto',
     'bc-accessibility': 'Aksesibilidad',
@@ -7835,8 +7837,7 @@ const translations = {
     'bc-barangay-clearance': 'Barangay Clearance',
     'bc-birth-certificate-local-copy': 'Sertipiko ng Kapanganakan (Lokal na Kopya)',
     'bc-blgf-portal': 'BLGF Portal',
-    'bc-bring-valid-governmentissued-id-if-representative':
-      'Dalhin balido government-issued ID. If kinatawan: authorization sulat and IDs of both may-ari and kinatawan.',
+    'bc-bring-valid-governmentissued-id-if-representative': "Magdala ng balidong ID na inisyu ng gobyerno. Kung kinatawan: sulat ng awtorisasyon at ID ng may-ari at ng kinatawan.",
     'bc-business': 'Negosyo',
     'bc-can-i-get-a-birth-certificate-registered-in':
       'Maaari ko bang makuha ang sertipiko ng kapanganakan na nakarehistro sa ibang munisipalidad?',
@@ -7847,8 +7848,7 @@ const translations = {
     'bc-citizens-charter': "Citizen's Charter",
     'bc-claim-certificate': 'Kunin ang Sertipiko',
     'bc-cmci-dti-portal': 'CMCI DTI Portal',
-    'bc-complete-the-request-form-with-full-name-date-of':
-      "Kumpleto the humiling form with buong name, date of kapanganakan, place of kapanganakan, parents' names, and purpose.",
+    'bc-complete-the-request-form-with-full-name-date-of': "Punan ang request form ng buong pangalan, petsa ng kapanganakan, lugar ng kapanganakan, pangalan ng mga magulang, at layunin.",
     'bc-contact': 'Makipag-ugnayan',
     'bc-contact-us': 'Makipag-ugnayan sa Amin',
     'bc-contact-us-for-assistance-with-this-service':
@@ -7868,7 +7868,7 @@ const translations = {
     'bc-freedom-of-information': 'Kalayaan sa Impormasyon',
     'bc-frequently-asked-questions': 'Mga Madalas Itanong',
     'bc-go-to-the-local-civil-registrar-office-at-2nd':
-      'Pumunta to the Lokal Tagapagrehistro Sibil Opisina at 2nd Floor, Pangmunisipyo Hall. Opisina hours: Mon-Fri, 8AM-5PM.',
+      'Pumunta sa Tanggapan ng Local Civil Registrar sa Munisipyo sa Poblacion. Oras ng opisina: Lunes hanggang Huwebes, 7:00 AM – 12:00 NN at 1:00 – 6:00 PM.',
     'bc-government': 'Pamahalaan',
     'bc-health': 'Kalusugan',
     'bc-home': 'Tahanan',
@@ -7901,8 +7901,7 @@ const translations = {
     'bc-requirements': 'Mga Kinakailangan',
     'bc-resolution-framework': 'Balangkas ng Resolusyon',
     'bc-resources': 'Mga Mapagkukunan',
-    'bc-return-to-civil-registrar-with-official-receipt':
-      'Bumalik to Tagapagrehistro Sibil with opisyal resibo. Sertipiko released within 15-30 minutes if rekord is magagamit.',
+    'bc-return-to-civil-registrar-with-official-receipt': "Bumalik sa Civil Registrar dala ang opisyal na resibo. Ibibigay ang sertipiko kapag may rekord; itanong sa opisina kung gaano ito katagal.",
     'bc-sangguniang-bayan': 'Sangguniang Bayan',
     'bc-services': 'Mga Serbisyo',
     'bc-sitemap': 'Mapa ng Site',
@@ -8002,7 +8001,7 @@ const translations = {
       'Taunang pag-renew ng umiiral na permiso sa negosyo (Enero 1-20 nang walang karagdagang singil)',
     'bpl-application-for-new-business-permit-for':
       'Aplikasyon para sa bagong permiso sa negosyo para sa mga negosyong nag-ooperate sa Concepcion',
-    'bpl-application-form-all-requirements': 'Aplikasyon form, all mga kinakailangan',
+    'bpl-application-form-all-requirements': "Application form at lahat ng requirements",
     'bpl-assessment-sheet': 'Pagtatasa sheet',
     'bpl-barangay-business-clearance': 'Business Clearance ng Barangay',
     'bpl-barangay-business-clearance-current-year':
@@ -8012,11 +8011,10 @@ const translations = {
     'bpl-blgf-portal': 'BLGF Portal',
     'bpl-bpls-head': 'BPLS Pinuno',
     'bpl-bpls-staff': 'BPLS Kawani',
-    'bpl-bring-original-documents-for-verification':
-      'Dalhin orihinal mga dokumento for beripikasyon',
+    'bpl-bring-original-documents-for-verification': "Dalhin ang orihinal na dokumento para sa beripikasyon",
     'bpl-business': 'Negosyo',
     'bpl-business-closure-certificate': 'Business Closure Sertipiko',
-    'bpl-business-permit-of-supplier': 'Permiso sa Negosyo of supplier',
+    'bpl-business-permit-of-supplier': "Business Permit ng supplier",
     'bpl-business-permit-renewal-deadline-january-20':
       'Deadline ng pag-renew ng permiso sa negosyo: Enero 20',
     'bpl-business-permit-services': 'Permiso sa Negosyo Mga serbisyo',
@@ -8029,7 +8027,7 @@ const translations = {
     'bpl-closure-of-business': 'Pagsasara ng Negosyo',
     'bpl-cmci-dti-portal': 'CMCI DTI Portal',
     'bpl-community-tax-certificate-cedula': 'Sertipiko ng Buwis sa Komunidad (Sedula)',
-    'bpl-computation-of-fees-and-taxes': 'Computation of mga bayad and mga buwis',
+    'bpl-computation-of-fees-and-taxes': "Pagkuwenta ng bayarin at buwis",
     'bpl-contact': 'Makipag-ugnayan',
     'bpl-contract-of-lease-land-title-proof-of-business':
       'Kontrata ng Pag-upa / Land Title (patunay ng lokasyon ng negosyo)',
@@ -8055,7 +8053,7 @@ const translations = {
     'bpl-fire-safety-inspection-certificate-from-bfp-2':
       'Sertipiko ng Inspeksyon sa Kaligtasan sa Sunog mula sa BFP (kasalukuyang taon)',
     'bpl-for-employment': 'Para sa Trabaho',
-    'bpl-for-other-purposes': 'For Iba pang Purposes',
+    'bpl-for-other-purposes': "Para sa Iba pang Layunin",
     'bpl-freedom-of-information': 'Kalayaan sa Impormasyon',
     'bpl-government': 'Pamahalaan',
     'bpl-gross-sales-declaration': 'Deklarasyon ng kabuuang benta',
@@ -8064,11 +8062,11 @@ const translations = {
     'bpl-hours': 'Oras',
     'bpl-important-notes': 'Mahahalagang Paalala',
     'bpl-infrastructure': 'Imprastraktura',
-    'bpl-issuance-of-business-permit': 'Issuance of Permiso sa Negosyo',
+    'bpl-issuance-of-business-permit': "Pag-iisyu ng Business Permit",
     'bpl-issuance-of-mayors-clearance': 'Pagbibigay ng Clearance ng Alkalde',
     'bpl-issuance-of-mayors-clearancepermit': 'Pagbibigay ng Clearance/Permiso ng Alkalde',
-    'bpl-issuance-of-new-business-permit': 'Issuance of Bago Permiso sa Negosyo',
-    'bpl-issuance-of-renewed-business-permit': 'Issuance of na-renew Permiso sa Negosyo',
+    'bpl-issuance-of-new-business-permit': "Pag-iisyu ng Bagong Business Permit",
+    'bpl-issuance-of-renewed-business-permit': "Pag-iisyu ng na-renew na Business Permit",
     'bpl-jan-1-jan-20': 'Ene 1 - Ene 20',
     'bpl-january-120': 'Enero 1-20',
     'bpl-january-21-onwards': 'Enero 21 pataas',
@@ -8077,7 +8075,7 @@ const translations = {
     'bpl-late-renewal-incurs-25-surcharge-2-monthly':
       'Late renewal incurs 25% karagdagang singil + 2% buwanang interes',
     'bpl-legislative': 'Lehislatura',
-    'bpl-letter-of-intent': 'Sulat of Intent',
+    'bpl-letter-of-intent': "Letter of Intent (sulat ng layunin)",
     'bpl-lgu-solano-facebook': 'LGU Concepcion Facebook',
     'bpl-licensing-officer': 'Opisyal ng Lisensya',
     'bpl-list-of-activitiesprogram': 'Listahan ng mga aktibidad/programa',
@@ -8103,13 +8101,13 @@ const translations = {
     'bpl-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'bpl-official-receipt': 'Opisyal na Resibo',
     'bpl-open-data-philippines': 'Open Data Philippines',
-    'bpl-order-of-payment': 'Order of Pagbabayad',
+    'bpl-order-of-payment': "Order of Payment",
     'bpl-ordinance-framework': 'Balangkas ng Ordinansa',
     'bpl-original-business-permit': 'Orihinal Permiso sa Negosyo',
     'bpl-other-permits': 'Iba pang Permiso',
-    'bpl-other-permits-and-clearances': 'Iba pang Mga permiso and Clearances',
-    'bpl-payment-of-fee-at-treasurers-office': 'Pagbabayad of bayad at Opisina ng Ingat-Yaman',
-    'bpl-payment-of-fees-at-treasurers-office': 'Pagbabayad of mga bayad at Opisina ng Ingat-Yaman',
+    'bpl-other-permits-and-clearances': "Iba pang Permit at Clearance",
+    'bpl-payment-of-fee-at-treasurers-office': "Pagbabayad ng bayarin sa Tanggapan ng Ingat-Yaman",
+    'bpl-payment-of-fees-at-treasurers-office': "Pagbabayad ng bayarin sa Tanggapan ng Ingat-Yaman",
     'bpl-permit-processing': 'Pagproseso ng Permiso',
     'bpl-permit-renewal': 'Pag-renew ng Permiso',
     'bpl-permit-type': 'Uri ng Permiso',
@@ -8124,19 +8122,18 @@ const translations = {
     'bpl-quick-links': 'Mga Mabilisang Link',
     'bpl-records-assessment': 'Mga rekord & Pagtatasa',
     'bpl-renewal': 'Pag-renew',
-    'bpl-renewal-of-business-permit': 'Renewal of Permiso sa Negosyo',
+    'bpl-renewal-of-business-permit': "Renewal ng Business Permit",
     'bpl-renewal-period': 'Panahon ng Pag-renew',
     'bpl-request-letter': 'Humiling sulat',
     'bpl-request-letter-stating-purpose': 'Humiling sulat stating purpose',
-    'bpl-requirements-for-new-business': 'Mga kinakailangan for Bago Business',
-    'bpl-requirements-for-renewal': 'Mga kinakailangan for Renewal',
+    'bpl-requirements-for-new-business': "Mga Requirement para sa Bagong Negosyo",
+    'bpl-requirements-for-renewal': "Mga Requirement sa Renewal",
     'bpl-resolution-framework': 'Balangkas ng Resolusyon',
     'bpl-resources': 'Mga Mapagkukunan',
     'bpl-same-day': 'Parehong day',
     'bpl-sangguniang-bayan': 'Sangguniang Bayan',
-    'bpl-sanitary-permit-from-mho': 'Permiso sa Kalinisan from MHO',
-    'bpl-sanitary-permit-from-mho-current-year':
-      'Permiso sa Kalinisan from MHO (kasalukuyang year)',
+    'bpl-sanitary-permit-from-mho': "Sanitary Permit mula sa MHO",
+    'bpl-sanitary-permit-from-mho-current-year': "Sanitary Permit mula sa MHO (kasalukuyang taon)",
     'bpl-sec-registration-for-corporationpartnership':
       'SEC Registration (for corporation/partnership)',
     'bpl-section-chief': 'Pinuno ng Seksyon',
@@ -8149,32 +8146,29 @@ const translations = {
     'bpl-special-permit-events': 'Espesyal na Permiso (Mga Kaganapan)',
     'bpl-statistics': 'Estadistika',
     'bpl-step': 'Hakbang',
-    'bpl-submit-application-form-and-complete-requirements':
-      'Isumite aplikasyon form and kumpleto mga kinakailangan',
-    'bpl-submit-renewal-application-and-requirements':
-      'Isumite renewal aplikasyon and mga kinakailangan',
-    'bpl-submit-requirements-and-fill-out-application-form':
-      'Isumite mga kinakailangan and punan out aplikasyon form',
+    'bpl-submit-application-form-and-complete-requirements': "Isumite ang application form at kumpletong requirements",
+    'bpl-submit-renewal-application-and-requirements': "Isumite ang aplikasyon para sa renewal at ang mga requirements",
+    'bpl-submit-requirements-and-fill-out-application-form': "Isumite ang mga requirements at punan ang application form",
     'bpl-supporting-documents-as-applicable': 'Supporting mga dokumento (as naaangkop)',
     'bpl-surcharge': 'Karagdagang singil',
-    'bpl-sworn-statement-of-gross-salesreceipts': 'Sinumpaang Pahayag of Gross Sales/Receipts',
+    'bpl-sworn-statement-of-gross-salesreceipts': "Sinumpaang Pahayag ng Gross Sales/Receipts",
     'bpl-tax-clearance-from-treasurer': 'Tax Clearance mula sa Ingat-Yaman',
     'bpl-tax-payments': 'Pagbabayad ng Buwis',
     'bpl-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'bpl-total-processing-time-55-minutes-to-1-hour-if':
       'Kabuuang oras ng pagproseso: 55 minuto hanggang 1 oras (kung kumpleto)',
     'bpl-transfer-of-business-location': 'Paglipat ng Lokasyon ng Negosyo',
-    'bpl-transfer-of-location': 'Ilipat of Location',
+    'bpl-transfer-of-location': "Paglipat ng Lokasyon",
     'bpl-transparency': 'Transparensiya',
     'bpl-treasurers-office': 'Opisina ng Ingat-yaman',
     'bpl-type-of-clearance': 'Uri ng Clearance',
     'bpl-valid-id': 'Balidong ID',
-    'bpl-valid-id-of-applicant': 'Balidong ID of aplikante',
-    'bpl-valid-id-of-ownerauthorized-representative': 'Balidong ID of owner/authorized kinatawan',
+    'bpl-valid-id-of-applicant': "Balidong ID ng aplikante",
+    'bpl-valid-id-of-ownerauthorized-representative': "Balidong ID ng may-ari o awtorisadong kinatawan",
     'bpl-vehicle-registration-orcr': 'Pagpaparehistro ng sasakyan (OR/CR)',
-    'bpl-verification-and-assessment': 'Beripikasyon and pagtatasa',
-    'bpl-verification-and-assessment-of-documents': 'Beripikasyon and pagtatasa of mga dokumento',
-    'bpl-verification-of-documents': 'Beripikasyon of mga dokumento',
+    'bpl-verification-and-assessment': "Beripikasyon at pagtatasa",
+    'bpl-verification-and-assessment-of-documents': "Beripikasyon at pagtatasa ng mga dokumento",
+    'bpl-verification-of-documents': "Beripikasyon ng mga dokumento",
     'bpl-volunteer-with-us': 'Mag-volunteer sa amin',
     'bpl-zoning-clearance-from-mpdo': 'Zoning Clearance mula sa MPDO',
     'budget-accessibility': 'Aksesibilidad',
@@ -8361,8 +8355,8 @@ const translations = {
     'contact-open': 'Buksan',
     'contact-open-data-philippines': 'Open Data Philippines',
     'contact-ordinance-framework': 'Balangkas ng Ordinansa',
-    'contact-pdrrmo-n-vizcaya': 'PDRRMO N. Vizcaya',
-    'contact-pdrrmo-n-vizcaya-number not yet verified': 'PDRRMO N. Vizcaya number not yet verified',
+    'contact-pdrrmo-n-vizcaya': 'Romblon PDRRMO',
+    'contact-pdrrmo-n-vizcaya-number not yet verified': 'Romblon PDRRMO number not yet verified',
     'contact-plt-hospital': 'PLT Hospital',
     'contact-plt-hospital-number not yet verified': 'PLT Hospital number not yet verified',
     'contact-pnp-solano': 'PNP Concepcion',
@@ -8414,15 +8408,14 @@ const translations = {
     'cr-birth-certificate': 'Sertipiko ng Kapanganakan',
     'cr-birth-certificate-guide': 'Sertipiko ng Kapanganakan Guide',
     'cr-birth-certificate-services': 'Sertipiko ng Kapanganakan Mga serbisyo',
-    'cr-birth-marriage-death-certificates-and-vital':
-      'Kapanganakan, kasal, kamatayan mga sertipiko and vital mga rekord mga serbisyo',
+    'cr-birth-marriage-death-certificates-and-vital': "Sertipiko ng kapanganakan, kasal, at kamatayan at iba pang serbisyo sa rekord sibil",
     'cr-blgf-portal': 'BLGF Portal',
     'cr-business': 'Negosyo',
     'cr-cenomar': 'CENOMAR',
     'cr-certificate-of-no-marriage-cenomar': 'Sertipiko ng Walang Kasal (CENOMAR)',
     'cr-certificates': 'Mga Sertipiko',
     'cr-certificates-vital-records': 'Mga sertipiko & Vital Mga rekord',
-    'cr-certification-of-no-marriage-record-on-file': 'Certification of no kasal rekord on ihain',
+    'cr-certification-of-no-marriage-record-on-file': "Sertipikasyon na walang rekord ng kasal",
     'cr-certified-true-copy-local': 'Sertipikadong Tunay na Kopya (Lokal)',
     'cr-change-of-first-name-ra-9048': 'Pagbabago ng Unang Pangalan (RA 9048)',
     'cr-citizens-charter': "Citizen's Charter",
@@ -8445,8 +8438,7 @@ const translations = {
     'cr-delayed-death-registration': 'Delayed Kamatayan Registration',
     'cr-delayed-marriage-registration': 'Delayed Kasal Registration',
     'cr-delayed-registration': 'Naantalang Pagpaparehistro',
-    'cr-delayed-registration-is-the-registration-of-vital':
-      'Delayed registration is the registration of vital events (birth, kasal, death) beyond the prescribed period. This requires karagdagang documentary mga kinakailangan and processing.',
+    'cr-delayed-registration-is-the-registration-of-vital': "Ang delayed registration ay ang pagpaparehistro ng kapanganakan, kasal, o kamatayan lampas sa itinakdang panahon. Kailangan dito ng karagdagang dokumento at proseso.",
     'cr-document-owner': 'May-ari ng Dokumento',
     'cr-education': 'Edukasyon',
     'cr-email': 'Email',
@@ -8467,17 +8459,14 @@ const translations = {
     'cr-infrastructure': 'Imprastraktura',
     'cr-issuance-of-certified-true-copies-and':
       'Pagbibigay ng mga sertipikadong tunay na kopya at pagpaparehistro ng mga kapanganakan',
-    'cr-issuance-of-marriage-certificates-and-marriage':
-      'Issuance of kasal mga sertipiko and kasal lisensya',
-    'cr-late-registration-of-birth-marriage-or-death':
-      'Late registration of kapanganakan, kasal, or kamatayan',
+    'cr-issuance-of-marriage-certificates-and-marriage': "Pag-iisyu ng sertipiko ng kasal at marriage license",
+    'cr-late-registration-of-birth-marriage-or-death': "Huling pagpaparehistro ng kapanganakan, kasal, o kamatayan",
     'cr-lcrsolanogovph': 'Email not yet published',
     'cr-legal-process-to-legitimize-children-born-out-of':
       'Legal na proseso upang gawing lehitimo ang mga batang ipinanganak sa labas ng kasal',
     'cr-legitimation': 'Lehitimasyon',
     'cr-legitimation-annotation': 'Anotasyon ng Lehitimasyon',
-    'cr-legitimation-is-the-legal-process-by-which':
-      "Legitimation is the legal iproseso by which mga bata born out of wedlock are legitimized by the subsequent kasal of their mga magulang. This is annotated on the child's kapanganakan sertipiko.",
+    'cr-legitimation-is-the-legal-process-by-which': "Ang legitimation ay legal na proseso kung saan nagiging lehitimo ang batang ipinanganak sa labas ng kasal kapag ikinasal ang kanyang mga magulang. Itinatala ito sa birth certificate ng bata.",
     'cr-lgu-solano-facebook': 'LGU Concepcion Facebook',
     'cr-license-waiting': 'Paghihintay ng Lisensya',
     'cr-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
@@ -8505,9 +8494,8 @@ const translations = {
       'Pagpaparehistro at pagbibigay ng mga sertipiko ng pagkamatay',
     'cr-related-services': 'Mga Kaugnay na Serbisyo',
     'cr-requirements': 'Mga Kinakailangan',
-    'cr-requirements-for-delayed-birth-registration':
-      'Mga kinakailangan for Delayed Kapanganakan Registration',
-    'cr-requirements-for-registration': 'Mga kinakailangan for Registration',
+    'cr-requirements-for-delayed-birth-registration': "Mga Requirement para sa Naantalang Pagpaparehistro ng Kapanganakan",
+    'cr-requirements-for-registration': "Mga Requirement sa Pagpaparehistro",
     'cr-resolution-framework': 'Balangkas ng Resolusyon',
     'cr-resources': 'Mga Mapagkukunan',
     'cr-same-day': 'Parehong day',
@@ -8526,18 +8514,16 @@ const translations = {
       'Ang Local Civil Registrar handles ang pagpaparehistro ng deaths sa pagbibigay ng mga sertipikadong tunay na kopya ng sertipiko ng pagkamatays para sa deaths na occurred sa Concepcion.',
     'cr-the-local-civil-registrar-issues-certified-true':
       'Ang Local Civil Registrar mga isyu mga sertipikadong tunay na kopya ng sertipiko ng kapanganakans para sa mga indibidwal whose births ay registered sa Concepcion, Romblon.',
-    'cr-the-local-civil-registrar-processes-petitions-for':
-      'The Lokal Tagapagrehistro Sibil processes petitions for correction of clerical or typographical errors and baguhin of unang name in civil registry mga dokumento under RA 9048 and RA 10172.',
-    'cr-the-local-civil-registrar-provides':
-      'The Lokal Tagapagrehistro Sibil provides marriage-related mga serbisyo including issuance of kasal mga lisensya and sertipikado totoo mga kopya of kasal mga sertipiko.',
+    'cr-the-local-civil-registrar-processes-petitions-for': "Pinoproseso ng Local Civil Registrar ang mga petisyon para itama ang clerical o typographical na mali at palitan ang unang pangalan sa mga dokumento ng civil registry sa ilalim ng RA 9048 at RA 10172.",
+    'cr-the-local-civil-registrar-provides': "Nagbibigay ang Local Civil Registrar ng mga serbisyong may kinalaman sa kasal, kabilang ang pag-iisyu ng marriage license at certified true copy ng sertipiko ng kasal.",
     'cr-type': 'Uri',
     'cr-types-of-corrections': 'Mga Uri ng Pagwawasto',
-    'cr-types-of-delayed-registration': 'Types of Naantalang Pagpaparehistro',
-    'cr-types-of-services': 'Types of Mga serbisyo',
+    'cr-types-of-delayed-registration': "Mga Uri ng Naantalang Pagpaparehistro",
+    'cr-types-of-services': "Mga Uri ng Serbisyo",
     'cr-validity': 'Bisa',
     'cr-volunteer-with-us': 'Mag-volunteer sa amin',
     'cr-walkin': 'Walk-in',
-    'cr-who-can-request': 'Who Can Humiling',
+    'cr-who-can-request': "Sino ang Maaaring Humiling",
     'cr-within-30-days': 'Sa Loob ng 30 Araw',
     'dc-1-hour': '1 oras',
     'dc-1-hour-35-minutes': '1 oras 35 minuto',
@@ -8552,11 +8538,9 @@ const translations = {
     'dc-accessibility': 'Aksesibilidad',
     'dc-accomplish-client-feedback-form-and-drop-at':
       'Punan ang Client Feedback Form at ihulog sa itinalagang suggestion box.',
-    'dc-accomplished-death-certificate': 'Accomplished Sertipiko ng Pagkamatay',
-    'dc-accomplished-death-certificate-and-order-of':
-      'Accomplished Sertipiko ng Pagkamatay and Order of Pagbabayad',
-    'dc-affidavit-for-delayed-registration-of-death':
-      'Affidavit for Naantalang Pagpaparehistro of Kamatayan',
+    'dc-accomplished-death-certificate': "Nakumpletong Death Certificate",
+    'dc-accomplished-death-certificate-and-order-of': "Nakumpletong Death Certificate at Order of Payment",
+    'dc-affidavit-for-delayed-registration-of-death': "Affidavit para sa Naantalang Pagpaparehistro ng Kamatayan",
     'dc-agriculture': 'Agrikultura',
     'dc-bernadette': 'Bernadette',
     'dc-birth-certificate': 'Sertipiko ng Kapanganakan',
@@ -8566,7 +8550,7 @@ const translations = {
       'Sertipiko ng Pagkamatay na wastong nilagdaan ng dumadalong doktor',
     'dc-certificate-of-death-duly-signed-by-the':
       'Sertipiko ng Pagkamatay na wastong nilagdaan ng mga partido sa kontrata, opisyal na nagkasal at hindi bababa sa dalawang saksi',
-    'dc-certificate-of-death-form': 'Sertipiko of Kamatayan Form',
+    'dc-certificate-of-death-form': "Form ng Certificate of Death",
     'dc-certificates': 'Mga Sertipiko',
     'dc-citizens-charter': "Citizen's Charter",
     'dc-civil-registrar-services': 'Mga Serbisyo ng Civil Registrar',
@@ -8578,13 +8562,11 @@ const translations = {
       'Makipag-ugnayan sa amin para sa tulong sa serbisyong ito.',
     'dc-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'dc-deadline': 'Deadline',
-    'dc-death-at-home': 'Kamatayan at Home',
-    'dc-death-in-hospitalclinic': 'Kamatayan in Hospital/Clinic',
-    'dc-death-not-in-hospitalclinic-unattended-by-a':
-      'Kamatayan not in Hospital/Clinic unattended by a Physician',
-    'dc-documents-needed-for-death-certificate':
-      'Mga dokumento needed for kamatayan sertipiko registration',
-    'dc-documents-to-present': 'Mga dokumento to Ipakita',
+    'dc-death-at-home': "Namatay sa Bahay",
+    'dc-death-in-hospitalclinic': "Namatay sa Ospital/Klinika",
+    'dc-death-not-in-hospitalclinic-unattended-by-a': "Namatay sa labas ng Ospital/Klinika nang walang doktor",
+    'dc-documents-needed-for-death-certificate': "Mga dokumentong kailangan para iparehistro ang death certificate",
+    'dc-documents-to-present': "Mga Dokumentong Ipapakita",
     'dc-downloadable-resources': 'Mga Nada-download na Mapagkukunan',
     'dc-duration': 'Tagal',
     'dc-edgar-mc': 'Edgar Mc',
@@ -8597,28 +8579,24 @@ const translations = {
     'dc-fee': 'Bayad',
     'dc-fee-summary': 'Buod ng Bayad',
     'dc-for-death-at-home-unattended': 'Para sa Pagkamatay sa Bahay (Walang Dumalo)',
-    'dc-for-death-in-hospitalclinic': 'For Kamatayan in Hospital/Clinic',
+    'dc-for-death-in-hospitalclinic': "Kung Namatay sa Ospital/Klinika",
     'dc-for-delayed-registration-after-30-days':
       'Para sa Naantalang Pagpaparehistro (Pagkatapos ng 30 Araw)',
-    'dc-forms-and-documents-for-death-certificate':
-      'Mga form and mga dokumento for kamatayan sertipiko registration',
+    'dc-forms-and-documents-for-death-certificate': "Mga form at dokumento para sa pagpaparehistro ng death certificate",
     'dc-free': 'Libre',
-    'dc-free-of-charge': 'libre of singil',
+    'dc-free-of-charge': "libre",
     'dc-freedom-of-information': 'Kalayaan sa Impormasyon',
     'dc-frequently-asked-questions': 'Mga Madalas Itanong',
-    'dc-get-your-copy-of-cod': 'Kumuha your kopya of COD',
+    'dc-get-your-copy-of-cod': "Kunin ang iyong kopya ng COD",
     'dc-government': 'Pamahalaan',
     'dc-health': 'Kalusugan',
     'dc-home': 'Tahanan',
-    'dc-how-long-does-the-registration-process-take':
-      'How mahaba does the registration iproseso take?',
+    'dc-how-long-does-the-registration-process-take': "Gaano katagal ang proseso ng pagpaparehistro?",
     'dc-important-registration-information': 'Mahalaga Registration Impormasyon',
     'dc-informantfamily': 'Nagpapaalam/Pamilya',
-    'dc-information-about-the-deceased-full-name-date-of':
-      'Impormasyon about the namatay (buong name, date of kapanganakan, date of kamatayan, etc.)',
+    'dc-information-about-the-deceased-full-name-date-of': "Impormasyon tungkol sa yumao (buong pangalan, petsa ng kapanganakan, petsa ng kamatayan, atbp.)",
     'dc-infrastructure': 'Imprastraktura',
-    'dc-is-there-a-fee-for-death-certificate-registration':
-      'Is there a bayad for kamatayan sertipiko registration?',
+    'dc-is-there-a-fee-for-death-certificate-registration': "May bayad ba ang pagpaparehistro ng death certificate?",
     'dc-juvy': 'Juvy',
     'dc-legislative': 'Lehislatura',
     'dc-lgu-solano-facebook': 'LGU Concepcion Facebook',
@@ -8636,20 +8614,18 @@ const translations = {
     'dc-oliver-receiving-officer': 'Oliver - Receiving Opisyal',
     'dc-open-data-philippines': 'Open Data Philippines',
     'dc-ordinance-framework': 'Balangkas ng Ordinansa',
-    'dc-pay-the-burial-permit-fee-at-the-mto': 'Magbayad the Libing Permiso bayad at the MTO',
+    'dc-pay-the-burial-permit-fee-at-the-mto': "Bayaran ang Burial Permit fee sa MTO",
     'dc-personnel': 'Mga Tauhan',
-    'dc-present-the-certificate-of-death-for-review':
-      'Ipakita the Sertipiko of Kamatayan for suriin.',
+    'dc-present-the-certificate-of-death-for-review': "Ipakita ang Certificate of Death para masuri.",
     'dc-privacy-policy': 'Patakaran sa Pagkapribado',
-    'dc-proceed-to-mho': 'Magpatuloy to MHO',
-    'dc-proceed-to-the-embalmer': 'Magpatuloy to the embalmer',
+    'dc-proceed-to-mho': "Pumunta sa MHO",
+    'dc-proceed-to-the-embalmer': "Pumunta sa embalsamador",
     'dc-processing': 'Pagproseso',
     'dc-psa-negative-certification': 'Negatibong sertipikasyon ng PSA',
     'dc-public-safety': 'Kaligtasang Pampubliko',
     'dc-quick-links': 'Mga Mabilisang Link',
-    'dc-registration-of-certificate-of-death-at-the-local':
-      'Registration of Sertipiko of Kamatayan at the Lokal Tagapagrehistro Sibil',
-    'dc-registration-of-death-certificate': 'Registration of Sertipiko ng Pagkamatay',
+    'dc-registration-of-certificate-of-death-at-the-local': "Pagpaparehistro ng Certificate of Death sa Local Civil Registrar",
+    'dc-registration-of-death-certificate': "Pagpaparehistro ng Death Certificate",
     'dc-related-services': 'Mga Kaugnay na Serbisyo',
     'dc-requirements': 'Mga Kinakailangan',
     'dc-resolution-framework': 'Balangkas ng Resolusyon',
@@ -8671,12 +8647,11 @@ const translations = {
     'dc-thirty-30-days': 'tatlumpung (30) araw',
     'dc-total-response-time-death-at-home': 'KABUUANG ORAS NG PAGTUGON (Pagkamatay sa Bahay)',
     'dc-transparency': 'Transparensiya',
-    'dc-valid-id-of-informant': 'Balidong ID of informant',
+    'dc-valid-id-of-informant': "Balidong ID ng nag-uulat",
     'dc-volunteer-with-us': 'Mag-volunteer sa amin',
     'dc-what-is-the-deadline-for-registering-a-death':
       'What ay ang deadline para sa registering isang sertipiko ng pagkamatay?',
-    'dc-what-is-the-difference-between-burial-permit-and':
-      'What is the difference between Libing Permiso and Ilipat Permiso?',
+    'dc-what-is-the-difference-between-burial-permit-and': "Ano ang pagkakaiba ng Burial Permit at Transfer Permit?",
     'dc-what-to-do': 'Ano ang Gagawin',
     'dc-who-can-apply': 'Sino ang Maaaring Mag-apply',
     'dc-who-can-be-the-informant-for-death-registration':
@@ -8777,18 +8752,15 @@ const translations = {
     'eng-blgf-portal': 'BLGF Portal',
     'eng-brgy-clearance-zoning-clearance': 'Brgy. Clearance at Zoning Clearance',
     'eng-building-permit': 'Permit sa Pagtatayo',
-    'eng-building-permit-issuance-construction-permits-and':
-      'Gusali permiso issuance, construction mga permiso, and engineering mga serbisyo',
+    'eng-building-permit-issuance-construction-permits-and': "Pag-iisyu ng building permit, construction permit, at mga serbisyong pang-inhinyeriya",
     'eng-business': 'Negosyo',
     'eng-certificates': 'Mga Sertipiko',
-    'eng-certified-true-copy-of-octtct': 'Sertipikadong Tunay na Kopya of OCT/TCT',
+    'eng-certified-true-copy-of-octtct': "Certified True Copy ng OCT/TCT",
     'eng-citizens-charter': "Citizen's Charter",
     'eng-civilstructural-permit': 'Civil/Structural Permiso',
-    'eng-claim-building-permit-5-days-after-payment-with':
-      'Kunin gusali permiso (5 days after payment) with opisyal resibo and endorsements',
+    'eng-claim-building-permit-5-days-after-payment-with': "Kunin ang building permit (5 araw matapos magbayad) dala ang opisyal na resibo at mga endorsement",
     'eng-cmci-dti-portal': 'CMCI DTI Portal',
-    'eng-complete-list-of-requirements-for-building-permit':
-      'Kumpleto list of mga kinakailangan for gusali permiso aplikasyon',
+    'eng-complete-list-of-requirements-for-building-permit': "Kumpletong listahan ng requirements para sa aplikasyon ng building permit",
     'eng-contact': 'Makipag-ugnayan',
     'eng-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'eng-demolition-permit': 'Permit sa Demolisyon',
@@ -8813,13 +8785,13 @@ const translations = {
     'eng-freedom-of-information': 'Kalayaan sa Impormasyon',
     'eng-get-building-permit': 'Kumuha Permiso sa Pagtatayo',
     'eng-get-first-endorsement': 'Kumuha Unang Pag-eendorso',
-    'eng-get-order-of-payment': 'Kumuha Order of Pagbabayad',
+    'eng-get-order-of-payment': "Kunin ang Order of Payment",
     'eng-government': 'Pamahalaan',
     'eng-health': 'Kalusugan',
     'eng-home': 'Tahanan',
     'eng-important-notes': 'Mahahalagang Paalala',
     'eng-infrastructure': 'Imprastraktura',
-    'eng-issuance-of-building-permit': 'Issuance of Permiso sa Pagtatayo',
+    'eng-issuance-of-building-permit': "Pag-iisyu ng Building Permit",
     'eng-jonathan-t-castillo': 'Jonathan T. Castillo',
     'eng-key-personnel-handling-building-permit':
       'Key tauhan handling gusali permiso mga aplikasyon',
@@ -8859,12 +8831,10 @@ const translations = {
     'eng-sangguniang-bayan': 'Sangguniang Bayan',
     'eng-sanitary-permit': 'Permit sa Sanitaryo',
     'eng-sanitary-plans': 'Mga Plano ng Sanitaryo',
-    'eng-secure-first-endorsement-with-official-receipt':
-      'Ligtas unang pag-eendorso with opisyal resibo',
+    'eng-secure-first-endorsement-with-official-receipt': "Kunin ang unang endorsement dala ang opisyal na resibo",
     'eng-services': 'Mga Serbisyo',
     'eng-sidewalk-dev-permit': 'Sidewalk Dev. Permiso',
-    'eng-sign-client-logbook-and-secure-application-forms':
-      'Pumirma kliyente logbook and ligtas aplikasyon mga form and checklist of mga kinakailangan',
+    'eng-sign-client-logbook-and-secure-application-forms': "Pumirma sa logbook ng kliyente at kunin ang application form at checklist ng requirements",
     'eng-sign-logbook-secure-forms': 'Pumirma Logbook & Ligtas Mga form',
     'eng-sign-permit': 'Permiso sa Karatula',
     'eng-sitemap': 'Mapa ng Site',
@@ -8872,15 +8842,14 @@ const translations = {
     'eng-social-services': 'Serbisyong Panlipunan',
     'eng-statistics': 'Estadistika',
     'eng-structural-plans': 'Mga Plano ng Istruktura',
-    'eng-submit-application-form-and-requirements-for':
-      'Isumite aplikasyon form and mga kinakailangan for beripikasyon by engineers. Plans must be signed and sealed.',
+    'eng-submit-application-form-and-requirements-for': "Isumite ang application form at requirements para masuri ng mga inhinyero. Dapat pirmado at may tatak ang mga plano.",
     'eng-submit-application-plans': 'Isumite Aplikasyon & Plans',
     'eng-supporting-documents': 'Mga Suportang Dokumento',
     'eng-tax-declaration': 'Deklarasyon ng Buwis',
     'eng-tax-payments': 'Pagbabayad ng Buwis',
     'eng-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'eng-transparency': 'Transparensiya',
-    'eng-types-of-permits-available': 'Types of Mga permiso Magagamit',
+    'eng-types-of-permits-available': "Mga Uri ng Permit",
     'eng-validity': 'Bisa',
     'eng-various-permit-types-issued-by-the-municipal':
       "Iba't ibang uri ng permiso na ibinibigay ng Opisina ng Inhinyeriya ng Munisipyo",
@@ -8975,8 +8944,7 @@ const translations = {
     'err403-tax-payments': 'Pagbabayad ng Buwis',
     'err403-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'err403-volunteer-with-us': 'Mag-volunteer sa amin',
-    'err403-you-dont-have-permission-to-access-this-resource':
-      "You don't have permission to i-access this resource. This page may be restricted or kailangan espesyal authorization. If you believe this is an error, please makipag-ugnayan us.",
+    'err403-you-dont-have-permission-to-access-this-resource': "Wala kang pahintulot na buksan ang pahinang ito. Maaaring limitado ito o nangangailangan ng espesyal na awtorisasyon. Kung sa tingin mo ay mali ito, makipag-ugnayan sa amin.",
     'err404-accessibility': 'Aksesibilidad',
     'err404-agriculture': 'Agrikultura',
     'err404-blgf-portal': 'BLGF Portal',
@@ -9047,8 +9015,7 @@ const translations = {
     'err500-tax-payments': 'Pagbabayad ng Buwis',
     'err500-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'err500-volunteer-with-us': 'Mag-volunteer sa amin',
-    'err500-were-experiencing-technical-difficulties-our-team':
-      "We're experiencing technical difficulties. Our team has been notified and is working to resolve the ibigay. Please try again later or makipag-ugnayan us if the problem persists.",
+    'err500-were-experiencing-technical-difficulties-our-team': "May teknikal na problema ngayon at inaayos na ito. Subukang muli mamaya, o makipag-ugnayan sa amin kung magpapatuloy ang problema.",
     'faq-1x1-id-photo': '1x1 ID photo',
     'faq-abakadaorg': 'Abakada.org',
     'faq-about-the-developer': 'Tungkol sa Developer',
@@ -9061,21 +9028,18 @@ const translations = {
     'faq-birth-certificate-or-any-valid-id-showing-your':
       'Sertipiko ng Kapanganakan o anumang balidong ID na nagpapakita ng iyong edad (60 pataas)',
     'faq-blgf-portal': 'BLGF Portal',
-    'faq-both-are-certified-true-copies-psa-certificates':
-      'Both are sertipikado totoo mga kopya. PSA mga sertipiko are the nationally-recognized version kinakailangan for passport and visa mga aplikasyon. Lokal civil registrar mga sertipiko are accepted for most lokal mga transaksyon and are often processed faster.',
+    'faq-both-are-certified-true-copies-psa-certificates': "Pareho silang certified true copy. Ang sertipiko ng PSA ang kinikilala sa buong bansa at kailangan sa aplikasyon ng pasaporte at visa. Ang sertipiko ng local civil registrar ay tinatanggap sa karamihan ng lokal na transaksyon at kadalasang mas mabilis makuha.",
     'faq-business-permit-page': 'Permiso sa Negosyo page',
     'faq-business-permits-must-be-renewed-annually':
       'Business mga permiso ay dapat i-renew taun-taon, preferably sa January. Ang deadline para sa multa-libreng renewal ay typically January 20th ng bawat year.',
     'faq-can-i-request-services-online': 'Can I humiling mga serbisyo online?',
-    'faq-can-someone-else-request-my-certificate-for-me':
-      'Can someone else humiling my sertipiko for me?',
+    'faq-can-someone-else-request-my-certificate-for-me': "Puwede bang ibang tao ang humiling ng sertipiko ko?",
     'faq-citizens-charter': "Citizen's Charter",
     'faq-cmci-dti-portal': 'CMCI DTI Portal',
     'faq-community-tax-certificate-cedula': 'Sertipiko ng Buwis sa Komunidad (Sedula)',
     'faq-contact-us': 'Makipag-ugnayan sa Amin',
     'faq-contribute-code-with-us': 'Mag-ambag ng code sa amin',
-    'faq-currently-most-services-require-inperson':
-      'Currently, most mga serbisyo kailangan in-person mga aplikasyon. However, we are working on implementing online mga serbisyo for select mga transaksyon. Suriin individual serbisyo pages for updates.',
+    'faq-currently-most-services-require-inperson': "Sa ngayon, karamihan ng serbisyo ay kailangang personal na i-apply. Inihahanda ang online na serbisyo para sa ilang transaksyon. Tingnan ang pahina ng bawat serbisyo para sa update.",
     'faq-currently-we-accept-cash-payments-at-the':
       'Currently, kami accept cash mga pagbabayad sa ang Opisina ng Ingat-Yaman ng Munisipyo. Kami ay working sa implementing online pagbabayad mga opsyon para sa taxes sa mga bayad.',
     'faq-dti-registration-for-sole-proprietorship-or-sec':
@@ -9097,10 +9061,8 @@ const translations = {
       'How can I makipag-ugnayan a tiyak pangmunisipyo opisina?',
     'faq-how-can-i-pay-my-real-property-tax': 'How can I magbayad my real ari-arian buwis?',
     'faq-how-do-i-apply-for-a-senior-citizen-id': 'Paano ako mag-apply para sa Senior Citizen ID?',
-    'faq-how-long-does-it-take-to-get-a-birth-certificate':
-      'How mahaba does it take to kumuha a kapanganakan sertipiko?',
-    'faq-i-found-a-broken-link-or-error-on-this-website':
-      'I found a broken link or error on this website. How do I ulat it?',
+    'faq-how-long-does-it-take-to-get-a-birth-certificate': "Gaano katagal bago makakuha ng birth certificate?",
+    'faq-i-found-a-broken-link-or-error-on-this-website': "May nakita akong sirang link o mali sa website na ito. Paano ko ito iuulat?",
     'faq-infrastructure': 'Imprastraktura',
     'faq-is-this-website-mobilefriendly': 'Ang website ba na ito ay mobile-friendly?',
     'faq-lgu-solano-facebook': 'LGU Concepcion Facebook',
@@ -9119,8 +9081,7 @@ const translations = {
     'faq-resolution-framework': 'Balangkas ng Resolusyon',
     'faq-resources': 'Mga Mapagkukunan',
     'faq-sangguniang-bayan': 'Sangguniang Bayan',
-    'faq-senior-citizens-enjoy-20-discount-and-vat':
-      'Nakatatanda mga mamamayan enjoy 20% diskwento and VAT exemption on purchases (with a minimum purchase halaga bawat establishment), priority lanes, and i-access to espesyal programs and medical tulong from the munisipyo.',
+    'faq-senior-citizens-enjoy-20-discount-and-vat': "Ang mga senior citizen ay may 20% diskwento at exemption sa VAT sa mga binibili (may minimum na halaga bawat establisimyento), priority lane, at access sa mga espesyal na programa at tulong medikal mula sa munisipyo.",
     'faq-sitemap': 'Mapa ng Site',
     'faq-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'faq-social-services': 'Serbisyong Panlipunan',
@@ -9129,7 +9090,7 @@ const translations = {
     'faq-the-id-is-issued-for-free': 'Ang ID ay ibinibigay nang libre.',
     'faq-the-municipal-hall-is-open-monday-to-friday-800':
       'Ang Munisipyo ay open Monday sa Friday, 8:00 AM sa 5:00 PM, na maaari isang lunch break mula sa 12:00 PM sa 1:00 PM. Kami ay closed sa weekends sa pambansang/lokal na holidays.',
-    'faq-to-start-a-new-business-youll-need': "To simulan a bago business, you'll kailangan:",
+    'faq-to-start-a-new-business-youll-need': "Para magsimula ng bagong negosyo, kakailanganin mo ang:",
     'faq-valid-id-of-both-you-and-the-representative': 'Balidong ID ng iyo at ng kinatawan',
     'faq-visit-the-municipal-treasurers-office-at-the':
       'Bumisita sa Opisina ng Ingat-Yaman ng Munisipyo sa Munisipyo na may iyong Tax Declaration o pinakabagong Opisyal na Resibo. Ang pagbabayad ay sa cash. Ang mga buwis sa ari-arian ay dapat bayaran quarterly, ngunit maaari kang magbayad taun-taon upang makakuha ng diskwento.',
@@ -9139,8 +9100,7 @@ const translations = {
       'What ay ang office hours ng ang Munisipyo?',
     'faq-what-benefits-do-senior-citizens-receive':
       'What benefits do nakatatanda mga mamamayan tanggapin?',
-    'faq-what-do-i-need-to-start-a-new-business-in-solano':
-      'What do I kailangan to simulan a bago business in Concepcion?',
+    'faq-what-do-i-need-to-start-a-new-business-in-solano': "Ano ang kailangan ko para magsimula ng bagong negosyo sa Concepcion?",
     'faq-what-is-the-difference-between-psa-and-local':
       'What ay ang difference sa pagitan ng PSA sa lokal na civil registrar mga sertipiko?',
     'faq-what-payment-methods-are-accepted': 'What pagbabayad mga pamamaraan ay accepted?',
@@ -9375,7 +9335,7 @@ const translations = {
     'gs-construction-and-agricultural-equipment-for':
       'Mga kagamitan sa konstruksyon at agrikultura para sa mga proyekto ng munisipyo',
     'gs-contribute-code-with-us': 'Mag-ambag ng code sa amin',
-    'gs-delivery-and-inspection': 'Delivery and Inspeksyon',
+    'gs-delivery-and-inspection': "Paghahatid at Inspeksyon",
     'gs-department-head': 'Pinuno ng Kagawaran',
     'gs-designation': 'Designasyon',
     'gs-driver': 'Driver',
@@ -9392,8 +9352,7 @@ const translations = {
     'gs-emtdriver': 'EMT/Driver',
     'gs-environment': 'Kapaligiran',
     'gs-equipment': 'Kagamitan',
-    'gs-equipment-rental-is-subject-to-availability-and':
-      'Equipment rental is subject to availability and pag-apruba. Priority is given to pangmunisipyo projects and barangay mga kahilingan. Fuel mga gastos are shouldered by the requesting party.',
+    'gs-equipment-rental-is-subject-to-availability-and': "Ang pagrenta ng kagamitan ay depende sa availability at pag-apruba. Inuuna ang mga proyekto ng munisipyo at kahilingan ng barangay. Sagot ng humihiling ang gastos sa gasolina.",
     'gs-executive-assistant': 'Ehekutibong Katulong',
     'gs-free-emergency': 'Libre (Emergency)',
     'gs-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -9429,18 +9388,17 @@ const translations = {
     'gs-municipal-hall-ground-floor-solano-nueva-vizcaya':
       'Munisipyo, Unang Palapag, Concepcion, Romblon 3708',
     'gs-municipal-treasurer': 'Ingat-yaman ng Munisipalidad',
-    'gs-municipal-vehicles-available-for-official-use-and':
-      'Pangmunisipyo vehicles magagamit for opisyal gamitin and pampubliko rental',
+    'gs-municipal-vehicles-available-for-official-use-and': "Mga sasakyan ng munisipyo para sa opisyal na gamit at pampublikong pagrenta",
     'gs-name': 'Pangalan',
     'gs-note': 'Paalala:',
     'gs-office-hours': 'Oras ng Opisina',
     'gs-office-personnel': 'Mga Tauhan ng Opisina',
-    'gs-office-staff-and-service-personnel': 'Opisina kawani and serbisyo tauhan',
+    'gs-office-staff-and-service-personnel': "Mga kawani ng opisina at service personnel",
     'gs-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'gs-official-receipt-approved-request': 'Opisyal Resibo, Naaprubahan Humiling',
     'gs-open-data-philippines': 'Open Data Philippines',
     'gs-operator': 'Operator',
-    'gs-order-of-payment-from-gso': 'Order of Pagbabayad from GSO',
+    'gs-order-of-payment-from-gso': "Order of Payment mula sa GSO",
     'gs-ordinance-framework': 'Balangkas ng Ordinansa',
     'gs-payment-processing': 'Pagproseso ng Pagbabayad',
     'gs-person-responsible': 'Taong Responsable',
@@ -9464,8 +9422,7 @@ const translations = {
     'gs-related-services': 'Mga Kaugnay na Serbisyo',
     'gs-rental-process': 'Proseso ng Pag-upa',
     'gs-rental-rate': 'Rate ng Pag-upa',
-    'gs-request-letter-addressed-to-the-municipal-mayor':
-      'Humiling sulat addressed to the Punong Bayan stating purpose and date of gamitin',
+    'gs-request-letter-addressed-to-the-municipal-mayor': "Sulat-kahilingan para sa Punong Bayan na nagsasaad ng layunin at petsa ng paggamit",
     'gs-requirements': 'Mga Kinakailangan',
     'gs-resolution-framework': 'Balangkas ng Resolusyon',
     'gs-resources': 'Mga Mapagkukunan',
@@ -9686,7 +9643,7 @@ const translations = {
     'home-view-solano-on-openstreetmap': 'Tingnan Concepcion on OpenStreetMap',
     'home-view-statistics': 'Tingnan ang mga Estadistika',
     'home-villaverde': 'Villaverde',
-    'home-weather-and-map-of-solano': 'Weather and Mapa of Concepcion',
+    'home-weather-and-map-of-solano': "Panahon at Mapa ng Concepcion",
     'hrm-10-minutes': '10 minuto',
     'hrm-105-days-for-female-employees': '105 araw para sa mga babaeng empleyado',
     'hrm-12-days': '1-2 araw',
@@ -9702,14 +9659,13 @@ const translations = {
     'hrm-activity': 'Aktibidad',
     'hrm-administrative-staff': 'Kawaning Administratibo',
     'hrm-agriculture': 'Agrikultura',
-    'hrm-application-for-leave': 'Aplikasyon for Leave',
-    'hrm-approval-by-municipal-mayor': 'Pag-apruba by Punong Bayan',
-    'hrm-authorization-letter-if-representative': 'Authorization sulat (if kinatawan)',
+    'hrm-application-for-leave': "Aplikasyon para sa Leave",
+    'hrm-approval-by-municipal-mayor': "Pag-apruba ng Punong Bayan",
+    'hrm-authorization-letter-if-representative': "Sulat ng awtorisasyon (kung kinatawan)",
     'hrm-blgf-portal': 'BLGF Portal',
-    'hrm-bring-valid-id-for-all-transactions': 'Dalhin balido ID for all mga transaksyon',
+    'hrm-bring-valid-id-for-all-transactions': "Magdala ng balidong ID sa lahat ng transaksyon",
     'hrm-business': 'Negosyo',
-    'hrm-certificate-of-no-pending-administrative-case':
-      'Sertipiko of No Nakabinbin Administrative Case',
+    'hrm-certificate-of-no-pending-administrative-case': "Sertipiko na Walang Nakabinbing Kasong Administratibo",
     'hrm-certificates': 'Mga Sertipiko',
     'hrm-certification-that-employee-has-no-pending':
       'Sertipikasyon na ang empleyado ay walang nakabinbing kasong administratibo',
@@ -9730,18 +9686,17 @@ const translations = {
     'hrm-duration': 'Tagal',
     'hrm-education': 'Edukasyon',
     'hrm-employee-id': 'Empleyado ID',
-    'hrm-employee-id-for-current-employees': 'Empleyado ID (for kasalukuyang mga empleyado)',
+    'hrm-employee-id-for-current-employees': "Employee ID (para sa kasalukuyang empleyado)",
     'hrm-empowering-the-people-of-solano-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
     'hrm-environment': 'Kapaligiran',
     'hrm-fee-free': 'Bayad: Libre',
-    'hrm-fee-free-for-current-employees': 'Bayad: Libre for kasalukuyang mga empleyado',
+    'hrm-fee-free-for-current-employees': "Bayad: Libre para sa kasalukuyang empleyado",
     'hrm-for-illness-or-medical-reasons': 'Para sa sakit o medikal na dahilan',
     'hrm-for-personal-matters-rest-and-recreation':
       'Para sa personal na usapin, pahinga, at libangan',
-    'hrm-for-special-circumstances-as-provided-by-law':
-      'For espesyal circumstances as provided by batas',
-    'hrm-forms-and-documents-for-hr-services': 'Mga form and mga dokumento for HR mga serbisyo',
+    'hrm-for-special-circumstances-as-provided-by-law': "Para sa mga espesyal na sitwasyong itinakda ng batas",
+    'hrm-forms-and-documents-for-hr-services': "Mga form at dokumento para sa serbisyo ng HR",
     'hrm-freedom-of-information': 'Kalayaan sa Impormasyon',
     'hrm-government': 'Pamahalaan',
     'hrm-health': 'Kalusugan',
@@ -9759,7 +9714,7 @@ const translations = {
     'hrm-issuance-of-certificate-of-employment': 'Pagbibigay ng Sertipiko ng Trabaho',
     'hrm-issuance-of-certificate-of-leave-credits':
       'Pagbibigay ng Sertipiko ng mga Kredito ng Leave',
-    'hrm-issuance-of-service-record': 'Issuance of Serbisyo Rekord',
+    'hrm-issuance-of-service-record': "Pag-iisyu ng Service Record",
     'hrm-key-personnel-handling-human-resource-management':
       'Mga pangunahing tauhan na humahawak ng mga serbisyo ng pamamahala ng yamang tao',
     'hrm-leave-application': 'Aplikasyon ng Leave',
@@ -9782,8 +9737,7 @@ const translations = {
     'hrm-office': 'Opisina',
     'hrm-office-information': 'Impormasyon ng Opisina',
     'hrm-office-personnel': 'Mga Tauhan ng Opisina',
-    'hrm-official-certification-of-current-or-previous':
-      'Opisyal certification of kasalukuyang or nakaraang employment status',
+    'hrm-official-certification-of-current-or-previous': "Opisyal na sertipikasyon ng kasalukuyan o dating trabaho",
     'hrm-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'hrm-official-record-of-employment-history-for-lgu':
       'Opisyal na rekord ng kasaysayan ng trabaho para sa mga empleyado ng LGU',
@@ -9800,15 +9754,15 @@ const translations = {
       'Pagproseso ng vacation leave, sick leave, at iba pang uri ng leave',
     'hrm-public-safety': 'Kaligtasang Pampubliko',
     'hrm-quick-links': 'Mga Mabilisang Link',
-    'hrm-recommendation-by-department-head': 'Rekomendasyon by Kagawaran Pinuno',
+    'hrm-recommendation-by-department-head': "Rekomendasyon ng Pinuno ng Departamento",
     'hrm-recording-and-release-of-approved-leave': 'Pagtatala at paglabas ng naaprubahang leave',
     'hrm-records-certifications': 'Mga rekord & Certifications',
-    'hrm-release-of-certificate': 'Ilabas of Sertipiko',
-    'hrm-release-of-certificate-of-employment': 'Ilabas of Sertipiko of Employment',
-    'hrm-release-of-service-record': 'Ilabas of Serbisyo Rekord',
+    'hrm-release-of-certificate': "Paglabas ng Sertipiko",
+    'hrm-release-of-certificate-of-employment': "Paglabas ng Certificate of Employment",
+    'hrm-release-of-service-record': "Paglabas ng Service Record",
     'hrm-representatives-must-have-authorization-letter':
       'Representatives ay dapat maaari awtorisasyon letter',
-    'hrm-request-formletter': 'Humiling form/letter',
+    'hrm-request-formletter': "Request form o sulat",
     'hrm-request-letter-stating-purpose': 'Humiling sulat stating purpose',
     'hrm-requirements': 'Mga Kinakailangan',
     'hrm-resolution-framework': 'Balangkas ng Resolusyon',
@@ -9822,8 +9776,7 @@ const translations = {
     'hrm-service-records-employment-certifications-and':
       'Mga rekord ng serbisyo, mga sertipikasyon ng trabaho, at pamamahala ng leave para sa mga empleyado ng LGU',
     'hrm-services': 'Mga Serbisyo',
-    'hrm-services-are-free-for-current-lgu-employees':
-      'Mga serbisyo are libre for kasalukuyang LGU mga empleyado',
+    'hrm-services-are-free-for-current-lgu-employees': "Libre ang mga serbisyo para sa kasalukuyang empleyado ng LGU",
     'hrm-sick-leave': 'Sick Leave',
     'hrm-sitemap': 'Mapa ng Site',
     'hrm-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
@@ -9831,11 +9784,10 @@ const translations = {
     'hrm-special-leave': 'Espesyal na Leave',
     'hrm-statistics': 'Estadistika',
     'hrm-step': 'Hakbang',
-    'hrm-submit-accomplished-leave-application-form': 'Isumite accomplished leave aplikasyon form',
-    'hrm-submit-request-for-leave-credits-certificate':
-      'Isumite humiling for leave credits sertipiko',
-    'hrm-submit-request-form-with-requirements': 'Isumite humiling form with mga kinakailangan',
-    'hrm-submit-request-letter-and-requirements': 'Isumite humiling sulat and mga kinakailangan',
+    'hrm-submit-accomplished-leave-application-form': "Isumite ang napunang leave application form",
+    'hrm-submit-request-for-leave-credits-certificate': "Isumite ang kahilingan para sa sertipiko ng leave credits",
+    'hrm-submit-request-form-with-requirements': "Isumite ang request form kasama ang requirements",
+    'hrm-submit-request-letter-and-requirements': "Isumite ang sulat-kahilingan at ang requirements",
     'hrm-supporting-documents-as-applicable': 'Supporting mga dokumento (as naaangkop)',
     'hrm-tax-payments': 'Pagbabayad ng Buwis',
     'hrm-terms-of-use': 'Mga Tuntunin ng Paggamit',
@@ -9844,20 +9796,17 @@ const translations = {
     'hrm-total-processing-time-2742-minutes': 'Kabuuang oras ng pagproseso: 27-42 minuto',
     'hrm-transparency': 'Transparensiya',
     'hrm-vacation-leave': 'Vacation Leave',
-    'hrm-valid-governmentissued-id': 'Balido government-issued ID',
-    'hrm-verification-and-preparation-of-service-record':
-      'Beripikasyon and preparation of serbisyo rekord',
-    'hrm-verification-of-administrative-case-records':
-      'Beripikasyon of administrative case mga rekord',
-    'hrm-verification-of-employment-records': 'Beripikasyon of employment mga rekord',
+    'hrm-valid-governmentissued-id': "Balidong ID na inisyu ng gobyerno",
+    'hrm-verification-and-preparation-of-service-record': "Beripikasyon at paghahanda ng service record",
+    'hrm-verification-of-administrative-case-records': "Beripikasyon ng rekord ng kasong administratibo",
+    'hrm-verification-of-employment-records': "Beripikasyon ng rekord ng trabaho",
     'hrm-verification-of-leave-credits-and-computation':
       'Beripikasyon ng mga kredito ng leave at pagkalkula',
     'hrm-volunteer-with-us': 'Mag-volunteer sa amin',
     'infra-accessibility': 'Aksesibilidad',
     'infra-agriculture': 'Agrikultura',
     'infra-blgf-portal': 'BLGF Portal',
-    'infra-building-permits-construction-permits-and':
-      'Gusali mga permiso, construction mga permiso, and engineering mga serbisyo',
+    'infra-building-permits-construction-permits-and': "Building permit, construction permit, at mga serbisyong pang-inhinyeriya",
     'infra-business': 'Negosyo',
     'infra-certificate-of-occupancy-for-completed-buildings':
       'Sertipiko ng paninirahan para sa mga natapos na gusali',
@@ -9897,16 +9846,14 @@ const translations = {
     'infra-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'infra-social-services': 'Serbisyong Panlipunan',
     'infra-tax-payments': 'Pagbabayad ng Buwis',
-    'infra-technical-assistance-and-plan-review': 'Technical tulong and plano suriin',
+    'infra-technical-assistance-and-plan-review': "Teknikal na tulong at pagsusuri ng plano",
     'infra-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'infra-time': 'Oras:',
     'infra-volunteer-with-us': 'Mag-volunteer sa amin',
-    'infra-zoning-clearance-locational-clearance-and-land':
-      'Zoning clearance, locational clearance, and lupa gamitin mga serbisyo',
+    'infra-zoning-clearance-locational-clearance-and-land': "Zoning clearance, locational clearance, at mga serbisyo sa paggamit ng lupa",
     'leg-10day-mayors-approval': "10- Day Mayor's Pag-apruba",
     'leg-3day-submission-to-sp': '3-Araw na Pagsusumite sa SP',
-    'leg-60day-review-for-appropriation-ordinances-30day':
-      '60- day suriin for appropriation ordinances; 30-day suriin for others',
+    'leg-60day-review-for-appropriation-ordinances-30day': "60 araw na pagsusuri para sa appropriation ordinance; 30 araw para sa iba",
     'leg-about': 'Tungkol',
     'leg-accessibility': 'Aksesibilidad',
     'leg-agriculture': 'Agrikultura',
@@ -9963,8 +9910,7 @@ const translations = {
       'Local laws na maaari permanent sa pangkalahatang application na require pagsunod mula sa mga residente sa businesses sa loob ng ang municipality.',
     'leg-mayor-reviews-and-approves-the-enacted-ordinance':
       'Sinusuri at inaprubahan ng Alkalde ang naipatupad na ordinansa sa loob ng 10 araw',
-    'leg-municipal-ordinances-enacted-by-the-sangguniang':
-      'Pangmunisipyo ordinances enacted by the Sangguniang Bayan — lokal laws that govern the munisipyo and its mga residente.',
+    'leg-municipal-ordinances-enacted-by-the-sangguniang': "Mga ordinansang pinagtibay ng Sangguniang Bayan — mga lokal na batas na namamahala sa munisipyo at sa mga residente nito.",
     'leg-official-signing': 'Opisyal na Pagpirma',
     'leg-ordinance-framework': 'Balangkas ng Ordinansa',
     'leg-ordinance-takes-effect-and-is-enforced-within-the':
@@ -9993,8 +9939,7 @@ const translations = {
     'leg-resources': 'Mga Mapagkukunan',
     'leg-sangguniang-bayan': 'Sangguniang Bayan',
     'leg-second-reading': 'Ikalawang Pagbasa',
-    'leg-secretary-to-the-sanggunian-and-presiding-officer':
-      'Kalihim to the Sanggunian and Presiding Opisyal pumirma the resolusyon',
+    'leg-secretary-to-the-sanggunian-and-presiding-officer': "Pipirmahan ng Kalihim ng Sanggunian at ng Presiding Officer ang resolusyon",
     'leg-services': 'Mga Serbisyo',
     'leg-sitemap': 'Mapa ng Site',
     'leg-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
@@ -10108,8 +10053,7 @@ const translations = {
     'magri-free-of-charge-for-all-farmers': 'Libre para sa lahat ng magsasaka',
     'magri-freedom-of-information': 'Kalayaan sa Impormasyon',
     'magri-freesubsidized': 'Libre/Subsidyado',
-    'magri-general-requirements-for-certifications':
-      'Pangkalahatan Mga kinakailangan for Certifications',
+    'magri-general-requirements-for-certifications': "Pangkalahatang Requirement para sa Sertipikasyon",
     'magri-government': 'Pamahalaan',
     'magri-health': 'Kalusugan',
     'magri-home': 'Tahanan',
@@ -10175,15 +10119,15 @@ const translations = {
     'magri-public-safety': 'Kaligtasang Pampubliko',
     'magri-purpose-of-certification': 'Layunin ng Sertipikasyon',
     'magri-quick-links': 'Mga Mabilisang Link',
-    'magri-recent-1x1-or-2x2-photo': 'Recent 1x1 or 2x2 Larawan',
+    'magri-recent-1x1-or-2x2-photo': "Bagong 1x1 o 2x2 na Larawan",
     'magri-registration-in-the-fisherfolk-registry-fishr':
       'Pagpaparehistro sa Fisherfolk Registry (FishR)',
     'magri-registration-of-livestock-for-monitoring-and':
       'Pagpaparehistro ng livestock para sa pagsubaybay at pagiging karapat-dapat sa programa',
     'magri-registry-system-for-basic-sectors-in-agriculture':
       'Registry System for Basic Sectors in Agriculture - Opisyal na pagpaparehistro ng magsasaka para sa mga programa ng pamahalaan',
-    'magri-requirements-for-new-registration': 'Mga kinakailangan for Bago Registration',
-    'magri-requirements-for-updaterenewal': 'Mga kinakailangan for Update/Renewal',
+    'magri-requirements-for-new-registration': "Mga Requirement para sa Bagong Pagpaparehistro",
+    'magri-requirements-for-updaterenewal': "Mga Requirement para sa Update/Renewal",
     'magri-resolution-framework': 'Balangkas ng Resolusyon',
     'magri-resources': 'Mga Mapagkukunan',
     'magri-rice-program': 'Programa sa Bigas',
@@ -10197,8 +10141,7 @@ const translations = {
     'magri-sangguniang-bayan': 'Sangguniang Bayan',
     'magri-scheduled': 'Naka-iskedyul',
     'magri-seasonal': 'Pana-panahon',
-    'magri-select-a-program-category-to-view-details':
-      'Select a program category to tingnan details',
+    'magri-select-a-program-category-to-view-details': "Pumili ng kategorya ng programa para makita ang detalye",
     'magri-services': 'Mga Serbisyo',
     'magri-sitemap': 'Mapa ng Site',
     'magri-sketch-of-farm-location': 'Sketch ng Lokasyon ng Bukid',
@@ -10236,7 +10179,7 @@ const translations = {
       'Pagsasanay sa wastong pag-aalaga at pamamahala ng mga hayop',
     'magri-transparency': 'Transparensiya',
     'magri-transport-permit': 'Permiso sa Transportasyon',
-    'magri-updated-land-documents-if-changed': 'Na-update Lupa Mga dokumento (if changed)',
+    'magri-updated-land-documents-if-changed': "Na-update na dokumento ng lupa (kung may pagbabago)",
     'magri-vaccination-deworming-and-veterinary-consultations':
       'Bakuna, pagpapapurga, at konsultasyon sa beterinaryo',
     'magri-valid-id': 'Balidong ID',
@@ -10511,7 +10454,7 @@ const translations = {
       'Ang oras ng pagproseso ay maaaring mag-iba batay sa dami ng trabaho',
     'mbudget-public-safety': 'Kaligtasang Pampubliko',
     'mbudget-quick-links': 'Mga Mabilisang Link',
-    'mbudget-release-of-obr': 'Ilabas of ObR',
+    'mbudget-release-of-obr': "Paglabas ng ObR",
     'mbudget-resolution-framework': 'Balangkas ng Resolusyon',
     'mbudget-resources': 'Mga Mapagkukunan',
     'mbudget-review-and-evaluation-of-barangay-budget':
@@ -10521,8 +10464,7 @@ const translations = {
     'mbudget-sef-budget': 'Badyet ng SEF',
     'mbudget-sef-budgets-require-municipal-school-board':
       'SEF budgets kailangan Pangmunisipyo School Lupon pag-apruba',
-    'mbudget-select-a-service-to-view-the-detailed-process':
-      'Select a serbisyo to tingnan the detailed iproseso',
+    'mbudget-select-a-service-to-view-the-detailed-process': "Pumili ng serbisyo para makita ang detalyadong proseso",
     'mbudget-services': 'Mga Serbisyo',
     'mbudget-sitemap': 'Mapa ng Site',
     'mbudget-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
@@ -10548,7 +10490,7 @@ const translations = {
     'mbudget-total-processing-time': 'Kabuuang Oras ng Pagproseso',
     'mbudget-transmittal-letter-of-the-barangay-secretary':
       'Transmittal letter ng Kalihim ng Barangay',
-    'mbudget-transmittal-letter-of-the-sef-secretary': 'Transmittal sulat of the SEF Kalihim',
+    'mbudget-transmittal-letter-of-the-sef-secretary': "Transmittal letter ng Kalihim ng SEF",
     'mbudget-transparency': 'Transparensiya',
     'mbudget-volunteer-with-us': 'Mag-volunteer sa amin',
     'mbudget-within-ten-days-10-from-the-approval-of-the':
@@ -10570,12 +10512,11 @@ const translations = {
     'mc-additional-requirements-if-applicable': 'Mga Karagdagang Kinakailangan (Kung Naaangkop)',
     'mc-affidavit-for-delayed-registration-of-marriage-at':
       'Sinumpaang Salaysay para sa Naantalang Pagpaparehistro ng Kasal (sa likod ng dokumento ay dapat mapunan)',
-    'mc-affidavit-of-the-solemnizing-officer-or-the':
-      'Affidavit of the solemnizing opisyal or the tao reporting or presenting the kasal sertipiko for registration stating the facts and circumstances surrounding the kasal and the reason or cause of delay',
+    'mc-affidavit-of-the-solemnizing-officer-or-the': "Sinumpaang salaysay ng nagkasal o ng taong nag-uulat o nagsusumite ng sertipiko ng kasal para iparehistro, na nagsasaad ng mga detalye at pangyayari sa kasal at ang dahilan ng pagkaantala",
     'mc-after-the-pmc-go-back-to-mcro': 'Pagkatapos ng PMC, bumalik sa MCRO',
     'mc-agriculture': 'Agrikultura',
     'mc-answer-questions-for-encoding': 'Sagutin ang mga tanong para sa pag-encode',
-    'mc-application-for-marriage-license': 'Aplikasyon for Lisensya sa Kasal',
+    'mc-application-for-marriage-license': "Aplikasyon para sa Marriage License",
     'mc-application-for-marriage-license-duly-signed-by':
       'Aplikasyon para sa Lisensya sa Kasal na wastong nilagdaan ng mag-asawa at ng MCR',
     'mc-appointment': 'Appointment',
@@ -10583,16 +10524,15 @@ const translations = {
     'mc-basic-requirements': 'Mga Pangunahing Kinakailangan',
     'mc-bernadette': 'Bernadette',
     'mc-birth-certificate': 'Sertipiko ng Kapanganakan',
-    'mc-birth-certificate-psa-or-local': 'Sertipiko ng Kapanganakan (PSA or Lokal)',
+    'mc-birth-certificate-psa-or-local': "Birth Certificate (PSA o Lokal)",
     'mc-blgf-portal': 'BLGF Portal',
     'mc-business': 'Negosyo',
-    'mc-certificate-of-legal-capacity-to-contract':
-      'Sertipiko of Legal Capacity to Kontrata Kasal (for foreign mga mamamayan)',
+    'mc-certificate-of-legal-capacity-to-contract': "Certificate of Legal Capacity to Contract Marriage (para sa mga dayuhan)",
     'mc-certificate-of-marriage-duly-signed-by-the':
       'Sertipiko ng Kasal na wastong nilagdaan ng mga partido sa kontrata',
     'mc-certificate-of-no-marriage-cenomar-from-psa':
       'Sertipiko ng Walang Kasal (CENOMAR) mula sa PSA',
-    'mc-certificate-of-pmc': 'Sertipiko of PMC',
+    'mc-certificate-of-pmc': "Sertipiko ng PMC",
     'mc-certificates': 'Mga Sertipiko',
     'mc-citizens-charter': "Citizen's Charter",
     'mc-civil-registrar-services': 'Mga Serbisyo ng Civil Registrar',
@@ -10600,8 +10540,7 @@ const translations = {
     'mc-client-feedback': 'Puna ng Kliyente',
     'mc-cmci-dti-portal': 'CMCI DTI Portal',
     'mc-community-tax-certificate-cedula': 'Sertipiko ng Buwis sa Komunidad (Sedula)',
-    'mc-complete-guide-to-obtaining-your-marriage-license':
-      'Kumpleto guide to obtaining your kasal lisensya',
+    'mc-complete-guide-to-obtaining-your-marriage-license': "Kumpletong gabay sa pagkuha ng marriage license",
     'mc-contact': 'Makipag-ugnayan',
     'mc-contact-us': 'Makipag-ugnayan sa Amin',
     'mc-contact-us-for-assistance-with-this-service':
@@ -10609,13 +10548,13 @@ const translations = {
     'mc-contracting-parties': 'Mga Partido sa Kontrata',
     'mc-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'mc-death-certificate': 'Sertipiko ng Kamatayan',
-    'mc-death-certificate-of-spouse-if-widowed': 'Sertipiko ng Pagkamatay of asawa (if widowed)',
+    'mc-death-certificate-of-spouse-if-widowed': "Death Certificate ng asawa (kung balo)",
     'mc-decree-of-annulment-if-annulled': 'Decree of Annulment (kung na-annul)',
     'mc-decree-of-divorce-if-divorced-abroad':
       'Decree of Divorce (kung nagdiborsiyo sa ibang bansa)',
     'mc-documents-needed-for-marriage-registration':
       'Mga Dokumento needed para sa marriage pagpaparehistro',
-    'mc-documents-to-present': 'Mga dokumento to Ipakita',
+    'mc-documents-to-present': "Mga Dokumentong Ipapakita",
     'mc-downloadable-resources': 'Mga Nada-download na Mapagkukunan',
     'mc-duly-accomplished-parental-consent-or-parental':
       'Wastong napunang Pahintulot ng Magulang o Payo ng Magulang',
@@ -10627,16 +10566,15 @@ const translations = {
     'mc-environment': 'Kapaligiran',
     'mc-fee': 'Bayad',
     'mc-fifteen-15-days': 'labinlimang (15) araw',
-    'mc-follow-these-steps-to-register-your-marriage':
-      'Sundin these steps to magparehistro your kasal sertipiko',
-    'mc-for-delayed-registration': 'For Naantalang Pagpaparehistro',
+    'mc-follow-these-steps-to-register-your-marriage': "Sundin ang mga hakbang na ito para iparehistro ang sertipiko ng kasal",
+    'mc-for-delayed-registration': "Para sa Naantalang Pagpaparehistro",
     'mc-for-engaged-couples-intending-to-get-married-in':
       'Para sa mga magkasintahang nagbabalak magpakasal sa Concepcion',
     'mc-for-timely-registration-within-1530-days':
       'Para sa Napapanahong Pagpaparehistro (Sa Loob ng 15/30 Araw)',
-    'mc-forms-for-marriage-license-application': 'Mga form for kasal lisensya aplikasyon',
+    'mc-forms-for-marriage-license-application': "Mga form para sa aplikasyon ng marriage license",
     'mc-free': 'Libre',
-    'mc-free-of-charge': 'libre of singil',
+    'mc-free-of-charge': "libre",
     'mc-freedom-of-information': 'Kalayaan sa Impormasyon',
     'mc-frequently-asked-questions': 'Mga Madalas Itanong',
     'mc-get-your-copy-of-com-duly-registered-and-signed':
@@ -10644,16 +10582,13 @@ const translations = {
     'mc-government': 'Pamahalaan',
     'mc-health': 'Kalusugan',
     'mc-home': 'Tahanan',
-    'mc-how-long-does-the-registration-process-take':
-      'How mahaba does the registration iproseso take?',
-    'mc-if-previously-married-death-certificate-of-spouse':
-      'If previously married: Sertipiko ng Pagkamatay of asawa, Decree of Divorce, Decree of Annulment, or CENOMAR from PSA',
+    'mc-how-long-does-the-registration-process-take': "Gaano katagal ang proseso ng pagpaparehistro?",
+    'mc-if-previously-married-death-certificate-of-spouse': "Kung dating kasal: Death Certificate ng asawa, Decree of Divorce, Decree of Annulment, o CENOMAR mula sa PSA",
     'mc-important-information': 'Mahalagang Impormasyon',
     'mc-important-registration-deadlines': 'Mahalaga Registration Deadlines',
     'mc-infrastructure': 'Imprastraktura',
-    'mc-is-there-a-fee-for-marriage-certificate':
-      'Is there a bayad for kasal sertipiko registration?',
-    'mc-issuance-of-the-marriage-license': 'Issuance of the kasal lisensya',
+    'mc-is-there-a-fee-for-marriage-certificate': "May bayad ba ang pagpaparehistro ng sertipiko ng kasal?",
+    'mc-issuance-of-the-marriage-license': "Pag-iisyu ng marriage license",
     'mc-juvy': 'Juvy',
     'mc-legislative': 'Lehislatura',
     'mc-lgu-solano-facebook': 'LGU Concepcion Facebook',
@@ -10671,7 +10606,7 @@ const translations = {
     'mc-official-receipt': 'Opisyal na Resibo',
     'mc-oliver-receiving-officer': 'Oliver - Receiving Opisyal',
     'mc-open-data-philippines': 'Open Data Philippines',
-    'mc-order-of-payment': 'Order of Pagbabayad',
+    'mc-order-of-payment': "Order of Payment",
     'mc-ordinance-framework': 'Balangkas ng Ordinansa',
     'mc-others-if-applicable': 'Others (if applicable):',
     'mc-parental-advice-ages-2224': 'Payo ng Magulang (edad 22-24)',
@@ -10680,26 +10615,25 @@ const translations = {
     'mc-parental-consent-ages-1821': 'Pahintulot ng Magulang (edad 18-21)',
     'mc-parental-consent-for-applicants-ages-1821-years':
       'Pahintulot ng Magulang (para sa mga aplikanteng edad 18-21 taong gulang)',
-    'mc-pay-the-required-fees': 'Magbayad the kinakailangan mga bayad',
+    'mc-pay-the-required-fees': "Bayaran ang mga kinakailangang bayarin",
     'mc-personnel': 'Mga Tauhan',
     'mc-pmc-team': 'PMC Team',
     'mc-premarriage-counseling-certificate': 'Pre-Marriage Counseling Sertipiko',
     'mc-present-requirements': 'Ipakita mga kinakailangan',
     'mc-privacy-policy': 'Patakaran sa Pagkapribado',
-    'mc-proceed-to-mswdo': 'Magpatuloy to MSWDO',
+    'mc-proceed-to-mswdo': "Pumunta sa MSWDO",
     'mc-processing': 'Pagproseso',
     'mc-psa-negative-certification': 'Negatibong sertipikasyon ng PSA',
     'mc-public-safety': 'Kaligtasang Pampubliko',
     'mc-quick-links': 'Mga Mabilisang Link',
-    'mc-registration-of-certificate-of-marriage-at-the':
-      'Registration of Sertipiko of Kasal at the Lokal Tagapagrehistro Sibil',
+    'mc-registration-of-certificate-of-marriage-at-the': "Pagpaparehistro ng Certificate of Marriage sa Local Civil Registrar",
     'mc-related-services': 'Mga Kaugnay na Serbisyo',
     'mc-requirements': 'Mga Kinakailangan',
     'mc-resolution-framework': 'Balangkas ng Resolusyon',
     'mc-resources': 'Mga Mapagkukunan',
     'mc-sangguniang-bayan': 'Sangguniang Bayan',
     'mc-services': 'Mga Serbisyo',
-    'mc-signature-of-the-solemnizing-officer': 'Lagda of the solemnizing opisyal',
+    'mc-signature-of-the-solemnizing-officer': "Pirma ng nagkasal (solemnizing officer)",
     'mc-signatures-of-at-least-two-2-witnesses': 'Mga lagda ng hindi bababa sa dalawang (2) saksi',
     'mc-sitemap': 'Mapa ng Site',
     'mc-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
@@ -10707,8 +10641,8 @@ const translations = {
     'mc-statistics': 'Estadistika',
     'mc-step': 'Hakbang',
     'mc-stepbystep-process': 'Prosesong Hakbang-hakbang',
-    'mc-stepbystep-process-for-marriage-license': 'Step-by-Step Iproseso for Lisensya sa Kasal',
-    'mc-submit-certificate-of-marriage': 'Isumite Sertipiko of Kasal',
+    'mc-stepbystep-process-for-marriage-license': "Hakbang-hakbang na Proseso para sa Marriage License",
+    'mc-submit-certificate-of-marriage': "Isumite ang Certificate of Marriage",
     'mc-submit-the-accomplished-certificate-of-marriage':
       'Isumite ang napunang Sertipiko ng Kasal (COM) para sa pagsusuri. Ang COM ay dapat wastong nilagdaan ng mga partido sa kontrata, opisyal na nagkasal, at hindi bababa sa dalawang saksi.',
     'mc-tax-payments': 'Pagbabayad ng Buwis',
@@ -10724,11 +10658,10 @@ const translations = {
     'mc-wait-for-the-printing': 'Wait para sa ang printing',
     'mc-what-if-i-missed-the-registration-deadline':
       'Paano kung napalampas ko ang deadline ng pagpaparehistro?',
-    'mc-what-is-the-deadline-for-registering-a-marriage':
-      'What is the deadline for registering a kasal sertipiko?',
+    'mc-what-is-the-deadline-for-registering-a-marriage': "Hanggang kailan dapat iparehistro ang sertipiko ng kasal?",
     'mc-what-to-do': 'Ano ang Gagawin',
     'mc-who-can-apply': 'Sino ang Maaaring Mag-apply',
-    'mc-who-should-sign-the-certificate-of-marriage': 'Who should pumirma the Sertipiko of Kasal?',
+    'mc-who-should-sign-the-certificate-of-marriage': "Sino ang dapat pumirma sa Certificate of Marriage?",
     'mcr-10-days-posting-period': '10 araw (panahon ng pag-post)',
     'mcr-12-weeks': '1-2 linggo',
     'mcr-12-weeks-posting-required': '1-2 linggo (kailangan ng pag-post)',
@@ -10745,11 +10678,11 @@ const translations = {
       'Sinumpaang Salaysay ng Pagkilala/Pag-amin ng Pagka-ama (kung illegitimate)',
     'mcr-affidavit-of-death-if-unattended':
       'Sinumpaang Salaysay ng Pagkamatay (kung walang dumalo)',
-    'mcr-affidavit-of-delayed-registration': 'Affidavit of Naantalang Pagpaparehistro',
+    'mcr-affidavit-of-delayed-registration': "Affidavit of Delayed Registration",
     'mcr-affidavit-of-publication': 'Sinumpaang Salaysay ng Publikasyon',
     'mcr-agriculture': 'Agrikultura',
     'mcr-annotation-of-court-order': 'Anotasyon ng Utos ng Hukuman',
-    'mcr-application-for-marriage-license': 'Aplikasyon for Lisensya sa Kasal',
+    'mcr-application-for-marriage-license': "Aplikasyon para sa Marriage License",
     'mcr-at-least-four-4-public-documents-showing-correct':
       'Hindi bababa sa apat (4) na pampublikong dokumento na nagpapakita ng tamang entry',
     'mcr-at-least-two-2-public-documents-showing-correct':
@@ -10757,25 +10690,23 @@ const translations = {
     'mcr-birth-certificate': 'Sertipiko ng Kapanganakan',
     'mcr-birth-certificate-authenticated': 'Sertipiko ng Kapanganakan (napatunayan)',
     'mcr-birth-certificate-psa-copy': 'Sertipiko ng Kapanganakan (PSA kopya)',
-    'mcr-birth-death-marriage-registration-and-certified':
-      'Kapanganakan, kamatayan, kasal registration, and sertipikado totoo mga kopya of civil registry mga dokumento',
+    'mcr-birth-death-marriage-registration-and-certified': "Pagpaparehistro ng kapanganakan, kamatayan, at kasal, at certified true copy ng mga dokumento ng civil registry",
     'mcr-birth-registration': 'Pagpaparehistro ng Kapanganakan',
     'mcr-birthdeath-registration': 'Pagpaparehistro ng Kapanganakan/Pagkamatay',
     'mcr-blgf-portal': 'BLGF Portal',
-    'mcr-bring-original-documents-for-verification':
-      'Dalhin orihinal mga dokumento for beripikasyon',
+    'mcr-bring-original-documents-for-verification': "Dalhin ang orihinal na dokumento para sa beripikasyon",
     'mcr-burial-permit': 'Permit sa Libing',
     'mcr-burialcremation-permit': 'Burial/Cremation Permiso',
     'mcr-business': 'Negosyo',
     'mcr-certificate-of-attendance-premarriage-counseling':
       'Sertipiko ng Pagdalo - Pre-Marriage Counseling',
-    'mcr-certificate-of-death-4-copies': 'Sertipiko of Kamatayan (4 mga kopya)',
-    'mcr-certificate-of-death-form': 'Sertipiko of Kamatayan Form',
-    'mcr-certificate-of-finality': 'Sertipiko of Finality',
-    'mcr-certificate-of-live-birth-4-copies': 'Sertipiko of Live Kapanganakan (4 mga kopya)',
+    'mcr-certificate-of-death-4-copies': "Certificate of Death (4 na kopya)",
+    'mcr-certificate-of-death-form': "Form ng Certificate of Death",
+    'mcr-certificate-of-finality': "Certificate of Finality",
+    'mcr-certificate-of-live-birth-4-copies': "Certificate of Live Birth (4 na kopya)",
     'mcr-certificate-of-no-marriage-cenomar-from-psa':
       'Sertipiko ng Walang Kasal (CENOMAR) mula sa PSA',
-    'mcr-certificate-of-no-record': 'Sertipiko of No Rekord',
+    'mcr-certificate-of-no-record': "Sertipiko na Walang Rekord",
     'mcr-certificates': 'Mga Sertipiko',
     'mcr-certified-true-copies': 'Sertipikado Totoo Mga kopya',
     'mcr-change-of-first-name-ra-9048': 'Pagbabago ng Unang Pangalan (RA 9048)',
@@ -10793,14 +10724,13 @@ const translations = {
     'mcr-court-decree-of-annulmentnullity': 'Decree ng Hukuman ng Annulment/Nullity',
     'mcr-days': 'Mga Araw',
     'mcr-death-certificate': 'Sertipiko ng Kamatayan',
-    'mcr-death-certificate-of-former-spouse-or': 'Sertipiko ng Pagkamatay of former asawa, OR',
+    'mcr-death-certificate-of-former-spouse-or': "Death Certificate ng dating asawa, O",
     'mcr-death-registration': 'Pagpaparehistro ng Pagkamatay',
     'mcr-delayed-marriage-registration': 'Delayed Kasal Registration',
     'mcr-delayed-registration': 'Naantalang Pagpaparehistro',
-    'mcr-delayed-registration-after-30-days': 'Naantalang Pagpaparehistro (After 30 days)',
+    'mcr-delayed-registration-after-30-days': "Naantalang Pagpaparehistro (lampas 30 araw)",
     'mcr-document-type': 'Uri ng Dokumento',
-    'mcr-download-the-marriage-license-application-form':
-      'I-download the kasal lisensya aplikasyon form',
+    'mcr-download-the-marriage-license-application-form': "I-download ang application form para sa marriage license",
     'mcr-duration': 'Tagal',
     'mcr-education': 'Edukasyon',
     'mcr-empowering-the-people-of-solano-with-transparent':
@@ -10808,18 +10738,17 @@ const translations = {
     'mcr-environment': 'Kapaligiran',
     'mcr-fee': 'Bayad',
     'mcr-fee-per-copy': 'Bayad bawat Kopya',
-    'mcr-fill-out-request-form-and-submit-requirements':
-      'Punan out humiling form and isumite mga kinakailangan',
+    'mcr-fill-out-request-form-and-submit-requirements': "Punan ang request form at isumite ang requirements",
     'mcr-freedom-of-information': 'Kalayaan sa Impormasyon',
     'mcr-government': 'Pamahalaan',
     'mcr-health': 'Kalusugan',
     'mcr-home': 'Tahanan',
     'mcr-hours': 'Oras',
-    'mcr-if-foreign-national': 'If Foreign Pambansa',
+    'mcr-if-foreign-national': "Kung Dayuhan",
     'mcr-if-previously-married': 'Kung Dating May Asawa',
     'mcr-important-notes': 'Mahahalagang Paalala',
     'mcr-infrastructure': 'Imprastraktura',
-    'mcr-issuance-of-certified-true-copies': 'Issuance of Sertipikado Totoo Mga kopya',
+    'mcr-issuance-of-certified-true-copies': "Pag-iisyu ng Certified True Copy",
     'mcr-key-personnel-handling-civil-registry-services':
       'Mga pangunahing tauhan na humahawak ng mga serbisyo ng rehistro sibil',
     'mcr-legal-capacity-to-contract-marriage-from-embassy':
@@ -10828,12 +10757,10 @@ const translations = {
     'mcr-lgu-solano-facebook': 'LGU Concepcion Facebook',
     'mcr-location': 'Lokasyon',
     'mcr-marriage-certificate': 'Sertipiko ng Kasal',
-    'mcr-marriage-certificate-of-parents-if-legitimate':
-      'Sertipiko ng Kasal of mga magulang (if legitimate)',
+    'mcr-marriage-certificate-of-parents-if-legitimate': "Sertipiko ng Kasal ng mga magulang (kung lehitimo)",
     'mcr-marriage-certificate-registration': 'Sertipiko ng Kasal Registration',
     'mcr-marriage-license': 'Lisensya sa Kasal',
-    'mcr-marriage-license-application-and-registration-of':
-      'Kasal lisensya aplikasyon and registration of kasal',
+    'mcr-marriage-license-application-and-registration-of': "Aplikasyon para sa marriage license at pagpaparehistro ng kasal",
     'mcr-marriage-license-is-valid-for-120-days-from':
       'Ang lisensya sa kasal ay balido sa loob ng 120 araw mula sa pagbibigay',
     'mcr-marriage-license-requirements': 'Lisensya sa Kasal Mga kinakailangan',
@@ -10860,7 +10787,7 @@ const translations = {
     'mcr-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'mcr-official-receipt': 'Opisyal na Resibo',
     'mcr-open-data-philippines': 'Open Data Philippines',
-    'mcr-order-of-payment': 'Order of Pagbabayad',
+    'mcr-order-of-payment': "Order of Payment",
     'mcr-ordinance-framework': 'Balangkas ng Ordinansa',
     'mcr-parental-advice-if-2225-years-old': 'Payo ng Magulang (kung 22-25 taong gulang)',
     'mcr-parental-consent-if-1821-years-old': 'Pahintulot ng Magulang (kung 18-21 taong gulang)',
@@ -10870,34 +10797,32 @@ const translations = {
     'mcr-petition-for-correction-of-clerical-errors-and':
       'Petisyon para sa pagwawasto ng mga klerikal na error at pagbabago ng unang pangalan (RA 9048/RA 10172)',
     'mcr-petition-form': 'Form ng Petisyon',
-    'mcr-present-official-receipt-and-claim-document':
-      'Ipakita Opisyal na Resibo and kunin dokumento',
+    'mcr-present-official-receipt-and-claim-document': "Ipakita ang Opisyal na Resibo at kunin ang dokumento",
     'mcr-privacy-policy': 'Patakaran sa Pagkapribado',
     'mcr-processing-time': 'Oras ng Pagproseso',
     'mcr-psa-birth-certificate': 'PSA Sertipiko ng Kapanganakan',
-    'mcr-psa-copy-of-document-to-be-corrected': 'PSA Kopya of dokumento to be corrected',
+    'mcr-psa-copy-of-document-to-be-corrected': "Kopya mula sa PSA ng dokumentong itatama",
     'mcr-public-safety': 'Kaligtasang Pampubliko',
     'mcr-quick-links': 'Mga Mabilisang Link',
     'mcr-ra-10172-correction-of-sexday-month-of-birth':
       'RA 10172 - Pagwawasto ng Kasarian/Araw at Buwan ng Kapanganakan',
-    'mcr-ra-9048-change-of-first-name': 'RA 9048 - Baguhin of Unang Name',
+    'mcr-ra-9048-change-of-first-name': "RA 9048 - Pagpapalit ng Unang Pangalan",
     'mcr-ra-9048-clerical-error-correction': 'RA 9048 - Pagwawasto ng Klerikal na Error',
     'mcr-register-births-and-deaths-within-30-days-to':
       'Irehistro ang mga kapanganakan at pagkamatay sa loob ng 30 araw upang maiwasan ang mga multa',
     'mcr-registration-of-birth-for-children-born-in-solano':
       'Pagpaparehistro ng kapanganakan para sa mga batang ipinanganak sa Concepcion, Romblon',
-    'mcr-registration-of-death': 'Registration of Kamatayan',
+    'mcr-registration-of-death': "Pagpaparehistro ng Kamatayan",
     'mcr-registration-of-death-for-persons-who-died-in':
       'Pagpaparehistro ng pagkamatay para sa mga taong namatay sa Concepcion, Romblon',
     'mcr-registration-of-live-birth': 'Pagpaparehistro ng Kapanganakan',
-    'mcr-registration-of-marriage': 'Registration of Kasal',
+    'mcr-registration-of-marriage': "Pagpaparehistro ng Kasal",
     'mcr-registration-officer': 'Opisyal ng Pagpaparehistro',
     'mcr-registration-officer-i': 'Registration Opisyal I',
     'mcr-registration-officer-ii': 'Registration Opisyal II',
     'mcr-representatives-must-have-authorization-letter':
       'Ang mga kinatawan ay dapat may sulat ng awtorisasyon at mga balidong ID',
-    'mcr-request-for-certified-true-copies-of-civil':
-      'Humiling for sertipikado totoo mga kopya of civil registry mga dokumento registered in Concepcion',
+    'mcr-request-for-certified-true-copies-of-civil': "Paghiling ng certified true copy ng mga dokumento ng civil registry na nakarehistro sa Concepcion",
     'mcr-requirements': 'Mga Kinakailangan',
     'mcr-resolution-framework': 'Balangkas ng Resolusyon',
     'mcr-resources': 'Mga Mapagkukunan',
@@ -10922,12 +10847,11 @@ const translations = {
     'mcr-transparency': 'Transparensiya',
     'mcr-treasurers-office': 'Opisina ng Ingat-yaman',
     'mcr-two-2-documentary-evidences': 'Dalawang (2) dokumentaryong ebidensya',
-    'mcr-valid-id-authorization-letter-if-representative':
-      'Balido ID, Authorization sulat (if kinatawan)',
-    'mcr-valid-id-of-informant': 'Balidong ID of informant',
+    'mcr-valid-id-authorization-letter-if-representative': "Balidong ID, sulat ng awtorisasyon (kung kinatawan)",
+    'mcr-valid-id-of-informant': "Balidong ID ng nag-uulat",
     'mcr-valid-ids': 'Balido IDs',
     'mcr-valid-ids-of-both-parties': 'Mga balidong ID ng parehong partido',
-    'mcr-valid-ids-of-parents': 'Balido IDs of mga magulang',
+    'mcr-valid-ids-of-parents': "Balidong ID ng mga magulang",
     'mcr-valid-ids-of-parents-and-informant': 'Mga balidong ID ng mga magulang at nagpapaalam',
     'mcr-valid-passport': 'Balidong Pasaporte',
     'mcr-volunteer-with-us': 'Mag-volunteer sa amin',
@@ -10953,8 +10877,7 @@ const translations = {
     'mgs-clientenduser': 'Kliyente/End-User',
     'mgs-cmci-dti-portal': 'CMCI DTI Portal',
     'mgs-consolidated-prs-app': 'Pinagsama-samang mga PR, APP',
-    'mgs-consolidation-of-purchase-requests-from-different':
-      'Consolidation of Purchase Mga kahilingan from ibang mga opisina',
+    'mgs-consolidation-of-purchase-requests-from-different': "Pagsasama-sama ng Purchase Request mula sa iba’t ibang opisina",
     'mgs-contact': 'Makipag-ugnayan',
     'mgs-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'mgs-coordination-with-utility-providers': 'Koordinasyon sa mga tagapagbigay ng utilidad',
@@ -11003,8 +10926,7 @@ const translations = {
     'mgs-maintenance-staff': 'Kawani ng Pagpapanatili',
     'mgs-management-and-maintenance-of-municipal-vehicles':
       'Pamamahala at pagpapanatili ng mga sasakyan at mabibigat na kagamitan ng munisipyo',
-    'mgs-management-and-monitoring-of-municipal-utility':
-      'Management and monitoring of pangmunisipyo utility accounts including electricity, water, and telephone mga serbisyo',
+    'mgs-management-and-monitoring-of-municipal-utility': "Pamamahala at pagsubaybay sa mga utility account ng munisipyo, kabilang ang kuryente, tubig, at telepono",
     'mgs-motorcycles': 'Mga Motorsiklo',
     'mgs-municipal-general-services-office': 'Opisina ng Pangkalahatang Serbisyo ng Munisipalidad',
     'mgs-municipal-general-services-office-municipal-hall':
@@ -11040,20 +10962,18 @@ const translations = {
       'Regular na pagpapanatili at koordinasyon ng pagkukumpuni',
     'mgs-reporting-of-utility-issues-and-concerns':
       'Pag-uulat ng mga isyu at alalahanin sa utilidad',
-    'mgs-request-for-issuance-of-equipment': 'Humiling for Issuance of Equipment',
-    'mgs-request-for-issuance-of-fuel': 'Humiling for Issuance of Fuel',
-    'mgs-request-for-issuance-of-semiexpendable': 'Humiling for Issuance of Semi-Expendable',
-    'mgs-request-for-issuance-of-supplies': 'Humiling for Issuance of Supplies',
-    'mgs-requisition-and-issue-slip-ris-approved-purchase':
-      '• Requisition and Ibigay Slip (RIS) • Naaprubahan Purchase Humiling (PR) • Naaprubahan PPMP/APP/Supplemental APP • Naaprubahan WFP/Supplemental WFP • Obligation Humiling (ObR) • For supplies not in stock: Delivery Resibo (DR), Sales Invoice (SI)',
+    'mgs-request-for-issuance-of-equipment': "Kahilingan para sa Pag-isyu ng Kagamitan",
+    'mgs-request-for-issuance-of-fuel': "Kahilingan para sa Pag-isyu ng Gasolina",
+    'mgs-request-for-issuance-of-semiexpendable': "Kahilingan para sa Pag-isyu ng Semi-Expendable",
+    'mgs-request-for-issuance-of-supplies': "Kahilingan para sa Pag-isyu ng Supplies",
+    'mgs-requisition-and-issue-slip-ris-approved-purchase': "• Requisition and Issue Slip (RIS) • Aprubadong Purchase Request (PR) • Aprubadong PPMP/APP/Supplemental APP • Aprubadong WFP/Supplemental WFP • Obligation Request (ObR) • Para sa supply na wala sa stock: Delivery Receipt (DR), Sales Invoice (SI)",
     'mgs-requisition-and-issue-slip-ris-approved-purchase-2':
       '• Requisition and Ibigay Slip (RIS) • Naaprubahan Purchase Humiling (PR) • Naaprubahan PPMP/APP/Supplemental APP • Naaprubahan WFP/Supplemental WFP • Obligation Humiling (ObR) • Delivery Resibo (DR), Sales Invoice (SI)',
     'mgs-resolution-framework': 'Balangkas ng Resolusyon',
     'mgs-resources': 'Mga Mapagkukunan',
     'mgs-ris-acknowledgment-receipt': 'RIS, Acknowledgment Resibo',
     'mgs-sangguniang-bayan': 'Sangguniang Bayan',
-    'mgs-select-a-service-category-to-view-details':
-      'Select a serbisyo category to tingnan details',
+    'mgs-select-a-service-category-to-view-details': "Pumili ng kategorya ng serbisyo para makita ang detalye",
     'mgs-service-motorcycles-for-field-operations':
       'Mga motorsiklo ng serbisyo para sa mga operasyon sa field',
     'mgs-service-vehicles-patrol-cars-and-administrative':
@@ -11108,27 +11028,22 @@ const translations = {
       'Aplikasyon para sa Paunang Pag-apruba at Locational Clearance para sa Residential Subdivision Project',
     'mpdo-application-form-for-zoning-certification':
       'Application Form para sa Zoning Certification',
-    'mpdo-application-forms-and-documents-for-mpdo-services':
-      'Aplikasyon mga form and mga dokumento for MPDO mga serbisyo',
+    'mpdo-application-forms-and-documents-for-mpdo-services': "Mga application form at dokumento para sa serbisyo ng MPDO",
     'mpdo-barangay-clearance': 'Barangay Clearance',
-    'mpdo-based-on-area': 'Based on Lugar',
+    'mpdo-based-on-area': "Batay sa sukat",
     'mpdo-based-on-floor-area': 'Based sa sukat ng sahig',
     'mpdo-based-on-floor-area-and-type': 'Based sa sukat ng sahig sa type',
     'mpdo-based-on-project-cost': 'Based sa gastos ng proyekto',
     'mpdo-blgf-portal': 'BLGF Portal',
-    'mpdo-bring-original-documents-for-verification':
-      'Dalhin orihinal mga dokumento for beripikasyon',
+    'mpdo-bring-original-documents-for-verification': "Dalhin ang orihinal na dokumento para sa beripikasyon",
     'mpdo-building-line-verification': 'Gusali Line Beripikasyon',
-    'mpdo-building-plans-and-specifications': 'Gusali Plans and Specifications',
+    'mpdo-building-plans-and-specifications': "Mga Plano at Espesipikasyon ng Gusali",
     'mpdo-business': 'Negosyo',
     'mpdo-certificates': 'Mga Sertipiko',
-    'mpdo-certification-on-comprehensive-land-use-plan':
-      'Certification on Komprehensibo Lupa Gamitin Plano compliance',
+    'mpdo-certification-on-comprehensive-land-use-plan': "Sertipikasyon ng pagsunod sa Comprehensive Land Use Plan",
     'mpdo-certifications': 'Mga Sertipikasyon',
-    'mpdo-certified-true-copy-of-land-titletax-declaration':
-      'Sertipikadong Tunay na Kopya of Lupa Title/Tax Declaration',
-    'mpdo-change-of-land-classification-from-agricultural':
-      'Baguhin of lupa classification from agricultural to iba pang uses',
+    'mpdo-certified-true-copy-of-land-titletax-declaration': "Certified True Copy ng Titulo ng Lupa/Tax Declaration",
+    'mpdo-change-of-land-classification-from-agricultural': "Pagpapalit ng klasipikasyon ng lupa mula agrikultural tungo sa ibang gamit",
     'mpdo-citizens-charter': "Citizen's Charter",
     'mpdo-clup-certification': 'Sertipikasyon ng CLUP',
     'mpdo-cmci-dti-portal': 'CMCI DTI Portal',
@@ -11143,8 +11058,7 @@ const translations = {
     'mpdo-empowering-the-people-of-solano-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
     'mpdo-environment': 'Kapaligiran',
-    'mpdo-environmental-compliance-certificate-if-required':
-      'Sertipiko ng Pagsunod sa Kapaligiran (if kinakailangan)',
+    'mpdo-environmental-compliance-certificate-if-required': "Environmental Compliance Certificate (kung kailangan)",
     'mpdo-fee': 'Bayad:',
     'mpdo-fee-schedule': 'Iskedyul ng Bayad',
     'mpdo-for': 'Para sa:',
@@ -11167,9 +11081,8 @@ const translations = {
     'mpdo-lgu-solano-facebook': 'LGU Concepcion Facebook',
     'mpdo-location': 'Lokasyon',
     'mpdo-locational-clearance': 'Locational Clearance',
-    'mpdo-locational-clearance-is-required-before-building':
-      'Locational clearance is kinakailangan before gusali permiso',
-    'mpdo-lot-plan-with-technical-description': 'Lote Plano with Technical Description',
+    'mpdo-locational-clearance-is-required-before-building': "Kailangan ang locational clearance bago ang building permit",
+    'mpdo-lot-plan-with-technical-description': "Lot Plan na may Technical Description",
     'mpdo-municipal-hall': 'Munisipyo',
     'mpdo-municipal-planning-and-development-office':
       'Opisina ng Pagpaplano at Pagpapaunlad ng Munisipalidad',
@@ -11182,8 +11095,7 @@ const translations = {
     'mpdo-other-mpdo-services': 'Iba pang MPDO Mga serbisyo',
     'mpdo-per-application': 'Bawat Aplikasyon',
     'mpdo-per-document': 'Per dokumento',
-    'mpdo-photocopy-of-latest-real-property-tax-receipt':
-      'Photocopy of Latest Buwis sa Ari-arian Resibo',
+    'mpdo-photocopy-of-latest-real-property-tax-receipt': "Photocopy ng pinakabagong resibo ng buwis sa ari-arian",
     'mpdo-photocopy-of-tax-declarationtitle': 'Photocopy ng Tax Declaration/Title',
     'mpdo-planning': 'Pagpaplano',
     'mpdo-planning-certification': 'Sertipikasyon ng Pagpaplano',
@@ -11193,10 +11105,8 @@ const translations = {
     'mpdo-project-monitoring': 'Pagsubaybay sa Proyekto',
     'mpdo-public-safety': 'Kaligtasang Pampubliko',
     'mpdo-quick-links': 'Mga Mabilisang Link',
-    'mpdo-required-for-building-permit-applications-and':
-      'Kinakailangan for gusali permiso mga aplikasyon and construction projects',
-    'mpdo-required-for-business-permit-applications-and':
-      'Kinakailangan for business permiso mga aplikasyon and lupa gamitin beripikasyon',
+    'mpdo-required-for-building-permit-applications-and': "Kailangan sa aplikasyon ng building permit at sa mga proyektong konstruksyon",
+    'mpdo-required-for-business-permit-applications-and': "Kailangan sa aplikasyon ng business permit at sa beripikasyon ng paggamit ng lupa",
     'mpdo-requirements': 'Mga Kinakailangan',
     'mpdo-resolution-framework': 'Balangkas ng Resolusyon',
     'mpdo-resources': 'Mga Mapagkukunan',
@@ -11209,7 +11119,7 @@ const translations = {
     'mpdo-sitemap': 'Mapa ng Site',
     'mpdo-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'mpdo-social-services': 'Serbisyong Panlipunan',
-    'mpdo-standard-fees-for-mpdo-services': 'Pamantayan mga bayad for MPDO mga serbisyo',
+    'mpdo-standard-fees-for-mpdo-services': "Karaniwang bayarin para sa serbisyo ng MPDO",
     'mpdo-statistics': 'Estadistika',
     'mpdo-tax-payments': 'Pagbabayad ng Buwis',
     'mpdo-terms-of-use': 'Mga Tuntunin ng Paggamit',
@@ -11217,11 +11127,10 @@ const translations = {
     'mpdo-validity': 'Bisa:',
     'mpdo-various-certifications-related-to-land-use-and':
       "Iba't ibang sertipikasyon na may kaugnayan sa paggamit ng lupa at zoning",
-    'mpdo-verification-of-setback-requirements-and-building':
-      'Beripikasyon of setback mga kinakailangan and gusali lines',
+    'mpdo-verification-of-setback-requirements-and-building': "Beripikasyon ng setback requirements at building lines",
     'mpdo-vicinity-maplocation-plan': 'Vicinity Map/Location Plano',
     'mpdo-volunteer-with-us': 'Mag-volunteer sa amin',
-    'mpdo-who-can-apply': 'Who can mag-apply:',
+    'mpdo-who-can-apply': "Sino ang maaaring mag-apply:",
     'mpdo-zoning-clearance-commercial': 'Zoning Clearance (Komersyal)',
     'mpdo-zoning-clearance-locational-clearance-and':
       'Zoning clearance, locational clearance, at mga serbisyo ng pagpaplano ng pagpapaunlad',
@@ -11252,8 +11161,7 @@ const translations = {
     'mswdo-ageappropriate-educational-activities-and':
       'Mga aktibidad na pang-edukasyon na angkop sa edad at mga materyales sa pagkatuto.',
     'mswdo-agriculture': 'Agrikultura',
-    'mswdo-aics-provides-emergency-assistance-to-individuals':
-      'AICS provides emergency tulong to individuals and mga pamilya in crisis situations including medical, libing, educational, and transportation tulong.',
+    'mswdo-aics-provides-emergency-assistance-to-individuals': "Nagbibigay ang AICS ng agarang tulong sa mga indibidwal at pamilyang nasa krisis, kabilang ang tulong medikal, pampalibing, pang-edukasyon, at pamasahe.",
     'mswdo-amount': 'Halaga',
     'mswdo-anyone-in-need': 'Sinumang Nangangailangan',
     'mswdo-assistance': 'Tulong',
@@ -11274,8 +11182,7 @@ const translations = {
     'mswdo-cmci-dti-portal': 'CMCI DTI Portal',
     'mswdo-communitybased-capacity-building-and-livelihood':
       'Pagbuo ng kakayahan at tulong sa kabuhayan na batay sa komunidad',
-    'mswdo-comprehensive-rehabilitation-programs-designed-to':
-      'Komprehensibo rehabilitation programs designed to tulong individuals recover, heal, and reintegrate into society after experiencing difficult circumstances.',
+    'mswdo-comprehensive-rehabilitation-programs-designed-to': "Mga programang rehabilitasyon para matulungan ang mga indibidwal na makabangon, gumaling, at muling makabalik sa lipunan matapos ang mahihirap na karanasan.",
     'mswdo-comprehensive-social-welfare-programs-and':
       'Mga komprehensibong programa at serbisyo ng kagalingang panlipunan para sa mga mahihinang sektor',
     'mswdo-contribute-code-with-us': 'Mag-ambag ng code sa amin',
@@ -11310,14 +11217,11 @@ const translations = {
     'mswdo-filipino-citizen-60-years-old-and-above': 'Mamamayang Pilipino, 60 taong gulang pataas',
     'mswdo-financial-aid-for-hospitalization-medicines':
       'Tulong pinansyal para sa ospitalisasyon, gamot, mga pagsusuri sa laboratoryo, at mga medikal na pamamaraan.',
-    'mswdo-financial-support-for-funeral-and-burial-expenses':
-      'Financial suporta for libing and libing expenses of indigent mga pamilya.',
+    'mswdo-financial-support-for-funeral-and-burial-expenses': "Tulong pinansyal para sa gastos sa burol at libing ng mahihirap na pamilya.",
     'mswdo-followup-support-and-monitoring-after':
       'Suporta sa follow-up at pagsubaybay pagkatapos ng rehabilitasyon.',
-    'mswdo-for-participants-seeking-employment-includes':
-      'For participants seeking employment. Includes skills training, job matching, and employment tulong.',
-    'mswdo-for-participants-who-want-to-start-or-expand':
-      'For participants who gusto to simulan or expand their own business. Includes seed capital fund and business development training.',
+    'mswdo-for-participants-seeking-employment-includes': "Para sa mga kalahok na naghahanap ng trabaho. Kasama ang pagsasanay, job matching, at tulong sa paghahanap ng trabaho.",
+    'mswdo-for-participants-who-want-to-start-or-expand': "Para sa mga kalahok na gustong magsimula o palaguin ang sariling negosyo. Kasama ang seed capital fund at pagsasanay sa pagnenegosyo.",
     'mswdo-frail-sickly-or-with-disability': 'Mahina, sakitin, o may kapansanan',
     'mswdo-free': 'Libre',
     'mswdo-freedom-of-information': 'Kalayaan sa Impormasyon',
@@ -11350,13 +11254,12 @@ const translations = {
     'mswdo-microenterprise-development-md': 'Pagpapaunlad ng Microenterprise (MD)',
     'mswdo-mswdo-head': 'MSWDO Pinuno',
     'mswdo-mswdosolanogovph': 'Email not yet published',
-    'mswdo-municipal-social-welfare-and-development-office':
-      'Kagawaran ng Kapakanan ng Munisipyo and Development Opisina',
+    'mswdo-municipal-social-welfare-and-development-office': "Tanggapan ng Kagalingang Panlipunan at Pagpapaunlad ng Munisipyo",
     'mswdo-municipal-social-welfare-officer': 'Opisyal ng Kagalingang Panlipunan ng Munisipalidad',
     'mswdo-no-pension-from-government-or-private-agencies':
       'Walang pensyon mula sa pamahalaan o pribadong ahensya',
     'mswdo-no-permanent-source-of-income': 'Walang permanenteng pinagkukunan ng kita',
-    'mswdo-no-regular-support-from-family': 'No regular suporta from pamilya',
+    'mswdo-no-regular-support-from-family': "Walang regular na suporta mula sa pamilya",
     'mswdo-nutrition-education': 'Edukasyon sa Nutrisyon',
     'mswdo-nutrition-support-for-malnourished-children-and':
       'Suporta sa nutrisyon para sa mga malnourished na bata at mahihinang grupo',
@@ -11385,8 +11288,7 @@ const translations = {
     'mswdo-protective-services': 'Mga Serbisyong Proteksiyon',
     'mswdo-protective-services-for-individuals-and-families':
       'Mga Serbisyong Proteksiyon para sa mga Indibidwal at Pamilya sa Mahirap na Kalagayan',
-    'mswdo-provides-immediate-intervention-and-support-for':
-      'Provides agaran intervention and suporta for individuals and mga pamilya experiencing crisis situations including abuse, neglect, exploitation, and iba pang difficult circumstances.',
+    'mswdo-provides-immediate-intervention-and-support-for': "Nagbibigay ng agarang interbensyon at suporta sa mga indibidwal at pamilyang nasa krisis, kabilang ang pang-aabuso, pagpapabaya, pagsasamantala, at iba pang mahihirap na sitwasyon.",
     'mswdo-psychosocial-rehabilitation': 'Psychosocial na Rehabilitasyon',
     'mswdo-psychosocial-support-and-counseling-for-affected':
       'Psychosocial na suporta at pagpapayo para sa mga apektadong indibidwal.',
@@ -11406,7 +11308,7 @@ const translations = {
     'mswdo-rehabilitation-services': 'Mga Serbisyo ng Rehabilitasyon',
     'mswdo-related-services': 'Mga Kaugnay na Serbisyo',
     'mswdo-requirements': 'Mga Kinakailangan',
-    'mswdo-requirements-for-application': 'Mga kinakailangan for Aplikasyon',
+    'mswdo-requirements-for-application': "Mga Requirement sa Aplikasyon",
     'mswdo-resolution-framework': 'Balangkas ng Resolusyon',
     'mswdo-resources': 'Mga Mapagkukunan',
     'mswdo-safe-shelter-for-victims-needing-immediate':
@@ -11441,22 +11343,17 @@ const translations = {
     'mswdo-tax-payments': 'Pagbabayad ng Buwis',
     'mswdo-temporary-shelter': 'Pansamantalang Tirahan',
     'mswdo-terms-of-use': 'Mga Tuntunin ng Paggamit',
-    'mswdo-the-day-care-service-program-provides-early':
-      'The Day Care Serbisyo Program provides early childhood care and development (ECCD) mga serbisyo to mga bata aged 3-4 years luma, preparing them for formal schooling while their mga magulang work.',
-    'mswdo-the-selfemployment-assistance-kaunlaran-seak':
-      'The Self-Employment Tulong - Kaunlaran (SEA-K) program provides capital tulong to disadvantaged individuals and mga pamilya to simulan or expand small-scale livelihood projects.',
-    'mswdo-the-social-pension-program-provides-monthly':
-      'The Social Pension Program provides buwanang stipend to indigent nakatatanda mga mamamayan aged 60 years luma and above to tulong augment their araw-araw subsistence and medical needs.',
-    'mswdo-the-supplementary-feeding-program-aims-to-improve':
-      'The Supplementary Feeding Program aims to improve the nutritional status of malnourished mga bata aged 0-5 years luma through provision of nutritious meals and nutrition education.',
-    'mswdo-the-sustainable-livelihood-program-is-a':
-      'The Napapanatili Livelihood Program is a community-based capacity gusali program that provides participants with training, technical and financial tulong to improve their socio-economic status.',
+    'mswdo-the-day-care-service-program-provides-early': "Ang Day Care Service Program ay nagbibigay ng early childhood care and development (ECCD) sa mga batang 3–4 taong gulang, para maihanda sila sa pormal na pag-aaral habang nagtatrabaho ang kanilang mga magulang.",
+    'mswdo-the-selfemployment-assistance-kaunlaran-seak': "Ang programang Self-Employment Assistance – Kaunlaran (SEA-K) ay nagbibigay ng puhunan sa mga nangangailangang indibidwal at pamilya para magsimula o palaguin ang maliit na kabuhayan.",
+    'mswdo-the-social-pension-program-provides-monthly': "Ang Social Pension Program ay nagbibigay ng buwanang stipend sa mahihirap na senior citizen na 60 taong gulang pataas, bilang dagdag sa kanilang pang-araw-araw na pangangailangan at gamot.",
+    'mswdo-the-supplementary-feeding-program-aims-to-improve': "Layunin ng Supplementary Feeding Program na mapabuti ang nutrisyon ng mga batang malnourished na 0–5 taong gulang sa pamamagitan ng masustansiyang pagkain at edukasyon sa nutrisyon.",
+    'mswdo-the-sustainable-livelihood-program-is-a': "Ang Sustainable Livelihood Program ay programang pangkomunidad na nagbibigay sa mga kalahok ng pagsasanay at teknikal at pinansyal na tulong para mapabuti ang kanilang kabuhayan.",
     'mswdo-track': 'Track',
     'mswdo-training': 'Pagsasanay',
     'mswdo-transportation-assistance': 'Tulong sa Transportasyon',
     'mswdo-travel-assistance-for-medical-referrals-and':
       'Tulong sa paglalakbay para sa mga medikal na referral at mga sitwasyon ng emergency.',
-    'mswdo-types-of-assistance': 'Types of Tulong',
+    'mswdo-types-of-assistance': "Mga Uri ng Tulong",
     'mswdo-unemployed-or-underemployed-residents':
       'Mga walang trabaho o kulang ang trabaho na mga residente',
     'mswdo-varies': 'Nag-iiba',
@@ -11487,33 +11384,29 @@ const translations = {
       'Ang lahat ng impormasyon ay tinatrato nang may pagiging kumpidensyal',
     'mswdosvc-all-information-is-treated-with-strict':
       'Ang lahat ng impormasyon ay tinatrato nang may mahigpit na pagiging kumpidensyal',
-    'mswdosvc-all-services-are-free-of-charge': 'All mga serbisyo are LIBRE of singil',
+    'mswdosvc-all-services-are-free-of-charge': "LIBRE ang lahat ng serbisyo",
     'mswdosvc-approval-and-signing': 'Pag-apruba at paglagda',
     'mswdosvc-approval-and-signing-by-mswdo-head': 'Pag-apruba at pagpirma ng Pinuno ng MSWDO',
-    'mswdosvc-assessment-and-verification-of-disability':
-      'Pagtatasa and beripikasyon of disability',
+    'mswdosvc-assessment-and-verification-of-disability': "Pagtatasa at beripikasyon ng kapansanan",
     'mswdosvc-assistance-amount-depends-on-availability-of':
       'Ang halaga ng tulong ay depende sa pagkakaroon ng pondo at katangian ng krisis',
-    'mswdosvc-assistance-to-children': 'Tulong to Mga bata',
+    'mswdosvc-assistance-to-children': "Tulong sa mga Bata",
     'mswdosvc-assistance-to-individuals-in-crisis-situation-aics':
       'Tulong sa mga Indibidwal sa Sitwasyon ng Krisis (AICS)',
     'mswdosvc-assistance-to-persons-with-disability-pwd':
       'Tulong sa mga Taong may Kapansanan (PWD)',
-    'mswdosvc-assistance-to-senior-citizens': 'Tulong to Nakatatanda Mga mamamayan',
-    'mswdosvc-assistance-to-women': 'Tulong to Mga kababaihan',
+    'mswdosvc-assistance-to-senior-citizens': "Tulong sa mga Senior Citizen",
+    'mswdosvc-assistance-to-women': "Tulong sa Kababaihan",
     'mswdosvc-barangay-certificate': 'Sertipiko ng Barangay',
     'mswdosvc-barangay-certificate-of-indigency': 'Sertipiko ng Karalitaan ng Barangay',
-    'mswdosvc-birth-certificate-or-any-valid-id-showing-date-of':
-      'Sertipiko ng Kapanganakan or any balido ID showing date of kapanganakan',
+    'mswdosvc-birth-certificate-or-any-valid-id-showing-date-of': "Birth Certificate o anumang balidong ID na may petsa ng kapanganakan",
     'mswdosvc-birth-certificate-photocopy': 'Sertipiko ng Kapanganakan (photocopy)',
     'mswdosvc-blgf-portal': 'BLGF Portal',
-    'mswdosvc-bring-complete-requirements-to-avoid-delays':
-      'Dalhin kumpleto mga kinakailangan to avoid delays',
+    'mswdosvc-bring-complete-requirements-to-avoid-delays': "Dalhin ang kumpletong requirements para hindi maantala",
     'mswdosvc-business': 'Negosyo',
     'mswdosvc-case-management-assessment': 'Pamamahala at Pagtatasa ng Kaso',
-    'mswdosvc-certificate-is-valid-for-specific-purpose-only':
-      'Sertipiko is balido for tiyak purpose only',
-    'mswdosvc-certificate-of-indigency': 'Sertipiko of Indigency',
+    'mswdosvc-certificate-is-valid-for-specific-purpose-only': "Valid lamang ang sertipiko para sa tiyak na layunin",
+    'mswdosvc-certificate-of-indigency': "Certificate of Indigency",
     'mswdosvc-certificates': 'Mga Sertipiko',
     'mswdosvc-child-abuse-cases-are-given-immediate-priority':
       'Ang mga kaso ng pang-aabuso sa bata ay binibigyan ng agarang prayoridad',
@@ -11533,10 +11426,8 @@ const translations = {
     'mswdosvc-counseling-and-psychosocial-support': 'Pagpapayo at psychosocial na suporta',
     'mswdosvc-day-care-services': 'Day care mga serbisyo',
     'mswdosvc-day-care-worker': 'Manggagawa ng Day Care',
-    'mswdosvc-death-certificate-and-funeral-contract-for-burial':
-      'Sertipiko ng Pagkamatay and Libing Kontrata (for libing tulong)',
-    'mswdosvc-death-certificate-for-burial-assistance':
-      'Sertipiko ng Pagkamatay (for libing tulong)',
+    'mswdosvc-death-certificate-and-funeral-contract-for-burial': "Death Certificate at Funeral Contract (para sa tulong pampalibing)",
+    'mswdosvc-death-certificate-for-burial-assistance': "Death Certificate (para sa tulong pampalibing)",
     'mswdosvc-duration': 'Tagal',
     'mswdosvc-education': 'Edukasyon',
     'mswdosvc-educational-assistance': 'Tulong Pang-edukasyon',
@@ -11548,7 +11439,7 @@ const translations = {
     'mswdosvc-encoding-and-processing-of-senior-citizen-id':
       'Pag-encode at pagproseso ng Senior Citizen ID',
     'mswdosvc-environment': 'Kapaligiran',
-    'mswdosvc-evaluation-and-approval-of-assistance': 'Ebalwasyon and pag-apruba of tulong',
+    'mswdosvc-evaluation-and-approval-of-assistance': "Pagsusuri at pag-apruba ng tulong",
     'mswdosvc-fee': 'Bayad',
     'mswdosvc-financial-and-material-assistance-for-individuals':
       'Tulong pinansyal at materyal para sa mga indibidwal at pamilya sa krisis',
@@ -11566,8 +11457,7 @@ const translations = {
     'mswdosvc-home': 'Tahanan',
     'mswdosvc-home-visitation-may-be-conducted-for-verification':
       'Maaaring magsagawa ng pagbisita sa bahay para sa beripikasyon',
-    'mswdosvc-hospital-billstatement-of-account-for-medical':
-      'Hospital Bill/Statement of Account (for medical tulong)',
+    'mswdosvc-hospital-billstatement-of-account-for-medical': "Hospital Bill/Statement of Account (para sa tulong medikal)",
     'mswdosvc-hours': 'Oras',
     'mswdosvc-implementation-of-interventionassistance': 'Pagpapatupad ng interbensyon/tulong',
     'mswdosvc-important-notes': 'Mahahalagang Paalala',
@@ -11576,7 +11466,7 @@ const translations = {
     'mswdosvc-initial-response-time-1-hour-35-minutes':
       'Paunang oras ng pagtugon: 1 oras 35 minuto',
     'mswdosvc-initial-response-time-50-minutes': 'Paunang oras ng pagtugon: 50 minuto',
-    'mswdosvc-interview-and-assessment-of-client': 'Interview and pagtatasa of kliyente',
+    'mswdosvc-interview-and-assessment-of-client': "Panayam at pagtatasa sa kliyente",
     'mswdosvc-interview-and-assessment-of-clients-situation':
       'Panayam at pagtatasa ng sitwasyon ng kliyente',
     'mswdosvc-interview-and-assessment-of-situation': 'Panayam at pagtatasa ng sitwasyon',
@@ -11593,8 +11483,7 @@ const translations = {
       'Medical Certificate na nagpapahiwatig ng uri ng kapansanan',
     'mswdosvc-medical-certificateabstract-for-medical-assistance':
       'Medical Certificate/Abstract (para sa tulong medikal)',
-    'mswdosvc-medical-certificatehospital-bill-for-medical':
-      'Medical Certificate/Hospital Bill (for medical tulong)',
+    'mswdosvc-medical-certificatehospital-bill-for-medical': "Medical Certificate/Hospital Bill (para sa tulong medikal)",
     'mswdosvc-mswdo-head': 'MSWDO Pinuno',
     'mswdosvc-mswdo-office-2nd-floor-municipal-hall-solano':
       'MSWDO Opisina, Ikalawang Palapag, Munisipyo, Concepcion, Romblon',
@@ -11634,22 +11523,21 @@ const translations = {
     'mswdosvc-quick-links': 'Mga Mabilisang Link',
     'mswdosvc-referral-to-appropriate-agencies-if-needed':
       'Referral sa naaangkop na ahensya (kung kinakailangan)',
-    'mswdosvc-release-of-certificate-of-indigency': 'Ilabas of Sertipiko of Indigency',
-    'mswdosvc-release-of-financialmaterial-assistance': 'Ilabas of financial/material tulong',
-    'mswdosvc-release-of-pwd-id': 'Ilabas of PWD ID',
-    'mswdosvc-release-of-senior-citizen-id': 'Ilabas of Nakatatanda Mamamayan ID',
+    'mswdosvc-release-of-certificate-of-indigency': "Paglabas ng Certificate of Indigency",
+    'mswdosvc-release-of-financialmaterial-assistance': "Paglabas ng tulong pinansyal o materyal",
+    'mswdosvc-release-of-pwd-id': "Paglabas ng PWD ID",
+    'mswdosvc-release-of-senior-citizen-id': "Paglabas ng Senior Citizen ID",
     'mswdosvc-release-of-social-case-study-report': 'Paglabas ng Ulat ng Social Case Study',
     'mswdosvc-reportreferral-received-at-mswdo': 'Ulat/referral na natanggap sa MSWDO',
     'mswdosvc-reportseek-assistance-at-mswdo': 'Mag-ulat/humingi ng tulong sa MSWDO',
     'mswdosvc-requirements': 'Mga Kinakailangan',
     'mswdosvc-requirements-for-pwd-id': 'Mga Kinakailangan para sa PWD ID',
-    'mswdosvc-requirements-for-senior-citizen-id': 'Mga kinakailangan for Nakatatanda Mamamayan ID',
+    'mswdosvc-requirements-for-senior-citizen-id': "Mga Requirement para sa Senior Citizen ID",
     'mswdosvc-resolution-framework': 'Balangkas ng Resolusyon',
     'mswdosvc-resources': 'Mga Mapagkukunan',
-    'mswdosvc-review-and-approval-by-mswdo-head': 'Suriin and pag-apruba by MSWDO Pinuno',
+    'mswdosvc-review-and-approval-by-mswdo-head': "Pagsusuri at pag-apruba ng Pinuno ng MSWDO",
     'mswdosvc-sangguniang-bayan': 'Sangguniang Bayan',
-    'mswdosvc-school-registrationenrollment-form-for':
-      'School Registration/Enrollment Form (for educational tulong)',
+    'mswdosvc-school-registrationenrollment-form-for': "School Registration/Enrollment Form (para sa tulong pang-edukasyon)",
     'mswdosvc-select-a-service-to-view-the-detailed-process-and':
       'Pumili ng serbisyo upang makita ang detalyadong proseso at mga kinakailangan',
     'mswdosvc-senior-citizen-affairs': 'Nakatatanda Mamamayan Affairs',
@@ -11665,8 +11553,7 @@ const translations = {
     'mswdosvc-sitemap': 'Mapa ng Site',
     'mswdosvc-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'mswdosvc-social-case-study': 'Pag-aaral ng Kaso sa Lipunan',
-    'mswdosvc-social-pension-available-for-indigent-senior':
-      'Social Pension magagamit for indigent nakatatanda mga mamamayan (quarterly ilabas)',
+    'mswdosvc-social-pension-available-for-indigent-senior': "May Social Pension para sa mahihirap na senior citizen (ibinibigay kada tatlong buwan)",
     'mswdosvc-social-services': 'Serbisyong Panlipunan',
     'mswdosvc-social-welfare-assistant': 'Katulong sa Kagawaran ng Kapakanan',
     'mswdosvc-social-welfare-programs-assistance-and-support':
@@ -11676,13 +11563,10 @@ const translations = {
     'mswdosvc-statistics': 'Estadistika',
     'mswdosvc-step': 'Hakbang',
     'mswdosvc-submit-complete-requirements': 'Isumite kumpleto mga kinakailangan',
-    'mswdosvc-submit-complete-requirements-to-mswdo': 'Isumite kumpleto mga kinakailangan to MSWDO',
-    'mswdosvc-submit-requirements-and-fill-out-application-form':
-      'Isumite mga kinakailangan and punan out aplikasyon form',
-    'mswdosvc-submit-requirements-and-fill-out-pwd-application':
-      'Isumite mga kinakailangan and punan out PWD aplikasyon form',
-    'mswdosvc-submit-requirements-and-fill-out-senior-citizen':
-      'Isumite mga kinakailangan and punan out Nakatatanda Mamamayan aplikasyon form',
+    'mswdosvc-submit-complete-requirements-to-mswdo': "Isumite ang kumpletong requirements sa MSWDO",
+    'mswdosvc-submit-requirements-and-fill-out-application-form': "Isumite ang mga requirements at punan ang application form",
+    'mswdosvc-submit-requirements-and-fill-out-pwd-application': "Isumite ang mga requirements at punan ang PWD application form",
+    'mswdosvc-submit-requirements-and-fill-out-senior-citizen': "Isumite ang mga requirements at punan ang Senior Citizen application form",
     'mswdosvc-supplemental-feeding-program': 'Programa ng karagdagang pagpapakain',
     'mswdosvc-tax-payments': 'Pagbabayad ng Buwis',
     'mswdosvc-temporary-shelter-and-protection': 'Pansamantalang tirahan at proteksyon',
@@ -11696,16 +11580,16 @@ const translations = {
     'mswdosvc-total-processing-time-55-minutes': 'Kabuuang oras ng pagproseso: 55 minuto',
     'mswdosvc-transparency': 'Transparensiya',
     'mswdosvc-valid-id': 'Balidong ID',
-    'mswdosvc-valid-id-of-applicant-or-guardian': 'Balidong ID of aplikante or guardian',
-    'mswdosvc-valid-id-of-client': 'Balidong ID of kliyente',
+    'mswdosvc-valid-id-of-applicant-or-guardian': "Balidong ID ng aplikante o tagapag-alaga",
+    'mswdosvc-valid-id-of-client': "Balidong ID ng kliyente",
     'mswdosvc-valid-id-of-clientpatient': 'Balidong ID ng kliyente/pasyente',
     'mswdosvc-varies': 'Nag-iiba',
     'mswdosvc-vawc-cases-are-given-priority-and-immediate':
       'Ang mga kaso ng VAWC ay binibigyan ng prayoridad at agarang pansin',
     'mswdosvc-vawc-violence-against-women-and-children':
       'Tulong sa VAWC (Karahasan Laban sa mga Kababaihan at Bata)',
-    'mswdosvc-verification-and-assessment': 'Beripikasyon and pagtatasa',
-    'mswdosvc-verification-of-age-and-residency': 'Beripikasyon of age and residency',
+    'mswdosvc-verification-and-assessment': "Beripikasyon at pagtatasa",
+    'mswdosvc-verification-of-age-and-residency': "Beripikasyon ng edad at paninirahan",
     'mswdosvc-volunteer-with-us': 'Mag-volunteer sa amin',
     'mswdosvc-womens-welfare': 'Kagalingan ng mga Kababaihan',
     'news-accessibility': 'Aksesibilidad',
@@ -11779,8 +11663,7 @@ const translations = {
     'officials-infrastructure': 'Imprastraktura',
     'officials-lgu-solano-facebook': 'LGU Concepcion Facebook',
     'officials-mayorsolanogovph': 'Email not yet published',
-    'officials-meet-the-leaders-serving-the-municipality-of':
-      'Meet the leaders serving the Munisipyo of Concepcion',
+    'officials-meet-the-leaders-serving-the-municipality-of': "Kilalanin ang mga pinunong naglilingkod sa Munisipyo ng Concepcion",
     'officials-municipal-mayor': 'Punong Bayan',
     'officials-municipal-vice-mayor': 'Bise Punong Bayan',
     'officials-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
@@ -11808,8 +11691,7 @@ const translations = {
     'offline-police-pnp': 'Pulis (PNP)',
     'offline-r2tmc': 'R2TMC',
     'offline-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
-    'offline-some-pages-may-not-be-available-right-now':
-      'Some pages may not be magagamit tama now. Emergency hotlines are listed below for your convenience.',
+    'offline-some-pages-may-not-be-available-right-now': "Maaaring hindi mabuksan ang ilang pahina ngayon. Nakalista sa ibaba ang mga emergency hotline.",
     'offline-you-are-currently-offline': 'Kasalukuyan kang offline',
     'ord-accessibility': 'Aksesibilidad',
     'ord-agriculture': 'Agrikultura',
@@ -11852,8 +11734,7 @@ const translations = {
     'privacy-analytics-data': 'Datos ng Analytics:',
     'privacy-bettersolanoorg-is-a-general-audience-website':
       'Ang BetterConcepcion.org ay isang website para sa pangkalahatang madla na nagbibigay ng civic na impormasyon. Hindi namin sinasadyang kinokolekta ang personal na impormasyon mula sa mga bata under 18 years ng age nang walang parental pahintulot.',
-    'privacy-bettersolanoorg-we-us-or-our-is-committed-to':
-      'BetterConcepcion.org (\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"we,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"us,\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" or \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"our\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\") is committed to protecting your privacy and ensuring the security of your personal impormasyon. This Privacy Patakaran explains how we kolektahin, gamitin, ibunyag, and safeguard your impormasyon when you bisitahin our website.',
+    'privacy-bettersolanoorg-we-us-or-our-is-committed-to': "Ang BetterConcepcion.org (“kami”) ay nangangakong protektahan ang iyong privacy at ang seguridad ng iyong personal na impormasyon. Ipinapaliwanag ng Privacy Policy na ito kung paano namin kinokolekta, ginagamit, ibinabahagi, at pinangangalagaan ang iyong impormasyon kapag binisita mo ang aming website.",
     'privacy-blgf-portal': 'BLGF Portal',
     'privacy-browser-type-and-version': 'Uri at bersyon ng browser',
     'privacy-business': 'Negosyo',
@@ -11871,8 +11752,7 @@ const translations = {
     'privacy-cookies-analytics': 'Mga Cookie at Analytics',
     'privacy-cookies-and-analytics': 'Cookies at Analytics',
     'privacy-data-minimization': 'datos minimization',
-    'privacy-data-privacy-act-of-2012-republic-act-no-10173':
-      'Datos Privacy Act of 2012 (Republic Act No. 10173)',
+    'privacy-data-privacy-act-of-2012-republic-act-no-10173': "Data Privacy Act of 2012 (Republic Act No. 10173)",
     'privacy-data-retention': 'Pagpapanatili ng Data',
     'privacy-data-security': 'Seguridad ng Data',
     'privacy-data-sharing': 'Pagbabahagi ng Datos',
@@ -11882,8 +11762,7 @@ const translations = {
     'privacy-disabling-cookies-may-affect-some-website':
       'Ang pag-disable ng mga cookie ay maaaring makaapekto sa ilang functionality ng website',
     'privacy-education': 'Edukasyon',
-    'privacy-email-address-when-you-contact-us-or-submit':
-      'Mag-email address (when you makipag-ugnayan us or isumite feedback)',
+    'privacy-email-address-when-you-contact-us-or-submit': "Email address (kapag nakipag-ugnayan ka sa amin o nagpadala ng feedback)",
     'privacy-empowering-the-people-of-solano-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
     'privacy-environment': 'Kapaligiran',
@@ -11899,15 +11778,14 @@ const translations = {
     'privacy-government': 'Pamahalaan',
     'privacy-health': 'Kalusugan',
     'privacy-home': 'Tahanan',
-    'privacy-how-we-collect-use-and-protect-your-information':
-      'How we kolektahin, gamitin, and protektahan your impormasyon',
-    'privacy-how-we-use-information': 'How We Gamitin Impormasyon',
+    'privacy-how-we-collect-use-and-protect-your-information': "Paano namin kinokolekta, ginagamit, at pinoprotektahan ang iyong impormasyon",
+    'privacy-how-we-use-information': "Paano Namin Ginagamit ang Impormasyon",
     'privacy-how-we-use-your-information': 'Paano Namin Ginagamit ang Iyong Impormasyon',
     'privacy-if-you-have-questions-about-this-privacy-policy':
       'If you have questions about this Privacy Patakaran, wish to exercise your datos privacy rights, or have concerns about how your impormasyon is handled, please makipag-ugnayan us:',
     'privacy-information-collected-automatically': 'Impormasyon Collected Automatically',
     'privacy-information-we-collect': 'Impormasyong Kinokolekta Namin',
-    'privacy-information-you-provide-voluntarily': 'Impormasyon You Magbigay Voluntarily',
+    'privacy-information-you-provide-voluntarily': "Impormasyong Kusang-loob Mong Ibinibigay",
     'privacy-infrastructure': 'Imprastraktura',
     'privacy-introduction': 'Panimula',
     'privacy-ip-address-anonymized-where-possible': 'IP address (anonymized kung maaari)',
@@ -11946,14 +11824,14 @@ const translations = {
       'Regular na pag-update at pag-patch ng software',
     'privacy-resolution-framework': 'Balangkas ng Resolusyon',
     'privacy-resources': 'Mga Mapagkukunan',
-    'privacy-right-to-access': 'Tama to I-access:',
-    'privacy-right-to-be-informed': 'Tama to Be Informed:',
-    'privacy-right-to-damages': 'Tama to Damages:',
-    'privacy-right-to-data-portability': 'Tama to Datos Portability:',
-    'privacy-right-to-erasure-or-blocking': 'Tama to Erasure or Blocking:',
-    'privacy-right-to-file-a-complaint': 'Tama to Ihain a Reklamo:',
-    'privacy-right-to-object': 'Tama to Object:',
-    'privacy-right-to-rectification': 'Tama to Rectification:',
+    'privacy-right-to-access': "Karapatang Ma-access:",
+    'privacy-right-to-be-informed': "Karapatang Mabigyan ng Impormasyon:",
+    'privacy-right-to-damages': "Karapatan sa Danyos:",
+    'privacy-right-to-data-portability': "Karapatan sa Data Portability:",
+    'privacy-right-to-erasure-or-blocking': "Karapatang Ipabura o Ipa-block:",
+    'privacy-right-to-file-a-complaint': "Karapatang Magsampa ng Reklamo:",
+    'privacy-right-to-object': "Karapatang Tumutol:",
+    'privacy-right-to-rectification': "Karapatang Ipatama:",
     'privacy-sangguniang-bayan': 'Sangguniang Bayan',
     'privacy-secure-hosting-infrastructure': 'Ligtas hosting infrastructure',
     'privacy-server-logs': 'Mga Log ng Server:',
@@ -11962,7 +11840,7 @@ const translations = {
     'privacy-sitemap': 'Mapa ng Site',
     'privacy-skip-to-main-content': 'Lumaktaw sa pangunahing nilalaman',
     'privacy-social-services': 'Serbisyong Panlipunan',
-    'privacy-ssltls-encryption-for-data-transmission': 'SSL/TLS encryption for datos transmission',
+    'privacy-ssltls-encryption-for-data-transmission': "SSL/TLS encryption sa pagpapadala ng datos",
     'privacy-statistics': 'Estadistika',
     'privacy-tax-payments': 'Pagbabayad ng Buwis',
     'privacy-terms-of-use': 'Mga Tuntunin ng Paggamit',
@@ -11972,28 +11850,23 @@ const translations = {
     'privacy-to-analyze-website-traffic-and-usage-patterns':
       'Upang suriin ang trapiko ng website at mga pattern ng paggamit',
     'privacy-to-comply-with-legal-obligations': 'To comply na maaari legal mga obligasyon',
-    'privacy-to-ensure-website-security-and-prevent-abuse':
-      'To tiyakin website security and prevent abuse',
+    'privacy-to-ensure-website-security-and-prevent-abuse': "Para mapanatiling ligtas ang website at maiwasan ang pang-aabuso",
     'privacy-to-improve-website-functionality-and-user':
       'Upang mapabuti ang functionality ng website at karanasan ng gumagamit',
-    'privacy-to-maintain-and-improve-civic-services-information':
-      'To panatilihin and improve civic mga serbisyo impormasyon',
+    'privacy-to-maintain-and-improve-civic-services-information': "Para mapanatili at mapabuti ang impormasyon tungkol sa mga serbisyo ng munisipyo",
     'privacy-to-respond-to-your-inquiries-and-feedback':
       'To respond sa iyong mga pagtatanong sa mga puna',
     'privacy-traffic-sources-and-user-flow': 'Mga pinagmulan ng trapiko at daloy ng gumagamit',
     'privacy-transparency': 'transparency',
     'privacy-transparency-2': 'Transparensiya',
     'privacy-types-of-cookies-we-use': 'Types of Cookies We Gamitin',
-    'privacy-under-the-data-privacy-act-of-2012-we-process':
-      'Under the Datos Privacy Act of 2012, we iproseso personal impormasyon based on the following lawful criteria:',
+    'privacy-under-the-data-privacy-act-of-2012-we-process': "Sa ilalim ng Data Privacy Act of 2012, pinoproseso namin ang personal na impormasyon batay sa mga sumusunod na legal na batayan:",
     'privacy-under-the-data-privacy-act-of-2012-you-have-the':
       'Under ang Data Privacy Act ng 2012, ikaw ay maaari ang following mga karapatan regarding iyong personal na impormasyon:',
     'privacy-volunteer-with-us': 'Mag-volunteer sa amin',
     'privacy-volunteerbettersolanoorg': 'volunteer@betterconcepcion.org',
-    'privacy-we-collect-minimal-information-necessary-to':
-      'We kolektahin minimal impormasyon necessary to operate this civic platform effectively:',
-    'privacy-we-do-not-sell-trade-or-rent-your-personal':
-      'We do not sell, trade, or rent your personal impormasyon to ikatlong parties. We may ibahagi impormasyon only in the following circumstances:',
+    'privacy-we-collect-minimal-information-necessary-to': "Kinokolekta lamang namin ang pinakamaliit na impormasyong kailangan para mapatakbo nang maayos ang civic platform na ito:",
+    'privacy-we-do-not-sell-trade-or-rent-your-personal': "Hindi namin ibinebenta, ipinagpapalit, o pinauupahan ang iyong personal na impormasyon sa ibang partido. Maaari lamang naming ibahagi ang impormasyon sa mga sumusunod na sitwasyon:",
     'privacy-we-encourage-you-to-review-the-privacy-policies':
       'We encourage you to suriin the privacy policies of any external websites you bisitahin through links on our platform.',
     'privacy-we-implement-appropriate-technical-and':
@@ -12008,8 +11881,7 @@ const translations = {
       'We gamitin Google Analytics to kolektahin anonymized datos about website usage. Google Analytics uses cookies to kolektahin impormasyon such as:',
     'privacy-we-use-the-information-we-collect-for-the':
       'Kami use ang impormasyon kami collect para sa ang following mga layunin:',
-    'privacy-while-we-strive-to-protect-your-information-no':
-      'While we strive to protektahan your impormasyon, no method of transmission over the Internet or elektroniko storage is 100% ligtas. We cannot guarantee absolute security but are committed to maintaining industry-standard protections.',
+    'privacy-while-we-strive-to-protect-your-information-no': "Bagama’t sinisikap naming protektahan ang iyong impormasyon, walang paraan ng pagpapadala sa Internet o electronic storage na 100% ligtas. Hindi namin magagarantiya ang ganap na seguridad, pero nangangako kaming panatilihin ang mga proteksyong naaayon sa pamantayan ng industriya.",
     'privacy-you-can-disable-cookies-through-your-browser':
       'Maaari mong i-disable ang mga cookie sa pamamagitan ng mga setting ng iyong browser',
     'privacy-you-may-also-file-a-complaint-with-the-national':
@@ -12021,12 +11893,12 @@ const translations = {
       'Ang Iyong mga Karapatan sa ilalim ng Data Privacy Act',
     'propdec-35-working-days': '3-5 Araw ng Trabaho',
     'propdec-accessibility': 'Aksesibilidad',
-    'propdec-actual-use-of-land': 'Actual Gamitin of Lupa',
+    'propdec-actual-use-of-land': "Aktwal na Gamit ng Lupa",
     'propdec-address-telephone-no': 'Adres / Numero ng Telepono',
     'propdec-administratorbeneficial-user': 'Administrator/Beneficial User',
     'propdec-agriculture': 'Agrikultura',
     'propdec-approving-authority-signature': 'Approving Awtoridad Lagda',
-    'propdec-area-in-hectaressquare-meters': 'Lugar in Hectares/Square Meters',
+    'propdec-area-in-hectaressquare-meters': "Sukat sa Ektarya/Metro Kuwadrado",
     'propdec-arp-no-assessment-roll': 'ARP No. (Assessment Roll)',
     'propdec-assessed-value-computation': 'Pagkalkula ng Tinasang Halaga',
     'propdec-assessment-details': 'Mga Detalye ng Pagtatasa',
@@ -12036,16 +11908,15 @@ const translations = {
     'propdec-blgf-portal': 'BLGF Portal',
     'propdec-brand-and-model': 'Tatak at Modelo',
     'propdec-building-declaration': 'Deklarasyon ng Gusali',
-    'propdec-building-permit-no-and-date-issued': 'Permiso sa Pagtatayo No. and Date Issued',
+    'propdec-building-permit-no-and-date-issued': "Numero at Petsa ng Pag-isyu ng Building Permit",
     'propdec-building-plansspecifications': 'Gusali Plans/Specifications',
     'propdec-building-tax-declaration': 'Gusali Deklarasyon ng Buwis',
     'propdec-business': 'Negosyo',
     'propdec-business-permit': 'Permit sa Negosyo',
     'propdec-capacityhorse-power': 'Kapasidad/Horse Power',
-    'propdec-certificate-of-completion': 'Sertipiko of Completion',
+    'propdec-certificate-of-completion': "Certificate of Completion",
     'propdec-certificates': 'Mga Sertipiko',
-    'propdec-certified-true-copy-of-title-octtctcloa':
-      'Sertipikadong Tunay na Kopya of Titulo (OCT/TCT/CLOA)',
+    'propdec-certified-true-copy-of-title-octtctcloa': "Certified True Copy ng Titulo (OCT/TCT/CLOA)",
     'propdec-citizens-charter': "Citizen's Charter",
     'propdec-classification-agricultural-commercial-industrial':
       'Klasipikasyon (Agrikultural, Komersyal, Industriyal, Residensyal)',
@@ -12060,38 +11931,35 @@ const translations = {
       'Ang deklarasyon ay dapat ihain sa loob ng 60 araw mula sa pagkuha',
     'propdec-declaration-of-land-building-and-machineries':
       'Deklarasyon ng Lupa, Gusali at Makinarya',
-    'propdec-deed-of-saletransfer-documents': 'Kasulatan of Sale/Transfer Mga dokumento',
+    'propdec-deed-of-saletransfer-documents': "Deed of Sale/Mga Dokumento ng Paglipat",
     'propdec-details-needed-for-the-tax-declaration-form':
       'Mga detalye na kailangan para sa form ng tax declaration',
-    'propdec-different-categories-of-real-property-for-tax':
-      'Ibang categories of real ari-arian for buwis pagtatasa',
+    'propdec-different-categories-of-real-property-for-tax': "Iba’t ibang kategorya ng ari-arian para sa pagtatasa ng buwis",
     'propdec-documentary-requirements': 'Mga Kinakailangang Dokumento',
     'propdec-documents-needed-for-property-declaration':
       'Mga Dokumento needed para sa ari-arian declaration',
     'propdec-education': 'Edukasyon',
-    'propdec-effectivity-of-assessment': 'Effectivity of Pagtatasa',
+    'propdec-effectivity-of-assessment': "Petsa ng Bisa ng Pagtatasa",
     'propdec-effectivity-quarter-and-year': 'Quarter at Taon ng Bisa',
     'propdec-empowering-the-people-of-solano-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
     'propdec-environment': 'Kapaligiran',
     'propdec-estimated-economic-life': 'Tinatayang Buhay Pang-ekonomiya',
-    'propdec-for-building-declaration': 'For Gusali Declaration',
+    'propdec-for-building-declaration': "Para sa Deklarasyon ng Gusali",
     'propdec-for-machinery-declaration': 'Para sa Deklarasyon ng Makinarya',
-    'propdec-for-new-declaration': 'For Bago Declaration',
+    'propdec-for-new-declaration': "Para sa Bagong Deklarasyon",
     'propdec-form-type': 'Uri ng Form',
     'propdec-freedom-of-information': 'Kalayaan sa Impormasyon',
-    'propdec-full-name-of-owner': 'Buong Name of May-ari',
+    'propdec-full-name-of-owner': "Buong Pangalan ng May-ari",
     'propdec-government': 'Pamahalaan',
     'propdec-ground-floor-municipal-hall-solano': 'Unang Palapag, Munisipyo, Concepcion',
-    'propdec-handles-property-assessment-tax-declaration-and':
-      'Handles ari-arian pagtatasa, buwis declaration, and real ari-arian mga rekord.',
+    'propdec-handles-property-assessment-tax-declaration-and': "Humahawak ng pagtatasa ng ari-arian, tax declaration, at rekord ng real property.",
     'propdec-health': 'Kalusugan',
     'propdec-home': 'Tahanan',
     'propdec-important-notes': 'Mahahalagang Paalala',
     'propdec-infrastructure': 'Imprastraktura',
     'propdec-installation-permit-if-applicable': 'Permiso sa Pag-install (kung naaangkop)',
-    'propdec-keep-copies-of-all-submitted-documents':
-      'Itago mga kopya of all submitted mga dokumento',
+    'propdec-keep-copies-of-all-submitted-documents': "Magtabi ng kopya ng lahat ng isinumiteng dokumento",
     'propdec-kind-of-building-residential-commercial-etc':
       'Uri ng Gusali (Residensyal, Komersyal, atbp.)',
     'propdec-kind-of-machinery': 'Uri ng Makinarya',
@@ -12150,7 +12018,7 @@ const translations = {
     'propdec-total-market-value': 'Kabuuang Market Value',
     'propdec-transparency': 'Transparensiya',
     'propdec-types-of-property-declaration': 'Mga Uri ng Deklarasyon ng Ari-arian',
-    'propdec-valid-id-of-owner': 'Balidong ID of May-ari',
+    'propdec-valid-id-of-owner': "Balidong ID ng May-ari",
     'propdec-volunteer-with-us': 'Mag-volunteer sa amin',
     'reso-accessibility': 'Aksesibilidad',
     'reso-agriculture': 'Agrikultura',
@@ -12209,10 +12077,8 @@ const translations = {
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
     'safety-environment': 'Kapaligiran',
     'safety-fee': 'Bayad:',
-    'safety-for-emergencies-and-inquiries-contact-these':
-      'For emergencies and mga pagtatanong, makipag-ugnayan these numbers anytime.',
-    'safety-for-medical-emergencies-and-hospital-inquiries':
-      'For medical emergencies and hospital mga pagtatanong.',
+    'safety-for-emergencies-and-inquiries-contact-these': "Para sa emergency at mga tanong, tawagan ang mga numerong ito anumang oras.",
+    'safety-for-medical-emergencies-and-hospital-inquiries': "Para sa medikal na emergency at mga tanong sa ospital.",
     'safety-freedom-of-information': 'Kalayaan sa Impormasyon',
     'safety-health': 'Kalusugan',
     'safety-home': 'Tahanan',
@@ -12238,8 +12104,8 @@ const translations = {
     'safety-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'safety-open-data-philippines': 'Open Data Philippines',
     'safety-ordinance-framework': 'Balangkas ng Ordinansa',
-    'safety-pdrrmo-n-vizcaya': 'PDRRMO N. Vizcaya',
-    'safety-pdrrmo-n-vizcaya-number not yet verified': 'PDRRMO N. Vizcaya number not yet verified',
+    'safety-pdrrmo-n-vizcaya': 'Romblon PDRRMO',
+    'safety-pdrrmo-n-vizcaya-number not yet verified': 'Romblon PDRRMO number not yet verified',
     'safety-plt-hospital': 'PLT Hospital',
     'safety-plt-hospital-number not yet verified': 'PLT Hospital number not yet verified',
     'safety-pnp-solano': 'PNP Concepcion',
@@ -12313,8 +12179,7 @@ const translations = {
     'sitemap-local-civil-registrar': 'Lokal na Tagapagrehistro Sibil',
     'sitemap-main-navigation': 'Pangunahing Nabigasyon',
     'sitemap-municipal-offices': 'Mga Opisina ng Munisipyo',
-    'sitemap-navigate-all-pages-and-services-of-better-concepcion':
-      'Navigate all pages and mga serbisyo of Better Concepcion',
+    'sitemap-navigate-all-pages-and-services-of-better-concepcion': "Tingnan ang lahat ng pahina at serbisyo ng Better Concepcion",
     'sitemap-navigation': 'Nabigasyon',
     'sitemap-new-business-application': 'Bago Business Aplikasyon',
     'sitemap-news': 'Balita',
@@ -12712,8 +12577,7 @@ const translations = {
     'tax-municipal-assessors-office': 'Opisina ng Tagapagtasa ng Munisipalidad',
     'tax-municipal-budget-office': 'Opisina ng Badyet ng Munisipalidad',
     'tax-municipal-treasurers-office': 'Opisina ng Ingat-yaman ng Munisipalidad',
-    'tax-obligation-requests-barangay-budget-review-and':
-      'Obligation mga kahilingan, barangay budget suriin, and SEF budget preparation',
+    'tax-obligation-requests-barangay-budget-review-and': "Obligation request, pagsusuri ng badyet ng barangay, at paghahanda ng badyet ng SEF",
     'tax-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'tax-online-payment-order': 'Online Pagbabayad Order',
     'tax-open-data-philippines': 'Open Data Philippines',
@@ -12723,8 +12587,7 @@ const translations = {
     'tax-privacy-policy': 'Patakaran sa Pagkapribado',
     'tax-process-payment-orders-for-various-municipal-fees':
       'Iproseso pagbabayad orders for various pangmunisipyo mga bayad',
-    'tax-property-declaration-tax-assessment-and-land':
-      'Ari-arian declaration, buwis pagtatasa, and lupa mga rekord',
+    'tax-property-declaration-tax-assessment-and-land': "Property declaration, pagtatasa ng buwis, at rekord ng lupa",
     'tax-public-safety': 'Kaligtasang Pampubliko',
     'tax-quick-links': 'Mga Mabilisang Link',
     'tax-real-property-tax-billing-payment': 'Buwis sa Ari-arian Billing & Pagbabayad',
@@ -12750,26 +12613,21 @@ const translations = {
     'terms-access-primary-documents-and-official':
       'I-access ang mga pangunahing dokumento at opisyal na publikasyong binanggit',
     'terms-accessibility': 'Aksesibilidad',
-    'terms-accuracy-completeness-or-reliability-of':
-      'Accuracy, completeness, or reliability of impormasyon',
+    'terms-accuracy-completeness-or-reliability-of': "Katumpakan, pagkakumpleto, o pagiging maaasahan ng impormasyon",
     'terms-agriculture': 'Agrikultura',
-    'terms-all-information-on-this-website-is-provided-as-is':
-      'Ang lahat ng impormasyon sa website na ito ay ibinibigay \\\\\\"AS IS\\\\\\" nang walang warranty ng anumang uri, maging hayag o ipinahiwatig. Kabilang dito ngunit hindi limitado sa:',
+    'terms-all-information-on-this-website-is-provided-as-is': "Ang lahat ng impormasyon sa website na ito ay ibinibigay “AS IS” nang walang anumang warranty, tahasan man o ipinahihiwatig. Kabilang dito, pero hindi limitado sa:",
     'terms-although-volunteers-aim-to-keep-the-website':
       'Bagaman naglalayong panatilihing accessible sa functional ang website ng mga boluntaryo, Hindi magagarantiya ng BetterConcepcion.org na ang website ay magiging:',
-    'terms-any-bugs-viruses-or-other-harmful-components':
-      'Any bugs, viruses, or iba pang harmful components transmitted through the site',
+    'terms-any-bugs-viruses-or-other-harmful-components': "Anumang bug, virus, o iba pang mapanganib na bahagi na naipasa sa pamamagitan ng site",
     'terms-any-errors-omissions-or-outdated-information':
       'Anumang mga error, mga pagkukulang, o outdated impormasyon',
     'terms-any-interruption-suspension-or-cessation-of':
       'Anumang pagkaantala, pagsuspinde, o pagtigil ng availability ng website',
-    'terms-any-loss-corruption-or-disclosure-of-data-or':
-      'Any loss, corruption, or disclosure of datos or impormasyon',
+    'terms-any-loss-corruption-or-disclosure-of-data-or': "Anumang pagkawala, pagkasira, o pagkalantad ng datos o impormasyon",
     'terms-as-a-volunteerrun-initiative-this-website-does':
       'Bilang isang inisyatibang pinapatakbo ng mga boluntaryo, ang website na ito ay hindi pumapalit sa mga opisyal na channel ng pamahalaan. Residents sa stakeholders ay encouraged sa conduct kanilang own independent research sa beripikasyon ng lahat ng impormasyon found here sa sa consult opisyal na LGU Concepcion mga opisina sa government mga ahensya kapag making important decisions.',
-    'terms-as-is-disclaimer':
-      '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"As Is\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\" Disclaimer',
-    'terms-available-or-accessible-at-all-times': 'Magagamit or naa-access at all times',
+    'terms-as-is-disclaimer': "Paalala na “As Is”",
+    'terms-available-or-accessible-at-all-times': "Laging available o mabubuksan",
     'terms-bettersolanoorg-is-a-civic-platform-dedicated-to':
       'Ang BetterConcepcion.org ay isang civic platform na nakatuon sa pagbibigay-kapangyarihan sa mga tao ng Concepcion sa pamamagitan ng pagbibigay ng transparent na access sa ang mga serbisyo, mga programa, sa pampublikong funds ng LGU Concepcion.',
     'terms-bettersolanoorg-provides-public-domain':
@@ -12778,21 +12636,17 @@ const translations = {
       'Pinahahalagahan ng BetterConcepcion.org ang katumpakan, kaligtasan ng publiko, sa paggalang sa mga karapatan. Sa kabila ng mga pagsisikap na maaari mabuting layunin, ang ilang nilalaman ay maaaringcome outdated, incomplete, o raise legitimate mga alalahanin.',
     'terms-blgf-portal': 'BLGF Portal',
     'terms-business': 'Negosyo',
-    'terms-by-accessing-and-using-this-website-you':
-      'By accessing and using this website, you kilalanin and agree to be bound by these terms and conditions. Your continued gamitin of the site signifies your ongoing acceptance of this kasunduan.',
-    'terms-by-using-this-website-you-agree-to-indemnify-and':
-      'By using this website, you agree to indemnify and hold harmless the website operators, volunteers, contributors, and affiliated civic partners from any claims, damages, losses, liabilities, or expenses (including reasonable legal fees) arising from your gamitin of the website or your violation of these terms.',
+    'terms-by-accessing-and-using-this-website-you': "Sa pagbukas at paggamit ng website na ito, kinikilala mo at sumasang-ayon kang sundin ang mga tuntunin at kondisyong ito. Ang patuloy mong paggamit ng site ay nangangahulugang patuloy mong tinatanggap ang kasunduang ito.",
+    'terms-by-using-this-website-you-agree-to-indemnify-and': "Sa paggamit ng website na ito, sumasang-ayon kang hindi papanagutin at ipagtanggol ang mga nagpapatakbo ng website, mga boluntaryo, mga kontribyutor, at mga kaakibat na civic partner laban sa anumang claim, pinsala, pagkalugi, pananagutan, o gastos (kabilang ang makatwirang bayad sa abogado) na magmumula sa iyong paggamit ng website o paglabag mo sa mga tuntuning ito.",
     'terms-certificates': 'Mga Sertipiko',
     'terms-check-for-updates-amendments-or-corrections-to':
       'Check para sa mga update, mga amyenda, o mga pagwawasto sa referenced materials',
     'terms-citizens-charter': "Citizen's Charter",
-    'terms-click-through-and-review-all-source-links-provided':
-      'Click through and suriin all source links provided',
+    'terms-click-through-and-review-all-source-links-provided': "Buksan at suriin ang lahat ng ibinigay na source link",
     'terms-cmci-dti-portal': 'CMCI DTI Portal',
     'terms-complying-with-all-applicable-laws-regulations':
       'Complying na maaari lahat ng naaangkop laws, mga regulasyon, sa lokal na ordinances',
-    'terms-conduct-additional-research-beyond-what-is':
-      'Conduct karagdagang research beyond what is presented on this website',
+    'terms-conduct-additional-research-beyond-what-is': "Magsaliksik pa lampas sa nakalahad sa website na ito",
     'terms-consult-official-government-websites-offices-and':
       'Consult opisyal na government websites, mga opisina, sa mga ahensya para sa ang most kasalukuyang impormasyon',
     'terms-contact': 'Makipag-ugnayan',
@@ -12800,13 +12654,12 @@ const translations = {
     'terms-containing-personal-information-that-should-not':
       'Containing personal na impormasyon na dapat hindi be pampublikong',
     'terms-content-concerns': 'Mga Alalahanin sa Nilalaman',
-    'terms-content-concerns-and-takedown-requests': 'Content Concerns and Takedown Mga kahilingan',
+    'terms-content-concerns-and-takedown-requests': "Mga Alalahanin sa Nilalaman at Kahilingang Pag-alis",
     'terms-content-may-be-removed-corrected-updated-or':
       'Content may be removed, corrected, na-update, or accompanied by karagdagang disclaimers as appropriate.',
     'terms-contents': 'Mga Nilalaman',
     'terms-contribute-code-with-us': 'Mag-ambag ng code sa amin',
-    'terms-crosschecking-information-with-multiple-reliable':
-      'Cross-checking impormasyon with multiple maaasahan and opisyal sources before making decisions',
+    'terms-crosschecking-information-with-multiple-reliable': "Pagkumpara ng impormasyon sa maraming maaasahan at opisyal na sanggunian bago magpasya",
     'terms-determining-whether-the-information-is-suitable':
       'Determining kung ang impormasyon ay suitable para sa iyong intended use',
     'terms-editorial-decisions-about-content-rest-with-the':
@@ -12817,25 +12670,22 @@ const translations = {
     'terms-environment': 'Kapaligiran',
     'terms-errorfree-or-uninterrupted': 'Walang error o walang pagkaantala',
     'terms-external-references': 'Mga Panlabas na Sanggunian',
-    'terms-factually-incorrect-or-misleading': 'Factually mali or misleading',
+    'terms-factually-incorrect-or-misleading': "Mali o nakalilinlang",
     'terms-fitness-for-a-particular-purpose': 'Angkop para sa isang partikular na layunin',
     'terms-for-questions-about-these-terms-feedback-on-civic':
       'For questions about these terms, feedback on civic impormasyon, or content-related concerns, please makipag-ugnayan:',
-    'terms-free-from-technical-problems-vulnerabilities-or':
-      'Libre from technical problems, vulnerabilities, or disruptions',
-    'terms-free-of-charge': 'libre of singil',
-    'terms-freedom-from-errors-viruses-or-other-harmful':
-      'Freedom from errors, viruses, or iba pang harmful components',
+    'terms-free-from-technical-problems-vulnerabilities-or': "Walang teknikal na problema, kahinaan, o pagkaantala",
+    'terms-free-of-charge': "libre",
+    'terms-freedom-from-errors-viruses-or-other-harmful': "Walang mali, virus, o iba pang mapanganib na bahagi",
     'terms-freedom-of-information': 'Kalayaan sa Impormasyon',
     'terms-fully-compatible-with-all-devices-browsers-or':
       'Ganap na tugma sa lahat ng device, browser, o assistive technology',
     'terms-governing-law': 'Namamahalang Batas',
     'terms-government': 'Pamahalaan',
-    'terms-guidelines-for-using-bettersolanoorg': 'Mga alituntunin for using BetterConcepcion.org',
+    'terms-guidelines-for-using-bettersolanoorg': "Mga alituntunin sa paggamit ng BetterConcepcion.org",
     'terms-health': 'Kalusugan',
     'terms-home': 'Tahanan',
-    'terms-if-any-provision-of-these-terms-is-found-to-be':
-      'If any provision of these terms is found to be hindi balido, unlawful, or unenforceable, that provision shall be applied to the greatest extent permitted by batas, and the remaining provisions shall remain in buong force and effect.',
+    'terms-if-any-provision-of-these-terms-is-found-to-be': "Kung may probisyon ng mga tuntuning ito na mapatunayang hindi balido, labag sa batas, o hindi maipatutupad, ipatutupad ito hanggang sa pinakamalawak na pinahihintulutan ng batas, at mananatiling may bisa ang iba pang probisyon.",
     'terms-if-you-believe-that-any-content-on-this-website-is':
       'Kung naniniwala ka na ang anumang nilalaman sa website na ito ay:',
     'terms-in-violation-of-applicable-laws-or-regulations':
@@ -12857,8 +12707,7 @@ const translations = {
     'terms-limitation-of-liability': 'Limitasyon ng Pananagutan',
     'terms-modifications': 'Mga Pagbabago',
     'terms-no-professional-advice': 'Walang Propesyonal na Payo',
-    'terms-noninfringement-of-intellectual-property-rights':
-      'Non-infringement of intellectual ari-arian rights',
+    'terms-noninfringement-of-intellectual-property-rights': "Hindi paglabag sa karapatan sa intellectual property",
     'terms-official-lgu-solano-portal': 'Opisyal na Portal ng LGU Concepcion',
     'terms-open-data-philippines': 'Open Data Philippines',
     'terms-ordinance-framework': 'Balangkas ng Ordinansa',
@@ -12866,18 +12715,15 @@ const translations = {
     'terms-potentially-harmful-or-dangerous': 'Posibleng nakakapinsala o mapanganib',
     'terms-privacy-policy': 'Patakaran sa Pagkapribado',
     'terms-public-domain-content': 'Pampubliko Domain Content',
-    'terms-public-domain-content-and-volunteer-operation':
-      'Pampubliko Domain Content and Volunteer Operation',
-    'terms-public-domain-content-may-be-freely-used-copied':
-      'Pampubliko domain content may be freely used, copied, distributed, and modified without permission or attribution, although attribution to BetterConcepcion.org and LGU Concepcion is encouraged as a civic courtesy.',
+    'terms-public-domain-content-and-volunteer-operation': "Nilalamang Public Domain at Pagpapatakbo ng mga Boluntaryo",
+    'terms-public-domain-content-may-be-freely-used-copied': "Ang nilalamang public domain ay maaaring malayang gamitin, kopyahin, ipamahagi, at baguhin nang walang pahintulot o pagkilala, pero hinihikayat ang pagbanggit sa BetterConcepcion.org at LGU Concepcion bilang paggalang.",
     'terms-public-safety': 'Kaligtasang Pampubliko',
     'terms-quick-links': 'Mga Mabilisang Link',
     'terms-resolution-framework': 'Balangkas ng Resolusyon',
     'terms-resources': 'Mga Mapagkukunan',
     'terms-response-times-may-vary-due-to-the-volunteer':
       'Ang oras ng pagtugon ay maaaring mag-iba dahil sa boluntaryong katangian ng inisyatibang ito.',
-    'terms-reviewing-and-visiting-original-source-links-and':
-      'Reviewing and visiting orihinal source links and references provided',
+    'terms-reviewing-and-visiting-original-source-links-and': "Pagsusuri at pagbisita sa orihinal na source link at sanggunian na ibinigay",
     'terms-sangguniang-bayan': 'Sangguniang Bayan',
     'terms-services': 'Mga Serbisyo',
     'terms-severability': 'Pagkakahiwalay',
@@ -12891,39 +12737,27 @@ const translations = {
       'Mga suportang dokumento o ebidensya, kung naaangkop',
     'terms-tax-payments': 'Pagbabayad ng Buwis',
     'terms-terms-of-use': 'Mga Tuntunin ng Paggamit',
-    'terms-the-continued-availability-accuracy-and':
-      'The continued availability, accuracy, and reliability of external links cannot be guaranteed. Links may baguhin or become hindi magagamit without abiso, and users should always kumpirmahin impormasyon through opisyal channels.',
-    'terms-the-information-on-this-website-is-provided-for':
-      'The impormasyon on this website is provided for educational, informational, and civic transparency purposes only. It does not constitute legal, medical, financial, or any iba pang form of professional advice.',
+    'terms-the-continued-availability-accuracy-and': "Hindi magagarantiya ang patuloy na pagiging available, katumpakan, at pagiging maaasahan ng mga panlabas na link. Maaaring magbago o mawala ang mga link nang walang abiso, kaya laging kumpirmahin ang impormasyon sa opisyal na mga daluyan.",
+    'terms-the-information-on-this-website-is-provided-for': "Ang impormasyon sa website na ito ay para lamang sa edukasyon, impormasyon, at transparency sa pamahalaan. Hindi ito legal, medikal, pinansyal, o anumang uri ng propesyonal na payo.",
     'terms-the-specific-url-or-page-location': 'The tiyak URL or page location',
-    'terms-these-terms-are-governed-by-and-construed-in':
-      'These terms are governed by and construed in accordance with the laws of the Republic of the Philippines, without regard to any conflict of batas principles. Any disputes arising in connection with these terms or your gamitin of the website shall be subject to the jurisdiction of the appropriate courts in the Philippines.',
-    'terms-these-terms-may-be-updated-or-modified-from-time':
-      'These terms may be na-update or modified from time to time to reflect legal mga kinakailangan, patakaran changes, or improvements to civic mga serbisyo. Changes may be made without prior abiso. Your continued gamitin of the website after any changes are posted constitutes your acceptance of the na-update terms.',
-    'terms-this-limitation-applies-regardless-of-the-form-of':
-      'This limitation applies regardless of the form of action or legal theory, including kontrata, tort, negligence, or strict liability.',
-    'terms-this-website-and-its-content-are-provided-as-a':
-      'This website and its content are provided as a pampubliko domain resource and are operated entirely by volunteers. All impormasyon, datos, mga dokumento, and materials on this website are in the pampubliko domain unless otherwise stated.',
-    'terms-this-website-may-provide-links-to-official':
-      'This website may magbigay links to opisyal sources, pamahalaan mga dokumento, and iba pang authoritative materials to suporta civic awareness and transparency. Users are encouraged to:',
-    'terms-to-the-fullest-extent-permitted-by-law-the':
-      'To the fullest extent permitted by batas, the website operators, volunteers, contributors, and any affiliated civic partners shall not be liable for any direct, indirect, incidental, espesyal, consequential, or punitive damages arising from or related to:',
+    'terms-these-terms-are-governed-by-and-construed-in': "Ang mga tuntuning ito ay sakop at ipinapaliwanag ayon sa mga batas ng Republika ng Pilipinas, anuman ang prinsipyo ng conflict of law. Ang anumang alitan kaugnay ng mga tuntuning ito o ng paggamit mo ng website ay sasailalim sa hurisdiksyon ng angkop na hukuman sa Pilipinas.",
+    'terms-these-terms-may-be-updated-or-modified-from-time': "Maaaring i-update o baguhin paminsan-minsan ang mga tuntuning ito dahil sa mga legal na kinakailangan, pagbabago sa patakaran, o pagpapabuti ng mga serbisyo. Maaaring gawin ang pagbabago nang walang paunang abiso. Ang patuloy mong paggamit ng website matapos mailathala ang mga pagbabago ay nangangahulugang tinatanggap mo ang mga bagong tuntunin.",
+    'terms-this-limitation-applies-regardless-of-the-form-of': "Saklaw ng limitasyong ito ang anumang uri ng aksyon o legal na teorya, kabilang ang kontrata, tort, kapabayaan, o strict liability.",
+    'terms-this-website-and-its-content-are-provided-as-a': "Ang website na ito at ang nilalaman nito ay ibinibigay bilang public domain at pinatatakbo ng mga boluntaryo lamang. Lahat ng impormasyon, datos, dokumento, at materyales dito ay nasa public domain maliban kung iba ang nakasaad.",
+    'terms-this-website-may-provide-links-to-official': "Maaaring magbigay ang website na ito ng mga link sa opisyal na sanggunian, dokumento ng gobyerno, at iba pang mapagkakatiwalaang materyales para suportahan ang kamalayang sibiko at transparency. Hinihikayat ang mga user na:",
+    'terms-to-the-fullest-extent-permitted-by-law-the': "Hanggang sa pinakamalawak na pinahihintulutan ng batas, ang mga nagpapatakbo ng website, mga boluntaryo, mga kontribyutor, at mga kaakibat na civic partner ay hindi mananagot sa anumang direkta, hindi direkta, incidental, espesyal, consequential, o punitive na pinsala na nagmumula o may kaugnayan sa:",
     'terms-transparency': 'Transparensiya',
     'terms-use-the-source-links-and-references-on-each-page':
       'Use ang source links sa references sa bawat page sa access primary mga dokumento sa opisyal na mga rekord',
     'terms-user-responsibilities': 'Mga Responsibilidad ng Gumagamit',
-    'terms-user-responsibilities-and-research-guidelines':
-      'User Responsibilities and Research Mga alituntunin',
-    'terms-users-are-encouraged-to-report-technical-issues':
-      'Users are encouraged to ulat technical issues and broken links so volunteers can address them as resources allow.',
-    'terms-users-share-responsibility-for-promoting-informed':
-      'Users ibahagi responsibility for promoting informed and responsible civic engagement. By using this website, you are solely responsible for:',
+    'terms-user-responsibilities-and-research-guidelines': "Mga Responsibilidad ng User at Gabay sa Pagsasaliksik",
+    'terms-users-are-encouraged-to-report-technical-issues': "Hinihikayat ang mga user na iulat ang mga teknikal na problema at sirang link para maayos ito ng mga boluntaryo ayon sa kakayahan.",
+    'terms-users-share-responsibility-for-promoting-informed': "May bahagi ang mga user sa pagsusulong ng may-alam at responsableng pakikilahok sa pamahalaan. Sa paggamit ng website na ito, ikaw lamang ang may pananagutan sa:",
     'terms-users-should-consult-qualified-professionals-or':
       'Users dapat consult qualified professionals o naaangkop na government mga opisina para sa advice tiyak na sa kanilang circumstances.',
     'terms-users-should-treat-all-content-as-informational':
       'Users dapat treat lahat ng content as informational sa hindi as isang substitute para sa opisyal na mga rekord o professional advice.',
-    'terms-verify-dates-figures-and-other-details-through':
-      'I-verify dates, figures, and iba pang details through multiple reputable sources',
+    'terms-verify-dates-figures-and-other-details-through': "Beripikahin ang mga petsa, numero, at iba pang detalye sa maraming mapagkakatiwalaang sanggunian",
     'terms-verify-information-directly-from-original-and':
       'Verify impormasyon directly mula sa original sa opisyal na sources',
     'terms-volunteer-with-us': 'Mag-volunteer sa amin',
@@ -12935,12 +12769,11 @@ const translations = {
       'Bagaman ang mga boluntaryo ay nagsusumikap na pangalagaan ang BetterConcepcion.org mula sa mga online na banta at panatilihing tumpak ang impormasyon, walang sistema ang maaaring garantiyahan na perpektong ligtas, walang error, o ganap na napapanahon sa lahat ng oras.',
     'terms-you-are-strongly-encouraged-to': 'Lubos kang hinihikayat na:',
     'terms-your-contact-information-for-followup': 'Your makipag-ugnayan impormasyon for follow-up',
-    'terms-your-use-of-or-reliance-on-this-website-or-its':
-      'Your gamitin of or reliance on this website or its content',
+    'terms-your-use-of-or-reliance-on-this-website-or-its': "Ang iyong paggamit o pag-asa sa website na ito o sa nilalaman nito",
     'treas-10-discount': '10% Diskwento',
     'treas-1st-quarter': 'Unang Quarter',
     'treas-2-per-month': '2% bawat month',
-    'treas-25-of-annual-tax': '25% of taunang buwis',
+    'treas-25-of-annual-tax': "25% ng taunang buwis",
     'treas-2nd-quarter': 'Ikalawang Quarter',
     'treas-3rd-quarter': 'Ikatlong Quarter',
     'treas-4th-quarter': 'Ikaapat na Quarter',
@@ -12954,29 +12787,26 @@ const translations = {
     'treas-annual': 'Taunang',
     'treas-annual-business-tax-based-on-gross-salesreceipts':
       'Taunang buwis sa negosyo batay sa kabuuang benta/resibo',
-    'treas-annual-full-payment': 'Taunang (Full Payment)',
-    'treas-annual-tax-payment-for-land-buildings-and':
-      'Taunang buwis pagbabayad for lupa, buildings, and improvements',
+    'treas-annual-full-payment': "Taunan (Buong Bayad)",
+    'treas-annual-tax-payment-for-land-buildings-and': "Taunang pagbabayad ng buwis para sa lupa, gusali, at mga pagpapaunlad",
     'treas-arrangement-for-installment-payment-of-taxes':
       'Kasunduan para sa hulugang pagbabayad ng buwis',
-    'treas-authorization-letter-if-representative': 'Sulat ng Awtorisasyon (if kinatawan)',
+    'treas-authorization-letter-if-representative': "Sulat ng Awtorisasyon (kung kinatawan)",
     'treas-based-on-revenue': 'Batay sa Kita',
     'treas-basic-fee': 'Pangunahing Bayad:',
     'treas-best-option-for-savings': 'Pinakamahusay na opsyon para sa ipon',
     'treas-blgf-portal': 'BLGF Portal',
-    'treas-bring-valid-id-for-all-transactions': 'Dalhin balido ID for all mga transaksyon',
+    'treas-bring-valid-id-for-all-transactions': "Magdala ng balidong ID sa lahat ng transaksyon",
     'treas-business': 'Negosyo',
     'treas-business-permit': 'Permit sa Negosyo',
     'treas-business-tax': 'Buwis sa Negosyo',
     'treas-business-tax-fees': 'Business Buwis & Mga bayad',
-    'treas-certificate-of-no-tax-liability-for-property':
-      'Sertipiko of no buwis liability for ari-arian mga transaksyon',
+    'treas-certificate-of-no-tax-liability-for-property': "Sertipiko na walang utang sa buwis para sa transaksyon ng ari-arian",
     'treas-certificates': 'Mga Sertipiko',
     'treas-certification': 'Sertipikasyon',
     'treas-citizens-charter': "Citizen's Charter",
     'treas-cmci-dti-portal': 'CMCI DTI Portal',
-    'treas-collection-of-various-municipal-fees-and-charges':
-      'Collection of various pangmunisipyo mga bayad and mga singil',
+    'treas-collection-of-various-municipal-fees-and-charges': "Pangongolekta ng iba’t ibang bayarin at singil ng munisipyo",
     'treas-community-tax-certificate-cedula': 'Sertipiko ng Buwis sa Komunidad (Sedula)',
     'treas-contact': 'Makipag-ugnayan',
     'treas-contribute-code-with-us': 'Mag-ambag ng code sa amin',
@@ -13003,19 +12833,18 @@ const translations = {
     'treas-home': 'Tahanan',
     'treas-hours': 'Oras',
     'treas-immediate': 'Agaran',
-    'treas-important-dates-for-tax-payments': 'Mahalaga dates for buwis payments',
+    'treas-important-dates-for-tax-payments': "Mahahalagang petsa sa pagbabayad ng buwis",
     'treas-individual-cedula': 'Indibidwal na Cedula',
     'treas-infrastructure': 'Imprastraktura',
-    'treas-inquiry-on-property-tax-assessment-and-computation':
-      'Pagtatanong on ari-arian buwis pagtatasa and computation',
+    'treas-inquiry-on-property-tax-assessment-and-computation': "Pagtatanong tungkol sa pagtatasa at pagkuwenta ng buwis sa ari-arian",
     'treas-issuance-of-cedula-for-individuals-and':
       'Pagbibigay ng cedula para sa mga indibidwal at korporasyon',
     'treas-issuance-of-official-receipts-for-all-payments':
       'Pagbibigay ng mga opisyal na resibo para sa lahat ng pagbabayad',
-    'treas-issuance-of-tax-payment-certifications': 'Issuance of buwis pagbabayad certifications',
+    'treas-issuance-of-tax-payment-certifications': "Pag-iisyu ng sertipikasyon ng bayad sa buwis",
     'treas-january-31': 'Enero 31',
     'treas-june-30': 'Hunyo 30',
-    'treas-keep-all-official-receipts-for-records': 'Itago all opisyal mga resibo for mga rekord',
+    'treas-keep-all-official-receipts-for-records': "Itabi ang lahat ng opisyal na resibo bilang rekord",
     'treas-late-payment': 'Huling Pagbabayad',
     'treas-legislative': 'Lehislatura',
     'treas-lgu-solano-facebook': 'LGU Concepcion Facebook',
@@ -13043,7 +12872,7 @@ const translations = {
     'treas-penalty': 'Multa:',
     'treas-per-requirement': 'Bawat Kinakailangan',
     'treas-per-schedule': 'Ayon sa Iskedyul',
-    'treas-previous-official-receipt-if-renewal': 'Nakaraang Opisyal na Resibo (if renewal)',
+    'treas-previous-official-receipt-if-renewal': "Nakaraang Opisyal na Resibo (kung renewal)",
     'treas-privacy-policy': 'Patakaran sa Pagkapribado',
     'treas-processing': 'Pagproseso:',
     'treas-proof-of-income-if-employed': 'Patunay ng Kita (kung may trabaho)',
@@ -13081,7 +12910,7 @@ const translations = {
     'treas-treasury': 'Ingat-Yaman',
     'treas-upon-approval': 'Sa Pag-apruba',
     'treas-valid-id': 'Balidong ID',
-    'treas-valid-id-of-property-owner': 'Balidong ID of Ari-arian May-ari',
+    'treas-valid-id-of-property-owner': "Balidong ID ng May-ari ng Ari-arian",
     'treas-varies-by-business': 'Nag-iiba ayon sa Negosyo',
     'treas-volunteer-with-us': 'Mag-volunteer sa amin',
     'tricycle-15-steps': '15 Mga Hakbang',
@@ -13097,24 +12926,21 @@ const translations = {
       'Ang BPLS Inspector ay tumatanggap ng application form ng prangkisa',
     'tricycle-bpls-office': 'Opisina ng BPLS',
     'tricycle-bpls-prepares-the-transmittal-letter': 'Ang BPLS ay naghahanda ng transmittal letter',
-    'tricycle-bpls-receives-notarized-application-and-other':
-      'BPLS receives notaryado aplikasyon and iba pang documentary mga kinakailangan',
+    'tricycle-bpls-receives-notarized-application-and-other': "Tinatanggap ng BPLS ang notaryadong aplikasyon at iba pang dokumentong kailangan",
     'tricycle-bpls-vmo-sbo': 'BPLS / VMO / SBO',
     'tricycle-business': 'Negosyo',
-    'tricycle-business-permits-and-licensing-section-handles':
-      'Business Mga permiso and Licensing Seksyon handles tricycle franchise mga aplikasyon and documentary mga kinakailangan.',
+    'tricycle-business-permits-and-licensing-section-handles': "Ang Business Permits and Licensing Section ang humahawak ng aplikasyon para sa prangkisa ng traysikel at mga dokumentong kailangan.",
     'tricycle-certificates': 'Mga Sertipiko',
     'tricycle-citizens-charter': "Citizen's Charter",
     'tricycle-cmci-dti-portal': 'CMCI DTI Portal',
-    'tricycle-collection-of-fees': 'Collection of Mga bayad',
-    'tricycle-complete-guide-to-tricycle-franchise-application':
-      'Kumpleto guide to tricycle franchise aplikasyon and mga rekord humiling procedures',
+    'tricycle-collection-of-fees': "Pangongolekta ng Bayarin",
+    'tricycle-complete-guide-to-tricycle-franchise-application': "Kumpletong gabay sa aplikasyon ng prangkisa ng traysikel at sa paghiling ng rekord",
     'tricycle-contact': 'Makipag-ugnayan',
     'tricycle-contribute-code-with-us': 'Mag-ambag ng code sa amin',
     'tricycle-education': 'Edukasyon',
     'tricycle-empowering-the-people-of-solano-with-transparent':
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
-    'tricycle-encoding-of-application': 'Encoding of Aplikasyon',
+    'tricycle-encoding-of-application': "Pag-encode ng Aplikasyon",
     'tricycle-environment': 'Kapaligiran',
     'tricycle-franchise-steps': 'Mga Hakbang sa Prangkisa',
     'tricycle-franchising': 'Prangkisa',
@@ -13124,20 +12950,17 @@ const translations = {
       'Ang Kawani ng Prangkisa ay tumatanggap, nag-iinspeksyon, at nag-aayos ng mga aplikasyon',
     'tricycle-franchising-staff-releases-the-mtof-to-the':
       'Ang Kawani ng Prangkisa ay naglalabas ng MTOF sa aplikante',
-    'tricycle-franchising-staff-verifies-records-and-assessment':
-      'Franchising Kawani verifies mga rekord and pagtatasa mga bayad',
+    'tricycle-franchising-staff-verifies-records-and-assessment': "Sinusuri ng Franchising Staff ang mga rekord at ang assessment fee",
     'tricycle-government': 'Pamahalaan',
     'tricycle-health': 'Kalusugan',
     'tricycle-home': 'Tahanan',
     'tricycle-infrastructure': 'Imprastraktura',
-    'tricycle-inspection-of-tricycle-unit': 'Inspeksyon of Tricycle Yunit',
+    'tricycle-inspection-of-tricycle-unit': "Inspeksyon ng Traysikel",
     'tricycle-legislative': 'Lehislatura',
     'tricycle-mayors-approval': "Mayor's Pag-apruba",
     'tricycle-municipal-hall-solano-nueva-vizcaya': 'Munisipyo, Concepcion, Romblon',
-    'tricycle-municipal-mayor-approves-the-application-form':
-      'Punong Bayan approves the aplikasyon form',
-    'tricycle-municipal-treasurers-office-collects-the-fees':
-      'Pangmunisipyo Opisina ng Ingat-Yaman collects the mga bayad',
+    'tricycle-municipal-mayor-approves-the-application-form': "Inaaprubahan ng Punong Bayan ang application form",
+    'tricycle-municipal-treasurers-office-collects-the-fees': "Kinokolekta ng Tanggapan ng Ingat-Yaman ng Munisipyo ang mga bayarin",
     'tricycle-office': 'Opisina',
     'tricycle-office-hours': 'Oras ng Opisina',
     'tricycle-official-signing': 'Opisyal na Pagpirma',
@@ -13149,9 +12972,9 @@ const translations = {
     'tricycle-public-safety': 'Kaligtasang Pampubliko',
     'tricycle-quick-links': 'Mga Mabilisang Link',
     'tricycle-receiving-application-form': 'Pagtanggap ng Application Form',
-    'tricycle-receiving-letter-of-request': 'Receiving Sulat of Humiling',
+    'tricycle-receiving-letter-of-request': "Pagtanggap ng Sulat-Kahilingan",
     'tricycle-receiving-notarized-documents': 'Receiving Notaryado Mga dokumento',
-    'tricycle-receiving-of-documentary-requirements': 'Receiving of Documentary Mga kinakailangan',
+    'tricycle-receiving-of-documentary-requirements': "Pagtanggap ng mga Dokumentong Kailangan",
     'tricycle-receiving-sorting': 'Pagtanggap at Pag-aayos',
     'tricycle-records-officer-ii-reviews-and-determines':
       'Ang Records Officer II ay nagsusuri at tinutukoy ang pagkakaroon ng dokumento',
@@ -13186,17 +13009,13 @@ const translations = {
     'tricycle-terms-of-use': 'Mga Tuntunin ng Paggamit',
     'tricycle-transparency': 'Transparensiya',
     'tricycle-tricycle-franchise': 'Prangkisa ng Traysikel',
-    'tricycle-tricycle-franchising-and-records-sections':
-      'Tricycle Franchising and Mga rekord Sections',
-    'tricycle-verification-of-records-fees': 'Beripikasyon of Mga rekord & Mga bayad',
-    'tricycle-vice-mayor-and-presiding-officer-sign-the':
-      'Vice Alkalde and Presiding Opisyal pumirma the naaprubahan MTOF',
+    'tricycle-tricycle-franchising-and-records-sections': "Mga Seksyon ng Tricycle Franchising at Records",
+    'tricycle-verification-of-records-fees': "Beripikasyon ng Rekord at Bayarin",
+    'tricycle-vice-mayor-and-presiding-officer-sign-the': "Pinipirmahan ng Pangalawang Punong Bayan at ng Presiding Officer ang aprubadong MTOF",
     'tricycle-vice-mayor-or-secretary-to-the-sanggunian':
       'Ang Bise Alkalde o Kalihim ng Sanggunian ay inaprubahan/tinanggihan ang kahilingan',
-    'tricycle-vice-mayors-office-sangguniang-bayan-office':
-      'Opisina ng Bise Punong Bayan / Sangguniang Bayan Opisina handles mga rekord mga kahilingan and dokumento retrieval.',
-    'tricycle-vmosbo-staff-receives-the-letter-of-request':
-      'VMO/SBO Kawani receives the sulat of humiling',
+    'tricycle-vice-mayors-office-sangguniang-bayan-office': "Ang Tanggapan ng Pangalawang Punong Bayan / Tanggapan ng Sangguniang Bayan ang humahawak ng paghiling at pagkuha ng mga rekord.",
+    'tricycle-vmosbo-staff-receives-the-letter-of-request': "Tinatanggap ng kawani ng VMO/SBO ang sulat-kahilingan",
     'tricycle-volunteer-with-us': 'Mag-volunteer sa amin',
     'env-recycling': 'Programa sa Recycling',
     'env-recycling-desc': 'Segregasyon at mga inisyatiba sa recycling',

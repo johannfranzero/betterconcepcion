@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "BetterConcepcion.org - Independent civic portal for Concepcion, Romblon",
   "scripts": {
-    "dev": "python3 -m http.server 8000",
+    "dev": "python3 tools/serve.py 8000",
     "build": "bash build.sh",
     "build:major": "bash scripts/version.sh major && bash build.sh --no-bump",
     "build:minor": "bash scripts/version.sh minor && bash build.sh --no-bump",
-    "serve": "python3 -m http.server 8000",
+    "serve": "python3 tools/serve.py 8000",
     "serve:dist": "cd dist && python3 -m http.server 8080",
     "version:major": "node scripts/bump-version.js major",
     "version:minor": "node scripts/bump-version.js minor",
@@ -23,12 +23,13 @@
     "package:only": "bash scripts/package-cpanel.sh"
   },
   "keywords": [
-    "solano",
+    "concepcion",
+    "sibale",
     "romblon",
     "government",
     "lgu"
   ],
-  "author": "Better Concepcion volunteers",
+  "author": "Johann Firmalan",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.23.9",

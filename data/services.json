@@ -722,7 +722,7 @@
       "title": "Tricycle Franchising & Records",
       "category": "Business, Trade & Investment",
       "categoryId": "business",
-      "description": "Apply for tricycle franchise (MTOF) and request records",
+      "description": "Apply for tricycle franchise (MTOF) and request records Note: Sibale has no tricycle public transport (Tourism Office); confirm whether motorcycles-for-hire are franchised.",
       "keywords": [
         "tricycle",
         "franchise",
@@ -953,6 +953,44 @@
       "processingTime": "Confirm with office",
       "office": "Human Resource Management Office",
       "url": "../service-details/human-resource-management.html"
+    },
+    {
+      "id": "fishr",
+      "title": "Fisherfolk Registration (FishR)",
+      "category": "Agriculture & Economic Development",
+      "categoryId": "agriculture",
+      "description": "National registry of municipal fisherfolk (BFAR), through the Municipal Agriculture Office.",
+      "keywords": [
+        "fisherfolk",
+        "fishr",
+        "mangingisda",
+        "fishing",
+        "bfar",
+        "registration"
+      ],
+      "fee": "Confirm with office",
+      "processingTime": "Confirm with office",
+      "office": "Municipal Agriculture Office",
+      "url": "agriculture.html"
+    },
+    {
+      "id": "boatr",
+      "title": "Fishing Boat Registration (BoatR)",
+      "category": "Agriculture & Economic Development",
+      "categoryId": "agriculture",
+      "description": "Registration of municipal fishing boats (3 gross tons or less) under the Fisheries Code.",
+      "keywords": [
+        "boat",
+        "bangka",
+        "boatr",
+        "fishing boat",
+        "registration",
+        "bfar"
+      ],
+      "fee": "Confirm with office",
+      "processingTime": "Confirm with office",
+      "office": "Municipal Agriculture Office",
+      "url": "agriculture.html"
     }
   ]
 }

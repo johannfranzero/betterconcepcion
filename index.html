@@ -120,7 +120,7 @@
     <link rel="stylesheet" href="assets/css/accessibility.css" />
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Outfit:wght@600;700;800&family=Inter+Tight:wght@800&display=swap" />
-    <link rel="stylesheet" href="assets/css/theme-civic.css?v=63" />
+    <link rel="stylesheet" href="assets/css/theme-civic.css?v=64" />
   </head>
 
   <body>
@@ -797,6 +797,11 @@
             <a href="news/" class="home-section-link"><i class="bi bi-arrow-right"></i> <span data-i18n="home-all-updates">All updates</span></a>
           </div>
           <div class="home-news-grid" id="home-news-grid"></div>
+          <div class="fb-live" aria-labelledby="fb-live-h">
+            <h3 id="fb-live-h" data-i18n="fb-live-title">Live from the Public Information Office</h3>
+            <p class="fb-live-note" data-i18n="fb-live-note">New posts from the PIO Facebook page show here as soon as they are posted. If your browser blocks Facebook, open the page directly.</p>
+            <div id="fb-feed" class="fb-live-feed" data-fb-mode="live-only" data-fb-page="https://www.facebook.com/100076305843929" data-fb-label="Open the PIO Facebook page"></div>
+          </div>
           <div class="home-contact-v2-grid" style="margin-top: var(--spacing-lg)">
             <a href="https://www.facebook.com/people/Concepcion-Public-Information-Office/100076305843929/" class="home-contact-v2-card" target="_blank" rel="noopener noreferrer">
               <div class="home-contact-v2-icon"><i class="bi bi-megaphone-fill"></i></div>
@@ -944,12 +949,12 @@
                 <span class="home-contact-v2-note">Disasters and emergencies. National: 911</span>
               </div>
             </a>
-            <a href="tel:09649778164" class="home-contact-v2-card">
+            <a href="tel:09606915726" class="home-contact-v2-card">
               <div class="home-contact-v2-icon"><i class="bi bi-megaphone-fill"></i></div>
               <div class="home-contact-v2-content">
                 <h3>LGU Public Information Office</h3>
-                <p class="home-contact-v2-value">0964 977 8164</p>
-                <span class="home-contact-v2-note">Also the Municipal Tourism Office</span>
+                <p class="home-contact-v2-value">0960 691 5726</p>
+                <span class="home-contact-v2-note">Tourism Office: 0964 977 8164</span>
               </div>
             </a>
             <div class="home-contact-v2-card">
@@ -1048,14 +1053,14 @@
       </div>
     </footer>
 
-<script defer src="assets/js/translations.js?v=11"></script>
+<script defer src="assets/js/translations.js?v=12"></script>
     <script defer src="assets/js/main.js?v=3"></script>
     <script defer src="assets/js/version.js"></script>
     <script defer src="assets/js/search.js"></script>
     <script defer src="assets/js/news.js?v=2"></script>
-    <script defer src="assets/js/fb-feed.js?v=1.2.0"></script>
+    <script defer src="assets/js/fb-feed.js?v=1.3.0"></script>
     <script defer src="assets/js/map3d.js?v=6"></script>
-    <script defer src="assets/js/weather-map.js?v=1.6.4"></script>
+    <script defer src="assets/js/weather-map.js?v=1.6.5"></script>
 
     <!-- Failsafe: Ensure weather section renders even if scripts hang -->
     <!-- Note: map failsafe removed — OSM iframe is now inlined in the HTML and always visible. -->

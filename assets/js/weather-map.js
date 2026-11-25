@@ -60,7 +60,7 @@
   // Weather Service - Handles fetching, caching, and providing weather data
   // ============================================================================
   const WeatherService = {
-    CACHE_KEY: 'solano_weather_cache',
+    CACHE_KEY: 'concepcion_weather_cache',
     CACHE_TTL: 30 * 60 * 1000,
     API_URL: 'https://api.open-meteo.com/v1/forecast',
     COORDINATES: { lat: 12.9127, lon: 121.7207 },
@@ -232,6 +232,11 @@
   const WeatherUI = {
     render(container, data) {
       if (!container) return;
+      // Never show invented weather: without live data, say so and offer a retry.
+      if (!data || data.isFallback) {
+        this.renderError(container);
+        return;
+      }
 
       try {
         // Limit to 4 hours for minimal design
@@ -336,7 +341,7 @@
   // Map Component - Initializes and manages the Leaflet map
   // ============================================================================
   const MapComponent = {
-    SOLANO_CENTER: [12.9127, 121.7207],
+    CONCEPCION_CENTER: [12.9127, 121.7207],
     DEFAULT_ZOOM: 14,
     map: null,
 
@@ -421,7 +426,7 @@
 
         // Create the map with keyboard navigation support
         this.map = L.map(container, {
-          center: this.SOLANO_CENTER,
+          center: this.CONCEPCION_CENTER,
           zoom: this.DEFAULT_ZOOM,
           scrollWheelZoom: false,
           zoomControl: true,
@@ -463,8 +468,8 @@
         tileLayer.addTo(this.map);
 
         // Add marker
-        const marker = L.marker(this.SOLANO_CENTER).addTo(this.map);
-        marker.bindPopup('<strong>Concepcion Municipal Hall</strong><br>Romblon 3708');
+        const marker = L.marker(this.CONCEPCION_CENTER).addTo(this.map);
+        marker.bindPopup('<strong>Concepcion Municipal Hall</strong><br>Poblacion, Concepcion, Romblon 5516');
 
         container.setAttribute('data-map-loaded', 'leaflet');
 
@@ -514,7 +519,7 @@
       } catch (error) {
         console.error('Weather: Init failed', error);
         // Render mock data as last resort
-        WeatherUI.render(weatherContainer, getMockWeather());
+        WeatherUI.renderError(weatherContainer);
       }
     }
 
