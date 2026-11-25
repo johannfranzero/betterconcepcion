@@ -997,8 +997,16 @@ a {
     bottom: -120px;
   }
   .header-inner {
-    flex-wrap: nowrap !important;
-    gap: 10px;
+    flex-wrap: wrap !important;
+    column-gap: 10px;
+    row-gap: 0;
+  }
+  .header-inner > .brand {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .main-nav {
+    flex: 0 0 100%;
   }
   .brand-tag {
     display: none;
