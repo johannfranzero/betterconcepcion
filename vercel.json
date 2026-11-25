@@ -1,4 +1,7 @@
 {
+  "buildCommand": "echo static site, no build",
+  "installCommand": "echo no install",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false
 }

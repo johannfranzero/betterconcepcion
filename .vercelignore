@@ -1,0 +1,11 @@
+research
+tests
+tools
+scripts
+.impeccable
+.github
+node_modules
+dist
+playwright-report
+test-results
+*.sh
