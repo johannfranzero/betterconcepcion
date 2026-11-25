@@ -1861,3 +1861,5 @@ body {
   .civic-hero { padding-bottom: 150px !important; }
   .hero-burst { width: 540px; height: 540px; left: calc(78% - 270px); top: calc(100% - 46px); }
 }
+/* Spin the rays around the sun's own centre (user-space 0,0), not the corner of the drawing */
+.hero-burst-rays { transform-box: view-box; transform-origin: 0 0; }
