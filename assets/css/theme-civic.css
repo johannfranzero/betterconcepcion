@@ -1403,3 +1403,225 @@ body {
 .maplibregl-popup-content a { font-weight: 700; color: var(--navy); }
 .maplibregl-cooperative-gesture-screen { font: 600 15px/1.4 var(--font-body, system-ui, sans-serif); }
 .brgy-map { margin: 8px 0 20px; }
+
+/* ==========================================================================
+   Sunrise over Sibale (Nov 2026)
+   The logo's sun rising over the island and the sea replaces the generic
+   grid-paper hero. Colours stay the logo's: navy, sun gold, sea blue.
+   ========================================================================== */
+:root {
+  --font-display: 'Outfit', 'Archivo', system-ui, sans-serif;
+  --font-mono: 'Outfit', 'Archivo', system-ui, sans-serif;
+  --sun: #ffc61a;
+  --sun-deep: #f59e0b;
+  --sea: #1877d2;
+  --sea-2: #2f9bea;
+  --sea-3: #7cc6ff;
+  --sea-deep: #0b3f8f;
+}
+.civic-boat-time, .home-stat-value, .civic-card-tag, [class*="stat-value"] {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Sky: deep navy at the top, lighter toward the horizon, warm glow around the sun */
+.civic-hero,
+.page-header,
+.stats-hero,
+.trans-hero-v2 {
+  background-color: #001a55 !important;
+  background-image:
+    radial-gradient(420px 260px at 82% calc(100% - 96px), rgba(255, 184, 64, 0.55), rgba(255, 184, 64, 0) 70%),
+    linear-gradient(180deg, #00174d 0%, #00226e 48%, #16409f 100%) !important;
+  background-size: auto !important;
+}
+
+/* The sun sits on the horizon at the right and keeps turning */
+.civic-sun,
+.page-header .civic-sun,
+.stats-hero .civic-sun,
+.trans-hero-v2 .civic-sun {
+  width: 300px;
+  height: 300px;
+  right: 6%;
+  left: auto;
+  bottom: -40px;
+  opacity: 1 !important;
+  z-index: 0;
+}
+.civic-sun g { fill-opacity: 1 !important; fill: var(--sun); }
+.page-header .civic-sun,
+.stats-hero .civic-sun,
+.trans-hero-v2 .civic-sun {
+  width: 210px;
+  height: 210px;
+  bottom: -50px;
+  right: 5%;
+}
+
+/* Horizon: island silhouette in front of the sun, then the sea */
+.civic-horizon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 150px;
+  pointer-events: none;
+  z-index: 0;
+}
+.civic-island {
+  position: absolute;
+  right: 0;
+  bottom: 58px;
+  width: min(62%, 760px);
+  height: 74px;
+}
+.civic-island path { fill: #0a1f5c; }
+.civic-waves {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 200%;
+  height: 100px;
+  animation: civic-sea 40s linear infinite;
+}
+.civic-waves .w1 { fill: var(--sea-deep); }
+.civic-waves .w2 { fill: var(--sea); opacity: 0.95; }
+.civic-waves .w3 { fill: var(--paper); }
+@keyframes civic-sea {
+  to { transform: translateX(-50%); }
+}
+.page-header .civic-horizon,
+.stats-hero .civic-horizon,
+.trans-hero-v2 .civic-horizon { height: 96px; }
+.page-header .civic-island,
+.stats-hero .civic-island,
+.trans-hero-v2 .civic-island { bottom: 34px; height: 48px; width: min(48%, 560px); }
+.page-header .civic-waves,
+.stats-hero .civic-waves,
+.trans-hero-v2 .civic-waves { height: 62px; }
+.page-header,
+.stats-hero,
+.trans-hero-v2 { padding: 46px 0 104px !important; }
+
+/* Home hero: text on the left, the sunrise scene on the right */
+.civic-hero { text-align: left; padding: 0 0 170px; }
+.civic-hero-inner { max-width: 1200px; padding-top: 64px; }
+.civic-hero h1,
+.civic-hero-lead,
+.civic-hero-facts,
+.civic-hero-actions,
+.civic-search,
+.civic-popular { max-width: 640px; margin-left: 0; margin-right: 0; justify-content: flex-start; }
+.civic-hero h1 { font-size: clamp(2.5rem, 5.6vw, 4.5rem); letter-spacing: -0.03em; }
+.civic-hero h1 .dot-org { color: var(--sun); }
+.civic-btn { border-radius: 999px; padding: 13px 26px; }
+.civic-btn--gold { background: linear-gradient(180deg, var(--sun) 0%, #ffb21a 100%); }
+.civic-search .search-input-wrapper { border-radius: 999px !important; padding-left: 20px; }
+.civic-search .search-submit-btn { border-radius: 50% !important; }
+@media (max-width: 900px) {
+  .civic-hero { padding-bottom: 150px; }
+  .civic-sun { width: 220px; height: 220px; right: -20px; bottom: -20px; }
+  .civic-island { width: 92%; height: 56px; bottom: 56px; }
+  .civic-waves { height: 86px; }
+}
+@media (max-width: 640px) {
+  .civic-hero-inner { padding-top: 40px; }
+  .page-header .civic-sun, .stats-hero .civic-sun, .trans-hero-v2 .civic-sun { width: 150px; height: 150px; bottom: -36px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .civic-waves { animation: none; }
+}
+
+/* Barangay ribbon: the island's 9 barangays instead of decorative tiles */
+.civic-ribbon { background: var(--paper); padding: 6px 0 22px; }
+.civic-ribbon-inner { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; }
+.civic-ribbon-title { font-family: var(--font-display); font-weight: 800; color: var(--navy); font-size: 1rem; }
+.civic-ribbon-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.civic-ribbon-list a {
+  padding: 6px 14px; border-radius: 999px; background: #fff; border: 1.5px solid #cfe0f5;
+  color: var(--sea-deep); font-weight: 700; font-size: 0.875rem; text-decoration: none;
+}
+.civic-ribbon-list a:hover, .civic-ribbon-list a:focus-visible { background: var(--sea-deep); border-color: var(--sea-deep); color: #fff; }
+
+/* Section heads: a small wave instead of the gold bar */
+.home-section-header h2::after,
+.home-stats-v2-header h2::after,
+.civic-section-head h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 64px;
+  height: 10px;
+  border-radius: 0;
+  background: var(--sea-2);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 10'%3E%3Cpath d='M0 5 Q8 0 16 5 T32 5 T48 5 T64 5' fill='none' stroke='black' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 10'%3E%3Cpath d='M0 5 Q8 0 16 5 T32 5 T48 5 T64 5' fill='none' stroke='black' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center / 100% 100% no-repeat;
+}
+.civic-section-head h2 { position: relative; padding-bottom: 14px; }
+
+/* Service cards: white, with a wave edge in the card's colour */
+.civic-services { background: var(--paper); padding-top: 34px; }
+.civic-card {
+  background: #fff !important;
+  background-image: none !important;
+  color: var(--navy-ink);
+  border: 1px solid #dfe6f1;
+  justify-content: flex-start;
+  padding: 26px 22px 22px;
+  min-height: 0;
+  box-shadow: 0 1px 2px rgba(15, 35, 66, 0.05);
+}
+.civic-card::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 10px;
+  background: var(--card);
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 10' preserveAspectRatio='none'%3E%3Cpath d='M0 0H40V6Q30 10 20 6T0 6Z'/%3E%3C/svg%3E") 0 0 / 40px 10px repeat-x;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 10' preserveAspectRatio='none'%3E%3Cpath d='M0 0H40V6Q30 10 20 6T0 6Z'/%3E%3C/svg%3E") 0 0 / 40px 10px repeat-x;
+}
+.civic-card:hover { color: var(--navy-ink); box-shadow: 0 14px 30px -14px rgba(15, 35, 66, 0.35); }
+.civic-card-icon {
+  position: static;
+  margin-bottom: 14px;
+  background: var(--card);
+  color: #fff;
+  border-radius: 50%;
+}
+.civic-card-tag {
+  top: 24px;
+  background: #f1f5fb;
+  color: var(--muted);
+  font-family: var(--font-main);
+  font-weight: 700;
+}
+.civic-card h3 { color: var(--navy-ink) !important; }
+.civic-card p { color: var(--muted); }
+.civic-card--blue { --card: var(--sea); }
+.civic-card--red { --card: #d9622b; }
+.civic-card--navy { --card: var(--navy); }
+.civic-card--green { --card: #2e8b57; }
+.civic-card--teal { --card: #138a9e; }
+.civic-card--ink {
+  background: var(--navy) !important;
+  border-color: var(--navy);
+  --card: var(--sun);
+}
+.civic-card--ink h3 { color: #fff !important; }
+.civic-card--ink p { color: rgba(255, 255, 255, 0.82); }
+.civic-card--ink .civic-card-icon { color: var(--navy); }
+.civic-card--ink .civic-card-tag { background: rgba(255, 255, 255, 0.12); color: #fff; }
+
+/* Boat card: a ferry ticket */
+.civic-boat {
+  background: #fff;
+  border: 1.5px dashed #b9cde8;
+  border-radius: 16px;
+}
+.civic-boat-time { color: var(--sea-deep); font-weight: 800; }
+
+/* Navy bands (leadership, footer) get a calm sea tint */
+.home-leadership-section { background: linear-gradient(180deg, #00226e 0%, #0b3f8f 100%) !important; }
+.civic-hero-inner { padding-left: 24px !important; padding-right: 24px !important; }
+@media (max-width: 480px) { .civic-hero-inner { padding-left: 16px !important; padding-right: 16px !important; } }

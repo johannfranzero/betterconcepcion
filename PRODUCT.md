@@ -56,7 +56,7 @@ unverified items are labeled, never guessed.
 - Filipino first: Filipino (and where possible Asi) should feel as native as English, not an afterthought.
 - An earlier "island theme" (illustrated hero, script welcome, red hotline bar) and a "Wayfinding Bands" airport-signage
   theme were both rejected by the maintainer.
-- Binding look (maintainer, 25 Nov 2026): "I want design like Alcala" — match the BetterAlcala (betteralcala.org) visual
+- Look (maintainer, 25 Nov 2026, later the same day): keep the logo colours but do not look copied from a template; make it feel like Sibale (sea, island, sunrise). This replaces the earlier "design like Alcala" rule. Earlier note: "I want design like Alcala" — match the BetterAlcala (betteralcala.org) visual
   style: navy hero with flag-gold accents and sunburst, colourful service cards, warm paper ground. The BetterAlcala
   repository has no license, so its code, illustrations and logo are not reused; the look is recreated in this
   project's own CSS.

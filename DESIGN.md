@@ -314,3 +314,14 @@ Navy with a 4px gold top rule; gold headings (1rem, sentence case), 82% white bo
 - **Don't** uppercase card titles or bring back the template's eyebrow badges and section tags.
 - **Don't** add a marquee or auto-scroll to the hotline bar.
 - **Don't** hotlink or copy visitsibale.com imagery.
+
+## Sunrise over Sibale (25 Nov 2026, supersedes the Alcala-style hero)
+
+The maintainer asked for the site to stop looking copied from a template and to feel like Sibale, keeping the logo's colours.
+
+- **Signature:** every hero and page header is a sunrise: navy sky lightening to the horizon, a warm glow, the logo's sun (slowly turning) setting behind a silhouette of the island, and three layers of sea that drift sideways. No grid paper.
+- **Colours (from the logo):** navy `#00226e`, sun `#ffc61a`, sea `#1877d2` / `#2f9bea` / deep sea `#0b3f8f`, paper `#faf7f2`.
+- **Type:** Outfit (rounded geometric, like the logo lettering) for headings and figures; Archivo for text.
+- **Details:** a small wave mark under section headings; white service cards with a wave edge in their colour; pill buttons and search; the boat card styled as a ferry ticket; a strip of the 9 barangays under the hero instead of decorative tiles.
+- **Map:** 3D terrain of the island (MapLibre, OpenFreeMap, AWS terrain tiles) with barangay pins; loads only when scrolled into view.
+- **Motion:** sun rotation, drifting sea, one slow turn of the map. All stop with prefers-reduced-motion.

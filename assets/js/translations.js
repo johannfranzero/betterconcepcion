@@ -6,6 +6,7 @@
 
 const translations = {
   en: {
+    "ribbon-title": "9 barangays around Sibale",
     "map3d-hint": "Drag to turn the island. Tap a pin for the barangay.",
     "brgy-l-pop": "Population (2020 census)",
     "brgy-l-pop15": "Change since 2015",
@@ -6631,6 +6632,7 @@ const translations = {
   },
 
   fil: {
+    "ribbon-title": "9 barangay sa paligid ng Sibale",
     "map3d-hint": "I-drag para paikutin ang isla. I-tap ang pin para sa barangay.",
     "brgy-l-pop": "Populasyon (senso 2020)",
     "brgy-l-pop15": "Pagbabago mula 2015",
