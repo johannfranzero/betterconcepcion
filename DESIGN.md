@@ -333,3 +333,12 @@ disc (white-hot centre to golden edge) and 24 tapered, blurred rays of alternati
 the island is three ridge layers (hazy far, mid, dark near) with a warm rim light where the sun sits behind it;
 the sky is a smoother navy-to-blue gradient with warm haze at the horizon; the sea bands are graded with soft
 light crests and a golden reflection under the sun.
+
+### Layered range and golden sun (25 Nov 2026)
+
+Direction from the maintainer's references (misty layered blue ranges, a low golden sun with soft light shafts):
+the single island silhouette became five receding ridges (`.civic-range`), lightest and haziest at the back and
+deepest navy in front, with mist pooled in the valleys, a warm rim light on the ridge edges facing the sun, and a
+soft fade into the sky on the left. The sun sits low between the peaks with a large golden bloom, a glowing core
+and 17 soft light shafts of varied length, width and brightness instead of a spiky starburst. Same position, size
+and palette as before; nothing else on the page changed.

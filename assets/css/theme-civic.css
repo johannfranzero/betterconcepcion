@@ -1683,3 +1683,28 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .civic-glint { animation: none; }
 }
+
+/* ==========================================================================
+   Layered range and golden sun (Nov 2026): five receding blue ridges with mist
+   in the valleys and warm rim light, and a low sun with soft light shafts.
+   Same place and footprint as the earlier island silhouette.
+   ========================================================================== */
+.civic-range {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  width: min(64%, 780px);
+  height: 124px;
+}
+.page-header .civic-range,
+.stats-hero .civic-range,
+.trans-hero-v2 .civic-range { bottom: 30px; height: 80px; width: min(52%, 600px); }
+@media (max-width: 900px) {
+  .civic-range { width: 96%; height: 96px; bottom: 50px; }
+}
+.civic-sun { filter: none; }
+.civic-sun .sun-rays { mix-blend-mode: screen; }
+.civic-range {
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
+  mask-image: linear-gradient(90deg, transparent 0%, #000 22%);
+}
