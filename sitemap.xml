@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://betterconcepcion.org/</loc>
+    <loc>https://betterconcepcion.vercel.app/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -10,91 +10,91 @@
   
   <!-- Main Sections -->
   <url>
-    <loc>https://betterconcepcion.org/services/</loc>
+    <loc>https://betterconcepcion.vercel.app/services/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/government/</loc>
+    <loc>https://betterconcepcion.vercel.app/government/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/government/officials</loc>
+    <loc>https://betterconcepcion.vercel.app/government/officials</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/statistics/</loc>
+    <loc>https://betterconcepcion.vercel.app/statistics/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/budget/</loc>
+    <loc>https://betterconcepcion.vercel.app/budget/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/legislative/</loc>
+    <loc>https://betterconcepcion.vercel.app/legislative/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/news/</loc>
+    <loc>https://betterconcepcion.vercel.app/news/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/contact/</loc>
+    <loc>https://betterconcepcion.vercel.app/contact/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/faq/</loc>
+    <loc>https://betterconcepcion.vercel.app/faq/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/accessibility/</loc>
+    <loc>https://betterconcepcion.vercel.app/accessibility/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/sitemap/</loc>
+    <loc>https://betterconcepcion.vercel.app/sitemap/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/terms/</loc>
+    <loc>https://betterconcepcion.vercel.app/terms/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/privacy/</loc>
+    <loc>https://betterconcepcion.vercel.app/privacy/</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
@@ -102,70 +102,70 @@
   
   <!-- Service Categories -->
   <url>
-    <loc>https://betterconcepcion.org/services/certificates</loc>
+    <loc>https://betterconcepcion.vercel.app/services/certificates</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/business</loc>
+    <loc>https://betterconcepcion.vercel.app/services/business</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/tax-payments</loc>
+    <loc>https://betterconcepcion.vercel.app/services/tax-payments</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/social-services</loc>
+    <loc>https://betterconcepcion.vercel.app/services/social-services</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/health</loc>
+    <loc>https://betterconcepcion.vercel.app/services/health</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/agriculture</loc>
+    <loc>https://betterconcepcion.vercel.app/services/agriculture</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/infrastructure</loc>
+    <loc>https://betterconcepcion.vercel.app/services/infrastructure</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/education</loc>
+    <loc>https://betterconcepcion.vercel.app/services/education</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/environment</loc>
+    <loc>https://betterconcepcion.vercel.app/services/environment</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/services/public-safety</loc>
+    <loc>https://betterconcepcion.vercel.app/services/public-safety</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -173,35 +173,35 @@
   
   <!-- Service Details - Certificates -->
   <url>
-    <loc>https://betterconcepcion.org/service-details/birth-certificate</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/birth-certificate</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/death-certificate</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/death-certificate</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/marriage-certificate</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/marriage-certificate</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/civil-registrar</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/civil-registrar</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-civil-registrar</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-civil-registrar</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -209,14 +209,14 @@
   
   <!-- Service Details - Business & Licensing -->
   <url>
-    <loc>https://betterconcepcion.org/service-details/business-permits-licensing</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/business-permits-licensing</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/tricycle-franchising</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/tricycle-franchising</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -226,14 +226,14 @@
   
   <!-- Service Details - Social Services -->
   <url>
-    <loc>https://betterconcepcion.org/service-details/mswdo</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/mswdo</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/mswdo-services</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/mswdo-services</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -241,77 +241,77 @@
 
   <!-- Service Details - Municipal Offices -->
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-treasurer</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-treasurer</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-budget</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-budget</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-accounting</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-accounting</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-assessor</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-assessor</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/property-declaration</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/property-declaration</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-engineering</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-engineering</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-planning</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-planning</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-agriculture</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-agriculture</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/general-services</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/general-services</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/municipal-general-services</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/municipal-general-services</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/service-details/human-resource-management</loc>
+    <loc>https://betterconcepcion.vercel.app/service-details/human-resource-management</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -319,25 +319,25 @@
   
   <!-- Legislative -->
   <url>
-    <loc>https://betterconcepcion.org/legislative/ordinance-framework</loc>
+    <loc>https://betterconcepcion.vercel.app/legislative/ordinance-framework</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://betterconcepcion.org/legislative/resolution-framework</loc>
+    <loc>https://betterconcepcion.vercel.app/legislative/resolution-framework</loc>
     <lastmod>2025-12-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://betterconcepcion.org/barangays/</loc>
+    <loc>https://betterconcepcion.vercel.app/barangays/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://betterconcepcion.org/visit/</loc>
+    <loc>https://betterconcepcion.vercel.app/visit/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
