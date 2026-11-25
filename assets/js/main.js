@@ -169,8 +169,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Hotline Marquee (tablet + mobile)
   var initHotlineMarquee = function () {
+    // Scroll the hotlines at every screen size (was tablet and phone only)
     var isTabletOrBelow = function () {
-      return window.matchMedia('(max-width: 1024px)').matches;
+      return true;
     };
     var hotlineItems = document.querySelector('.hotline-items');
     if (!hotlineItems) return;

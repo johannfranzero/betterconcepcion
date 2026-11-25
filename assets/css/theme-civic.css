@@ -139,14 +139,50 @@ a {
   background: rgba(255, 255, 255, 0.16);
   color: #fff;
 }
+/* Hotlines scroll by themselves; hover, focus or a tap pauses them */
+.hotline-items {
+  overflow-x: hidden !important;
+}
 .hotline-items-track {
-  animation: none !important;
-  transform: none !important;
   display: flex !important;
   gap: 8px !important;
+  padding-right: 8px;
+  width: max-content;
+  transform: none;
+  animation: civic-hotline-scroll 40s linear infinite !important;
 }
-.hotline-items-track > [aria-hidden='true'] {
-  display: none !important;
+.hotline-items-track:hover,
+.hotline-items-track:focus-within,
+.hotline-items-track:active {
+  animation-play-state: paused !important;
+}
+@keyframes civic-hotline-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* The sun turns slowly behind the hero and page headers */
+.civic-sun {
+  transform-origin: 50% 50%;
+  animation: civic-sun-spin 120s linear infinite;
+}
+@keyframes civic-sun-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hotline-items {
+    overflow-x: auto !important;
+  }
+  .hotline-items-track {
+    animation: none !important;
+  }
+  .hotline-items-track > [aria-hidden='true'] {
+    display: none !important;
+  }
+  .civic-sun {
+    animation: none;
+  }
 }
 
 /* ---------- Header ---------- */
