@@ -6,6 +6,7 @@
 
 const translations = {
   en: {
+    "total-time-ask": "Total processing time: ask the office",
     "fb-live-title": "Live from the Public Information Office",
     "fb-live-note": "New posts from the PIO Facebook page show here as soon as they are posted. If your browser blocks Facebook, open the page directly.",
     "staff-not-listed": "The staff of this office in Concepcion are not yet listed.",
@@ -2507,7 +2508,7 @@ const translations = {
       'Empowering the people of Concepcion with transparent access to the services, programs, and public funds of LGU Concepcion.',
     'faq-environment': 'Environment',
     'faq-for-birth-certificates-registered-in-solano-it':
-      'For birth certificates registered in Concepcion, it typically takes 15-30 minutes while you wait, provided the record is readily available.',
+      "For birth certificates registered in Concepcion, how long it takes depends on whether the record is readily available. Ask the Local Civil Registrar.",
     'faq-freedom-of-information': 'Freedom of Information',
     'faq-go-to-the-municipal-social-welfare-and':
       'Go to the Municipal Social Welfare and Development Office (MSWDO) with:',
@@ -6645,6 +6646,7 @@ const translations = {
   },
 
   fil: {
+    "total-time-ask": "Kabuuang oras ng proseso: itanong sa opisina",
     "fb-live-title": "Live mula sa Public Information Office",
     "fb-live-note": "Lumalabas dito ang mga bagong post ng PIO sa Facebook sa sandaling mailathala. Kung naka-block ang Facebook sa iyong browser, buksan nang direkta ang pahina.",
     "staff-not-listed": "Wala pa sa listahan ang mga kawani ng tanggapang ito sa Concepcion.",
@@ -9049,7 +9051,7 @@ const translations = {
       'Pagbibigay-kapangyarihan sa mga mamamayan ng Concepcion na may transparent na access sa mga serbisyo, programa, at pampublikong pondo ng LGU Concepcion.',
     'faq-environment': 'Kapaligiran',
     'faq-for-birth-certificates-registered-in-solano-it':
-      'For kapanganakan mga sertipiko registered in Concepcion, it typically takes 15-30 minutes while you maghintay, provided the rekord is readily magagamit.',
+      "Para sa birth certificate na nakarehistro sa Concepcion, depende ang tagal kung madaling makita ang rekord. Itanong sa Local Civil Registrar.",
     'faq-freedom-of-information': 'Kalayaan sa Impormasyon',
     'faq-go-to-the-municipal-social-welfare-and':
       'Pumunta sa Opisina ng Kagalingang Panlipunan at Pagpapaunlad ng Munisipyo (MSWDO) na may dalang:',
