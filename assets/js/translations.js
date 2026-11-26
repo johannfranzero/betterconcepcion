@@ -6,6 +6,7 @@
 
 const translations = {
   en: {
+    "hours-short": "Mon–Thu, 7 AM–6 PM (12–1 PM break)",
     "total-time-ask": "Total processing time: ask the office",
     "fb-live-title": "Live from the Public Information Office",
     "fb-live-note": "New posts from the PIO Facebook page show here as soon as they are posted. If your browser blocks Facebook, open the page directly.",
@@ -6646,6 +6647,7 @@ const translations = {
   },
 
   fil: {
+    "hours-short": "Lunes–Huwebes, 7 AM–6 PM (pahinga 12–1 PM)",
     "total-time-ask": "Kabuuang oras ng proseso: itanong sa opisina",
     "fb-live-title": "Live mula sa Public Information Office",
     "fb-live-note": "Lumalabas dito ang mga bagong post ng PIO sa Facebook sa sandaling mailathala. Kung naka-block ang Facebook sa iyong browser, buksan nang direkta ang pahina.",
