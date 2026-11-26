@@ -60,7 +60,3 @@ Corrections are the most useful contribution. Open an issue with:
 Emergency numbers are only published once they can be traced to the LGU or the agency itself. The current
 numbers come from the Municipal Tourism Office's visitsibale.com.
 
-## Credits and license
-
-Built on the [BetterSolano](https://github.com/BetterSolano/bettersolano) template by Ramon Logan Jr.
-and contributors, used under the MIT License. Code: MIT. Content: CC BY 4.0. See [LICENSE](LICENSE).
